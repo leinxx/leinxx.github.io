@@ -1,6 +1,6 @@
 baseURL = "https://leinxx.github.io/"
-title = "Lei's Log'"
-theme = ["PaperMod"]
+title = "Lei's Log"
+theme = ["github.com/adityatelange/hugo-PaperMod"]
 languageCode = "en-us"
 canonifyURLs = true
 
@@ -53,4 +53,3 @@ canonifyURLs = true
   identifier = "about"
   name = "About"
   url = "/about/"
-
