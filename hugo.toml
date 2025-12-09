@@ -1,3 +1,49 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://YOUR_NAME.github.io/"
+title = "Your Blog Title"
+theme = ["github.com/adityatelange/hugo-PaperMod"]
+languageCode = "en-us"
+canonifyURLs = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  env = "production"
+  title = "Your Blog Title"
+  description = "Your blog description"
+  author = "Your Name"
+  defaultTheme = "auto"
+  showtoc = true
+  tocopen = true
+  ShowBreadCrumbs = true
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  comments = false
+
+[params.assets]
+  disableHLJS = true
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[markup.highlight]
+  guessSyntax = true
+  style = "monokai"
+  noClasses = false
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
