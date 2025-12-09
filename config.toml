@@ -1,5 +1,5 @@
-baseURL = "https://YOUR_NAME.github.io/"
-title = "Your Blog Title"
+baseURL = "https://leinxx.github.io/"
+title = "Lei's Log'"
 theme = ["PaperMod"]
 languageCode = "en-us"
 canonifyURLs = true
@@ -14,9 +14,9 @@ canonifyURLs = true
 
 [params]
   env = "production"
-  title = "Your Blog Title"
-  description = "Your blog description"
-  author = "Your Name"
+  title = "Lei's Log"
+  description = "AI, tech, and random stuff"
+  author = "Lei Wang"
   defaultTheme = "auto"
   showtoc = true
   tocopen = true
@@ -27,7 +27,7 @@ canonifyURLs = true
   ShowCodeCopyButtons = true
   comments = false
 
-# Math support like Lilian's blog
+# Math support 
 [params.assets]
   disableHLJS = true
 
