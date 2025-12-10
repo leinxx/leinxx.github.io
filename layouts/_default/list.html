@@ -30,6 +30,10 @@
     border-bottom: none;
   }
 
+  .post-entry {
+    cursor: pointer;
+  }
+
   .post-entry h2 {
     font-size: 1.6rem;
     margin: 0 0 0.6rem 0;
@@ -51,7 +55,7 @@
   {{- partial "index_profile.html" . }}
 {{- else }} {{/* if not profileMode */}}
 
-{{- if and (not .IsHome) .Title }}
+  {{- if and (not .IsHome) .Title }}
   <header class="page-header">
     {{- if ne .Section "posts" }}
     {{- partial "breadcrumbs.html" . }}
@@ -102,7 +106,7 @@
   {{- end }}
 
   {{- range $index, $page := $paginator.Pages }}
-  <article class="post-entry">
+  <article class="post-entry" onclick="window.location.href='{{ .Permalink }}'" role="link" tabindex="0">
     <header class="entry-header">
       <h2>
         <a href="{{ .Permalink }}">{{ .Title }}</a>
