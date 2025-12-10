@@ -1,0 +1,29 @@
+/* 正文整体 */
+body {
+  font-size: 1.0rem !important;
+  line-height: 1.65;
+}
+
+/* 文章页标题 */
+.post-single .post-title {
+  font-size: 1.9rem !important;
+}
+
+/* 正文内 H1/H2/H3 */
+.post-single .post-content h1 {
+  font-size: 1.6rem !important;
+}
+
+.post-single .post-content h2 {
+  font-size: 1.35rem !important;
+}
+
+.post-single .post-content h3 {
+  font-size: 1.15rem !important;
+}
+
+/* 列表页卡片标题（首页 / posts 列表） */
+.list .post-entry-title {
+  font-size: 1.02rem !important;
+}
+
