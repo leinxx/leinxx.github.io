@@ -3,6 +3,8 @@ title = "Lei's Log"
 theme = ["github.com/adityatelange/hugo-PaperMod"]
 languageCode = "en-us"
 canonifyURLs = true
+staticDir = ["static", "assets"]
+contentDir = "posts"
 
 [pagination]
   pagerSize = 10

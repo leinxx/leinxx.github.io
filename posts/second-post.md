@@ -4,13 +4,13 @@ date: 2025-01-20
 draft: false
 type: posts
 cover:
-    image: "test.jpg"
+    image: "/images/second-post/test.jpg"
     alt: "Diffusion model"
 
 ---
 
 <p align="center">
-<img src="test.jpg" width="80%">
+<img src="/images/second-post/test.jpg" width="80%">
 </p>
 
 
