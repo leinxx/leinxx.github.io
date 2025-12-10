@@ -2,6 +2,7 @@
 title: "Diffusion Models Explained"
 date: 2025-01-20
 draft: false
+type: posts
 cover:
     image: "test.jpg"
     alt: "Diffusion model"

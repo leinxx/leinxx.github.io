@@ -3,7 +3,6 @@ title = "Lei's Log"
 theme = ["github.com/adityatelange/hugo-PaperMod"]
 languageCode = "en-us"
 canonifyURLs = true
-contentDir = "posts"
 
 [pagination]
   pagerSize = 10
@@ -14,6 +13,7 @@ contentDir = "posts"
   description = "AI, tech, and random stuff"
   author = "Lei Wang"
   defaultTheme = "auto"
+  mainSections = ["posts"]
   showtoc = true
   tocopen = true
   ShowBreadCrumbs = true
