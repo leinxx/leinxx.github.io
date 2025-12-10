@@ -19,11 +19,4 @@
 &lt;p&gt;网络：NIC状态、端口抖动、switch down
 GPU：驱动挂起、高温、GPU Lost、Xid错误
 主机：内核panic、文件系统错误
-训练：loss曲线、MFU下降、退出码等&lt;/p&gt;</description></item><item><title>Diffusion Models Explained</title><link>https://leinxx.github.io/posts/first-post/</link><pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate><guid>https://leinxx.github.io/posts/first-post/</guid><description>&lt;p&gt;&lt;img src="../posts/first-post/test.jpg" alt="Diffusion model" loading="lazy"&gt;
-&lt;/p&gt;
-&lt;p&gt;Your content&amp;hellip;&lt;/p&gt;
-&lt;h2 id="equation-rendering"&gt;Equation Rendering&lt;/h2&gt;
-&lt;p&gt;We can write:&lt;/p&gt;
-$$
-x_t = \sqrt{\alpha_t}x_0 + \sqrt{1-\alpha_t}z
-$$</description></item></channel></rss>
+训练：loss曲线、MFU下降、退出码等&lt;/p&gt;</description></item></channel></rss>
