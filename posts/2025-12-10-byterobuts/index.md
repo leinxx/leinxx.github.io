@@ -1,6 +1,6 @@
 ---
-title: 2025-12-10-ByteRobust洞察分析-从万卡到十万卡集群还需要什么
-date: 2025-12-20
+title: ByteRobust分析-从万卡到十万卡集群还需要什么
+date: 2025-12-10
 draft: false
 type: posts
 math: true
