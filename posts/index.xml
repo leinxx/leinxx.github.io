@@ -24,6 +24,6 @@ GPU：驱动挂起、高温、GPU Lost、Xid错误
 &lt;p&gt;Your content&amp;hellip;&lt;/p&gt;
 &lt;h2 id="equation-rendering"&gt;Equation Rendering&lt;/h2&gt;
 &lt;p&gt;We can write:&lt;/p&gt;
-&lt;p&gt;$$
+$$
 x_t = \sqrt{\alpha_t}x_0 + \sqrt{1-\alpha_t}z
-$$&lt;/p&gt;</description></item></channel></rss>
+$$</description></item></channel></rss>

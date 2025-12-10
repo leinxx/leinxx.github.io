@@ -24,6 +24,6 @@ GPU：驱动挂起、高温、GPU Lost、Xid错误
 &lt;p&gt;Your content&amp;hellip;&lt;/p&gt;
 &lt;h2 id="equation-rendering"&gt;Equation Rendering&lt;/h2&gt;
 &lt;p&gt;We can write:&lt;/p&gt;
-&lt;p&gt;$$
+$$
 x_t = \sqrt{\alpha_t}x_0 + \sqrt{1-\alpha_t}z
-$$&lt;/p&gt;</description></item><item><title>About</title><link>https://leinxx.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://leinxx.github.io/about/</guid><description>&lt;p&gt;Hi, I&amp;rsquo;m Lei. This site collects notes and posts on AI infra, reasoning systems, and the occasional side project.&lt;/p&gt;</description></item></channel></rss>
+$$</description></item><item><title>About</title><link>https://leinxx.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://leinxx.github.io/about/</guid><description>&lt;p&gt;Hi, I&amp;rsquo;m Lei. This site collects notes and posts on AI infra, reasoning systems, and the occasional side project.&lt;/p&gt;</description></item></channel></rss>
