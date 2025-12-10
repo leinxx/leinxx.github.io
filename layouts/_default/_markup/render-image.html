@@ -1,0 +1,22 @@
+{{- /* Normalize image paths for Markdown images.
+      Priority:
+      1) Absolute URLs (/ or http/https/data) -> unchanged.
+      2) Relative paths -> try to resolve a page resource; if found, use its RelPermalink.
+      3) Fallback -> prefix /images/ (for static/assets images).
+*/ -}}
+{{- $orig := .Destination | safeURL -}}
+{{- $src := $orig -}}
+{{- $isAbs := or (hasPrefix $src "/") (hasPrefix $src "http://") (hasPrefix $src "https://") (hasPrefix $src "data:") -}}
+{{- $res := false -}}
+{{- if not $isAbs -}}
+  {{- $clean := replaceRE "^\\./" "" $src -}}
+  {{- $clean = replaceRE "^images/" "" $clean -}}
+  {{- $res = .Page.Resources.GetMatch $clean -}}
+  {{- if $res -}}
+    {{- $src = $res.RelPermalink -}}
+  {{- else -}}
+    {{- $src = printf "/images/%s" $clean -}}
+  {{- end -}}
+{{- end -}}
+{{- warnf "render-image: %q => %q (abs=%t, resource=%t)" $orig $src $isAbs (ne $res false) -}}
+<img src="{{ $src }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy">

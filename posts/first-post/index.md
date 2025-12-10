@@ -3,15 +3,14 @@ title: "Diffusion Models Explained"
 date: 2025-01-20
 draft: false
 type: posts
+math: true
 cover:
-    image: "/images/second-post/test.jpg"
+    image: "test.jpg"
     alt: "Diffusion model"
 
 ---
 
-<p align="center">
-<img src="/images/second-post/test.jpg" width="80%">
-</p>
+{{< img src="test.jpg" width="80%" alt="Diffusion model" >}}
 
 
 Your content...

@@ -1,0 +1,24 @@
+{{- /* Shortcode image normalizer.
+      Usage: {{< img src="foo.png" width="70%" alt="..." title="..." >}}
+      - Absolute URLs (/|http|https|data) pass through.
+      - Relative src resolves to page resource if present; otherwise falls back to /images/<clean>.
+*/ -}}
+{{- $orig := .Get "src" | default (.Get 0) | safeURL -}}
+{{- $src := $orig -}}
+{{- $width := .Get "width" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $title := .Get "title" -}}
+{{- $isAbs := or (hasPrefix $src "/") (hasPrefix $src "http://") (hasPrefix $src "https://") (hasPrefix $src "data:") -}}
+{{- $res := false -}}
+{{- if not $isAbs -}}
+  {{- $clean := replaceRE "^\\./" "" $src -}}
+  {{- $clean = replaceRE "^images/" "" $clean -}}
+  {{- $res = .Page.Resources.GetMatch $clean -}}
+  {{- if $res -}}
+    {{- $src = $res.RelPermalink -}}
+  {{- else -}}
+    {{- $src = printf "/images/%s" $clean -}}
+  {{- end -}}
+{{- end -}}
+{{- warnf "shortcode img: %q => %q (abs=%t, resource=%t)" $orig $src $isAbs (ne $res false) -}}
+<img src="{{ $src }}"{{ with $alt }} alt="{{ . }}"{{ end }}{{ with $title }} title="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}>

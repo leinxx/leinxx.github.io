@@ -5,6 +5,9 @@ languageCode = "en-us"
 canonifyURLs = true
 staticDir = ["static", "assets"]
 contentDir = "posts"
+buildFuture = true
+[permalinks]
+  posts = "/posts/:slug/"
 
 [pagination]
   pagerSize = 10
@@ -16,6 +19,7 @@ contentDir = "posts"
   author = "Lei Wang"
   defaultTheme = "auto"
   mainSections = ["posts"]
+  math = true
   showtoc = true
   tocopen = true
   ShowBreadCrumbs = true
@@ -29,12 +33,15 @@ contentDir = "posts"
   disableHLJS = true
 
 [markup]
+  defaultMarkdownHandler = 'goldmark'
   [markup.tableOfContents]
     endLevel = 3
     ordered = false
     startLevel = 1
   [markup.goldmark.renderer]
     unsafe = true
+  [markup.goldmark.parser]
+    attribute = true  #支持对 ![]() 添加 width="xxx"
 
 [markup.highlight]
   guessSyntax = true

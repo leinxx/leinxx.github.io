@@ -1,0 +1,4 @@
+{{- $raw := . | string -}}
+{{- $updated := replaceRE `<img([^>]+)src="([^/][^"]*)"` `<img$1src="/images/$2"` $raw -}}
+{{- return $updated -}}
+
