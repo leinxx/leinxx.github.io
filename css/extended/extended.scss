@@ -1,0 +1,59 @@
+// Slimmed down import: only bring in font faces, not the full Minima styling.
+@import "../lil-log/_sass/fonts";
+
+// Use the imported fonts as defaults without overriding the entire theme.
+body {
+  font-family: "Lora", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #f7f7f7;
+}
+
+// Post page styling to resemble lil-log
+.post-single {
+  max-width: 900px;
+  margin: 2.5rem auto;
+  background: #ffffff;
+  padding: 2rem 2.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+}
+
+.post-header {
+  margin-bottom: 1.5rem;
+}
+
+.post-title {
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.post-meta {
+  color: #666;
+}
+
+.post-content {
+  line-height: 1.75;
+  font-size: 1.02rem;
+}
+
+.post-content img {
+  max-width: 100%;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 4px;
+}
+
+.breadcrumbs {
+  margin-bottom: 0.75rem;
+}
+
+/* Posts list: hide cover/media in cards and keep white cards on gray background */
+.list .post-entry figure.entry-cover,
+.list .post-entry .entry-cover {
+  display: none !important;
+}
+.list .post-entry {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+}
