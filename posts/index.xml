@@ -6,4 +6,12 @@
 &lt;p&gt;We can write:&lt;/p&gt;
 &lt;p&gt;$$
 x_t = \sqrt{\alpha_t}x_0 + \sqrt{1-\alpha_t}z
+$$&lt;/p&gt;</description></item><item><title>Diffusion Models Explained</title><link>https://leinxx.github.io/posts/second-post/</link><pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate><guid>https://leinxx.github.io/posts/second-post/</guid><description>&lt;p align="center"&gt;
+&lt;img src="test.jpg" width="80%"&gt;
+&lt;/p&gt;
+&lt;p&gt;Your content&amp;hellip;&lt;/p&gt;
+&lt;h2 id="equation-rendering"&gt;Equation Rendering&lt;/h2&gt;
+&lt;p&gt;We can write:&lt;/p&gt;
+&lt;p&gt;$$
+x_t = \sqrt{\alpha_t}x_0 + \sqrt{1-\alpha_t}z
 $$&lt;/p&gt;</description></item></channel></rss>
