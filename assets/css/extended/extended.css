@@ -1,25 +1,14 @@
-// Slimmed down import: only bring in font faces, not the full Minima styling.
-// @import "../lil-log/_sass/fonts";
-
-/* 只管字体，不在这里动背景色 */
+/* Custom PaperMod overrides */
 body {
   font-family: "Lora", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  outline: 5px solid red !important;
-
-}
-
-/* light 模式下，用 code 背景当全局灰底 */
-:root[data-theme="light"] body {
   background: var(--code-bg);
 }
 
-/* dark 模式下，保持主题自己的背景 */
 :root[data-theme="dark"] body {
   background: var(--theme);
 }
 
-
-// Post page styling to resemble lil-log
+/* Post page styling to resemble lil-log */
 .post-single {
   max-width: 900px;
   margin: 2.5rem auto;
@@ -60,6 +49,7 @@ body {
 .list .post-entry .entry-cover {
   display: none !important;
 }
+
 .list .post-entry {
   background: var(--entry);
   border: 1px solid var(--border);

@@ -2,13 +2,18 @@
 
 {{- if eq .Section "posts" }}
 <style>
-  /* 只对 posts 列表做一些样式，接近 Lilian 的风格 */
-  html,
-  body,
-  .main,
-  .list {
-    background: #f7f7f7 !important;
+  /* Light Mode (灰底 + 白卡片) */
+  html[data-theme="light"] body,
+  html[data-theme="light"] .main,
+  html[data-theme="light"] .list {
+    background: var(--code-bg);
+  }
 
+  /* Dark Mode (遵循 PaperMod 深色主题) */
+  html[data-theme="dark"] body,
+  html[data-theme="dark"] .main,
+  html[data-theme="dark"] .list {
+    background: var(--theme);
   }
 
   .list,
@@ -17,21 +22,26 @@
     box-shadow: none;
   }
 
+  /* 卡片样式 (light:白色; dark:主题 entry 色) */
+  html[data-theme="light"] .post-entry {
+    background: #ffffff;
+  }
+
+  html[data-theme="dark"] .post-entry {
+    background: var(--entry);
+  }
+
   .post-entry {
-    background: #ffffff !important;
     box-shadow: none;
-    padding: 1.2rem;         /* 推荐，留点内边距 */
+    padding: 1.2rem;
     margin-bottom: 2.5rem;
     border-bottom: 1px solid var(--border);
-    border-radius: 8px;      /* 推荐，加点圆角更像卡片 */
+    border-radius: 8px;
+    cursor: pointer;
   }
 
   .post-entry:last-of-type {
     border-bottom: none;
-  }
-
-  .post-entry {
-    cursor: pointer;
   }
 
   .post-entry h2 {
@@ -49,6 +59,7 @@
     color: var(--secondary);
   }
 </style>
+
 {{- end }}
 
 {{- if (and site.Params.profileMode.enabled .IsHome) }}

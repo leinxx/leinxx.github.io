@@ -7,5 +7,8 @@ ShowPostNavLinks: false
 
 Hi, I'm Lei. This site collects notes and posts on AI infra, reasoning systems, and the occasional side project.
 
+How to find me:
+
 Linkedin: https://www.linkedin.com/in/lei-wang-utias/
+
 Email: alphaleidev AT gmail.com
