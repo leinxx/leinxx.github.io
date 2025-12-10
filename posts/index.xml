@@ -19,4 +19,29 @@
 &lt;p&gt;网络：NIC状态、端口抖动、switch down
 GPU：驱动挂起、高温、GPU Lost、Xid错误
 主机：内核panic、文件系统错误
-训练：loss曲线、MFU下降、退出码等&lt;/p&gt;</description></item></channel></rss>
+训练：loss曲线、MFU下降、退出码等&lt;/p&gt;</description></item><item><title>阿里云多模型混合服务系统Aegaeon分析</title><link>https://leinxx.github.io/posts/%E9%98%BF%E9%87%8C%E4%BA%91%E5%A4%9A%E6%A8%A1%E5%9E%8B%E6%B7%B7%E5%90%88%E6%9C%8D%E5%8A%A1%E7%B3%BB%E7%BB%9Faegaeon%E5%88%86%E6%9E%90/</link><pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate><guid>https://leinxx.github.io/posts/%E9%98%BF%E9%87%8C%E4%BA%91%E5%A4%9A%E6%A8%A1%E5%9E%8B%E6%B7%B7%E5%90%88%E6%9C%8D%E5%8A%A1%E7%B3%BB%E7%BB%9Faegaeon%E5%88%86%E6%9E%90/</guid><description>&lt;p&gt;今年10月，阿里云联合北京大学在ACM计算机操作系统顶会SOSP发布了多模型混合服务系统 &lt;a href="https://link.zhihu.com/?target=https%3A//ennanzhai.github.io/pub/sosp25-aegaeon.pdf"&gt;Aegaeon: Effective GPU Pooling for Concurrent LLM Serving on the Market&lt;/a&gt;，在阿里云的MaaS服务业务中，实现节省GPU达82%，兼具学术创新和工程成熟度。本文对Aegaeon进行了详细的技术解读与分析。认为其在模型长尾问题严重的场景，高端卡和低&lt;a href="https://zhida.zhihu.com/search?content_id=265429614&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=SLO&amp;amp;zhida_source=entity"&gt;SLO&lt;/a&gt;要求的场景可以通过&lt;a href="https://zhida.zhihu.com/search?content_id=265429614&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=GPU+pooling&amp;amp;zhida_source=entity"&gt;GPU pooling&lt;/a&gt;显著降低GPU卡量，对MaaS服务具有实用价值。&lt;/p&gt;
+&lt;p&gt;阿里云的官方微信发布：&lt;a href="https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/3zoZY0DHzsr-tV0dJy0Vng"&gt;显著提升GPU利用率！阿里云AI基础设施成果入选顶会&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aegaeon简介&lt;/strong&gt;&lt;br&gt;
+大模型推理MaaS服务平台往往需要为每个支持的模型至少保留一个实例，大量的小众模型往往调用量很低，带来极大资源浪费。以阿里云为例，779个在线模型，调用量最低的94%的模型，占用17.7%的GPU，服务1.35%的请求。热门模型又会突发超配额，资源不够。保留专机导致大量浪费。&lt;/p&gt;
+&lt;p&gt;Aegaeon的目标是要让一块GPU尽可能的同时服务更多的不同模型，且不违反SLO（&lt;a href="https://zhida.zhihu.com/search?content_id=265429614&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=TTFT&amp;amp;zhida_source=entity"&gt;TTFT&lt;/a&gt;和&lt;a href="https://zhida.zhihu.com/search?content_id=265429614&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=TBT&amp;amp;zhida_source=entity"&gt;TBT&lt;/a&gt;）。为此构建了一个&lt;strong&gt;多模型并发推理的 GPU 调度系统，通过token 粒度的抢占调度，prefill 与 decoding 分离，配合模型切换时延优化，把模型切换开销（原文叫“模型扩缩”）降低97%，达到亚秒级&lt;/strong&gt;。实现支持单卡最多 7 个模型并发，实测把线上所需 GPU 从 1,192 降到 213（节省 82%）。&lt;/p&gt;
+&lt;p&gt;主流的推理框架，比如&lt;a href="https://zhida.zhihu.com/search?content_id=265429614&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=vLLM&amp;amp;zhida_source=entity"&gt;vLLM&lt;/a&gt;，也实现了抢占调度。区别在于，&lt;strong&gt;vLLM是任务的抢占，而Aegaeon是模型的抢占&lt;/strong&gt;。在KV Cache吃紧或者有更高优先级的请求时，vLLM在decode阶段也有抢占机制，在decode期间之间会决策是否要逐出一些请求，当有KV Cache资源可用或者有请求结束后，再把逐出的任务调度回来，且所有的任务都是一个模型。&lt;strong&gt;而Aegaeon的抢占会把一个请求的decoding分段调度，在不同的模型之间进行抢占，这两点是其和主流推理框架的区别&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;下图介绍了其调度的基本逻辑，在一张GPU上运行3个模型推理，模型B的prefill不会等到模型A的decode完成才开始计算，而是会打断模型A的decode，先运行B的prefill，再把A的decode调度回来，保障SLO达标&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么有收益？比如一个token要求100ms的TBT，而GPU只花了25ms就完成了，空出来的75秒休闲时间，但是我不想提前交卷，而是利用这个时间再处理下一个任务，只要任务切换的时间小于75ms，就会有收益。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;总体架构解读&lt;/strong&gt;&lt;br&gt;
+下图是Aegaeon 系统总览（论文 Figure 5）。核心的三层：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;代理层：请求入口和负载均衡，通过&lt;a href="https://zhida.zhihu.com/search?content_id=265429614&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=redis&amp;amp;zhida_source=entity"&gt;redis&lt;/a&gt;共享内存与推理实例同步元信息，实现负载均衡并提升容错&lt;/li&gt;
+&lt;li&gt;推理实例层：PD分离，降低 HOL 阻塞风险。每个GPU上会同时加载多个模型&lt;/li&gt;
+&lt;li&gt;内存管理层：统一CPU KV Cache、&lt;a href="https://zhida.zhihu.com/search?content_id=265429614&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=VRAM+Buffer&amp;amp;zhida_source=entity"&gt;VRAM Buffer&lt;/a&gt;、自管理内存与预抢占自动扩缩协同运行全链路协同&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当请求到达一个实例后，会通过实例上的token level scheduler进行调度。当需要切换到“非当前活跃模型”时触发扩缩容。④ Request B的Prefill被调度到Prefill Instance 1，其需要的蓝色模型没有加载，使用步骤④加载，即“模型扩容”。整个系统可用的核心在于模型切换的时间成本要足够低。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://pic2.zhimg.com/v2-156ddd67c58fb1cdbccf649a152d83c1_1440w.jpg" alt="" loading="lazy"&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键机制一：模型切换加速（模型扩缩）&lt;/strong&gt;&lt;br&gt;
+论文指出若不优化，缩容和再扩容一次 13B vLLM 实例可能要 几十秒，基本无法用于token级决策和模型切换。亚秒级模型切换是后续调度方案可行的前提。下图是文中的一个例子，vLLM的切换成本是26.9s，因为vLLM是为了提升单模型的运行效率优化的，因此模型切换的优化有限，可以看到，比较大的几块：模型的加载，分布式框架初始化，profiling（图右侧）。其中模型加载需要从DRAM到VRAM的数据传输，vLLM仅能实现2.83GB/s的实际带宽，远低于&lt;a href="https://zhida.zhihu.com/search?content_id=265429614&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=PCIE-4&amp;amp;zhida_source=entity"&gt;PCIE-4&lt;/a&gt;提供的32GB单向带宽。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://pic4.zhimg.com/v2-0b2e126849cfb8f20f7f6a13553e8671_1440w.jpg" alt="" loading="lazy"&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aegaeon模型切换加速的核心机制：&lt;/strong&gt;&lt;br&gt;
+1. &lt;strong&gt;切换模型并不需要重新初始化推理框架&lt;/strong&gt;，省掉分布式框架初始化（&lt;a href="https://zhida.zhihu.com/search?content_id=265429614&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=DistExec&amp;amp;zhida_source=entity"&gt;DistExec&lt;/a&gt;）和profiling，以及初始化的Misc，得到了下图中的时间T1。&lt;br&gt;
+2. &lt;strong&gt;为了提升从DRAM到VRAM的加载速度，在DRAM中预先分配了一个pinned &amp;amp; page locked专用缓冲区（stage buffer），配合分块、多线程、流水化与独立 CUDA 流，能让 H2D 传输真正跑满 PCIE的带宽并与计算部分重叠&lt;/strong&gt;，从而显著快于“直接从paged memory随用随拷”的做法，得到下图中的T2。致此，切换时间已经降低了80%。&lt;br&gt;
+3. 显式内存管理（VRAM + DRAM），自管分配（&lt;a href="https://zhida.zhihu.com/search?content_id=265429614&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=bump+allocator&amp;amp;zhida_source=entity"&gt;bump allocator&lt;/a&gt; / &lt;a href="https://zhida.zhihu.com/search?content_id=265429614&amp;amp;content_type=Article&amp;amp;match_order=1&amp;amp;q=slab&amp;amp;zhida_source=entity"&gt;slab&lt;/a&gt;）去掉gc（garbage collection），预分配/消碎片，给权重与 KV cache 预留统一池，并预取/直加载，减少 page-lock等。结合KV cache 细粒度同步，与计算重叠，合计使模型切换开销下降 97%，从而使 token 级调度可行。&lt;/p&gt;</description></item></channel></rss>
