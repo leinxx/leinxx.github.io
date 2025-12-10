@@ -3,13 +3,13 @@ title: "Diffusion Models Explained"
 date: 2025-01-20
 draft: false
 cover:
-    image: "/images/test.jpg"
+    image: "images/test.jpg"
     alt: "Diffusion model"
 
 ---
 
 <p align="center">
-<img src="/images/agent-overview.png" width="80%">
+<img src="images/test.jpg" width="80%">
 </p>
 
 
