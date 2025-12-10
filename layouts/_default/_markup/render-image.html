@@ -18,5 +18,4 @@
     {{- $src = printf "/images/%s" $clean -}}
   {{- end -}}
 {{- end -}}
-{{- warnf "render-image: %q => %q (abs=%t, resource=%t)" $orig $src $isAbs (ne $res false) -}}
 <img src="{{ $src }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy">

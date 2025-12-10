@@ -1,10 +1,11 @@
 baseURL = "https://leinxx.github.io/"
-title = "Lei's Log"
+title = "Lei's"
 theme = ["github.com/adityatelange/hugo-PaperMod"]
 languageCode = "en-us"
-canonifyURLs = true
-staticDir = ["static", "assets"]
-contentDir = "posts"
+canonifyURLs = false
+relativeURLs = true
+staticDir = ["assets"]
+contentDir = "contents"
 buildFuture = true
 [permalinks]
   posts = "/posts/:slug/"
@@ -14,8 +15,8 @@ buildFuture = true
 
 [params]
   env = "production"
-  title = "Lei's Log"
-  description = "AI, tech, and random stuff"
+  title = "Lei's"
+  description = "AI, tech and random stuff"
   author = "Lei Wang"
   defaultTheme = "auto"
   mainSections = ["posts"]
@@ -28,6 +29,8 @@ buildFuture = true
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
   comments = false
+  [params.homeInfoParams]
+    enabled = false
 
 [params.assets]
   disableHLJS = true
@@ -52,8 +55,16 @@ buildFuture = true
   identifier = "posts"
   name = "Posts"
   url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "archives"
+  name = "Archives"
+  url = "/archives/"
+  weight = 20
 
 [[menu.main]]
   identifier = "about"
   name = "About"
   url = "/about/"
+  weight = 30

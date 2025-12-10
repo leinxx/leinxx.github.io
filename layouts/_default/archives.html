@@ -1,0 +1,113 @@
+{{ define "main" }}
+<main class="main archives">
+
+<style>
+  .archives h2 {
+    font-size: 1.55rem;
+    margin: 0;
+    padding: 0;
+  }
+  .archives h3 {
+    font-size: 1.1rem;
+    margin: 0;              /* 去掉 margin-bottom，会影响对齐 */
+    padding: 0;
+  }
+  .archives h2 sup,
+  .archives h3 sup {
+    font-size: 0.65em;
+    margin-left: 6px;
+    vertical-align: super;
+    color: #666;
+    font-weight: 600;
+  }
+
+  .archives .archive-year {
+    margin-bottom: 2rem;
+  }
+
+  /* 🔴 关键：用 flex + baseline，对齐 Month 和第一个 post title */
+  .archives .archive-month {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-left: 0;
+    display: flex;
+    align-items: baseline;    /* 月份文字和右边第一行的 baseline 对齐 */
+    column-gap: 2.5rem;       /* 控制月份和 post 列之间的水平间距 */
+  }
+
+  /* 左边月份列固定宽度 */
+  .archives .archive-month > h3 {
+    flex: 0 0 120px;          /* 想再宽/窄就改这个数 */
+  }
+
+  /* 右边 post 列 */
+  .archives .archive-list {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;                /* 防止多出来的 margin-top 影响对齐 */
+  }
+
+  .archives .archive-entry {
+    padding: 0.75rem 0;
+    /*border-bottom: 1px solid rgba(0,0,0,0.08);*/
+  }
+
+  /* 第一篇 post 顶到 Month 同一水平线 */
+  .archives .archive-entry:first-child {
+    padding-top: 0;           /* 这里可以根据肉眼再微调成 0.05rem / -0.05rem */
+  }
+
+  .archives .archive-title {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: inherit;
+    text-decoration: none;
+    margin: 0 0 0.25rem 0;    /* 保证标题本身没有额外上边距 */
+    text-align: left;
+  }
+
+  .archives .archive-title:hover {
+    text-decoration: underline;
+  }
+
+  .archives .archive-meta {
+    color: #666;
+    font-size: 0.95rem;
+    white-space: nowrap;      /* 尽量 Date | Reading Time | Author 在一行 */
+  }
+</style>
+
+
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+  </header>
+  {{ $all := where site.RegularPages "Type" "posts" }}
+  {{ $posts := sort (where $all "Draft" false) "Date" "desc" }}
+  {{ range $posts.GroupByDate "2006" }}
+    <section class="archive-year">
+      <h2>{{ .Key }}<sup>{{ len .Pages }}</sup></h2>
+      {{ range .Pages.GroupByDate "January" }}
+        <div class="archive-month">
+          <h3>{{ .Key }}<sup>{{ len .Pages }}</sup></h3>
+          <div class="archive-list">
+            {{ range .Pages }}
+              {{ $author := or .Params.author site.Params.author }}
+              <article class="archive-entry">
+                <div class="archive-title-line">
+                  <a class="archive-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </div>
+                <div class="archive-meta">
+                  Date: {{ .Date.Format "January 2, 2006" }} | Estimated Reading Time: {{ .ReadingTime }} min{{ if $author }} | Author: {{ $author }}{{ end }}
+                </div>
+              </article>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    </section>
+  {{ end }}
+</main>
+{{ end }}
