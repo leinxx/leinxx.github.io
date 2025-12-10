@@ -35,8 +35,8 @@
   }
 
   .post-entry h2 {
-    font-size: 1.6rem;
-    margin: 0 0 0.6rem 0;
+    font-size: 1.35rem;
+    margin: 0 0 0.5rem 0;
   }
 
   .entry-content p {
@@ -106,10 +106,10 @@
   {{- end }}
 
   {{- range $index, $page := $paginator.Pages }}
-  <article class="post-entry" onclick="window.location.href='{{ .Permalink }}'" role="link" tabindex="0">
+  <article class="post-entry" onclick="window.location.href='{{ .RelPermalink }}'" role="link" tabindex="0">
     <header class="entry-header">
       <h2>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
       </h2>
     </header>
