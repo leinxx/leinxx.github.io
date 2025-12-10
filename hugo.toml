@@ -34,6 +34,7 @@ buildFuture = true
 
 [params.assets]
   disableHLJS = true
+  katex = true
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
@@ -45,6 +46,12 @@ buildFuture = true
     unsafe = true
   [markup.goldmark.parser]
     attribute = true  #支持对 ![]() 添加 width="xxx"
+  [markup.goldmark.extensions.passthrough]
+  enable = true
+
+  [markup.goldmark.extensions.passthrough.delimiters]
+    block = [["$$","$$"]]
+    inline = [["$","$"], ["\\(","\\)"]]
 
 [markup.highlight]
   guessSyntax = true
@@ -68,3 +75,5 @@ buildFuture = true
   name = "About"
   url = "/about/"
   weight = 30
+
+
