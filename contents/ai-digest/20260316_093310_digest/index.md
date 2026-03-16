@@ -1,6 +1,6 @@
 ---
 title: "🤖 AI & 科技投资日报"
-date: 2026-03-16T15:44:28+08:00
+date: 2026-03-16T15:50:42+08:00
 slug: "20260316_093310_digest"
 draft: false
 type: ai-digest
@@ -18,8 +18,14 @@ hidemeta: false
   box-sizing:border-box;
   background:#f5f7fa !important;
   padding:0;
-  margin:0 -24px;
-  width:calc(100% + 48px);
+  margin:0;
+  width:100%;
+}
+.digest-wrapper .container{
+  max-width:100% !important;
+  margin:0 !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
 }
 .digest-wrapper .stats{display:flex !important;flex-direction:row !important;flex-wrap:wrap !important;gap:6px !important;margin-top:12px !important;}
 .digest-wrapper .stat{white-space:nowrap !important;flex-shrink:0 !important;display:inline-flex !important;align-items:center !important;font-size:12px !important;padding:6px 10px !important;}
