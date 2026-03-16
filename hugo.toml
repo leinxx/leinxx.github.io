@@ -9,6 +9,7 @@ contentDir = "contents"
 buildFuture = true
 [permalinks]
   posts = "/posts/:slug/"
+  ai-digest = "/ai-digest/:slug/"
 
 [pagination]
   pagerSize = 10
