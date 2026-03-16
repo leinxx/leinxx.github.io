@@ -1,6 +1,6 @@
 ---
 title: "🤖 AI & 科技投资日报"
-date: 2026-03-16T15:10:37+08:00
+date: 2026-03-16T15:24:02+08:00
 slug: "20260316_093310_digest"
 draft: false
 type: ai-digest
@@ -12,8 +12,9 @@ disableShare: true
 
 {{< rawhtml >}}
 <style>
+.digest-wrapper{box-sizing:border-box;}
 
-    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    .digest-wrapper{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
          background:#f5f7fa;margin:0;padding:20px;color:#333}
     .container{max-width:720px;margin:0 auto;background:#fff;
                border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
@@ -53,6 +54,7 @@ disableShare: true
             border-top:1px solid #f0f0f0}
     
 </style>
+<div class="digest-wrapper">
 <div class="container">
     
     <div class="header">
@@ -254,4 +256,5 @@ disableShare: true
       由 OpenClaw AI 自动生成 · 数据来源：各公众号 via cimidata API
     </div>
   </div>
+</div>
 {{< /rawhtml >}}
