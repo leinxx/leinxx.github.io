@@ -1,4 +1,10 @@
 {{- define "main" }}
+<style>
+  .post-single { padding: 0 !important; background: transparent !important; box-shadow: none !important; border-radius: 0 !important; }
+  .post-header { padding: 0 var(--gap) !important; }
+  .post-content { padding: 0 !important; margin: 0 !important; max-width: 100% !important; }
+  .main { max-width: 100% !important; padding: 0 !important; }
+</style>
 <article class="post-single">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
@@ -11,7 +17,7 @@
   </header>
 
   {{- if .Content }}
-  <div class="post-content" style="max-width:100%;padding:0;margin:0;">
+  <div class="post-content">
     {{ .Content }}
   </div>
   {{- end }}
