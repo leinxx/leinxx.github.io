@@ -1,0 +1,127 @@
+{{- define "main" }}
+
+<style>
+  /* 基础样式 */
+  html[data-theme="light"] body,
+  html[data-theme="light"] .main,
+  html[data-theme="light"] .list {
+    background: var(--code-bg);
+  }
+  
+  html[data-theme="dark"] body,
+  html[data-theme="dark"] .main,
+  html[data-theme="dark"] .list {
+    background: var(--theme);
+  }
+  
+  .list, .page-header {
+    background: transparent;
+    box-shadow: none;
+  }
+  
+  /* AI Digest 卡片样式 */
+  html[data-theme="light"] .digest-entry {
+    background: #ffffff;
+    border: 1px solid #e1e5e9;
+  }
+  
+  html[data-theme="dark"] .digest-entry {
+    background: var(--entry);
+    border: 1px solid var(--border);
+  }
+  
+  .digest-entry {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .digest-entry:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .digest-entry h2 {
+    font-size: 1.4rem;
+    margin: 0 0 0.8rem 0;
+    color: var(--primary);
+  }
+  
+  .digest-date {
+    background: var(--code-bg);
+    color: var(--secondary);
+    padding: 0.3rem 0.8rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 0.8rem;
+  }
+  
+  .digest-summary {
+    color: var(--content);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 0.8rem;
+  }
+  
+  .digest-meta {
+    color: var(--secondary);
+    font-size: 0.8rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+</style>
+
+{{- if and (not .IsHome) .Title }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+{{- end }}
+
+{{- if .Content }}
+<div class="post-content">
+  {{ .Content }}
+</div>
+{{- end }}
+
+{{- $pages := .RegularPages }}
+{{- $pages = sort $pages ".Date" "desc" }}
+
+{{- if $pages }}
+<div class="digest-list">
+  {{- range $pages }}
+  <article class="digest-entry" onclick="window.location.href='{{ .RelPermalink }}'" role="link" tabindex="0">
+    <div class="digest-date">
+      📅 {{ .Date.Format "2006年1月2日" }}
+    </div>
+    <h2>{{ .Title }}</h2>
+    
+    {{- if .Summary }}
+    <div class="digest-summary">
+      {{ .Summary | safeHTML | truncate 200 }}
+    </div>
+    {{- end }}
+    
+    <div class="digest-meta">
+      <span>🕒 {{ .Date.Format "15:04" }}</span>
+      <span>📖 {{ .ReadingTime }}分钟阅读</span>
+    </div>
+  </article>
+  {{- end }}
+</div>
+{{- else }}
+<div class="post-content">
+  <p>暂无AI日报内容。</p>
+</div>
+{{- end }}
+
+{{- end }}
