@@ -19,7 +19,7 @@ buildFuture = true
   description = "AI, tech and random stuff"
   author = "Lei Wang"
   defaultTheme = "auto"
-  mainSections = ["posts"]
+  mainSections = ["posts", "ai-digest"]
   math = true
   showtoc = true
   tocopen = true
@@ -63,6 +63,12 @@ buildFuture = true
   name = "Posts"
   url = "/posts/"
   weight = 10
+
+[[menu.main]]
+  identifier = "ai-digest"
+  name = "AI Digest"
+  url = "/ai-digest/"
+  weight = 15
 
 [[menu.main]]
   identifier = "archives"
