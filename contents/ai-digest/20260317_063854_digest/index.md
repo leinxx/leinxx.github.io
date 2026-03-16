@@ -1,0 +1,677 @@
+---
+title: "🤖 AI & 科技投资日报"
+date: 2026-03-17T06:38:55+08:00
+slug: "20260317_063854_digest"
+draft: false
+type: ai-digest
+summary: "每日 AI 科技资讯摘要 - 2026-03-17"
+hideMeta: false
+ShowPostNavLinks: false
+disableShare: true
+ShowToc: false
+hidemeta: false
+---
+
+{{< rawhtml >}}
+<style>
+.digest-wrapper{
+  box-sizing:border-box;
+  background:#f5f7fa !important;
+  padding:0;
+  width:100vw;
+  margin-left:calc(50% - 50vw);
+  margin-right:calc(50% - 50vw);
+}
+.digest-wrapper .container{
+  max-width:860px !important;
+  margin:0 auto !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+}
+.digest-wrapper .stats{display:flex !important;flex-direction:row !important;flex-wrap:wrap !important;gap:6px !important;margin-top:12px !important;}
+.digest-wrapper .stat{white-space:nowrap !important;flex-shrink:0 !important;display:inline-flex !important;align-items:center !important;font-size:12px !important;padding:6px 10px !important;}
+.digest-wrapper .header{
+  background:linear-gradient(135deg,#1a1a2e,#16213e) !important;
+  color:#fff !important;
+}
+.digest-wrapper .header h1,
+.digest-wrapper .header p{color:#fff !important;}
+.digest-wrapper .card-title a{color:#1a1a2e !important;}
+
+    .digest-wrapper{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+         background:#f5f7fa;margin:0;padding:20px;color:#333}
+    .container{max-width:720px;margin:0 auto;background:#fff;
+               border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+    .header{background:linear-gradient(135deg,#1a1a2e,#16213e);
+            color:#fff;padding:28px 32px}
+    .header h1{margin:0 0 6px;font-size:22px;font-weight:700}
+    .header p{margin:0;opacity:.7;font-size:13px}
+    .stats{display:flex;gap:12px;margin-top:16px}
+    .stat{background:rgba(255,255,255,.12);border-radius:8px;
+          padding:8px 14px;font-size:13px}
+    .section{padding:0 32px 8px}
+    .section-title{font-size:16px;font-weight:700;margin:28px 0 12px;
+                   padding-bottom:8px;border-bottom:2px solid #f0f0f0;
+                   display:flex;align-items:center;gap:8px}
+    .card{background:#fafafa;border:1px solid #eee;border-radius:10px;
+          padding:16px 18px;margin-bottom:12px}
+    .card-title{font-size:14px;font-weight:700;margin:0 0 6px;
+                color:#1a1a2e;line-height:1.5}
+    .card-title a{color:#1a1a2e;text-decoration:none}
+    .card-title a:hover{text-decoration:underline}
+    .card-meta{font-size:11px;color:#999;margin-bottom:10px}
+    .card-summary{font-size:13px;line-height:1.7;color:#444;margin-bottom:10px}
+    .key-points{margin:0;padding-left:18px}
+    .key-points li{font-size:12px;color:#555;margin-bottom:4px;line-height:1.6}
+    .invest-table{width:100%;border-collapse:collapse;margin-top:10px;font-size:12px}
+    .invest-table th{background:#fff8e1;color:#8a6914;
+                     padding:6px 10px;text-align:left;font-weight:600}
+    .invest-table td{padding:6px 10px;border-top:1px solid #f0f0f0;color:#444}
+    .invest-table tr:hover td{background:#fffbf0}
+    .tag{display:inline-block;padding:2px 8px;border-radius:4px;
+         font-size:11px;font-weight:600;margin-right:6px}
+    .tag-source{background:#e8f4fd;color:#0077b6}
+    .card-brief{display:flex;align-items:baseline;gap:8px;padding:8px 14px;
+                background:#fafafa;border:1px solid #eee;border-radius:8px;
+                margin-bottom:6px;flex-wrap:wrap}
+    .footer{text-align:center;padding:20px;color:#aaa;font-size:11px;
+            border-top:1px solid #f0f0f0}
+    
+</style>
+<div class="digest-wrapper">
+<div class="container">
+    
+    <div class="header">
+      <h1>🤖 AI & 科技投资日报</h1>
+      <div class="stats">
+        <div class="stat">📅 2026年03月17日</div>
+        <div class="stat">📰 本期 41 篇</div>
+        <div class="stat">🚫 过滤 1 篇</div>
+        <div class="stat">⏱ 生成于 06:30</div>
+      </div>
+    </div>
+    
+    
+        <div class="section">
+          <div class="section-title">💰 一级市场投资（2 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkzMDkyNjQ1MQ==&mid=2247487714&idx=1&sn=ad9c4722caf248162b93bfa291457e04&chksm=c3b78670222445223c2ba0c6c4bb93c9f0be5e38b2e3bf95cbc052e9bb61440be3619f29c2c1&scene=126&sessionid=0#rd" target="_blank">2026具身智能融资爆火：88起融资超200亿，7家新晋百亿独角兽</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">华若汀仿生纪元</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">2026年开年至今，国内具身智能赛道融资热潮爆发，已披露融资事件超88起，融资总额突破200亿元。短短两月内诞生7家新晋百亿估值独角兽，包括自变量机器人、千寻智能、星动纪元、帕西尼感知科技等。银河通用获25亿元融资，光轮智能获10亿元，松延动力获近10亿元B轮。投资格局形成「国家队引领、产业资本跟进、市场化资本补位」，国家大基金三期首次入局。行业从0-1技术验证阶段迈入1-10规模化落地阶段。</div>
+              <ul class="key-points"><li>2026年开年至今国内具身智能赛道融资超88起，融资总额突破200亿元</li><li>7家新晋百亿估值独角兽：自变量机器人、千寻智能、星动纪元、帕西尼感知科技等</li><li>银河通用获25亿元融资，光轮智能获10亿元，松延动力获近10亿元B轮</li><li>国家大基金三期首次入局具身智能赛道，联合中石化、上汽集团形成订单式投资</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>银河通用</b><br><span style="color:#0077b6;font-size:11px">具身智能/人形机器人</span><br><span style="color:#999;font-size:11px">具身智能整机厂商，专注人形机器人研发与制造</span></td><td>25亿元</td><td>未披露</td><td>未披露</td></tr><tr><td><b>光轮智能</b><br><span style="color:#0077b6;font-size:11px">具身智能/数据服务</span><br><span style="color:#999;font-size:11px">虚实融合训练数据服务商，为具身智能提供仿真数据支撑</span></td><td>10亿元</td><td>未披露</td><td>未披露</td></tr><tr><td><b>松延动力</b><br><span style="color:#0077b6;font-size:11px">具身智能/人形机器人</span><br><span style="color:#999;font-size:11px">人形机器人整机厂商，专注机器人本体研发</span></td><td>近10亿元</td><td>B轮</td><td>未披露</td></tr><tr><td><b>自变量机器人</b><br><span style="color:#0077b6;font-size:11px">具身智能/具身大模型</span><br><span style="color:#999;font-size:11px">具身大模型企业，涵盖具身智能核心技术</span></td><td>未披露</td><td>未披露</td><td>未披露</td></tr><tr><td><b>千寻智能</b><br><span style="color:#0077b6;font-size:11px">具身智能/具身大模型</span><br><span style="color:#999;font-size:11px">具身大模型企业，专注机器人智能系统</span></td><td>未披露</td><td>未披露</td><td>未披露</td></tr><tr><td><b>星动纪元</b><br><span style="color:#0077b6;font-size:11px">具身智能/人形机器人</span><br><span style="color:#999;font-size:11px">人形机器人整机厂商，涵盖整机制造环节</span></td><td>未披露</td><td>未披露</td><td>未披露</td></tr><tr><td><b>帕西尼感知科技</b><br><span style="color:#0077b6;font-size:11px">具身智能/核心零部件</span><br><span style="color:#999;font-size:11px">核心零部件厂商，涵盖触觉传感器、灵巧手等关键零部件</span></td><td>未披露</td><td>未披露</td><td>未披露</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=Mzk0NzQ5ODI3Mw==&mid=2247491211&idx=1&sn=585bbc5b05e10fef9f3b8f53c18cec05&chksm=c2b259a26d3c4e2136aefa0ab35c7b4404ede4177d4e0ef0481775f8713e21003c2e40281012&scene=126&sessionid=0#rd" target="_blank">矽瓷新能获数千万元A轮融资，7N级高纯石英砂产能扩建加速国产替代</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">36氪未来产业</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">矽瓷新能完成数千万元A轮融资，由中关村资本领投，北洋海棠基金跟投，老股东金桥基金、尚势资本加码。资金用于7N级高纯合成石英砂产能扩建和3C-碳化硅粉体量产线建设。公司通过「聚合凝胶法」实现合成-提纯一体化，石英砂杂质总量控制在0.1ppm以下。2025年11月获得关键客户长协采购订单，下游为华虹半导体、中芯国际等，订单规模年数千万元。现有300吨产线接近满负荷，2026年扩产至1000吨，3C-碳化硅已获小批量订单。预计2026年营收数千万元，2027年翻倍。</div>
+              <ul class="key-points"><li>矽瓷新能完成数千万元A轮融资，中关村资本领投，北洋海棠基金跟投，金桥基金、尚势资本持续加码</li><li>资金用途：7N级高纯合成石英砂产能扩建、3C-碳化硅粉体量产线建设</li><li>技术平台：「聚合凝胶法」实现生产环节「合成-提纯」一体化</li><li>石英砂产品指标：杂质总量控制在0.1ppm以下，纯度、粒度分布、密度达国际水平</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>矽瓷新能</b><br><span style="color:#0077b6;font-size:11px">半导体材料/粉体材料</span><br><span style="color:#999;font-size:11px">半导体上游关键材料研发生产商，布局合成石英砂、氮化铝、碳化硅等产品，覆盖刻蚀环、光掩膜版等半导体核心工艺环节</span></td><td>数千万元</td><td>A轮</td><td>中关村资本领投，北洋海棠基金跟投，金桥基金、尚势资本加码</td></tr></table>
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">📈 二级市场投资（1 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MjM5OTA1OTk2MA==&mid=2651335762&idx=2&sn=1b30e9432b75b71cbc29023d76d05bac&chksm=bced6333f2b675f7feb215e782d5f19ca746c1ffc67719f97e29a3fe5d8c7efb3d21315f1496&scene=126&sessionid=0#rd" target="_blank">2026年IPO观察：7家终止企业净利润最高3亿元</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ipo观察</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">截至2026年3月12日，A股IPO终止企业共7家（北交所2家、科创板2家、创业板2家、沪主板1家），平均最新一年净利润1.50亿元，最高3亿元。终止原因主要包括：业绩持续下滑、财务规范性不足、核心竞争力薄弱、客户集中度过高、专利纠纷等。监管层严把上市入口关，更聚焦企业核心竞争力、经营稳定性与治理规范性。</div>
+              <ul class="key-points"><li>2026年IPO终止企业共7家，分布在北交所2家、科创板2家、创业板2家、沪主板1家</li><li>7家企业平均最新一年净利润1.50亿元，最高3亿元，最低7342.53万元</li><li>银行IT解决方案提供商：业绩三连降、财务规范性存瑕疵、存贷双高、社保公积金未足额缴纳</li><li>光伏智能装备厂商：订单从2023年49.86亿元骤降至2025年上半年3.38亿元，萎缩超九成</li></ul>
+              <div style="font-size:12px;color:#0077b6;font-weight:600;margin:8px 0 4px">📈 二级市场</div><table class="invest-table"><tr><th>公司</th><th>市场</th><th>详情</th></tr><tr>
+                      <td><b>银行IT解决方案提供商</b><br><span style="color:#999;font-size:11px">国内知名银行IT解决方案提供商，助力金融机构数字化转型</span></td>
+                      <td>北交所</td><td>2025年6月30日获受理，2026年2月24日终止</td></tr><tr>
+                      <td><b>无锡光伏智能装备厂商</b><br><span style="color:#999;font-size:11px">高效光伏电池智能自动化设备龙头厂商，TOPCon技术设备收入占比97.58%</span></td>
+                      <td>深交所创业板</td><td>2025年6月14日获受理，2026年2月7日终止</td></tr><tr>
+                      <td><b>安徽省汽车零部件企业</b><br><span style="color:#999;font-size:11px">汽车传动及动力系统精密零部件研发生产商，第一大客户博格华纳销售占比约70%</span></td>
+                      <td>北交所</td><td>2024年12月30日获受理，2026年2月6日终止</td></tr><tr>
+                      <td><b>广西乳业股份有限公司</b><br><span style="color:#999;font-size:11px">水牛奶细分龙头，超90%生鲜乳依赖外购，实控人控制88.39%表决权</span></td>
+                      <td>上交所主板</td><td>2025年6月13日获受理，2026年1月30日终止</td></tr><tr>
+                      <td><b>南京电子股份有限公司</b><br><span style="color:#999;font-size:11px">接口芯片和互连型MCU芯片设计企业，毛利率从63.32%下滑至57.51%</span></td>
+                      <td>上交所科创板</td><td>2025年6月30日获受理，2026年1月20日终止</td></tr><tr>
+                      <td><b>江苏科技股份有限公司</b><br><span style="color:#999;font-size:11px">硅基半导体、化合物半导体及光伏领域湿法清洗设备供应商</span></td>
+                      <td>上交所科创板</td><td>2025年6月27日获受理，2026年1月14日终止</td></tr><tr>
+                      <td><b>珠海市电子材料股份有限公司</b><br><span style="color:#999;font-size:11px">锂离子电池电解液研发生产商，近半数收入依赖客供配方模式</span></td>
+                      <td>深交所创业板</td><td>2022年9月29日获受理，2023年9月15日过会，2026年1月11日终止</td></tr></table>
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">🔬 技术突破（17 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652683536&idx=2&sn=c8c457b0d2c8ac7d95c06dd7ef8af3ea&chksm=f09bd89e54279e4be80b195d9b23674cce7e63bdb8e0ae12aed78435c9629001f626bd8f77b6&scene=126&sessionid=0#rd" target="_blank">清华: OpenClaw发展与自我研究报告发布，AI研究AI实验作品</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-16
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #清华大学</span>
+              </div>
+              <div class="card-summary">清华大学沈阳教授团队发布《OpenClaw发展研究报告1.0》和《OpenClaw自我研究报告1.0》，后者采用类OpenClaw工作流对OpenClaw进行自我研究，作为AI研究AI的代表性实验作品，耗时1.5小时完成。团队已形成从理论研究、模型研发、技能体系、实践落地到科普传播的完整闭环，包括完成2份一人公司研究报告和3份OpenClaw专项研究报告，变种虾ZeelinClaw系列用户破万，以及AI短剧制作、专业报告撰写等AI接单交付服务。</div>
+              <ul class="key-points"><li>清华大学沈阳教授团队发布《OpenClaw发展研究报告1.0》和《OpenClaw自我研究报告1.0》</li><li>《OpenClaw自我研究报告1.0》采用类OpenClaw工作流对OpenClaw进行自我研究，是AI研究AI的代表性实验作品，耗费1.5小时完成</li><li>团队完成2份一人公司研究报告和3份OpenClaw专项研究报告，构建OpenClaw系统生态理论框架，累计通过近20场主题直播触达百万网友</li><li>基于OpenClaw及其他开源框架研发ZeelinClaw变种虾系列定制平台，平均每三天迭代一个版本，用户规模已突破一万</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652683412&idx=1&sn=648a31a63416cb5459fa2739946b11e1&chksm=f0914a244f28acb2fe90756799e64ea2aeb84aca27b6b541bb544863b28e15cd24cba640d4d1&scene=126&sessionid=0#rd" target="_blank">清华开源OpenMAIC，一键生成AI课堂，支持多智能体交互讨论</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-16
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #清华大学教育学院 #清华大学计算机系</span>
+              </div>
+              <div class="card-summary">清华教育学院、计算机系联合团队开源OpenMAIC多智能体AI课堂系统。该系统支持一键生成交互式课堂，包含Slides、Quiz、交互式网页、PBL项目制学习四类教学组件。AI教师通过TTS语音授课，配合聚光灯、激光笔进行交互式讲解。课堂中AI同学会举手提问，支持多智能体圆桌讨论。系统已在清华内部运行两年，服务近万名师生，发表10余篇顶级论文，2025年3月上线国家智慧教育平台累计访问超2000万次。</div>
+              <ul class="key-points"><li>清华教育学院、计算机系联合团队开源OpenMAIC多智能体AI课堂系统，被称为「教育版OpenClaw」</li><li>系统支持一键生成交互式课堂：上传PDF或输入一句话需求，自动生成Slides、Quiz、交互式网页、PBL项目制学习四类教学组件</li><li>Agentic课堂播放引擎：AI教师通过TTS语音授课，配合聚光灯、激光笔自主进行交互式讲解，可在白板上即兴出题、绘制流程图</li><li>多智能体沉浸式课堂：AI同学会举手提问，支持圆桌讨论，底层用LangGraph调度，可围绕白板内容展开讨论</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652683412&idx=3&sn=0e2c139705bb4725353a9759c106d3c0&chksm=f0ec28dbe4de46499ff6aaa66a1bb13b2dacf02317e2adbaf690ea7e6e8f04a45993f32fd4a9&scene=126&sessionid=0#rd" target="_blank">计算所DeepRead：文档坐标系统实现Agentic RAG结构感知，准确率提升17%</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-16
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #中国科学院计算技术研究所</span>
+              </div>
+              <div class="card-summary">中科院计算所提出DeepRead系统，通过将文档结构转化为智能体可理解的坐标系统，解决Agentic RAG的「结构盲」问题。核心创新包括双维度结构模型（层级+顺序维度）和两大协同工具Retrieve与ReadSection，分别模拟人类的快速定位和深度阅读行为。实验显示长文档推理准确率从74.5%提升至91.5%，多文档任务也有7.7%-13.8%提升，且无需额外知识图谱，轻量高效。</div>
+              <ul class="key-points"><li>核心问题：现有Agentic Search框架存在「结构盲」，将长文档视为扁平文本块，忽略原生层级组织，导致检索碎片化、证据遗漏、检索冗余</li><li>技术方案：DeepRead通过OCR将文档转化为结构化Markdown，构建双维度结构模型（层级维度+顺序维度），给每个段落分配唯一坐标（doc_id, sec_id, para_idx）</li><li>工具创新：Retrieve工具模拟扫描式定位，返回Top-K相关段落及坐标；ReadSection工具模拟聚焦式阅读，按坐标范围返回连续保序段落</li><li>涌现行为：无需手动编码规则，智能体自主进化出先Retrieve定位再ReadSection精读的类人推理策略</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652683330&idx=1&sn=003c7ae27b1f7e85ff1fad1a3c7a3349&chksm=f0f2bcfbef745bff8bd0c901f0c4385c1983fb34c8ae9f527ea7ffb5188f05f8b16c3bca3a84&scene=126&sessionid=0#rd" target="_blank">SWE-Vision：代码验证视觉判断，五大基准SOTA</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">UniPat AI发布极简视觉智能体框架SWE-Vision，仅500行代码。该框架让多模态模型通过编写执行Python代码来验证视觉判断，在BabyVision、MathVision等五大基准测试中取得SOTA成绩。核心设计包括有状态Jupyter内核、Docker沙箱隔离、Image-in/Image-out自验证机制。</div>
+              <ul class="key-points"><li>SWE-Vision是极简视觉智能体框架，仅约500行代码，工具层只有execute_code和finish两个工具</li><li>核心创新：让模型编写Python代码来处理和验证视觉判断，实现「先做实验再下结论」的思维模式</li><li>五大基准测试SOTA：BabyVision 64.4、MathVision 94.0、Zero-Bench-Sub 50.1、OmniSpatial 69.0、CharXiv-RQ 82.5</li><li>关键设计：有状态持久化Jupyter kernel，支持变量和中间结果跨多次调用保留</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652683330&idx=2&sn=ae247cbf5d877df174ffb15987585145&chksm=f079cbd8626570cc3f2e07821e8a49a46f2ab1a01b82f37b2d46d03c921676f4a6da631ce783&scene=126&sessionid=0#rd" target="_blank">Simon Willison发布AI编程8模式，重构工程师工作流</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">Datasette创始人Simon Willison发布AI编程实战指南，总结8大模式：代码生成成本从8小时降至5分钟，但好代码仍昂贵。核心模式包括：囤积技巧让AI组合复用、红绿TDD强制先定义正确性、先跑测试带入测试心态、线性演练生成代码讲解文档、交互式解释生成可视化辅助理解。提出认知债务概念，强调代码能跑但不懂原理是更大隐患。AI时代工程师核心价值转向判断力：知道该写什么、知道好代码什么样、知道如何让AI不跑偏。</div>
+              <ul class="key-points"><li>Simon Willison发布AI编程实战指南，提出8大模式重构程序员工作流</li><li>代码生成成本从8小时缩短至5分钟，但好代码（可维护、有测试、优雅错误处理）仍昂贵</li><li>模式2-囤积已知技巧：个人博客、TIL、GitHub仓库都是技巧仓库，AI能把它们重新组合</li><li>模式3-红绿TDD：先写测试(失败/红)确认失败，再写实现(通过/绿)，强制AI先定义正确性</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkwOTUwMjAxNQ==&mid=2247484906&idx=1&sn=86b5f5e685d5605db8d50f13bb9047c8&chksm=c09de0e282ac2415c5a68b5221e56e123f60362a9a0bd3f272b7b2db47a0222aff8f34b47ebc&scene=126&sessionid=0#rd" target="_blank">开源大模型架构综述：20种前沿神经网络设计一览</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">后向传播</span>
+                2026-03-15
+                
+              </div>
+              <div class="card-summary">本文整理了Sebastian Raschka发布的20种前沿开源大模型神经网络架构图集，涵盖了当前主流的大模型架构设计，包括Transformer变体、MoE架构、注意力机制优化等多种技术路线，为研究者和开发者提供了全面的架构参考指南。</div>
+              <ul class="key-points"><li>汇总20种前沿开源大模型神经网络架构设计</li><li>涵盖Transformer变体、MoE混合专家、注意力机制优化等技术路线</li><li>资料来源为Sebastian Raschka的LLM Architecture Gallery</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=Mzk2NDg4MDcwNA==&mid=2247490952&idx=1&sn=6d25e18df122837beb095c7236e7ba90&chksm=c5d63ad78fc360c8eba7a04b262ce999fc34ff08233218ea70ca293a7e9756744582b8581d18&scene=126&sessionid=0#rd" target="_blank">Rhoda AI DVA模型，10小时数据训练机器人完成工业任务</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">具身纪元</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">Rhoda AI发布Direct Video-Action Model（DVA），仅用10-20小时机器人数据即可训练新任务，远低于行业水平。核心技术包括原生因果视频生成模型、上下文摊销训练策略、逆动力学模型和跳棋推理。已实现160分钟无剪辑工业部署，应用于拆包分拣和集装箱拆解场景。公司A轮融资4.5亿美元，估值17亿美元，投资方包括Khosla Ventures、淡马锡、John Doerr。</div>
+              <ul class="key-points"><li>Rhoda AI发布DVA模型，仅需10-20小时机器人数据即可学会新任务，远低于VLA模型所需的上千小时遥操作数据</li><li>核心技术架构：原生因果视频生成模型+逆动力学模型+跳棋推理（Leapfrog）</li><li>上下文摊销训练策略：在视频序列每个位置预测未来帧，训练设定与推理一致，效率更高</li><li>逆动力学模型将视频预测翻译成机械臂动作，模型小，可用随机运动数据训练</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>Rhoda AI</b><br><span style="color:#0077b6;font-size:11px">具身智能/视频生成模型</span><br><span style="color:#999;font-size:11px">开发Direct Video-Action Model（DVA），用极少量机器人数据训练具身智能模型</span></td><td>4.5亿美元</td><td>Series A</td><td>Khosla Ventures、淡马锡、John Doerr</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=Mzk2NDg4MDcwNA==&mid=2247490952&idx=2&sn=8a0f41221dada965dd9e7d31fac96860&chksm=c57d29d229196721cc30f3364188b043d6b90c1e9a44e9a3f2a0d6e42d7074bf5bcb6d6d7f32&scene=126&sessionid=0#rd" target="_blank">DVA模型：视频生成替代动作预测，10小时数据实现长程任务</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">具身纪元</span>
+                2026-03-16
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #Rhoda AI</span>
+              </div>
+              <div class="card-summary">Rhoda AI提出直接视频动作模型（DVA），将机器人控制重新定义为视频预测任务。该模型利用互联网规模视频预训练，仅需10-20小时机器人数据即可学习复杂长程任务。通过上下文摊销训练策略实现数百帧长上下文视觉记忆，配合跳棋推理实现实时控制，逆动力学模型将视频预测转化为动作。展示了倾倒、集装箱拆解等工业任务案例。</div>
+              <ul class="key-points"><li>直接视频动作模型（DVA）：将机器人控制表述为视频预测，由因果视频模型直接负责决策，逆动力学模型将视频翻译为动作</li><li>上下文摊销训练策略：在推理时使用的掩码下进行训练，同时增加计算损失的帧数，实现高效训练数百帧上下文</li><li>数据高效性：仅需10-20小时机器人数据即可可靠执行复杂长期任务，远低于现有VLA方法</li><li>长上下文视觉记忆：原生具有数百帧视觉上下文，可跨整个序列跟踪物体状态和reasoning场景变化</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=Mzk2NDg4MDcwNA==&mid=2247490952&idx=3&sn=d1ed8075e55e84a9476e7d21651939e9&chksm=c5ceea22bf7f12c75e12ad6d65b0cdaf5b14fd930348edb820605e9187d7737423eba26541cb&scene=126&sessionid=0#rd" target="_blank">GTC26:至简动力LaST0，MoT架构统一VLA与世界模型，14倍加速</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">具身纪元</span>
+                2026-03-16
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #至简动力 Simplexity</span>
+              </div>
+              <div class="card-summary">至简动力CEO贾鹏在GTC 2026演讲，提出具身智能核心矛盾是通用能力不足与用户要求100%成功率之间的鸿沟。发布LaST0基座模型，基于MoT架构实现多模态理解与生成统一、快慢思考统一、Policy与Critic统一，引入隐式CoT在隐空间预测2D图像、3D点云和本体状态。TwinRL框架通过3DGS重建数字孪生进行虚实结合强化学习，Double RL在特征和动作双层面强化学习，实现大多数任务2分钟内100%成功率。全球首个将大模型部署到端侧实现量产。</div>
+              <ul class="key-points"><li>核心矛盾：具身智能通用能力不足与用户要求100%成功率之间存在巨大鸿沟，是行业未大规模落地的根本原因</li><li>LaST0模型架构：基于MoT（Mixture of Transformers），实现四个统一-多模态理解统一、多模态生成统一、快慢思考统一、Policy与Critic统一</li><li>隐式CoT创新：在隐空间中同时自回归预测2D图像、3D点云和本体感知状态，实现多模态思维链，比显式CoT方法实现约14倍加速</li><li>视觉遗忘问题解决：通过MoT将视觉特征注入到更深层Transformer层，大幅提升模型泛化能力</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MjM5NTg1MzcyMQ==&mid=2722702665&idx=2&sn=1a0ddee3a9baab7f955dfd597f860cb6&chksm=801a6c072c95af60576adf209dc5ac7c50a7607a74c23ba848765d8785964eefa6dfbb905f7a&scene=126&sessionid=0#rd" target="_blank">天筑一号SAR卫星发射成功，0.5米分辨率+AI在轨处理</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">泰伯网</span>
+                2026-03-16
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #钧天航宇 #东方至远</span>
+              </div>
+              <div class="card-summary">2026年3月16日，天筑一号•Hawkview-1（钧天一号04A星）在酒泉发射成功。该卫星由钧天航宇与东方至远联合研制，是X波段合成孔径雷达卫星，空间分辨率最高0.5米，具备单星干涉成像能力。卫星实现多项技术创新：SAR载荷开机时长超5分钟，集成AI计算与自主任务规划能力，采用开源一体化信息系统。卫星数据将用于城市基础设施监测、交通安全、地质灾害预警、能源设施安全等领域，支持毫米级地表形变信息提取。</div>
+              <ul class="key-points"><li>天筑一号SAR卫星发射成功：2026年3月16日12时12分在酒泉卫星发射中心发射，搭载快舟十一号运载火箭</li><li>卫星基本信息：X波段合成孔径雷达卫星，具备单星干涉成像能力，空间分辨率最高0.5米</li><li>技术突破一：结构热控一体化设计，SAR载荷开机时长达到5分钟以上，具备持续观测能力</li><li>技术突破二：星上集成高性能处理系统，具备AI计算、智能处理与自主任务规划能力，可实现SAR在轨雷达数据出图、滤波、矫正、切片、拼接与识别</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkyOTkxODg3NA==&mid=2247488420&idx=1&sn=da8a76ec8524c3b0ebc4fee78d9027fe&chksm=c3cf49c860f7343077b428b8c498509b35c9dcc0c705d699007492fca244ac0543ef979eda1e&scene=126&sessionid=0#rd" target="_blank">达芬奇•环境：开源4.5万Docker环境，62.4%准确率刷新SOTA</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">上海创智学院</span>
+                2026-03-16
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #上海创智学院 #上海交通大学GAIR团队</span>
+              </div>
+              <div class="card-summary">上海创智学院与上海交通大学GAIR团队发布达芬奇•环境(daVinci-Env)，开源45,320个可执行Docker环境，覆盖12,800+真实代码仓库，总投入约147万美元。基于该环境训练的OpenSWE-32B和OpenSWE-72B在SWE-Bench Verified上分别达到62.4%和66.0%，刷新Qwen2.5系列同规模最好成绩。核心方法为多智能体环境合成流水线，包含PR收集过滤、仓库探索、Dockerfile构建、评测脚本生成等阶段。实验表明高质量环境比堆砌旧数据更有效，且性能曲线未达饱和。</div>
+              <ul class="key-points"><li>环境合成是智能体训练的关键瓶颈，斯坦福教授Percy Liang认为'simulation是AI的下一前沿'</li><li>开源45,320个可执行Docker环境，覆盖12,800+真实代码仓库，环境构建成本约147万美元</li><li>核心方法：多智能体环境合成流水线，包含GitHub PR收集过滤、仓库探索智能体、Dockerfile智能体、评测脚本智能体、测试分析智能体</li><li>Dockerfile智能体解决大规模构建中的网络不稳和重复重建问题，预构建覆盖Python 2.7与3.5-3.14的基础镜像</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021958&idx=1&sn=4aed2d13998b469b214c6654682feb66&chksm=85b6643a24500a6de9d8a1f6025442fc7c2c1b0c54a9850a9949c1fba3328b6007dacd486c3d&scene=126&sessionid=0#rd" target="_blank">Kimi: 注意力残差替代传统残差，计算效率提升1.25倍</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-16
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #Kimi团队 #MoonshotAI</span>
+              </div>
+              <div class="card-summary">Kimi团队发布Attention Residuals技术，用注意力机制替代传统残差连接。每层通过可学习Query选择性聚合之前所有层特征，解决信息稀释和隐藏状态爆炸问题。实验显示1.25倍计算优势，在GPQA-Diamond提升7.5分，Minerva Math提升3.6分，HumanEval提升3.1分。OpenAI推理模型之父Jerry Tworek认为将迎来「深度学习2.0」时代。</div>
+              <ul class="key-points"><li>Attention Residuals用注意力机制替代传统残差连接y=x+f(x)，每层通过可学习Query选择性聚合之前所有层特征</li><li>解决传统残差两个问题：信息稀释（浅层特征随深度线性衰减）和隐藏状态爆炸（数值不稳定、梯度分布不均）</li><li>核心思想：将注意力旋转90度，在深度维度上用注意力替代RNN式的累加</li><li>工程实现：Block AttnRes分块策略，将O(L²)复杂度降至O(N²)，8个块即可获得绝大部分性能增益</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021958&idx=3&sn=be9bcffb3251797ffc41e45cdac3a0be&chksm=85a943a64d52714f188dea2cb56fb3fa1250186683e929fd80b4f6fd8abd5addb55b889e2852&scene=126&sessionid=0#rd" target="_blank">ICLR 2026 Oral: MVP，单步极速生成，推理毫秒级</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-16
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #清华大学 #加州大学伯克利分校</span>
+              </div>
+              <div class="card-summary">清华大学与加州大学伯克利分校联合提出MVP（均值速度策略），通过学习均值速度场实现单步动作生成，引入瞬时速度约束(IVC)解决均值流学习中解不唯一性问题，并设计Generate-and-Select机制确保策略性能单调提升。在Robomimic和OGBench基准测试中取得SOTA性能，训练速度提升超50%，推理延迟仅毫秒级。</div>
+              <ul class="key-points"><li>MVP提出建模均值速度场（Mean Velocity Field）的新型生成式策略，实现从噪声直接映射到动作的单步生成</li><li>引入瞬时速度约束（IVC）作为边界条件，解决均值流学习中常微分方程存在无穷多组解的理论困局</li><li>设计复合生成与选择机制（Generate-and-Select），利用GPU并行生成N个候选动作并通过Q函数评分选优</li><li>理论证明：该机制能确保策略性能单调提升，最小化IVC Loss可强制积分常数误差归零</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021878&idx=3&sn=19040f253ad20ec6ef6fc3de1e011805&chksm=850a7381b5f0a09b19608b589317aa3dc26c9cbd15a21ec1f45e23e43c6add533b8059e77641&scene=126&sessionid=0#rd" target="_blank">OPUS：优化器诱导的动态数据选择，GPT-XL上8×计算效率提升</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-16
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #阿里巴巴 #上海交通大学 #威斯康星大学麦迪逊分校</span>
+              </div>
+              <div class="card-summary">阿里巴巴Qwen团队与上海交大、UW-Madison等提出OPUS预训练动态数据选择范式。该方法将数据效用定义在AdamW/Muon等优化器诱导的「有效更新空间」中，而非传统的原始梯度空间。通过Bench-Proxy目标对齐、Ghost+CountSketch高效估计、Boltzmann稳定选择三件套，在GPT-2 Large/XL的30B token预训练中取得平均+2.2%准确率提升，GPT-XL上实现8×计算效率节省。更反直觉的是，仅用中低质量数据动态选择就能超过「高质量数据优先」的经典配方。Qwen3-8B在SciencePedia上0.5B token追平随机选择3B token效果，约6×数据效率增益。</div>
+              <ul class="key-points"><li>OPUS（Optimizer-induced Projected Utility Selection）：将数据选择从「优化器无关」升级为「优化器诱导」范式，在有效更新空间而非原始梯度空间评估样本效用</li><li>核心三件套：(1)Bench-Proxy目标对齐：构建与目标benchmark语义对齐的代理池；(2)Ghost+CountSketch：近似估计候选样本的对齐收益，将额外计算开销压至4.7%；(3)Boltzmann软采样：避免贪心选择，保持探索性与稳定性</li><li>实验结果：FineWeb预训练平均+2.2%准确率，GPT-XL上8×计算量节省；FineWeb-Edu仅用中低质量数据（score 3）就能超过高质量数据（score 4-5）训练的基线</li><li>ODD泛化验证：BBH、RACE、SuperGLUE等非Proxy覆盖基准上仍取得最佳平均表现40.07%，证明收益非benchmark过拟合</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021695&idx=2&sn=dfb05cf45cec9e723315eafd701ccd46&chksm=85f207c7cd2af4c33ac4c5545575f238b54b3707e2602338891209f4301250a98b9af2ab6e23&scene=126&sessionid=0#rd" target="_blank">LLM Architecture Gallery：大模型架构图谱一键对比</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">AI研究者Sebastian Raschka创建了「LLM Architecture Gallery」在线图谱，汇集过去几年主流大模型的结构重新绘制，包括Llama、DeepSeek、Gemma、Mistral、Qwen、Kimi、GLM等多个系列。每张模型卡展示核心架构图、关键模块设计、参数规模、发布时间等基本信息，让研究者能在同一视觉框架下快速理解模型结构组成。Andrej Karpathy评价其为「创意、想法的资源库」。</div>
+              <ul class="key-points"><li>Sebastian Raschka创建「LLM Architecture Gallery」在线图谱，汇集主流大模型架构</li><li>涵盖模型系列包括：Llama、DeepSeek、Gemma、Mistral、Qwen、Kimi、GLM、MiniMax等</li><li>参数规模从几亿到千亿万亿级模型均有收录</li><li>每张模型卡展示核心架构图、关键模块设计、参数规模、发布时间、相关概念</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021695&idx=3&sn=f8b94c4a3eccf08bd72eed11c4ca2798&chksm=85dc2e86d6f618cbf43b529e101616d5be9e31c37b5114c3f9be46a5fd09d580d8dccd6be75f&scene=126&sessionid=0#rd" target="_blank">HyperOffload：图驱动超节点存储管理，万亿参数模型高效部署</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-16
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #上海交通大学 #华为</span>
+              </div>
+              <div class="card-summary">上海交通大学联合华为MindSpore发布HyperOffload技术报告，提出图驱动的超节点存储管理新范式。该方案通过Hierarchical Memory Manager模块实现HBM、DDR、Flash多级存储的逻辑池化，支持KV Cache、激活值及优化器状态的全要素卸载管理。结合选择性参数卸载与自适应激活值交换技术，配合静态图编译的预规划策略，实现算力与带宽的深度重叠，已集成于MindSpore 2.8版本。</div>
+              <ul class="key-points"><li>上海交通大学可扩展计算研究所蒋力、刘方鑫团队联合华为MindSpore发布HyperOffload技术报告</li><li>核心模块Hierarchical Memory Manager将物理隔离的存储介质转化为逻辑资源池化视图</li><li>突破传统仅针对权重卸载的局限，实现KV Cache、中间激活值、优化器状态的深度分层管理</li><li>选择性参数卸载：引入多维代价模型，智能识别「冷张量」，确保高频算子驻留HBM</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021579&idx=1&sn=5c4b643a2121284e38bca66ea50985a3&chksm=853dd16b4eaea66d45786bc4bcd8ebfdcae5aff7f518cced855ab22763ba16cbedcf05cd7ab2&scene=126&sessionid=0#rd" target="_blank">SWE-Vision：代码执行增强视觉理解，BabyVision达64.4</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">UniPat AI发布极简视觉智能体框架SWE-Vision，仅用五百行代码让多模态大模型通过编写执行Python代码来处理和验证视觉判断。在BabyVision、MathVision等五个基准测试中均达SOTA水平，其中BabyVision达64.4，MathVision达94.0。核心创新在于使用有状态的持久化Jupyter kernel，支持多轮迭代和中间结果验证。</div>
+              <ul class="key-points"><li>SWE-Vision是极简视觉智能体框架，仅用两个工具（execute_code和finish）让模型通过编写Python代码处理视觉任务</li><li>采用Docker容器中的持久化Jupyter kernel，支持变量、导入、图像对象跨多次调用保留，实现有状态执行</li><li>在五个视觉基准测试达SOTA：BabyVision 64.4、MathVision 94.0、Zero-Bench-Sub 50.1、OmniSpatial 69.0、CharXiv-RQ 82.5</li><li>核心价值在于让模型像数据科学家一样先做实验再下结论，实现「先结构化分析、再程序化测量、最后数值验证」的思维闭环</li></ul>
+              
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">🚀 产品发布（5 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247732257&idx=1&sn=ad55c5cc007d3efd9ca756ef126b6f86&chksm=91eff07ca0316475f83f7d24637ec0e1c2098ec591a60e6453a686ff1ac0505b9b6ad4d39b59&scene=126&sessionid=0#rd" target="_blank">智谱AutoClaw测评：桌面AI Agent应用，支持国产模型集成</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ai科技评论</span>
+                2026-03-16
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #AI科技评论</span>
+              </div>
+              <div class="card-summary">智谱于3月10日推出桌面应用AutoClaw，定位为让电脑成为AI Agent。实测安装约1分钟，支持GLM、DeepSeek、Kimi等国产模型接入。功能测试涵盖办公自动化、内容创作、代码辅助等场景。使用国产模型成本低（月均几十元），而Claude可能需数百上千元。优势在于安装简单、预制技能丰富、安全机制完善；劣势为复杂任务有限制、文档支持尚处早期。</div>
+              <ul class="key-points"><li>智谱AutoClaw于3月10日上线，定位桌面AI Agent应用，标语为「1分钟安装，让你的电脑成为AI Agent」</li><li>支持多种国产大模型：GLM系列、DeepSeek、Kimi、MiniMax等，通过API接入</li><li>安全机制完善：JWT认证、消息来源控制(dmPolicy)、执行确认(approvals)、沙箱(sandbox)、操作风险分级</li><li>实测办公自动化：Excel数据分析并生成PPT，消耗172积分（约1元），完成数据提炼、问题洞察、结构化呈现</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247732257&idx=3&sn=4eff5e49ec3f0053fe075e133d062153&chksm=9140ae8b90a0d98cfc21e38704b9ae3af541c0d8947c862c4dd0758587eb294f256916af920a&scene=126&sessionid=0#rd" target="_blank">清华OpenMAIC开源，全球首个多智能体学习框架</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ai科技评论</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">清华大学开源全球首个多智能体生成式学习AI技术框架OpenMAIC，可一键将技术文档转化为交互式学习课堂。该框架内置Plan智能体主动规划教学大纲，支持Slides、Quiz、交互网页等组件，通过LangGraph调度实现多智能体圆桌讨论。前身MAIC已在国家智慧教育平台上线，累计访问量超2000万次，论文被JCST接收。</div>
+              <ul class="key-points"><li>清华大学开源OpenMAIC，全球首个多智能体生成式学习AI技术框架</li><li>OpenMAIC前身为MAIC（自动驾驶式AI课堂），已在国家智慧教育平台上线，累计访问量超2000万次</li><li>MAIC主论文《From MOOC to MAIC》在JCST中科院四十周年特刊作为唯一AI+教育文章被接收</li><li>OpenMAIC内置Plan智能体，可主动规划教学大纲和教案，支持个性化学习</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647680620&idx=1&sn=724448317a85558cd5bde326be75bc95&chksm=f18f15e5f4925dab5662ef5e9059d1d8c9f65ad69297c9c85fddc82ad6e5c0aaf02233aa5fd9&scene=126&sessionid=0#rd" target="_blank">腾讯龙虾管家，OpenClaw全链路安全防护方案</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">数字生命卡兹克</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">腾讯推出首个专为OpenClaw打造的「龙虾管家」功能，集成在腾讯电脑管家中。该功能提供Skills安全检测、执行脚本检测、文件安全保护、网络访问保护、系统安全保护等全方位防护，可识别恶意Skills、保护敏感文件夹、检测公网暴露风险，并记录AI操作日志。腾讯此次快速响应AI Agent时代的安全需求，被作者认为是目前最完整、最适合普通用户的小龙虾安全解决方案。</div>
+              <ul class="key-points"><li>腾讯推出「龙虾管家」功能，集成在腾讯电脑管家中，专为OpenClaw（小虾AI Agent）打造</li><li>Skills安全检测：安装时自动提醒，下载三方恶意Skills时可实时拦截</li><li>文件安全保护：用户可手动添加保护文件夹，防止AI随意修改或删除敏感文件</li><li>网络访问保护：检测AI应用网络端口暴露风险，防止内网变公网导致的肉鸡风险</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021878&idx=1&sn=afd3a09cf57fd395f83e2a542da7177a&chksm=85696cc9ce20e7d381bfb69f23b3216c98436c6a7ff0fa7a69223f7cfd9edd8dda08d46fbe79&scene=126&sessionid=0#rd" target="_blank">阶跃星辰StepClaw，3分钟一键部署AI Agent，云端服务5万名额</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">阶跃星辰3月12日推出云端AI Agent服务StepClaw（阶跃龙虾），提供5万个免费体验名额。该服务集成Step 3.5 Flash模型，支持3分钟一键部署，用户可通过飞书、企业微信调用。Step 3.5 Flash在OpenRouter全球OpenClaw调用量日榜和月榜持续登顶。国产「龙虾三剑客」格局形成，2026年被视为AI Agent规模化落地关键节点。</div>
+              <ul class="key-points"><li>阶跃星辰推出云端AI Agent服务StepClaw（阶跃龙虾），3月12日上线，提供5万个免费体验名额</li><li>Step 3.5 Flash模型在OpenRouter全球OpenClaw调用量日榜和月榜持续霸榜第一，专为Agent场景优化</li><li>一键部署功能：3分钟内自动完成服务器实例开通、环境配置、API Key生成、模型加载</li><li>云端版本支持7×24小时持续在线，通过飞书、企业微信等IM平台直接调用，无需本地设备</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021695&idx=1&sn=cf9c302c1497b4bbc9461f257549e1c8&chksm=859f934834d589861866d04b51ce0937444e7702f200d1d23523450bc123b3b3e416a0db65cf&scene=126&sessionid=0#rd" target="_blank">清华OpenMAIC开源，L4级AI课堂平台一键生成互动课</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-16
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #清华大学</span>
+              </div>
+              <div class="card-summary">清华大学开源AI课堂平台OpenMAIC，支持一键生成互动课堂。平台通过Agentic课堂播放引擎实现AI老师TTS语音讲解、虚拟学生提问、AI助教补充等功能。2024年清华校内试点吸引700人报名，产生10万+互动记录；课程结业率超40%，显著优于传统MOOC的5%。2025年3月上线教育部平台，访问量突破2000万次。平台支持一键本地部署，兼容Qwen、GLM、OpenAI等主流大模型。</div>
+              <ul class="key-points"><li>清华大学开源AI课堂平台OpenMAIC，国内首个L4级AI课堂，可自动生成互动式教学课堂</li><li>核心技术：Agentic课堂播放引擎，AI老师TTS语音讲解+虚拟学生随机提问+AI助教补充</li><li>使用流程：上传PDF或输入需求，系统自动解析内容、生成Slides、Quiz及交互式PBL网页</li><li>支持一键本地部署，兼容主流大模型，通过LangGraph管理多智能体流程</li></ul>
+              
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">📊 行业动态（11 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652683542&idx=2&sn=443d491d6861460a09a6569506e00a98&chksm=f01127ad0ec87d9e970a27ce1f4c77a8f8578d74e140bc2c6acbc27c37d40239c229e59e99f4&scene=126&sessionid=0#rd" target="_blank">奥特曼斯坦福访谈：AGI两年内降临，下一代架构将颠覆Transformer</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">Sam Altman在斯坦福大学访谈中预测，AGI将在两年内降临，下一代全新AI架构将彻底颠覆Transformer，性能提升不亚于当年Transformer对LSTM的突破。他表示现有高阶LLM已具备足够认知力，能够作为人类智力杠杆亲手推开另一个技术范式的大门。访谈还涉及编程智能体将成下一个ChatGPT时刻、AI CEO可能性、人类适应力等话题。后Transformer赛道已有多项进展，包括Mamba、液态神经网络等新架构。</div>
+              <ul class="key-points"><li>Sam Altman预测AGI将在两年内降临，到斯坦福学生毕业时将踏入已有AGI的世界</li><li>下一代全新AI架构将彻底颠覆Transformer，性能跃升不亚于当年Transformer对LSTM的降维打击</li><li>现有高阶LLM已具备足够认知力，能够作为人类智力杠杆帮助人类发现新架构，形成自我加速飞轮</li><li>Transformer存在算力黑洞：文本长度翻10倍，计算量翻100倍</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652683542&idx=1&sn=723b03451269427f42e0820abf972789&chksm=f02ff6dc15aca626c1561ad4bc5eaa45e5bffaefb357bff07688740f141c871209e79041f981&scene=126&sessionid=0#rd" target="_blank">AI吞噬软件行业：2027年SaaS现死亡交叉，Adobe时代落幕</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">马斯克转发Naval言论「AI正在吞噬软件行业」引发热议。一张图显示AI市场绿线急升与SaaS估值红线暴跌，2027年将出现死亡交叉。AI智能体可通过自然语言完成整个SaaS应用工作，传统软件中间层被替代。Adobe CEO辞职，市值蒸发35%，象征SaaS黄金时代终结。27家SaaS巨头面临AI挑战，资本市场出现「Saaspocalypse」末日论调。</div>
+              <ul class="key-points"><li>AI市场绿线急升，SaaS估值红线从2021年峰值18.5x下滑，2027年出现死亡交叉，AI市场达3.5万亿美元、20x估值</li><li>AI智能体可通过自然语言完成CRM、计费系统、分析仪表盘等整个工作流程，传统软件中间层被彻底替代</li><li>Adobe CEO辞职，市值从去年夏天至今蒸发约35%，象征SaaS订阅制黄金时代终结，HubSpot、Figma等SaaS巨头股价暴跌</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652683536&idx=1&sn=a2e7ad8c6b1b2fb3edf45c7f58b5fdab&chksm=f0dc2d927109841b5f872f16e4a84e731472d0d5bdeeec7d51716dff82934fc0ef11e0b7b888&scene=126&sessionid=0#rd" target="_blank">Karpathy发布AI职业替代风险图，42%岗位高危</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">OpenAI联合创始人Karpathy创建项目分析AI对342种职业的替代风险，使用Gemini Flash打分，全行业平均暴露分4.9分。约6000万个岗位（42%）风险评分超7分，年薪总额3.7万亿美元。年薪超10万美元的白领岗位最易被替代，而水管工、清洁工等体力劳动岗位最安全。哈佛研究证实高自动化岗位招聘量下降17%，高增强潜力岗位招聘量上升22%。</div>
+              <ul class="key-points"><li>Karpathy项目分析美国342种职业的AI替代风险，使用Gemini Flash进行0-10分评分</li><li>全行业平均暴露分高达4.9分，约6000万个岗位（42%）处于高危区间（7分以上）</li><li>年薪超10万美元岗位风险达6.7分，最易被AI替代；年薪低于3.5万美元岗位风险仅3.4分</li><li>软件开发人员风险9/10，医疗转录员10/10，律师8/10，普通办公室职员9/10</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652683412&idx=2&sn=4d1660b177841841af45d6dcfe55623e&chksm=f08f4cfb676a0590c5f6ae181234c7135071fda6a228124d7e63d7a70852d3d32a92f70291a7&scene=126&sessionid=0#rd" target="_blank">行业观察：彼得·蒂尔罗马密会，反对AI监管</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">Palantir创始人彼得·蒂尔在罗马举办闭门集会，公开反对全球AI监管呼声，将其支持者贴上「反基督」标签。他认为监管会扼杀创新，并批评教皇对AI风险的警告。Palantir的算法系统已深度嵌入国际地缘冲突和边境追踪网络。此举折射出科技资本正通过价值观输出介入社会运行底层秩序，争夺「未来秩序」最终解释权。</div>
+              <ul class="key-points"><li>Palantir创始人彼得·蒂尔在罗马举办绝密闭门集会，反对AI监管</li><li>蒂尔将全球AI监管呼声视为威胁，称监管支持者为「反基督</li><li>蒂尔批评教皇利奥十四世对AI风险的警告，认为监管会扼杀科学创新</li><li>Palantir算法系统已深度嵌入国际地缘冲突和边境追踪网络</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MjM5NTg1MzcyMQ==&mid=2722702665&idx=1&sn=441ad725bbfeaeaae5db4b5090ae0343&chksm=80acf8cb9f1880c4c996a3392cec5d0bbde7b2af708a8ee8c6c6097441380374a96f098cc0eb&scene=126&sessionid=0#rd" target="_blank">前瞻2026：AI重构地信行业，世界模型催生新商业形态</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">泰伯网</span>
+                2026-03-16
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #泰伯网</span>
+              </div>
+              <div class="card-summary">2026年AI浪潮席卷产业端，智能体(Agent)正不可逆地影响地理信息、自动驾驶、具身智能等领域。高德地图、四维图新等传统地信企业纷纷AI化转型，拓扑思、际数科技等空间智能数据服务商涌现。世界模型成为大语言模型与多模态模型融合的最终形态，将重构地图、数字孪生、GIS等概念，催生新的商业模式。</div>
+              <ul class="key-points"><li>AI Agent正以不可逆之势影响产业端，测绘仪器与设备智能化升级可大幅节省人力资源</li><li>高德地图2025年8月全面AI化，转向空间智能，推出首个AI原生地图应用</li><li>四维图新2025年10月品牌战略升级为SEEWAY.AI，实现从「地图人」到「汽车人」再到「AI人」的跃迁</li><li>拓扑思(佛山)智能科技有限公司2025年10月成立，定位空间智能数据感知、生成、编译、服务，以物理世界编译器打破数据割裂</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzAwODE5NDg3NQ==&mid=2651293309&idx=1&sn=8a4dcdba567f510b99a6d7d4cbf29c85&chksm=81537182ad1503fac548efc6d599bba623acf33413be643ea814ee5c2d8526af5372fed2a660&scene=126&sessionid=0#rd" target="_blank">红杉YUE加速器08期招生，天使轮前获700万人民币投资</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">红杉汇</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">红杉中国YUE创业加速器启动08期招生，面向天使轮或天使轮前创业者，提供至少700万人民币或等值美元投资。课程为期4周线下集中上课，包含想法课、招聘课、财务课、商业化课、融资课、公司治理课、企业参访交流等模块。往期学员包括速豹动力、ELMI Power等，已形成超百人创业者社群。</div>
+              <ul class="key-points"><li>YUE是红杉中国推出的服务极早期和早期创业者的加速器，面向天使轮或天使轮前创业者</li><li>入营即获红杉中国种子基金700万人民币或等值美元投资</li><li>课程为期4周线下集中上课，包含六大模块：想法课、招聘课、财务课、商业化课、融资课、公司治理课</li><li>课程模块涵盖早期创业重点环节：评估想法、打造产品、招聘人才、融资扩张、决策机制、财务体系、法律问题、文化建设、增长与商业化</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247523287&idx=1&sn=014e7a0ca58621681ad756d7b305f48d&chksm=c1311f85d70ee0b0f887197b2f567e14cfb09e1fada2baaca6a38cf5eeea559234b908cbc630&scene=126&sessionid=0#rd" target="_blank">Founder Park x 百度智能云：OpenClaw后AI硬件2026年怎么做</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Founder Park</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">2025年AI硬件赛道完成市场筛选，靠屏幕麦克风融资阶段结束。OpenClaw将主动式AI从概念拉到工程层面，降低开发门槛同时带来新问题：如何通过主动服务场景做出差异化。3月28日深圳将举办闭门讨论，探讨OpenClaw改变与未改变之处、2026年窗口期所在。</div>
+              <ul class="key-points"><li>2025年AI硬件完成市场祛魅，靠屏幕麦克风融资阶段结束，创业逻辑转向思考硬件在用户生活中的角色定位</li><li>OpenClaw把主动式AI从概念拉到工程层面，降低开发门槛同时带来新挑战：如何通过主动服务场景实现产品差异化</li><li>3月28日深圳举办闭门活动，Founder Park联合百度智能云与一线创业者深度探讨：OpenClaw改变与未改变什么、2026年窗口期在哪</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzAxMDM3Mg==&mid=2649106586&idx=1&sn=fbe97d84221c0088f4741505e263eebe&chksm=8680daf847dc221f403acf5c741b6cbc34e26799945778498f9d1a2d44e437b9fe0f3af0c3a5&scene=126&sessionid=0#rd" target="_blank">创新工场OpenClaw闭门会：33条Agent协作与基础设施共识</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">创新工场</span>
+                2026-03-16
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #创新工场</span>
+              </div>
+              <div class="card-summary">创新工场3月12日举办OpenClaw闭门会，8位AI领域从业者讨论4小时，形成17个关键词和33条共识。核心观点：单体Agent能力已非最稀缺，协同、交接、复用和长期稳定才是落地痛点；未来基础设施需支撑角色分化和协作结构演化；端云分工将重写商业模式；Multi-agent需要动态选举的协调者而非平权群聊；Agent Economy将先从小额低风险交易开始。</div>
+              <ul class="key-points"><li>单体Agent能力已非最稀缺，协同、交接、复用和长期稳定是落地核心痛点</li><li>从reactive到proactive复杂度指数级上升，主动Agent系统复杂度极高</li><li>进化将成为Infra核心：Agent需在试错中被评分、淘汰、选举、迁移，形成自我优化网络</li><li>安全挑战从「能否拦住Agent」转向「如何约束被授权的Agent」，需关注提示词、文件、工具调用和支付链路的高危动作</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021958&idx=2&sn=aad0f2479577ee515d25c6d5d71ba473&chksm=8517682dd734bfe6df465311133f8143ba878166e2bbed4427951d65420d6bd861f7d041f774&scene=126&sessionid=0#rd" target="_blank">ICLR 2026论文分享会4月北京举办，聚焦Agent与世界模型</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">机器之心将于4月18日在北京举办ICLR 2026论文分享会，ICLR 2026将于4月23-27日在巴西里约举行，收到约19000篇投稿，录取率约28%。会议将聚焦Agent、世界模型等热门主题。2026年AI领域出现OpenClaw「AI龙虾」私人Agent助理，同时英伟达推出Cosmos世界模型平台，图灵奖得主Yann LeCun的世界模型创业公司完成10.3亿元种子轮融资。</div>
+              <ul class="key-points"><li>ICLR 2026论文分享会4月18日在北京中关村皇冠假日酒店举办，线下名额200人，聚焦Agent与世界模型主题</li><li>ICLR 2026将于4月23-27日在巴西里约热内卢举行，收到约19000篇投稿，录取率约28%</li><li>2026年AI领域涌现新热点：OpenClaw「AI龙虾」成为新一代人机交互标杆；英伟达黄仁勋在CES 2026推出Cosmos世界模型平台；图灵奖得主Yann LeCun的世界模型创业公司完成10.3亿元种子轮融资</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>Yann LeCun世界模型创业公司</b><br><span style="color:#0077b6;font-size:11px">世界模型/大模型</span><br><span style="color:#999;font-size:11px">图灵奖得主Yann LeCun创立的世界模型公司，致力于构建AI世界模型</span></td><td>10.3亿元</td><td>种子轮</td><td>未披露</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021878&idx=2&sn=290ee5d2afc64ed0ca0fb15509850523&chksm=8530b74131938b931b1d7773ef983ca6fa8e32a0734352b13c5ab85baa11acc48dc900681543&scene=126&sessionid=0#rd" target="_blank">闭门会：下一代智能体范式跃迁，张江深度研讨</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">机器之心联合张江人工智能创新小镇、模力社区共同主办「Openclaw进化论：下一代智能体范式跃迁」闭门会，将于3月20日在上海张江举办。汇聚超15位AI一线实干家，包括明星Agent创企创始人、知名VC合伙人、顶尖AI实验室与高校学者，深度探讨Context Engine、异构算力适配、多模态统一表征、超长上下文演进、记忆机制工程化等底层技术，以及分布式协同协议、人机协作边界、安全治理等工程与伦理议题，探寻智能体商业闭环与投资逻辑。</div>
+              <ul class="key-points"><li>会议主题聚焦Openclaw及下一代智能体的范式跃迁，超越产品热度直抵技术底层逻辑</li><li>底层技术议题：Context Engine、异构算力适配、多模态统一表征、超长上下文演进、记忆机制工程化</li><li>工程实践议题：分布式协同协议、人机协作边界、开源社区信任机制、隔离与安全治理</li><li>商业与投资议题：定位之争、商业闭环、护城河重构、价值重塑</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021579&idx=2&sn=c3f9be9f3be3340b8c68fafec8626e6c&chksm=85d1f97e9bb11415d8be19612bb789215ba401d945156076a95cf1199a1bd15f2cb56cf595f8&scene=126&sessionid=0#rd" target="_blank">MIT学生用NotebookLM专家级提问法，48小时学完一学期课</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">MIT学生使用谷歌NotebookLM工具，通过专家级别的认知框架提问（而非简单的总结类问题），在48小时内学完一学期课程并通过资格考试。其核心方法包括：询问领域5个核心思维模式、专家分歧点及论点、让AI提出检验真理解的问题并追根溯源。工具本身无变化，关键在于提问方式从「荧光笔」转变为「私人导师」。该帖子获310万浏览量。</div>
+              <ul class="key-points"><li>MIT学生使用NotebookLM（谷歌AI笔记工具）48小时学完一学期课程并通过资格考试</li><li>核心方法转变：从「帮我总结」转变为专家级认知框架提问</li><li>第一个问题：询问该领域所有专家认同的5个核心思维模式</li><li>第二个问题：询问领域专家存在根本分歧的三个方面及双方论点</li></ul>
+              
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">📌 其他（5 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MjM5OTA1OTk2MA==&mid=2651335762&idx=3&sn=1da5c8c5aeaebabcfb984c1057e9dc65&chksm=bcf6c38bbcd4517d3bff0aefa4541bbf1ea8c3d1cd3432ffbabc38a2c090a8168cfe1625fbb1&scene=126&sessionid=0#rd" target="_blank">胖东来回应鸡蛋角黄素争议，成立调查小组送检复验</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ipo观察</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">博主王海测评称胖东来超市鸡蛋检出角黄素9.54mg/kg，超出饲料添加剂标准。胖东来高度重视成立调查小组，将鸡蛋送至三家第三方检测机构全面复检，市场监管部门也已介入。胖东来表示若存在问题将下架召回并担责，若无问题将诉讼维权追究责任。黄天鹅母公司称角黄素天然存在，检出含量0.399mg/kg属本底水平。</div>
+              <ul class="key-points"><li>博主王海测评称胖东来鸡蛋检出角黄素9.54mg/kg，超出农业农村部《饲料添加剂安全使用规范》蛋禽类8mg/kg标准</li><li>胖东来成立调查小组，卖场鸡蛋通过正规渠道采购，手续齐全且每周抽检公示</li><li>胖东来已将鸡蛋送至梅里埃检测、通标标准、河南华测三家机构全面复检</li><li>市场监管部门已到卖场检查合规性并抽样检测，各品牌厂家也在配合调查</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247732257&idx=2&sn=f6d479f2728a73bcd1c11930ec3efc18&chksm=91cd914d1a266ade9aa40223661c45e674d2ae4237058ec832eb2e317932e5577d7d1c0213e7&scene=126&sessionid=0#rd" target="_blank">OpenClaw 爆火背后 | GAIR Live 026期预告</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ai科技评论</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">（总结生成失败）</div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MjM5MzE3NzE1OA==&mid=2247519986&idx=1&sn=7df8cc15fad4ce9d53811fc4f23dbb1e&chksm=a775e2de52746f20adef68a6cdb63852ead5b30730ff29bf91715204fa6d17e9d047d4c95cf1&scene=126&sessionid=0#rd" target="_blank">奇绩创坛 2026 秋季创业营报名开启</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">奇绩创坛</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MjM5MzE3NzE1OA==&mid=2247519986&idx=2&sn=6218c4d432b30ab116d46243aa926aa8&chksm=a747d3479728ac0ef956ce2fec75cd0ce5c15af6bdb8bc6aa8dd45d393d8ece975ba91e2582a&scene=126&sessionid=0#rd" target="_blank">奇绩创业营：提交申请即获大模型笔记与百万算力支持</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">奇绩创坛</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">奇绩创坛推出创业营常年申请通道，提交申请即可获得进入创业营机会、奇绩大模型笔记、免费算力卡等资源。奇绩大模型笔记涵盖通用智能本质思考、产业格局观察、商业创新梳理；奇绩算力为前沿科研项目提供至高100万元高性能算力支持，已支持100+科研项目与顶会论文。</div>
+              <ul class="key-points"><li>奇绩创业营每年春秋两期，申请通道常年开放，30分钟可完成申请表</li><li>提交申请可获奇绩大模型笔记：包含通用智能本质思考、产业格局动态、商业创新梳理</li><li>奇绩算力为前沿科研项目提供至高100万元高性能算力，已支持100+关键科研项目与顶会论文</li><li>创业者可免费领取50-200元奇绩算力拓垦卡</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3ODk5OTEzOA==&mid=2962186992&idx=1&sn=1be5c6fcc18975f3dff3af952e61e91c&chksm=abfdee935ed87fc20e3c0a330f52b71c682fd17d3519ec27792f284584390f635b04cdb60970&scene=126&sessionid=0#rd" target="_blank">奥斯卡动态：第98届奥斯卡获奖名单公布</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">经纬创投</span>
+                2026-03-16
+                
+              </div>
+              <div class="card-summary">第98届奥斯卡金像奖颁奖典礼落幕，《一战再战》获最佳影片、最佳导演等6项大奖成为最大赢家，《罪人》获最佳男主角、最佳原创剧本等4项奖。历史时刻包括首位女性摄影师获最佳摄影奖、首个最佳选角奖诞生等。</div>
+              <ul class="key-points"><li>《一战再战》获最佳影片、最佳导演、最佳男配角等6项大奖，成为本届奥斯卡最大赢家</li><li>《罪人》获最佳男主角、最佳原创剧本等4项奖，男主迈克尔·B·乔丹首次提名即获奖</li><li>保罗·托马斯·安德森首次获得最佳导演奖，陪跑多年终获认可</li><li>西恩·潘凭借《一战再战》获得最佳男配角，收获个人第三座奥斯卡表演奖</li></ul>
+              
+            </div>
+        </div>
+    
+    <div class="footer">
+      由 OpenClaw AI 自动生成 · 数据来源：各公众号 via cimidata API
+    </div>
+  </div>
+</div>
+{{< /rawhtml >}}
