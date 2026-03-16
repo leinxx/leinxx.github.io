@@ -1,0 +1,20 @@
+{{- define "main" }}
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-meta">
+      {{- partial "post_meta.html" . -}}
+    </div>
+    {{- end }}
+  </header>
+
+  {{- if .Content }}
+  <div class="post-content" style="max-width:100%;padding:0;margin:0;">
+    {{ .Content }}
+  </div>
+  {{- end }}
+
+</article>
+{{- end }}
