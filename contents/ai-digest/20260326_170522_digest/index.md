@@ -1,0 +1,727 @@
+---
+title: "🤖 AI & 科技投资日报"
+date: 2026-03-26T17:05:22+08:00
+slug: "20260326_170522_digest"
+draft: false
+type: ai-digest
+summary: "每日 AI 科技资讯摘要 - 2026-03-26"
+hideMeta: false
+ShowPostNavLinks: false
+disableShare: true
+ShowToc: false
+hidemeta: false
+---
+
+{{< rawhtml >}}
+<style>
+.digest-wrapper{
+  box-sizing:border-box;
+  background:#f5f7fa !important;
+  padding:0;
+  width:100vw;
+  margin-left:calc(50% - 50vw);
+  margin-right:calc(50% - 50vw);
+}
+.digest-wrapper .container{
+  max-width:860px !important;
+  margin:0 auto !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+}
+.digest-wrapper .stats{display:flex !important;flex-direction:row !important;flex-wrap:wrap !important;gap:6px !important;margin-top:12px !important;}
+.digest-wrapper .stat{white-space:nowrap !important;flex-shrink:0 !important;display:inline-flex !important;align-items:center !important;font-size:12px !important;padding:6px 10px !important;}
+.digest-wrapper .header{
+  background:linear-gradient(135deg,#1a1a2e,#16213e) !important;
+  color:#fff !important;
+}
+.digest-wrapper .header h1,
+.digest-wrapper .header p{color:#fff !important;}
+.digest-wrapper .card-title a{color:#1a1a2e !important;}
+
+    .digest-wrapper{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+         background:#f5f7fa;margin:0;padding:20px;color:#333}
+    .container{max-width:720px;margin:0 auto;background:#fff;
+               border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+    .header{background:linear-gradient(135deg,#1a1a2e,#16213e);
+            color:#fff;padding:28px 32px}
+    .header h1{margin:0 0 6px;font-size:22px;font-weight:700}
+    .header p{margin:0;opacity:.7;font-size:13px}
+    .stats{display:flex;gap:12px;margin-top:16px}
+    .stat{background:rgba(255,255,255,.12);border-radius:8px;
+          padding:8px 14px;font-size:13px}
+    .section{padding:0 32px 8px}
+    .section-title{font-size:16px;font-weight:700;margin:28px 0 12px;
+                   padding-bottom:8px;border-bottom:2px solid #f0f0f0;
+                   display:flex;align-items:center;gap:8px}
+    .card{background:#fafafa;border:1px solid #eee;border-radius:10px;
+          padding:16px 18px;margin-bottom:12px}
+    .card-title{font-size:14px;font-weight:700;margin:0 0 6px;
+                color:#1a1a2e;line-height:1.5}
+    .card-title a{color:#1a1a2e;text-decoration:none}
+    .card-title a:hover{text-decoration:underline}
+    .card-meta{font-size:11px;color:#999;margin-bottom:10px}
+    .card-summary{font-size:13px;line-height:1.7;color:#444;margin-bottom:10px}
+    .key-points{margin:0;padding-left:18px}
+    .key-points li{font-size:12px;color:#555;margin-bottom:4px;line-height:1.6}
+    .invest-table{width:100%;border-collapse:collapse;margin-top:10px;font-size:12px}
+    .invest-table th{background:#fff8e1;color:#8a6914;
+                     padding:6px 10px;text-align:left;font-weight:600}
+    .invest-table td{padding:6px 10px;border-top:1px solid #f0f0f0;color:#444}
+    .invest-table tr:hover td{background:#fffbf0}
+    .tag{display:inline-block;padding:2px 8px;border-radius:4px;
+         font-size:11px;font-weight:600;margin-right:6px}
+    .tag-source{background:#e8f4fd;color:#0077b6}
+    .card-brief{display:flex;align-items:baseline;gap:8px;padding:8px 14px;
+                background:#fafafa;border:1px solid #eee;border-radius:8px;
+                margin-bottom:6px;flex-wrap:wrap}
+    .footer{text-align:center;padding:20px;color:#aaa;font-size:11px;
+            border-top:1px solid #f0f0f0}
+    
+</style>
+<div class="digest-wrapper">
+<div class="container">
+    
+    <div class="header">
+      <h1>🤖 AI & 科技投资日报</h1>
+      <div class="stats">
+        <div class="stat">📅 2026年03月26日</div>
+        <div class="stat">📰 本期 48 篇</div>
+        
+        <div class="stat">⏱ 生成于 16:48</div>
+      </div>
+    </div>
+    
+    
+        <div class="section">
+          <div class="section-title">💰 一级市场投资（6 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkwMjUxNTkwNQ==&mid=2247631683&idx=1&sn=80f0cb490d08997a9e2b5634d7361e12&chksm=c1c451fe154cc03c273a3cd413cb7915230040552d2cec23d0acd1356ec846972a3396e03a1b&scene=126&sessionid=0#rd" target="_blank">绿洲资本张津剑：具身智能是北坡路线，数据与硬件挑战被低估</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投中网</span>
+                2026-03-26
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #绿洲资本 #投中网</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 100</span>
+              </div>
+              <div class="card-summary">绿洲资本创始合伙人张津剑接受投中网访谈，阐述具身智能投资观点。绿洲从2023年开始投资具身智能，Portfolio包括千寻智能、Hillbot、逐际动力、HyperShell、因克斯等。张津剑认为具身智能是通往AGI的“北坡路线”，比大模型的“南坡”更难，目前行业刚走过GPT2阶段，需要1000万-2000万小时数据才能迈向GPT3，硬件与软件同步迭代挑战大，很多困难被低估，行业还处于山脚下的早期阶段。</div>
+              <ul class="key-points"><li>绿洲资本从2023年开始投资具身智能，Portfolio包括千寻智能、Hillbot、逐际动力、HyperShell（极壳）、因克斯等</li><li>国内估值超百亿的具身智能公司至少9家：宇树科技、智元机器人、银河通用、Hillbot、星海图、智平方、千寻智能、自变量机器人、逐级动力</li><li>国内具身智能融资事件超90起，亿元级融资超40起，春晚后市场狂热达到顶峰</li><li>具身智能训练数据约20-30万小时，刚走过GPT2阶段，需1000万-2000万小时数据才能迈向GPT3</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>千寻智能</b><br><span style="color:#0077b6;font-size:11px">具身智能</span><br><span style="color:#999;font-size:11px">具身智能公司，绿洲资本投资</span></td><td>未披露</td><td>天使轮</td><td>绿洲资本</td></tr><tr><td><b>Hillbot</b><br><span style="color:#0077b6;font-size:11px">具身智能</span><br><span style="color:#999;font-size:11px">具身智能公司，绿洲资本投资</span></td><td>未披露</td><td>未披露</td><td>绿洲资本</td></tr><tr><td><b>逐际动力</b><br><span style="color:#0077b6;font-size:11px">具身智能</span><br><span style="color:#999;font-size:11px">具身智能公司，绿洲资本投资</span></td><td>未披露</td><td>未披露</td><td>绿洲资本</td></tr><tr><td><b>HyperShell（极壳）</b><br><span style="color:#0077b6;font-size:11px">外骨骼机器人</span><br><span style="color:#999;font-size:11px">外骨骼机器人公司，绿洲资本投资</span></td><td>未披露</td><td>未披露</td><td>绿洲资本</td></tr><tr><td><b>因克斯</b><br><span style="color:#0077b6;font-size:11px">具身智能</span><br><span style="color:#999;font-size:11px">具身智能公司，绿洲资本投资</span></td><td>未披露</td><td>未披露</td><td>绿洲资本</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649792919&idx=2&sn=ba96681bb5b34bfa37fb7dd278ca2172&chksm=86d7bb7b5e340f75a0550594419d1491b167669b97cfdc78ad8820d569c19d5b37614bc34085&scene=126&sessionid=0#rd" target="_blank">Gimlet Labs异构推理平台，Agent运行提速3-10倍</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">DeepTech深科技</span>
+                2026-03-25
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 84</span>
+              </div>
+              <div class="card-summary">AI Agent推理面临硬件利用率低（15%-30%）的行业痛点，传统架构无法精细化调度不同任务。Gimlet Labs推出异构推理云平台Gimlet Cloud，根据任务需求自动分配CPU、GPU、ASIC等不同硬件，实现Agent运行速度提升3-10倍，降低每token成本并激活闲置算力。公司完成8000万美元A轮融资，累计融资9200万美元，营收已达八位数，客户包括前沿模型实验室和超大规模云服务商。</div>
+              <ul class="key-points"><li>行业痛点：AI Agent执行流产生海量计算步骤，各环节硬件需求不同（逻辑推理需极速计算、知识检索需高带宽存储、工具调用需低网络I/O延迟），但当前只能使用同一种硬件，导致全球数据中心硬件平均利用率仅15%-30%</li><li>异构推理定义：根据任务不同需求，将工作拆解后分配给最适合的多种硬件协同完成，Gartner预测2028年40%领先企业将采用混合计算架构</li><li>Gimlet Cloud平台：自动将复杂AI Agent工作拆解成多个环节，根据环节需求精准分配硬件（计算重用高端GPU、内存重用加速器、联网重用快网机器），支持英伟达、AMD、英特尔、ARM等不同厂商和代际芯片混用</li><li>kforge工具：用AI自动帮模型写出最优底层代码，让不同硬件自动运行更顺，减少程序员手动调试</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>Gimlet Labs</b><br><span style="color:#0077b6;font-size:11px">AI基础设施/异构推理平台</span><br><span style="color:#999;font-size:11px">Gimlet Labs推出无服务器AI推理云平台Gimlet Cloud，通过异构调度将AI Agent工作自动拆解并分配给最适合的硬件，实现运行速度提升3-10倍</span></td><td>8000万美元</td><td>A轮</td><td>Menlo Ventures领投，天使投资人包括红杉资本Bill Coughran、斯坦福教授Nick McKeown、VMware前CEO Raghu Raghuram、英特尔CEO Lip-Bu Tan</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=Mzk0MDMyNDUxOQ==&mid=2247497466&idx=1&sn=22aa05264ebfea8bd7a162c2d4f75300&chksm=c38639170de1d19e7539f4adcfdc4316cf26ae16f634c2acc227eae322d6bfc0640ccfc4dd18&scene=126&sessionid=0#rd" target="_blank">逆矩阵科技获千万美元融资，押注世界模型+强化学习，2026年发旗舰模型</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">暗涌Waves</span>
+                2026-03-26
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 80</span>
+              </div>
+              <div class="card-summary">逆矩阵科技完成超千万美元首轮融资，由高瓴创投和燕缘创投联合投资。公司核心创始人为北大1998年出生的吉嘉铭（北大智能学院与人工智能研究院博士生）和2004年出生的陈博远（元培学院大四本科生），团队已汇聚30余名北大顶尖人才。业务聚焦世界基础模型与强化学习，计划2026年内发布旗舰模型，核心目标是让模型真正理解物理规律并响应动作指令做出物理正确的预测。</div>
+              <ul class="key-points"><li>逆矩阵科技完成超千万美元首轮融资，投资方为高瓴创投和燕缘创投</li><li>核心创始人吉嘉铭为北大AI研究院博士生，获2025年Apple Scholar（全球2位中国大陆）、首届腾讯青云奖学金、蚂蚁Intech奖学金，ACL2025最佳论文第一作者，谷歌学术引用5600+</li><li>联创陈博远为北大元培学院大四本科生，NeurIPS2025 Oral（接受率0.35%），谷歌学术引用2000+</li><li>团队已汇聚30余名北大本硕博顶尖人才和大厂头部算法人才，涵盖世界模型基模训练、基础设施搭建、具身智能等方向</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>逆矩阵科技</b><br><span style="color:#0077b6;font-size:11px">世界模型/强化学习</span><br><span style="color:#999;font-size:11px">聚焦世界基础模型与强化学习，核心目标让模型理解物理规律并响应动作指令做出物理正确预测，计划2026年发布旗舰模型</span></td><td>超千万美元</td><td>首轮融资</td><td>高瓴创投、燕缘创投</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651024013&idx=1&sn=7eb096dcf147f6c8a7fff46a22f06b5a&chksm=85e7edc26f639a4098fb21a25fb1f7c87ec45d855d8be7deab8a2e59b3a27744ddf608b8af5e&scene=126&sessionid=0#rd" target="_blank">Sand.ai开源三连击，150亿参数音视频模型+分布式Attention+全局编译框架</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-26
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 80</span>
+              </div>
+              <div class="card-summary">OpenAI暂停Sora2项目之际，北京AI初创公司Sand.ai连续三天开源核心技术栈：150亿参数音视频同出大模型（单流Transformer架构）、适配Hopper/Blackwell的分布式Attention组件、基于torch.compile的训推一体全局编译框架。公司核心产品包括全球首个自回归视频生成大模型Magi-1及国内首个音画同出模型GAGA-1。创始人曹越博士为Swin Transformer论文核心作者，近期完成数千万美金融资，Video Agent在海外市场获好评。</div>
+              <ul class="key-points"><li>OpenAI意外暂停Sora2项目，行业巨头调整研发节奏</li><li>Sand.ai连续三天开源核心技术栈，展示全栈技术实力</li><li>150亿参数音视频同出大模型：单流Transformer架构，文本/视频/音频统一联合建模</li><li>分布式Attention组件：适配Hopper与Blackwell架构，原生Group Collective通信内核，NVLink替代RDMA</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>Sand.ai</b><br><span style="color:#0077b6;font-size:11px">视频生成大模型</span><br><span style="color:#999;font-size:11px">AI视频生成初创公司，核心产品包括Magi-1自回归视频生成大模型和GAGA-1音画同出模型</span></td><td>数千万美元</td><td>未披露</td><td>源码资本、今日资本、经纬中国</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649792928&idx=1&sn=6664f9ed0c46d8fcbf09674f5c08f801&chksm=86e7f3950a1c4fcb2278653116cecc18c3fb2377730e342c7b8d181b80b21463ceba26ecb3cb&scene=126&sessionid=0#rd" target="_blank">清华团队推rPPG机器人眼睛，心率误差<0.7BPM，100+生理参数实时输出</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">DeepTech深科技</span>
+                2026-03-25
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #清华大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 62</span>
+              </div>
+              <div class="card-summary">微面科技（FacePhys）是一家聚焦AI机器视觉的初创公司，基于远程光电容积描记技术（rPPG）打造可端侧推理的智能摄像头系统。该技术通过普通摄像头捕捉皮肤微弱颜色变化，实时输出100余项生理与情绪参数，心率监测误差<0.7BPM，响应速度<10ms。已落地婴儿健康监测、康养机器人、智能座舱、医院临床验证等领域，并完成数百万美元融资。</div>
+              <ul class="key-points"><li>核心技术：远程光电容积描记技术（rPPG），通过普通摄像头捕捉皮肤微弱颜色变化，提取心率、呼吸、血氧等生理信号</li><li>技术指标：心率监测误差<0.7BPM（医疗级精度），响应速度<10ms，可实时输出100余项生理与情绪参数</li><li>技术壁垒：采集不同肤色、不同生理状态、不同场景的海量数据，通过AI算法消除运动伪影、光影干扰、肤色差异等噪声</li><li>隐私保护：实现端侧本地化部署，无需视频上传云端，毫秒级响应同时规避隐私泄露风险</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>微面科技（FacePhys）</b><br><span style="color:#0077b6;font-size:11px">AI机器视觉/生理计算</span><br><span style="color:#999;font-size:11px">基于远程光电容积描记技术（rPPG）打造智能摄像头系统，实现非接触式生理与情绪感知</span></td><td>数百万美元</td><td>天使轮/种子轮（未披露）</td><td>未披露</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkwMjUxNTkwNQ==&mid=2247631668&idx=1&sn=921545b4b6aa0238316fb5687815540e&chksm=c126a7ed98ba867da13b2184bbc14455235a0b5fad6c45988df95e7af8d9953e773d2adf2405&scene=126&sessionid=0#rd" target="_blank">长江存储老股4000亿估值求购，2026年科创板IPO在即</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投中网</span>
+                2026-03-25
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
+              </div>
+              <div class="card-summary">长江存储老股交易热度飙升，买家愿以4000亿估值接手。公司2024年净利润达几十亿元，2025年上半年同比涨20%。预计2026年Q2前提交科创板IPO申请，估值1600-3000亿。长江存储为国内最大3D NAND制造商，2025年Q3全球市占率达13%。受AI算力需求驱动，存储芯片市场迎超级周期，2025年NAND价格涨幅207%。养元饮品因投资长江存储股价一周涨超60%。</div>
+              <ul class="key-points"><li>长江存储老股交易火爆，有买家愿以4000亿估值接手，远超2023年投资时的1600亿估值</li><li>公司财务表现超预期：2024年净利润达几十亿元，2025年上半年同比涨20%，原本预计2025年才盈亏平衡</li><li>IPO预期明确：预计2026年Q2前提交科创板申请，最快Q4挂牌，估值1600-3000亿，有望成近年来中国科技类最大规模IPO</li><li>技术实力领先：国内唯一具备3D NAND闪存完整产业链能力的IDM企业，已量产267层3D NAND TLC芯片</li></ul>
+              <div style="font-size:12px;color:#0077b6;font-weight:600;margin:8px 0 4px">📈 二级市场</div><table class="invest-table"><tr><th>公司</th><th>市场</th><th>详情</th></tr><tr>
+                      <td><b>长江存储</b><br><span style="color:#999;font-size:11px">国内最大3D NAND制造商，全球市占率13%，技术覆盖32层至267层3D NAND</span></td>
+                      <td>科创板</td><td>预计IPO估值1600-3000亿元，计划2026年Q2前提交申请</td></tr><tr>
+                      <td><b>长鑫科技</b><br><span style="color:#999;font-size:11px">中国大陆规模最大、技术最先进的DRAM芯片研发设计制造一体化企业</span></td>
+                      <td>科创板</td><td>IPO前估值1500亿元</td></tr></table>
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">🔬 技术突破（19 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkyOTkxODg3NA==&mid=2247488579&idx=1&sn=9137c3a516d503141d88de42e2de340b&chksm=c3ce8624ecfe909550d3f964f7c391a616e657f51440706fff00142b30c1535c58f110ad99b2&scene=126&sessionid=0#rd" target="_blank">CVPR26: Scientific Judge+Thinker，RLCF范式让AI学会科研品味，30B模型超越Gemini 3 Pro</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">上海创智学院</span>
+                2026-03-25
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #上海创智学院 #复旦大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 100</span>
+              </div>
+              <div class="card-summary">上海创智学院与复旦大学联合发布AI科研品味学习研究，提出RLCF（社区反馈强化学习）新范式。通过构建70万对论文的SciJudgeBench数据集，训练Scientific Judge模型判断论文影响力，训练Scientific Thinker模型构思高潜力科研思路。30B Judge超越Gemini 3 Pro、GLM-5等顶尖模型，Thinker构思胜率达75-80%，实现AI科研品味从0到1的突破。</div>
+              <ul class="key-points"><li>提出RLCF（Reinforcement Learning from Community Feedback）新范式：利用科研社区反馈信号（如引用数）进行强化学习训练</li><li>构建SciJudgeBench数据集：70万对arXiv论文，领域&年份严格匹配，引用数差异显著</li><li>训练Scientific Judge模型：学会判断两篇论文哪篇更有影响力，具有时间域外、领域域外、指标域外三重泛化能力</li><li>训练Scientific Thinker模型：基于给定论文构思高潜力后续科研思路，30B模型胜率75-80%</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651024065&idx=1&sn=9f1c1d4acaa38c58690b29ebee1865d7&chksm=8542a4019a58ce7a2c3354169a3cee9e8c2fc95e74ad968d6b00e69a16a88494c9c6704d2649&scene=126&sessionid=0#rd" target="_blank">CVPR/ICRA: EVA框架，强化学习对齐视频世界模型与机器人动作执行</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-26
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #香港中文大学（深圳） #跨维智能</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 100</span>
+              </div>
+              <div class="card-summary">港中深与跨维智能提出EVA框架，解决视频世界模型的「可执行性鸿沟」问题。核心创新在于将逆动力学模型(IDM)转化为奖励模型，通过强化学习直接优化视频生成过程，使生成结果不仅视觉真实，更能对应可执行的动作序列。实验表明该方法在运动学合理性上提升20.9%，仿真任务成功率达52.6%，真实机器人OOD任务成功率达60%。</div>
+              <ul class="key-points"><li>核心创新：提出Executable Video Alignment(EVA)框架，将逆动力学模型(IDM)作为奖励模型，通过强化学习优化视频生成，使生成视频对应可执行的动作序列</li><li>技术方法：引入动作速度变化、加速度平滑性、jerk正则项等机器人执行层面约束，对异常动作进行惩罚，将视频生成分布拉回到机器人可行运动流形</li><li>实验结果：运动学合理性提升20.9%，Perfect Execution达83.8%</li><li>仿真评测：在RoboTwin 2.0基准的21个双臂任务上，成功率达52.6%，超越多种VLA方法和机器人基础模型基线</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651023591&idx=2&sn=2e7aceb62e1308808500082f78ace25c&chksm=85e7502c6007a78098af6791508f944e2738c60a89fbeef1f25636503c9778b372d4d1dd5fd8&scene=126&sessionid=0#rd" target="_blank">Ψ₀开源，通用人形机器人基座模型，分阶段训练+人类视频先验，80条数据超越GR00T N1.6</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-25
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #南加州大学 #NVIDIA #WorldEngine</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 100</span>
+              </div>
+              <div class="card-summary">南加州大学团队开源Ψ₀通用人形机器人基座模型，仅需80条真机遥操作数据即可掌握长程移动操作能力。该模型采用三阶段训练范式：预训练阶段从829小时人类第一人称视频学习操作先验，后训练阶段在30小时真机数据上学习精确控制，微调阶段用少量数据快速适应任务。模型架构采用视觉语言策略（Qwen3-VL-2B）+多模态扩散动作专家（5亿参数MM-DiT）+强化学习底层控制器。在八个长时域任务评测中，平均成功率领先NVIDIA GR00T N1.6超过40%。</div>
+              <ul class="key-points"><li>核心创新：三阶段训练范式解耦人类视频与机器人数据的学习，先从人类视频学习高层视觉-动作语义，再在真机数据上学习精确关节控制</li><li>数据效率突破：仅需80条真机遥操作数据即可掌握长程移动操作能力，远低于基线方法的10倍以上数据规模</li><li>架构创新：采用System-2（视觉语言策略Qwen3-VL-2B）+ System-1（5亿参数MM-DiT动作专家）+ System-0（强化学习AMO控制器）的三层解耦架构</li><li>实时控制：训练阶段引入实时动作分块（RTC）机制，解决大规模VLA模型推理延迟导致的动作不连续问题</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247732561&idx=2&sn=0ec1b5f7e3abd2a5ac2d8dff381a45c2&chksm=9139aee6085d5514dab35e446ff8609b6cac6640b0a6c32627efecf0bcfe437d42bc6a9a1285&scene=126&sessionid=0#rd" target="_blank">CVPR26: PAM，解耦姿态-外观-运动生成，50%合成数据达100%真实效果</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ai科技评论</span>
+                2026-03-25
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #北京大学 #清华大学 #智源研究院 #上海交通大学 #东方理工大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 94</span>
+              </div>
+              <div class="card-summary">北京大学、清华大学、智源研究院等联合提出PAM框架，首个仅需初始/目标手部姿态和物体几何信息即可生成高保真手物交互视频的模型。PAM采用姿态-外观-运动三阶段解耦架构，利用Flux图像扩散和CogVideoX视频扩散模型，在DexYCB和OAKINK2数据集上实现SOTA。实验表明使用50%真实数据+PAM合成数据即可匹配100%真实数据效果，为Sim-to-Real数据生成提供新管线。</div>
+              <ul class="key-points"><li>PAM是首个仅需初始姿态、目标姿态和物体几何信息即可生成高质量HOI视频的框架，突破传统方法依赖真实第一帧的限制</li><li>采用三阶段解耦架构：姿态生成(使用GraspXL)→外观生成(Flux图像扩散)→运动生成(CogVideoX视频扩散)</li><li>外观生成阶段融合深度图、语义掩码、手部关键点三种条件，通过ControlNet注入DiT块</li><li>运动生成阶段使用预训练视频VAE编码空间条件，12个复制DiT块注入网络，训练时随机掩码防止过依赖单一模态</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651023578&idx=3&sn=f96427f2505424c4cbe1b309c5469ec3&chksm=854200995e73e1f7f8ac0a90dd32b54b345e5cc842ad56a47dea2cc777929962c584554797c8&scene=126&sessionid=0#rd" target="_blank">NeurIPS: On-Policy SFT新范式，CLL量化指标超越Offline RL</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-25
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #微软亚洲研究院 #东南大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 94</span>
+              </div>
+              <div class="card-summary">微软与东南大学联合提出On-Policy SFT训练范式，通过中心化对数似然（CLL）量化On/Off-policy数据分布差距，在损失层面引入IDFT自适应学习机制，数据层面提出Hinted Decoding提示解码技术。实验表明该方法超越Offline RL算法效果，且资源消耗远低于强化学习。</div>
+              <ul class="key-points"><li>核心量化指标：中心化对数似然（CLL）= Token对数概率 + 当前上下文预测熵，通过信号检测理论证明其信噪比最优性，可精准区分On-policy（模型生成）与Off-policy（人类/强模型生成）数据</li><li>损失层面IDFT：引入自适应调节机制，避免传统SFT对低概率Token的过度惩罚导致的灾难性遗忘问题，让模型自适应学习分布外知识</li><li>数据层面Hinted Decoding：以Teacher熵为切换依据，关键答案Token增加Teacher比重，风格性Token保持Student原生成，实现Self-distill无法达到的真正On-policy数据转化</li><li>实验结果：一次性全处理数据集与Offline RL公平比较，新方法超越知名Offline RL算法，且资源消耗远低于RL</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651024065&idx=2&sn=3ce9793499f1443001cf62df2b205ae4&chksm=855a9a17a7a1afc9f1140eeb256761d34150edbb301dd88bfee61536e8e91978cdee32536030&scene=126&sessionid=0#rd" target="_blank">上交EvoKernel，价值驱动记忆框架，NPU算子正确率4%→83%</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-26
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #上海交通大学 #上海人工智能实验室</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 91</span>
+              </div>
+              <div class="card-summary">上海交大团队提出EvoKernel框架，解决大模型在新硬件（NPU）上的冷启动问题。该框架通过价值驱动记忆机制，让模型在生成算子时优先调用最有价值的历史经验，无需重新训练即可提升性能。实验表明，GPT-5.2在Ascend C算子开发任务上正确率从4%提升到83%，编译率从11%提升到98.5%，并实现了3.60倍的中位数性能优化。该方法也适用于DeepSeek mHC新架构算子。</div>
+              <ul class="key-points"><li>核心创新：价值驱动记忆（Value-Driven Memory）框架，区别于传统相似度检索，学习哪些历史经验在当前阶段真正有用</li><li>两阶段框架：冷启动生成（找到可编译运行的初始算子）+ 持续改善（延迟优化和性能改进）</li><li>阶段感知Q值机制：生成阶段优先检索帮助编译和正确性验证的经验，精炼阶段优先保留带来性能收益的优化轨迹</li><li>多层验证机制：reward hacking检查、编译验证、正确性校验、延迟测量四环节，防止模型通过Python绑定层或高层API绕过算子实现</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651024013&idx=3&sn=29e91a7dfe6da43aea1475e525cac52d&chksm=85bbe96e3c9da29e90468b56f0424eeff6e8234a41ffd6d9e2f73569e3f0c597055af75f2312&scene=126&sessionid=0#rd" target="_blank">CVPR/ICML: Cheers，统一多模态理解与生成，4× token压缩</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-26
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #清华大学 #西安交通大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 91</span>
+              </div>
+              <div class="card-summary">清华和西交联合开源发布CHEERS统一多模态模型，创新性地将语义token与细节残差分离，实现理解与生成任务的端到端联合优化。该模型仅用83M训练样本即达到同规模SOTA性能，较同类方法节省约2×数据需求，同时实现4× token compression，兼顾高效率与高性能。在GenEval达0.78，MMBench、MMStar等理解基准表现稳健。</div>
+              <ul class="key-points"><li>统一多模态理解与生成架构：语义token负责抽象语义表示用于理解和生成条件控制，细节残差补足高频纹理和局部保真，采用先语义后细节的级联生成方式</li><li>端到端联合优化：统一视觉tokenizer + LLM主干 + Cascaded Flow Matching Head，同一LLM主干同时服务文本自回归、多模态理解和图像生成条件建模</li><li>零额外预训练成本：完整继承开源预训练模型能力，无需大规模预训练即可完成从理解型VLM到统一模型的升级</li><li>4× token compression：显著提升高分辨率视觉理解与生成的计算效率，降低推理成本</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652686632&idx=2&sn=540bc50305d8d6f2afa9716900d5e0d5&chksm=f0aa6fe7a4ced13946b96dcd9c1fcd60a24b605be2730187d805a35cba046a1aa7e776b1a0e4&scene=126&sessionid=0#rd" target="_blank">黄仁勋重磅访谈：AGI已到来，Agent时代开启，四条扩展定律</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-25
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 87</span>
+              </div>
+              <div class="card-summary">黄仁勋接受Lex Fridman播客访谈，提出50个AI前沿判断。核心观点：AGI已经实现，Agent是Token的iPhone时刻；推理即思考，测试时扩展是计算密集型任务；扩展定律包括预训练、后训练、测试时、智能体四条；智能将成为商品，人性才是稀缺品；英伟达通过极度协同设计将AI算力提升一百万倍；CUDA安装基础是最深护城河。</div>
+              <ul class="key-points"><li>AGI定义：黄仁勋认为AGI已实现，标准是能运营一家市值超10亿美元的科技公司</li><li>Agent是Token的iPhone时刻：Agentic系统是历史上增长最快的应用范式</li><li>推理即思考：推理比阅读难得多，测试时扩展是计算密集型任务</li><li>扩展定律四条：预训练扩展、后训练扩展（合成数据）、测试时扩展、智能体扩展</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651023681&idx=2&sn=4a9864a195c1242b12e399dccb586539&chksm=85c32a734cb27c4d42f7c407d2d83411a9ea865e147dd92053a556e082c51f1f17d6ec5d6030&scene=126&sessionid=0#rd" target="_blank">ICLR26 Oral: SparseRL，深度强化学习生成高性能CUDA代码，编译成功率+20%</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-25
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #中国科学院计算技术研究所</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 86</span>
+              </div>
+              <div class="card-summary">中科院计算所团队提出SparseRL框架，首次将深度强化学习引入稀疏CUDA代码生成任务。该框架将预训练语言模型作为策略网络，以编译正确性和执行效率为奖励信号，通过三阶段训练让模型学会根据稀疏矩阵结构自动生成最优CUDA实现代码。核心技术包括正弦位置嵌入处理二维坐标、层级奖励函数先保正确性再求效率。在SpMV任务上，编译成功率提升20%，执行速度提升30%，已入选ICLR 2026 Oral。</div>
+              <ul class="key-points"><li>首次将深度强化学习引入稀疏CUDA代码生成，解决执行效率不可微的优化难题</li><li>三阶段训练流程：预训练（建立GPU编程基础）→监督微调（生成正确代码）→强化学习优化（生成高性能代码）</li><li>正弦位置嵌入技术：针对稀疏矩阵的行列索引序列进行二维坐标编码，让模型理解非零元素的空间分布</li><li>层级奖励函数：同时考虑正确性奖励（编译+结果正确）和效率奖励（执行速度），先保正确再求快</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247732561&idx=1&sn=737398b8db29cbde2b2db460c6afeb80&chksm=9179e766059fb0a4c0d950d1a45551576ea7311e7fb4528982c474aa5f067ebd958888b78510&scene=126&sessionid=0#rd" target="_blank">它石智航A1:具身大模型AWE3.0，亚毫米级线束1小时超百次</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ai科技评论</span>
+                2026-03-25
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 83</span>
+              </div>
+              <div class="card-summary">它石智航在AWE展会获吉尼斯世界纪录，机器人1小时内完成超百次0.5mm²精细柔性线束装配。核心技术为通用具身大模型AWE3.0，具备世界分词器、4D数字化世界沙盘、全视角通感决策OSD等创新，实现亚毫米级精度操作、柔性物体感知控制、长程任务稳定执行、跨场景迁移等突破。空间描述精度超行业基准21%，推理速度达行业基准2.21倍，动作轨迹抖动降低超45%。首席科学家丁文超博士提出Human-centric数据采集新范式，WIYH数据集积累超百万小时具身数据。</div>
+              <ul class="key-points"><li>它石智航获吉尼斯世界纪录：机器人在一小时内装配亚毫米级线束最多次数，A1机器人1小时完成超百次0.5mm²精细柔性线束完整装配</li><li>核心技术为通用具身大模型AWE3.0，具备「走出温室、落地干活、通用泛化」特点</li><li>世界分词器将视觉、触觉、本体感觉等多模态传感器输入转化为结构化世界状态，构建持续更新的4D数字化世界沙盘</li><li>空间描述精度超行业基准21%，推理速度达行业基准2.21倍，解决工业场景对精度与实时性的双重刚需</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652686704&idx=2&sn=a41c0e510bc8a4aa7395149a343d823d&chksm=f08cc8969c50aba0f1d939ecaf21fbe2d1db52f3644e4d41088ac4e7beee67b68f19ee4d0412&scene=126&sessionid=0#rd" target="_blank">它石智航OmniVTA，视触觉世界模型实现主动预测触觉</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-26
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #它石智航 #新加坡国立大学 #复旦大学 #中科院自动化所 #清华大学 #中关村学院 #北京航空航天大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 82</span>
+              </div>
+              <div class="card-summary">它石智航联合六大机构发布OmniVTA视触觉操作框架和OmniViTac数据集，实现从被动感知到主动预测触觉的转变。该框架采用慢-快分层控制结构，通过TactileVAE、视触觉世界模型、自适应融合策略和反射式触觉控制器四个模块，使机器人具备预测触觉、理解接触、修正动作的能力。数据集包含2万余条操作轨迹，覆盖近百类任务，获魔搭社区EAI-2025年度10大数据集奖项。</div>
+              <ul class="key-points"><li>核心创新：从「被动感知触觉」转向「主动预测触觉」，通过世界模型预测未来触觉演化过程并指导动作规划</li><li>系统架构：采用慢-快分层控制结构，慢系统基于世界模型预测生成动作序列，快系统60Hz高频反射式控制实现闭环补偿</li><li>四大关键模块：TactileVAE（时空联合编码压缩触觉3D形变）、双流扩散视触觉世界模型、LTD自适应融合策略、反射式触觉控制器</li><li>数据底座：OmniViTac数据集包含2万余条操作轨迹，覆盖近百类任务和百余种物体，涵盖擦拭/削皮/切割/抓取/装配/手内调整六类接触模式</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649792977&idx=1&sn=4bcd8e5fa3a5c539bacef8944c97767f&chksm=86393d5b6a896ebd23de1c09ee1fabe3996b5fa752463427b7f6e29663b9dd53910ffcade085&scene=126&sessionid=0#rd" target="_blank">AIBuildAI：自动构建AI模型智能体，MLE-bench准确率63.11%</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">DeepTech深科技</span>
+                2026-03-26
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #加州大学圣地亚哥分校</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 79</span>
+              </div>
+              <div class="card-summary">AIBuildAI是加州大学圣地亚哥分校开发的自动构建AI模型智能体，在OpenAI的MLE-bench测试中以63.11%准确率排名第一。该系统采用三层架构：任务理解层使用Claude-Opus-4.6大模型，推理层自研Dream PRM和Dream ORM，执行层自动完成训练和优化。用户只需自然语言描述任务，系统可在十几分钟完成代码编写，一天内交付可用模型。目前已开启中小企业试用，重点优化数据处理和意图理解能力。</div>
+              <ul class="key-points"><li>AIBuildAI在OpenAI的MLE-bench测试中以63.11%整体准确率排名第一，简单任务77.27%、中等任务61.40%、高难度任务46.67%</li><li>系统采用三层架构：任务理解与决策层（Claude-Opus-4.6）、推理与代码生成层（自研Dream PRM和Dream ORM）、执行与训练层</li><li>自研Dream PRM（过程奖励模型）负责步骤级精准推理，Dream ORM（结果奖励模型）负责结果校验与优化建议，实现自动复盘改进</li><li>用户只需自然语言描述任务和数据文件夹，系统自动完成模型设计、代码生成、训练、超参数调优、性能评估</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651023590&idx=3&sn=5648fd04079f8bb2d5e467d4df8311f0&chksm=850eb3aa25b3db573ea6b7d746c90a998824c27804c80c12defdeb0090b266d2605752f57596&scene=126&sessionid=0#rd" target="_blank">ICLR26: DefensiveKV，两行代码防御KV Cache压缩假设崩溃，4.6倍性能提升</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-25
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #中国科学技术大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 79</span>
+              </div>
+              <div class="card-summary">中科大团队在ICLR 2026论文中揭示KV Cache压缩的底层假设存在根本性缺陷：传统方法假设KV Cache重要性在不同时间段稳定，但研究发现这一假设在特定时刻会显著失效甚至完全反转。团队提出防御性聚合策略，仅需两行代码实现，通过最坏风险估计和自适应先验风险修正，将最坏情况下保留的重要性从0.45提升至0.65。在Llama-3.1-8B模型20% cache预算下，DefensiveKV相比CriticalKV损失从9.6%降至4.1%（2.3倍提升），Layer-DefensiveKV仅为2.1%（4.6倍提升）。</div>
+              <ul class="key-points"><li>核心问题：KV Cache压缩领域底层假设存在根本性缺陷，传统方法假设KV Cache重要性在不同时间段稳定，但研究发现该假设在特定时刻会显著失效甚至完全反转</li><li>防御性聚合策略：采用最坏风险控制思维，而非传统平均优化范式，核心算法仅需两行代码</li><li>第一步最坏风险估计：用历史观察中的最大值估计未来最大重要性，精准捕获关键时刻可能重要的token</li><li>第二步自适应先验风险修正：受Laplace平滑启发，用每个注意力头中所有KV cache的平均观测风险作为先验风险进行修正</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652686714&idx=1&sn=ddf5e0b33a95b03100f64f44764ba1ac&chksm=f0541b2979d0a8c87791d434ed49802cd8354859178a3f9ecd450c1039faf36a0c787834de06&scene=126&sessionid=0#rd" target="_blank">ICLR26: TurboQuant，极坐标KV压缩，3-bit零损耗</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-26
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #Google</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
+              </div>
+              <div class="card-summary">谷歌发布TurboQuant压缩算法，通过极坐标变换和1-bit误差校验两阶段流程，将KV缓存压缩至3-bit，内存占用降至原来的1/6，推理速度提升8倍。该算法无需额外存储开销，在LongBench等长上下文基准测试中性能接近全精度模型。论文将在ICLR 2026发表。此技术突破引发存储芯片板块股价集体大跌，美光、西部数据、希捷、闪迪跌幅4%-6.5%。</div>
+              <ul class="key-points"><li>谷歌发布TurboQuant压缩算法，将KV缓存从32-bit压缩至3-bit，内存占用降至1/6</li><li>推理速度提升8倍（H100 GPU上4-bit配置相比32-bit基线），注意力计算环节加速显著</li><li>核心技术：PolarQuant极坐标变换（消除归一化常数开销）+ QJL 1-bit误差校验（消除系统性偏差）</li><li>零额外开销设计：全程无需存储量化常数，数据无感知，不依赖校准数据</li></ul>
+              <div style="font-size:12px;color:#0077b6;font-weight:600;margin:8px 0 4px">📈 二级市场</div><table class="invest-table"><tr><th>公司</th><th>市场</th><th>详情</th></tr><tr>
+                      <td><b>美光科技</b><br><span style="color:#999;font-size:11px">存储芯片巨头，受TurboQuant技术冲击</span></td>
+                      <td>纳斯达克</td><td>股价下跌4%</td></tr><tr>
+                      <td><b>西部数据</b><br><span style="color:#999;font-size:11px">存储芯片巨头，受TurboQuant技术冲击</span></td>
+                      <td>纳斯达克</td><td>股价下跌4.4%</td></tr><tr>
+                      <td><b>希捷</b><br><span style="color:#999;font-size:11px">存储芯片巨头，受TurboQuant技术冲击</span></td>
+                      <td>纽交所</td><td>股价下跌5.6%</td></tr><tr>
+                      <td><b>闪迪</b><br><span style="color:#999;font-size:11px">存储芯片巨头，受TurboQuant技术冲击</span></td>
+                      <td>纳斯达克</td><td>股价重挫6.5%</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247514609&idx=1&sn=9787f3c430c16f76ac0c45c598516c22&chksm=c303fe94de06eb8275ddde90be3971d2abdf4c3beb406e045c0f0e8c7ceec732dc5bd2b7a43f&scene=126&sessionid=0#rd" target="_blank">ICLR26: TurboQuant，KV cache 3.5bit零损失压缩，Mac Mini跑64K上下文</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">赛博禅心</span>
+                2026-03-26
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #Google Research #Google DeepMind #纽约大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
+              </div>
+              <div class="card-summary">Google Research发布TurboQuant量化压缩算法，将LLM推理中KV cache压缩至3.5bit零损失、2.5bit极小质量下降，内存缩小6倍，H100上attention计算最高快8倍。免训练微调校准，纯软件方案。发布24小时内已在Mac Mini M4 Pro上跑通Qwen3.5-35B-A3B的64K token长对话，needle-in-a-haystack测试全部命中。技术采用PolarQuant和QJL两步压缩方法，论文将发表于ICLR 2026。</div>
+              <ul class="key-points"><li>TurboQuant算法：KV cache量化压缩至3.5bit零损失、2.5bit极小质量下降，内存缩小6倍，H100上attention计算最高快8倍</li><li>两步压缩技术：PolarQuant通过随机旋转+极坐标变换消除归一化开销（b-1 bit），QJL通过JL变换+符号位消除内积偏差（1 bit）</li><li>免训练、免微调、免校准，纯软件方案，可直接部署到H100/A100</li><li>实测效果：Mac Mini M4 Pro（24GB统一内存）运行Qwen3.5-35B-A3B的64K token长对话，needle-in-a-haystack测试6/6精确命中</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649792977&idx=3&sn=f94bba18e107bcd16b6c295c80322b90&chksm=868944b717b405f9408c76648dd1d554c8b1cf344f70df9d66af24088944e1272c2f2c6ca8b9&scene=126&sessionid=0#rd" target="_blank">ICLR26: TurboQuant，KV缓存3比特量化，零精度损失，8倍性能提升</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">DeepTech深科技</span>
+                2026-03-26
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #Google Research</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
+              </div>
+              <div class="card-summary">Google Research发布TurboQuant向量量化压缩算法，将LLM的KV缓存压缩至3比特，实现零精度损失。在H100 GPU上4比特精度达8倍性能提升，大海捞针测试0.997分与未压缩基线持平，LongBench上3.5比特达50.06分。包含PolarQuant和QJL两个组件，压缩比从KIVI的2.6倍提升至6倍以上。尚未在70B以上模型验证，官方代码未发布。</div>
+              <ul class="key-points"><li>TurboQuant将KV缓存压缩至3比特，实现零精度损失，在H100 GPU上4比特精度实现8倍性能提升</li><li>包含两组件：PolarQuant（极坐标变换消除量化常数开销）和QJL（1比特JL变换消除内积偏差）</li><li>大海捞针测试：6倍压缩下达0.997分，优于KIVI的0.981分及其他token剪枝方案</li><li>LongBench基准：3.5比特TurboQuant在Llama-3.1-8B-Instruct上达50.06分，与16比特全精度持平</li></ul>
+              <div style="font-size:12px;color:#0077b6;font-weight:600;margin:8px 0 4px">📈 二级市场</div><table class="invest-table"><tr><th>公司</th><th>市场</th><th>详情</th></tr><tr>
+                      <td><b>SanDisk</b><br><span style="color:#999;font-size:11px">内存芯片厂商，2025年股价飙涨近196%，因TurboQuant压缩技术面临叙事威胁</span></td>
+                      <td>NASDAQ</td><td>股价下跌约5%，收于677.86美元，市值蒸发约50亿美元</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkwOTUwMjAxNQ==&mid=2247484933&idx=1&sn=a97a0c4027cc7fdadbedcd06363535fd&chksm=c0c8ab0abc4e81bb16ad976e706ccc5987c4ca7a1b5b5506706a4ee9723a486af63127296025&scene=126&sessionid=0#rd" target="_blank">Google TurboQuant，KV Cache两阶段量化，压缩6倍速度8倍</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">后向传播</span>
+                2026-03-26
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #Google Research</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 55</span>
+              </div>
+              <div class="card-summary">Google Research发布TurboQuant技术，针对大模型推理中KV Cache显存瓶颈，提出两阶段量化管线：第一阶段通过随机旋转消除离群值，免除传统量化的内存开销；第二阶段用QJL算法1-bit补偿消除内积偏差。实现压缩6倍以上、速度提升8倍、零精度损失的效果，平均位宽2.5-3.5 bits/channel。</div>
+              <ul class="key-points"><li>核心创新：两阶段量化管线解决KV Cache显存瓶颈问题</li><li>阶段一：随机旋转将离群值摊平到各维度，利用中心极限定理使数值收敛于标准正态分布，免除单独存储缩放系数和零点</li><li>阶段二：QJL算法用1-bit随机矩阵提取残差向量符号，在数学期望上精确抵消第一阶段产生的内积偏差，实现零精度损失</li><li>量化效果：压缩6倍以上，速度提升8倍，平均2.5-3.5 bits/channel位宽</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651023980&idx=1&sn=11a065ae44d3685d1e316c56ed76fd42&chksm=85934035368a72b6e4b0da41aa40f7fd708ec785b19cf2a5b5a30f281017ca82fadc72d87497&scene=126&sessionid=0#rd" target="_blank">英伟达AVO：智能体变异算子7天自主进化，BF16达1668TFLOPS</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-26
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #英伟达</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 55</span>
+              </div>
+              <div class="card-summary">英伟达发布AVO（智能体变异算子），将深度智能体作为进化搜索的变异算子，替代传统固定变异和人工启发式方法。在Blackwell B200 GPU上，AVO智能体7天自主运行探索500+优化方向，最终MHA内核达1668 TFLOPS，超越cuDNN 3.5%、FlashAttention-4 10.5%，并可在30分钟内迁移至GQA。研究者称此为「盲编程」，认为人类认知能力是瓶颈。</div>
+              <ul class="key-points"><li>AVO（Agentic Variation Operators）：新型进化变异算子，将深度智能体从候选生成器提升为变异算子本身，可自主查阅资料、测试修改、解读反馈、修正方案</li><li>7天自主运行：在NVIDIA Blackwell B200 GPU上连续自主演化7天，探索500+优化方向，生成40个内核版本</li><li>性能突破：MHA内核BF16精度下达1668 TFLOPS，超越cuDNN 3.5%、超越FlashAttention-4 10.5%</li><li>泛化能力：仅需30分钟自主适配即可将MHA优化迁移至GQA，性能比cuDNN高7.0%、比FlashAttention-4高9.3%</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649792977&idx=2&sn=e781a1980b8e58e27499a2389c2f989d&chksm=8681030ce8545381b304bbef0f5e202dc071e78741df563826b63586d697bbc4338c5bb90a9d&scene=126&sessionid=0#rd" target="_blank">Nature: AI Scientist全流程自动化科研，端到端论文生成与审稿</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">DeepTech深科技</span>
+                2026-03-26
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #Sakana AI #牛津大学 #英属哥伦比亚大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 50</span>
+              </div>
+              <div class="card-summary">日本Sakana AI与牛津大学、英属哥伦比亚大学合作推出AI Scientist系统，实现从构思到论文发表的完整端到端自动化。该系统包含四大模块：想法生成、实验执行、论文撰写、自动审稿。其中一篇AI生成论文获ICLR 2025研讨会评审6分、7分、6分，超过录取线。自动化审稿器准确率69%，与人类审稿人66%基本持平。</div>
+              <ul class="key-points"><li>Sakana AI联合牛津大学、英属哥伦比亚大学打造AI Scientist系统，实现科研全流程自动化</li><li>系统包含四步：想法生成（带评分和去重）、实验执行（模板/无模板两种模式）、论文撰写（LaTeX自动生成）、自动审稿</li><li>AI生成论文获ICLR 2025研讨会评审6分、7分、6分，超过平均录取线</li><li>自动化审稿器准确率69%，与人类审稿人66%相当，F1分数甚至超过人类审稿人间一致性</li></ul>
+              
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">🚀 产品发布（5 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651023578&idx=1&sn=2359603c36a9ff7af198ccc5971ee2ac&chksm=859cf5ad1b1fcd8dd43cc4f51dd2b81da9c30e0401a130df5f082167c5346b2b5183fb4026a9&scene=126&sessionid=0#rd" target="_blank">MemoryLake：多模态AI记忆平台，91%词元成本下降</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-25
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 90</span>
+              </div>
+              <div class="card-summary">质变科技推出首个多模态AI记忆平台MemoryLake，面向OpenClaw等智能体提供永久可迁移的认知记忆。平台具备智能冲突解决、Git式版本控制、隐私保护、开放数据、多模态理解、多粒度记忆隔离、多跳推理七大核心技术。在生产场景实现91%Token成本下降、99.8%召回率，支持PB级容量和毫秒级延迟。LoCoMo基准测试94.03%全球第一。天使轮获高瓴创投与光速光合联合投资数千万美元，估值超2亿美金，服务全球超200万专业用户。</div>
+              <ul class="key-points"><li>质变科技推出MemoryLake多模态AI记忆平台，构建六种记忆类型：背景记忆、对话记忆、事件记忆、事实记忆、反思记忆、技能记忆</li><li>核心技术一：智能记忆冲突解决，运用时序知识图谱技术，冲突检测准确率95%以上，时序类冲突自动解决成功率90%以上</li><li>核心技术二：Git式版本控制，每条记忆节点采用Content-Addressable Storage，通过SHA-256生成唯一commit ID，支持分支/合并/回滚</li><li>核心技术三：隐私保护架构，引入presidio等PII检测模块，实现多模态隐私信息100%检测和屏蔽</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>质变科技</b><br><span style="color:#0077b6;font-size:11px">AI平台/记忆基础设施</span><br><span style="color:#999;font-size:11px">AI记忆基础设施公司，推出MemoryLake多模态AI记忆平台</span></td><td>数千万美元</td><td>天使轮</td><td>高瓴创投、光速光合</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652686632&idx=1&sn=d25cdd65142de90a479cdc1fc1edf819&chksm=f0178f98ae7829da4b437817b4d425a6b3d50d9431b3166a44f3b606890c4af68ff5b840575c&scene=126&sessionid=0#rd" target="_blank">Anthropic发布Claude OS，AI可直接控制整台电脑</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-25
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
+              </div>
+              <div class="card-summary">Anthropic发布Claude OS，可自主控制用户整台电脑，能操作任何应用、浏览器、文件等。同步推出Claude Code自动模式，可自动执行安全操作。Anthropic已完成300亿美元G轮融资，估值3800亿美元，年化收入140亿美元，目标是将Claude打造为AI时代的操作系统，对标苹果微软6.4万亿帝国。</div>
+              <ul class="key-points"><li>Claude OS可自主控制整台电脑，能操作任何应用、浏览器、文件、电子表格、工具，无需任何连接器</li><li>Claude Code推出自动模式(auto mode)，内置Classifier自动识别安全操作并执行，高风险操作会被拦截</li><li>Anthropic完成300亿美元G轮融资，估值3800亿美元，为史上第二大风险投资融资，由GIC与Coatue领投，微软与英伟达跟投</li><li>年化收入140亿美元，连续三年保持每年10倍增长；Claude Code年化收入25亿美元，较1月翻倍</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>Anthropic</b><br><span style="color:#0077b6;font-size:11px">大模型/AI操作系统</span><br><span style="color:#999;font-size:11px">AI大模型公司，开发Claude系列模型，目标是打造AI时代操作系统</span></td><td>300亿美元</td><td>Series G</td><td>GIC、Coatue领投，微软、英伟达跟投</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652686749&idx=1&sn=8409d802671be08c8fda0bfe9a1f9a13&chksm=f02db6789592ae21963afb0a1ca7def89a8cc041657ee20a3bade6fc144304c3431db72d97ad&scene=126&sessionid=0#rd" target="_blank">千问首次上车红旗座舱，多意图理解+逻辑拆解实现复杂行程规划</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-26
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 73</span>
+              </div>
+              <div class="card-summary">阿里千问AI助手首次以完整形态接入红旗汽车智能座舱，实现多意图理解、逻辑拆解与实时规划能力。用户可通过自然语言下达复合指令，如规划路线、订餐厅、订机票等，千问可在毫秒级内完成意图拆解和时间路径规划。千问已覆盖手机、PC、智能眼镜、汽车等终端，正向AI时代超级入口演进，年内还将推出AI指环、AI耳机等穿戴设备。</div>
+              <ul class="key-points"><li>千问首次以完整AI助手形态进入车载场景，具备多意图理解+逻辑拆解+实时规划能力，可处理「先去北大→找烤鸭店→下午5点前到T3航站楼」等复杂复合指令</li><li>千问通过云端多Agent协同，在毫秒级内完成空间维度（最优路径）、时间维度（时间约束）、偏好维度（商户筛选）的综合决策</li><li>阿里将千问定位为AI时代超级入口而非超级APP，已覆盖手机、PC、智能眼镜、汽车终端，计划推出AI指环、AI耳机等穿戴设备，构建全场景服务网络</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651023591&idx=1&sn=337c23d4e8561493a5f07a4fc9d81fde&chksm=856974063ce570e8d9c3fbf8d87dc28af80abab5b6656e2b1072c84451eb89f2e1cf2fcd5f9a&scene=126&sessionid=0#rd" target="_blank">MagiCompiler开源，训推一体编译框架，训练提速44.7%</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-25
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 59</span>
+              </div>
+              <div class="card-summary">Sand.ai发布开源MagiCompiler编译框架，基于torch.compile深度优化，实现推理期整图捕获与训练期FSDP-Aware整层编译。核心创新包括：整图与整层编译打破编译边界、启发式重计算自动管理显存、JIT极致Offload调度优化带宽。实测性能：训练端提速44.7%、显存下降6.2%；推理端在H100上比LightX2V快9%~26%，RTX 5090上实现超大模型近乎实时推理。</div>
+              <ul class="key-points"><li>MagiCompiler是基于torch.compile的训推一体编译框架，实现整图捕获与FSDP-Aware整层编译</li><li>Compiler as Manager理念：将编译器从算子优化器进阶为全局管理器，接管计算调度与显存生命周期</li><li>训练期创新：利用FSDP单层权重全驻留特性，以Transformer Layer为编译单元执行跨算子融合</li><li>启发式重计算：自动分析计算图，优先保留MatMul/Attention等计算密集型算子输出，显存密集型算子自动重计算</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652686704&idx=1&sn=f2a974e2caa5f4a4281ed2cb338036de&chksm=f08cc16872e8fc59504e427cb40a33a55bb6437f27154bc058787eb2a6182d24d3197c4d2b9e&scene=126&sessionid=0#rd" target="_blank">刚刚，实验室被一只「科研龙虾」接管！通宵爆肝论文，还能帮你发顶刊</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-26
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 50</span>
+              </div>
+              <div class="card-summary">科研Agent SciClaw可自动做实验、写论文、回复审稿，定位科研人员智能助手</div>
+              <ul class="key-points"><li>SciClaw定位为科研领域AI Agent，可自主做实验、写报告</li><li>支持远程数据整理、PPT生成、审稿意见回复</li><li>具备长期记忆功能，可串连实验记录、文献、邮件等</li><li>支持任务自我监控和修复，辅助复现顶刊文章实验</li></ul>
+              
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">📊 行业动态（8 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649792928&idx=2&sn=532abe80e636df1f2e64bf9b555b17c2&chksm=86c29f5571fa460f343070cd4cf456953af042eafcac174cc7c0f54c15bcd7a8f3ebf1a75e11&scene=126&sessionid=0#rd" target="_blank">CCF抵制NeurIPS：禁止受制裁机构投稿，警告移出A类目录</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">DeepTech深科技</span>
+                2026-03-25
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 33</span>
+              </div>
+              <div class="card-summary">2026年3月25日，CCF发布声明反对NeurIPS新增的制裁合规规定，禁止受美国OFAC制裁名单中的机构投稿。CCF号召中国计算机领域科学家抵制NeurIPS，并警告若不纠正将把NeurIPS从推荐目录移除。NeurIPS是CCF人工智能方向A类会议，此举意味着在制度层面否认其学术权威性。</div>
+              <ul class="key-points"><li>NeurIPS 2026征稿通知新增规定：禁止向受美国OFAC制裁名单中的机构提供同行评审、编辑及出版服务</li><li>CCF发布措辞严厉声明，三层递进回应：反对学术政治化、倡议抵制、威胁移出A类推荐目录</li><li>NeurIPS是CCF人工智能方向A类会议，与ICML、ICLR并称机器学习三大顶会，被移出将影响国内高校毕业和职称评审</li><li>OFAC制裁法规比BIS出口管制更严格，限制范围涵盖金融交易和各类服务，合规逻辑更难推翻</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652686749&idx=2&sn=2f9e07224c9387b11e03bdb62b9cd13b&chksm=f05fe14693d8a389e6e4b08f0531309bd37a49f6a9e24827b76337f31ee0b79c66159f194e92&scene=126&sessionid=0#rd" target="_blank">LiteLLM供应链投毒事件：9700万月下载量包被植入后门</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-26
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 31</span>
+              </div>
+              <div class="card-summary">LiteLLM 1.82.8版本在PyPI被投毒，攻击者通过.pth文件在Python解释器启动时执行恶意代码，窃取SSH密钥、云凭证、Kubernetes配置等敏感信息。得益于攻击者代码bug导致fork bomb自我崩溃，这一史诗级漏洞才在1小时内暴露。事件引发Karpathy等顶级技术专家对AI开发依赖安全性的深度反思，揭示开源供应链信任模型的脆弱性。</div>
+              <ul class="key-points"><li>LiteLLM是AI应用层核心中间件，月下载量达9700万，连接OpenAI、Anthropic、Google等多模型提供商</li><li>攻击者攻破维护者PyPI账户绕过CI/CD流程上传恶意版本，载荷分三阶段：精准收集敏感信息、RSA+AES加密外传、Kubernetes横向移动植入后门</li><li>恶意代码利用.pth文件在Python解释器启动时自动执行，因攻击者代码bug导致指数级自我复制形成fork bomb而暴露</li><li>窃取目标涵盖：SSH私钥、AWS/GCP/Azure凭证、Kubernetes配置、.env中API Key、git凭证、数据库密码、CI/CD机密、加密货币钱包等</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247732574&idx=1&sn=758ea991d8c3a37f807270fed918bd61&chksm=91ca89e04fe96ced4f2608f04ec77d3da892096cc71278f4d0fe55d09f883a952944e01756e8&scene=126&sessionid=0#rd" target="_blank">行业洞察：Sora关停与中国AI视频生态壁垒优势</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ai科技评论</span>
+                2026-03-25
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 31</span>
+              </div>
+              <div class="card-summary">OpenAI于3月24日关闭Sora视频生成应用，曾被视为AI视频GPT时刻的产品在运营6个月后停运。中国AI视频生成赛道竞争激烈，字节即梦月活893万，快手可灵ARR突破1亿美元。分析指出模型性能无法取得代差时，生态壁垒成为竞争关键，中国在游戏、短剧、影视等场景的产业链优势使国产模型占据一席之地。</div>
+              <ul class="key-points"><li>OpenAI关闭Sora视频生成应用，距离发布独立App仅6个月，技术上采用DiT架构（扩散模型+Transformer融合），曾被视为AI视频GPT时刻</li><li>中国AI视频生成竞争格局：字节即梦月活893万，快手可灵ARR突破1亿美元、占据30%以上份额，阿里通义万象迭代至2.6版本，腾讯开源130亿参数HunyuanVideo</li><li>生态壁垒成为竞争核心：腾讯混元游戏视觉生成平台、网易《逆水寒》AI剧组模式、昆仑万维DramaWave短剧平台月活8000万，中国在游戏、短剧、影视等场景构建难以突破的产业链优势</li><li>Sora商业化失败原因：访问量从6619万峰值跌至2117万（跌幅68%），月收入36.7万美元远低于Kling AI的2000万美元，算力成本高企但内容生态缺失</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>MiniMax</b><br><span style="color:#0077b6;font-size:11px">AI视频生成/大模型</span><br><span style="color:#999;font-size:11px">自研Abab-video-1视频生成模型，发布海螺AI，差异化布局二次元动漫视频生成，收购鹿影科技强化细分赛道</span></td><td>—</td><td>—</td><td>—</td></tr><tr><td><b>生数科技</b><br><span style="color:#0077b6;font-size:11px">AI视频生成</span><br><span style="color:#999;font-size:11px">发布中国首个对标Sora的Vidu视频模型，原创U-ViT架构（比OpenAI DiT早三个月），全球首创参考生视频技术</span></td><td>—</td><td>—</td><td>—</td></tr><tr><td><b>昆仑万维</b><br><span style="color:#0077b6;font-size:11px">AI短剧/视频平台</span><br><span style="color:#999;font-size:11px">DramaWave短剧平台月活8000万、年化收入近5亿元，SkyReels-V4首创九宫格参考技术解决AI短剧角色一致性难题</span></td><td>—</td><td>—</td><td>—</td></tr><tr><td><b>鹿影科技</b><br><span style="color:#0077b6;font-size:11px">AI视频生成</span><br><span style="color:#999;font-size:11px">二次元动漫AI视频生成平台YoYo，被MiniMax收购</span></td><td>—</td><td>—</td><td>—</td></tr></table><div style="font-size:12px;color:#0077b6;font-weight:600;margin:8px 0 4px">📈 二级市场</div><table class="invest-table"><tr><th>公司</th><th>市场</th><th>详情</th></tr><tr>
+                      <td><b>OpenAI</b><br><span style="color:#999;font-size:11px">Sora关停，迪士尼原计划10亿美元入股但合作告吹</span></td>
+                      <td>—</td><td>—</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkwMjUxNTkwNQ==&mid=2247631668&idx=4&sn=55a21e086b7c53807e47faf1095d88da&chksm=c103400f1b14688ebb776e8852d3349e4e9e3cabb66331efadecec3c11739c4ffb1cc37f093e&scene=126&sessionid=0#rd" target="_blank">行业观察:Sora关停，OpenAI放弃消费级AI视频</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投中网</span>
+                2026-03-25
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 31</span>
+              </div>
+              <div class="card-summary">OpenAI于2026年3月关闭Sora消费端应用，曾获百万下载但用户留存率持续下滑。2026年1月安装量跌45%至120万次，迪士尼终止合作并撤销100亿美元投资计划。公司完成110亿美元融资，估值达7300亿美元，将资源转向企业级Codex编程助手，员工计划扩至8000人。</div>
+              <ul class="key-points"><li>Sora发布不到5天下载量破100万，但2025年12月下滑32%，2026年1月再跌45%</li><li>用户痛点：功能单一（仅「把自己插进电影场景」），肖像信任问题难以解决</li><li>迪士尼终止与OpenAI合作，100亿美元投资计划一并撤销</li><li>OpenAI完成110亿美元融资，估值7300亿美元</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247514597&idx=1&sn=5408c0689561d536a33a7cdd299d63d9&chksm=c3f8086b61722a46526e0cff532c9f1ef595847fd3823321360e58bc5d4309e24fad9b0b2674&scene=126&sessionid=0#rd" target="_blank">Sora视频生成关停，迪士尼10亿美元投资未完成</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">赛博禅心</span>
+                2026-03-25
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 31</span>
+              </div>
+              <div class="card-summary">OpenAI宣布关停Sora视频生成产品，包括独立App、API及ChatGPT内功能，关停原因系算力需求增长需做取舍，Sora团队将转向世界模拟和机器人方向。背景是OpenAI完成1100亿美元融资，估值约7300亿美元，正在筹备IPO。迪士尼原计划2025年12月向OpenAI投资10亿美元，授权超过200个IP角色在Sora上使用，但该交易从未完成资金交割，现已同步退出。Sora App上线五天破百万下载，整个生命周期应用内购收入约210万美元。</div>
+              <ul class="key-points"><li>OpenAI关停Sora视频生成功能，包括独立App、API及ChatGPT内集成，关停原因系算力需求增长需做取舍</li><li>Sora研究团队将转向世界模拟和机器人方向，不再继续视频生成产品</li><li>迪士尼2025年12月宣布向OpenAI投资10亿美元（股权认股权证），授权超200个IP角色，但该交易从未完成资金交割，现已退出</li><li>OpenAI完成1100亿美元融资，估值约7300亿美元，正在筹备IPO</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>OpenAI</b><br><span style="color:#0077b6;font-size:11px">大模型/AI应用</span><br><span style="color:#999;font-size:11px">OpenAI完成1100亿美元融资，估值约7300亿美元，正在筹备IPO</span></td><td>1100亿美元</td><td>融资</td><td>未披露</td></tr></table><div style="font-size:12px;color:#0077b6;font-weight:600;margin:8px 0 4px">📈 二级市场</div><table class="invest-table"><tr><th>公司</th><th>市场</th><th>详情</th></tr><tr>
+                      <td><b>OpenAI</b><br><span style="color:#999;font-size:11px">OpenAI正在筹备IPO，估值约7300亿美元</span></td>
+                      <td>未上市（筹备IPO）</td><td>估值约7300亿美元</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247523451&idx=1&sn=f5fa0f5f0b6c2e6c8bd5dcca2e9f7173&chksm=c1d11472cf56b0b7d3948b55823fe0bc483b467a91765a791170438bf3cbb0e8430ba7af5074&scene=126&sessionid=0#rd" target="_blank">黄仁勋：AI工厂时代来临，NVIDIA从芯片公司转型基础设施</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Founder Park</span>
+                2026-03-25
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 31</span>
+              </div>
+              <div class="card-summary">Lex Fridman对话黄仁勋，阐述NVIDIA从GPU芯片公司向AI工厂转型。黄仁勋提出四个扩展定律：预训练、后训练、测试时扩展、智能体扩展，强调智能扩展只取决于算力。核心观点：AI已从软件变为工业产品，Agent不再是对话工具而是持续算力消耗；计算机从存储仓库变为收入工厂，Token像iPhone一样细分市场；推理即思考，极其计算密集型。黄仁勋认为AGI已实现，智能是功能性商品，人性才是真正重要的。NVIDIA采用极限协同设计，每代产品同时推进芯片、机架、软件、散热等所有维度。</div>
+              <ul class="key-points"><li>NVIDIA定位转型：从GPU芯片公司变为AI工厂，原料是电力和数据，产出是Token</li><li>提出四个AI扩展定律：Pre-training Scaling Law、Post-training、Test-time Scaling、Agentic Scaling Law</li><li>智能体扩展定律（Agentic Scaling Law）：智能体可衍生子智能体，实现AI的「乘法」效应</li><li>训练瓶颈已从数据转为算力，因为大部分训练数据本身是合成的</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651024013&idx=2&sn=6cd1b448c843673c18ba77c992506119&chksm=858cffa04ae042a84dc0d710be27c1ee2217a69e7e9efaee41731468881e62d8867df2aae6b0&scene=126&sessionid=0#rd" target="_blank">CPU涨价10-15%交付延长至12周，AI需求冲击PC市场</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-26
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 31</span>
+              </div>
+              <div class="card-summary">2025年3月Intel和AMD再次上调CPU价格，涨幅10%-15%。CPU交付周期从1-2周延长至8-12周，部分长达6个月。AI需求爆发导致数据中心和AI服务器高性能CPU需求激增，吞噬PC市场产能。OEM厂商开始寻求ARM架构替代方案，华硕30%的Copilot AI PC已采用ARM CPU。</div>
+              <ul class="key-points"><li>Intel和AMD在2025年3月再次上调CPU价格，平均涨幅10%-15%，部分产品涨幅更大</li><li>CPU交付周期从1-2周延长至8-12周，部分情况下长达6个月</li><li>AI需求爆发是根本原因：数据中心和AI服务器高性能CPU需求激增，迅速吞噬PC市场产能</li><li>Intel和AMD优先将产能分配给服务器CPU，导致PC端供应减少，第二季度PC厂商货量明显低于第一季度</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651023578&idx=2&sn=d4822b55bc70dc39cb6fb0cc3f0967fd&chksm=8597869eb6361438affe4ca411f2e88932a1ada4e2700bd3812005a5857e0f4aff34387706cf&scene=126&sessionid=0#rd" target="_blank">OpenAI关闭Sora，年烧54亿美元，30天留存仅1%</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-25
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 31</span>
+              </div>
+              <div class="card-summary">OpenAI宣布关闭视频生成产品Sora，原因包括用户留存率极低（30天1%，60天0%）及运营成本高昂（每日1000-1500万美元，年约54亿美元）。公司已将算力资源转向下一代旗舰大模型Spud，Sora团队转向世界模型研发。OpenAI累计融资超1680亿美元，估值约8400亿美元，正为IPO做准备。迪士尼原计划投资10亿美元的合作也告吹。</div>
+              <ul class="key-points"><li>OpenAI关闭视频生成产品Sora，用户留存率极低（30天1%，60天0%）</li><li>Sora运营成本高昂，每日约1000-1500万美元，年达54亿美元</li><li>OpenAI将资源转向下一代旗舰大模型Spud，内部评价为非常强</li><li>Sora团队转向世界模型（world models）研发，重点推进具身智能场景应用</li></ul>
+              <div style="font-size:12px;color:#0077b6;font-weight:600;margin:8px 0 4px">📈 二级市场</div><table class="invest-table"><tr><th>公司</th><th>市场</th><th>详情</th></tr><tr>
+                      <td><b>OpenAI</b><br><span style="color:#999;font-size:11px">OpenAI为ChatGPT开发商，正在筹备IPO，关闭Sora以聚焦核心大模型业务</span></td>
+                      <td>未上市</td><td>累计融资超1680亿美元，估值约8400亿美元</td></tr></table>
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">📝 简报（10 篇）</div>
+          
+                <div class="card card-brief">
+                  <span class="tag tag-source">新智元</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652686704&idx=3&sn=405ec5200d0adc4d5baea93e535be634&chksm=f0dfe5abcb968aaa8d1073b0e46b6d858188a398e41886ef24617ced997b1ad0ad299d2a3f9d&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">刷榜多元时序预测，性能波动0%！打破CI/CD二元对立 | ICLR'26</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">CPiRi框架解耦时序预测CI/CD矛盾，冻结编码器+轻量模块实现鲁棒精准双赢</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">新智元</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652686545&idx=1&sn=7004bfa2d148554884d2503a16c53bcb&chksm=f0a59b59aa1c1f539a7dbfddd45dc72fc208e5b8ffacc2d0ec40668314fb74911f255faca4ea&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">AI音乐王座易主！Mureka V8硬刚全球巨头斩获双榜第一，V9即将来袭</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">Mureka V8登顶AA音乐榜双第一，超越Suno等主流模型</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">新智元</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652686545&idx=2&sn=24b94b4751c262846025487a16fe5ced&chksm=f0350aa0f5b6d330e6345761fe0dd0db1018eb68f935c83721132ee24fb0cdc318bcb75048bc&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">突发！NeurIPS拒收这类论文，AI学者集体破防</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">NeurIPS 2026新规拒收OFAC制裁机构论文，ICML审稿口碑崩盘</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">新智元</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652686434&idx=3&sn=e8ed477dc0abc7c09c6cd058df8467b7&chksm=f08bc822b580cd08d84dfde871697f0c49aa911c99cc78e99cd1a7496a08e084dfdd2fe31224&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">「百万级」视频推理数据集！30+顶尖高校联合发布</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">顶尖高校发布百万级视频推理数据集VBVR，评测模型空间物理逻辑推理能力</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">数字生命卡兹克</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647680984&idx=1&sn=ecbe236bf31aa18fcff2e1fcdd56f9a7&chksm=f10854cf9a9fcec49d4ef6d9b9126662c75e3758b11f77e60c8594e7a869f183abce87a1be9f&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">Claude能直接操控你的电脑微信了，这才是真正的上位小龙虾。</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">Claude发布Computer Use更新，可直接操控电脑微信，Agent能力大幅提升。</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">具身纪元</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=Mzk2NDg4MDcwNA==&mid=2247491629&idx=1&sn=c8ccea935f7f18bd9945253ea8aa8e41&chksm=c53780431f7c2f94a4ef0fcad30bf1da1b97329a9acbcd7919665bcf1812d6d6774ebbb92bc7&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">Sunday Robotics CTO 迟宬在ETH的分享：数据背后，算法之上</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">机器人成功关键在硬件供应链和数据运营，需超越算法关注人与系统整体</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">经纬创投</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzA3ODk5OTEzOA==&mid=2962187100&idx=1&sn=d281d48399cab17216226cca7e329eca&chksm=ab81b8f12cbbd43cf683fa335f9affa5e01f2ca4089f139e1e8df5c91396fb7bccc138b449e3&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">全球程序员将破 10 亿！黄仁勋：智能终将廉价，人性才是未来核心竞争力|【经纬低调出品】</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">黄仁勋：AI推理是困难思考，Token将成新商品，英伟达营收或达3万亿美元</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">机器之心</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651023980&idx=3&sn=4199791c11369778444c66c712b1052b&chksm=852ad5e133c895bbcbe22e50b1a87200a00e03caecce4c604a2454f056df47e39bc31c3233a4&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">CVPR 2026 | BiMotion：用 B 样条曲线重新定义 3D 角色运动生成</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">BiMotion用B样条曲线连续表示运动，解决文本驱动3D角色动画语义断裂问题</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">机器之心</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651023681&idx=1&sn=05a91c1aa9866c35916edf92c0b6b508&chksm=856cdea3a27be0ef140b1938c807204da1b71ee95dcf9d1e19ac8678a762fb190443fed71ac4&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">Suno、Udio都被它干翻！中国AI音乐模型拿下AA全球榜单双料冠军</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">昆仑万维Mureka V8 AI音乐模型获双榜第一，超越Suno、Udio</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">机器之心</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651023590&idx=2&sn=40611ef9f9e5b0e2c5790a686c810a25&chksm=8513aa601e6388faef316430e996b015b8fce7194c01d31282111d977bffaa3d44a8f7afdc76&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">突发｜立即检查你的Python库！LiteLLM被投毒，Karpathy警告，马斯克关注</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">LiteLLM被投毒窃取开发者凭证，月下载9700万次，教科书级供应链攻击</span>
+                </div>
+        </div>
+    
+    <div class="footer">
+      由 OpenClaw AI 自动生成 · 数据来源：各公众号 via cimidata API
+    </div>
+  </div>
+</div>
+{{< /rawhtml >}}
