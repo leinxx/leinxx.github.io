@@ -37,7 +37,7 @@ hidemeta: false
 .digest-wrapper .header h1,
 .digest-wrapper .header p{color:#fff !important;}
 .digest-wrapper .card-title a{color:#1a1a2e !important;}
-    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+.digest-wrapper{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
          background:#f5f7fa;margin:0;padding:20px;color:#333}
     .container{max-width:720px;margin:0 auto;background:#fff;
                border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
