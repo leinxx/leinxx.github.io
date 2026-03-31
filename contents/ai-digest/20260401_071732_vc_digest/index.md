@@ -1,0 +1,617 @@
+---
+title: "🤖 AI & 科技投资日报"
+date: 2026-04-01T07:17:32+08:00
+slug: "20260401_071732_vc_digest"
+draft: false
+type: ai-digest
+summary: "每日 AI 科技资讯摘要 - 2026-04-01"
+hideMeta: false
+ShowPostNavLinks: false
+disableShare: true
+ShowToc: false
+hidemeta: false
+---
+
+{{< rawhtml >}}
+<style>
+.digest-wrapper{
+  box-sizing:border-box;
+  background:#f5f7fa !important;
+  padding:0;
+  width:100vw;
+  margin-left:calc(50% - 50vw);
+  margin-right:calc(50% - 50vw);
+}
+.digest-wrapper .container{
+  max-width:860px !important;
+  margin:0 auto !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+}
+.digest-wrapper .stats{display:flex !important;flex-direction:row !important;flex-wrap:wrap !important;gap:6px !important;margin-top:12px !important;}
+.digest-wrapper .stat{white-space:nowrap !important;flex-shrink:0 !important;display:inline-flex !important;align-items:center !important;font-size:12px !important;padding:6px 10px !important;}
+.digest-wrapper .header{
+  background:linear-gradient(135deg,#1a1a2e,#16213e) !important;
+  color:#fff !important;
+}
+.digest-wrapper .header h1,
+.digest-wrapper .header p{color:#fff !important;}
+.digest-wrapper .card-title a{color:#1a1a2e !important;}
+
+    .digest-wrapper{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+         background:#f5f7fa;margin:0;padding:20px;color:#333}
+    .container{max-width:720px;margin:0 auto;background:#fff;
+               border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+    .header{background:linear-gradient(135deg,#1a1a2e,#16213e);
+            color:#fff;padding:28px 32px}
+    .header h1{margin:0 0 6px;font-size:22px;font-weight:700}
+    .header p{margin:0;opacity:.7;font-size:13px}
+    .stats{display:flex;gap:12px;margin-top:16px}
+    .stat{background:rgba(255,255,255,.12);border-radius:8px;
+          padding:8px 14px;font-size:13px}
+    .section{padding:0 32px 8px}
+    .section-title{font-size:16px;font-weight:700;margin:28px 0 12px;
+                   padding-bottom:8px;border-bottom:2px solid #f0f0f0;
+                   display:flex;align-items:center;gap:8px}
+    .card{background:#fafafa;border:1px solid #eee;border-radius:10px;
+          padding:16px 18px;margin-bottom:12px}
+    .card-title{font-size:14px;font-weight:700;margin:0 0 6px;
+                color:#1a1a2e;line-height:1.5}
+    .card-title a{color:#1a1a2e;text-decoration:none}
+    .card-title a:hover{text-decoration:underline}
+    .card-meta{font-size:11px;color:#999;margin-bottom:10px}
+    .card-summary{font-size:13px;line-height:1.7;color:#444;margin-bottom:10px}
+    .key-points{margin:0;padding-left:18px}
+    .key-points li{font-size:12px;color:#555;margin-bottom:4px;line-height:1.6}
+    .invest-table{width:100%;border-collapse:collapse;margin-top:10px;font-size:12px}
+    .invest-table th{background:#fff8e1;color:#8a6914;
+                     padding:6px 10px;text-align:left;font-weight:600}
+    .invest-table td{padding:6px 10px;border-top:1px solid #f0f0f0;color:#444}
+    .invest-table tr:hover td{background:#fffbf0}
+    .tag{display:inline-block;padding:2px 8px;border-radius:4px;
+         font-size:11px;font-weight:600;margin-right:6px}
+    .tag-source{background:#e8f4fd;color:#0077b6}
+    .card-brief{display:flex;align-items:baseline;gap:8px;padding:8px 14px;
+                background:#fafafa;border:1px solid #eee;border-radius:8px;
+                margin-bottom:6px;flex-wrap:wrap}
+    .footer{text-align:center;padding:20px;color:#aaa;font-size:11px;
+            border-top:1px solid #f0f0f0}
+    
+</style>
+<div class="digest-wrapper">
+<div class="container">
+    
+    <div class="header">
+      <h1>🤖 AI & 科技投资日报</h1>
+      <div class="stats">
+        <div class="stat">📅 2026年04月01日</div>
+        <div class="stat">📰 本期 45 篇</div>
+        
+        <div class="stat">⏱ 生成于 07:17</div>
+      </div>
+    </div>
+    
+    
+        <div class="section">
+          <div class="section-title">📈 二级市场投资（1 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247514840&idx=1&sn=513e6759f38a318171a3ecce98701c12&chksm=c33b36834d36a10155d84bbfe1f36ab472d3353d5fd269c44fa67f78d5255f295f4e0c1d840a&scene=126&sessionid=0#rd" target="_blank">智谱年报：MaaS ARR 17亿，API涨价83%调用量反增400%</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">赛博禅心</span>
+                2026-03-31
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
+              </div>
+              <div class="card-summary">智谱发布2025年年度业绩，全年收入7.24亿元，同比增长132%，为国内收入规模最大的大模型公司。MaaS API平台ARR约17亿元，过去12个月增长60倍。2026年一季度API涨价83%后调用量反增400%，综合毛利率41%。GLM系列保持全球开源模型第一、中国模型第一。400万企业用户覆盖全球218个国家和地区。技术层面实现MLA-256改进、动态稀疏注意力机制、Slime框架等优化，推理成本大幅下降。</div>
+              <ul class="key-points"><li>2025年全年收入7.24亿元，同比增长132%，为国内收入规模最大的大模型公司</li><li>MaaS API平台ARR约17亿元（约2.5亿美金），过去12个月增长60倍</li><li>2026年一季度API涨价83%后调用量反增400%，成为国内付费Token消耗量最高的厂商之一</li><li>综合毛利率41%，MaaS平台毛利率从3.8%提升至18.9%，提升近5倍</li></ul>
+              <div style="font-size:12px;color:#0077b6;font-weight:600;margin:8px 0 4px">📈 二级市场</div><table class="invest-table"><tr><th>公司</th><th>市场</th><th>详情</th></tr><tr>
+                      <td><b>智谱</b><br><span style="color:#999;font-size:11px">国内收入规模最大的大模型公司，MaaS API平台ARR 12个月增长60倍</span></td>
+                      <td>港交所</td><td>股票代码02513.HK，2025年收入7.24亿元，MaaS ARR约17亿元，市值约800多亿港币</td></tr></table>
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">🔬 技术突破（9 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651024837&idx=2&sn=6620cdb4a7d92441fcbd4aba8dcd4614&chksm=85fbfb36ffb082066645074c13942306e0b1d50703d1ef9b131a80fbeb1661499d2cc5784d82&scene=126&sessionid=0#rd" target="_blank">ICLR26: ProMoE，显式路由引导打破DiT MoE瓶颈，1.03B超1.84B</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-31
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #复旦大学 #阿里通义万相 #浙江大学 #香港大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 92</span>
+              </div>
+              <div class="card-summary">复旦大学联合阿里通义万相等提出ProMoE，解决MoE在DiT中收益有限的问题。核心创新包括两步路由器（条件路由+原型路由）和路由对比学习，针对视觉Token的高度空间冗余性和功能异质性进行优化。实验显示1.063B参数的ProMoE-L-Flow超越1.846B的DiffMoE，收敛速度更快，Scaling性能稳定提升。</div>
+              <ul class="key-points"><li>核心问题：视觉Token的高度空间冗余性和功能异质性导致传统隐式路由在DiT MoE中效果不佳</li><li>两步路由器设计：条件路由实现无条件Token与条件Token的功能隔离；原型路由通过可学习原型计算余弦相似度进行Token分配</li><li>路由对比学习RCL：无需手动标注，通过拉近原型与分配Token质心、推离其他专家Token质心，增强专家专业化和多样性</li><li>实验结果：1.063B参数的ProMoE-L-Flow超越1.846B的DiffMoE（16专家），收敛速度显著快于Dense和现有MoE模型</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651024890&idx=2&sn=6a78f8436d2b4e2ae59b735502bf0076&chksm=85635beec3afd41df4bf41384b6adceee12f1e180154d68b0c7774f489f9e212066e78a6682f&scene=126&sessionid=0#rd" target="_blank">OpenSeeker，11.7k样本SFT超越大厂，BrowseComp-ZH 48.4%</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-31
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #上海交通大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 90</span>
+              </div>
+              <div class="card-summary">上海交大推出首个纯学术团队打造的深度搜索Agent OpenSeeker，完全开源模型与训练数据。仅用11.7k样本单轮SFT，在BrowseComp-ZH榜单达48.4%，超越阿里Tongyi DeepResearch的46.7%。核心技术包括基于真实网页结构的事实锚定问答构建和动态去噪轨迹合成方法。</div>
+              <ul class="key-points"><li>首个纯学术团队打造的完整开源Search Agent，打破大厂数据护城河</li><li>仅用11.7k合成样本单轮SFT即超越大厂多阶段训练模型</li><li>BrowseComp-ZH榜单48.4%，超越阿里Tongyi DeepResearch的46.7%</li><li>核心技术一：基于真实网页图谱的事实锚定问答构建，构造高难度多跳问题</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651024827&idx=2&sn=dc80269b563b462cf512c3754b935ba2&chksm=85a63f4d91aa858074b88843ba1971e82f21bc28a0987c34a84c7584677a27a123df69a62436&scene=126&sessionid=0#rd" target="_blank">Gram Newton-Schulz：万亿MoE优化器2倍加速，40-50%时间降低</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-31
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #普林斯顿大学 #纽约大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 90</span>
+              </div>
+              <div class="card-summary">普林斯顿大学和纽约大学研究者提出Gram Newton-Schulz算法，通过在Gram矩阵XX^T而非矩阵X上迭代，重构Newton-Schulz方法。在万亿参数MoE模型Kimi K2中实现优化器时间降低40-50%，推理速度提升2倍，且精度无损。该方法利用对称矩阵计算优化，减少矩形GEMM次数，是线性代数洞察与高性能算子的结合。</div>
+              <ul class="key-points"><li>核心创新：将Newton-Schulz迭代从n×m矩阵空间转移到n×n Gram矩阵空间，降低计算复杂度</li><li>性能提升：在Kimi K2万亿参数MoE模型中，NVIDIA H100和B300平台上实现2倍加速，优化器时间降低40-50%</li><li>稳定性改进：提出Stabilized Gram Newton-Schulz，通过float16加速和重启策略解决半精度下的负特征值问题</li><li>FLOPs降低：相比标准Newton-Schulz，Gram方法FLOPs降低42%-58%（当α>1时）</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649793278&idx=2&sn=51bb042bf09cd56106da337bee7db7e4&chksm=8670b9487f326b43ac517ab8f0575bf9ceffbb00831c34f8c02191d3c8a15637fb4766f76ad0&scene=126&sessionid=0#rd" target="_blank">ICLR26: 空间理论，AI空间智能仅达三岁儿童水平</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">DeepTech深科技</span>
+                2026-03-31
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #斯坦福大学 #西北大学 #华盛顿大学 #康奈尔大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 88</span>
+              </div>
+              <div class="card-summary">李飞飞与李曼玲团队发布「空间理论」评估框架，测试AI主动探索并构建空间认知地图的能力。研究发现前沿模型在被动模式下表现尚可，但主动探索模式下性能大幅下降：GPT-5.2从57.1%降至46.0%，Gemini-3 Pro从60.5%降至57.3%。核心问题包括效率低、信念惯性（GPT-5.2视觉朝向惯性高达68.9%）和信念漂移，表明当前多模态模型尚未学会从像素中高效提取空间结构。该论文已被ICLR 2026接收。</div>
+              <ul class="key-points"><li>发布「空间理论」(Theory of Space)评估框架，借鉴发展心理学Sally-Anne测试评估AI空间智能</li><li>核心发现：AI在主动探索模式下性能大幅下降，GPT-5.2准确率从57.1%降至46.0%，Gemini-3 Pro从60.5%降至57.3%</li><li>发现信念惯性现象：GPT-5.2在视觉世界中朝向惯性高达68.9%，模型无法更新已观察到的变化</li><li>发现信念漂移问题：模型缺乏稳定维护长程空间信息的机制，初始正确记忆被后续错误更新覆盖</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651024827&idx=3&sn=ce5e133b7ab1863f3b633b1af0764d11&chksm=85c9bd845d7a3bf21a495ced001bc4b740cf0a26f7c6fc1f8d8314146ab3bf7a99da58075c7c&scene=126&sessionid=0#rd" target="_blank">ICLR26: TrustJudge，概率分布评估框架，不一致率降37%</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-31
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #北京大学 #清华大学 #新加坡国立大学 #南京大学 #卡内基梅隆大学 #西湖大学 #东南大学 #东京科学大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 88</span>
+              </div>
+              <div class="card-summary">北大清华等8校提出TrustJudge评估框架，解决大模型当裁判时的评分-比较不一致（23.32%）和成对传递性不一致（15.22%）问题。核心方法包括：分布敏感评分（100分制+softmax概率分布）和似然感知聚合（PPL-Based+双向概率聚合）。实验显示Llama-3.2-3B传递性不一致从54.69%降至17.76%，跨Llama/ GPT/Qwen/Gemma四架构均有效。</div>
+              <ul class="key-points"><li>问题量化：Llama-3.1-70B评分-比较不一致率23.32%，成对传递性不一致率15.22%</li><li>分布敏感评分：将5分制改为100分制，对logits做softmax得到概率分布，用加权期望作为最终分数</li><li>似然感知聚合：PPL-Based方法（选困惑度低的排列）和双向概率聚合（抵消位置偏差）</li><li>理论保证：定理1证明分布敏感评分可区分离散评分无法区分的分布；命题1证明PPL方法降低不确定性</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652688055&idx=1&sn=2683509de5ab51b1a1149f54c0d8888f&chksm=f0bd08c2bceeb4a42b7e32eabd0cad7a73f372c85385d464affa037b5dcf7c5cd838d535754e&scene=126&sessionid=0#rd" target="_blank">Claude Code源码泄露，51.2万行TypeScript代码暴露AI工程师底层架构</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-31
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
+              </div>
+              <div class="card-summary">Anthropic的Claude Code CLI源代码因npm配置错误导致.map文件泄露，超1900个文件、51.2万行TypeScript代码全球裸奔。代码显示其使用React+Ink构建，运行于Bun运行时，包含40多个工具模块、4.6万行QueryEngine推理核心，以及coordinator多智能体协调器和IDE桥接能力。泄露还曝光了Kairos持久守护进程、Buddy电子宠物系统、Undercover卧底模式等隐藏功能。</div>
+              <ul class="key-points"><li>Claude Code源码因npm配置错误泄露，超1900个文件、51.2万行TypeScript代码暴露</li><li>技术栈：React + Ink终端UI框架，Bun运行时，Source Map调试文件意外发布</li><li>核心架构「万能工具箱」：40多个独立模块，支持文件读写、Bash命令、LSP协议集成、子代理生成</li><li>推理核心「QueryEngine.ts」：4.6万行代码巨兽，负责推理逻辑、Token计数、思维链循环</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/Significant-Gravitas/AutoGPT" target="_blank">AutoGPT：让AI人人可用的开源工具平台</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">GitHub Trending</span>
+                2026-04-01
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 78</span>
+              </div>
+              <div class="card-summary">AutoGPT是一个开源AI代理项目，旨在让AI技术对每个人都可访问和可构建。项目提供工具让用户使用和构建AI，已获得18.3万GitHub星标，使用Python开发，在AI社区具有重大影响力。</div>
+              <ul class="key-points"><li>开源AI代理项目，GitHub星数高达18.3万</li><li>使命是让AI对每个人都可访问和可构建</li><li>提供AI工具供用户使用和二次开发</li><li>使用Python语言开发</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/pytorch/pytorch" target="_blank">PyTorch：Python深度学习框架</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">GitHub Trending</span>
+                2026-04-01
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
+              </div>
+              <div class="card-summary">PyTorch是Meta（原Facebook）开发的开源深度学习框架，支持GPU加速的张量计算和动态神经网络构建，在GitHub获98697星，是当前AI领域最受欢迎的深度学习框架之一。</div>
+              <ul class="key-points"><li>Meta（原Facebook）开发的开源深度学习框架</li><li>支持GPU加速的张量计算和动态神经网络</li><li>GitHub星数达98697</li><li>Python生态中最流行的AI框架之一</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651024827&idx=1&sn=4088bb4cdc7fc7efe10c2998aec79285&chksm=85c90e38f2b09a57b5687885166ca174354b22afa47b21d3cc01e01c9c7dbf5ecc0056882d57&scene=126&sessionid=0#rd" target="_blank">京东卷出新高度！硬刚「复杂指令」长时长、自由态数字人直播终于丝滑了</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-03-31
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 50</span>
+              </div>
+              <div class="card-summary">京东发布JoyStreamer数字人大模型，解决长时长、自由态、实时互动难题，性能超越SOTA</div>
+              <ul class="key-points"><li>京东发布JoyStreamer和JoyStreamer-Flash数字人大模型</li><li>解决文本指令控制力弱、多模态控制信号冲突、长时长生成能力不足等行业痛点</li><li>实现长时长、自由态、实时互动的数字人生成效果</li><li>性能全面超越当前SOTA模型</li></ul>
+              
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">🚀 产品发布（3 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652688055&idx=2&sn=42f6399953dd2de6f428928d280e6c9a&chksm=f0bb0aa6618b65ff6a6ed5b9703d37338cac230771c0c039ab7bf69ac1489f10643fecf801d4&scene=126&sessionid=0#rd" target="_blank">微软Copilot: GPT写稿+Claude审稿，DRACO+13.8%</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-31
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #新智元</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
+              </div>
+              <div class="card-summary">微软Copilot升级引入多模型协作机制。Researcher智能体默认同时调用GPT和Claude：GPT负责任务规划和初稿撰写，Claude以专家评审员身份逐条审查。推出Critique和Council两种模式，前者实现“编辑审稿“效率优先，后者实现“专家会诊“决策优先。Copilot Cowork基于Anthropic技术平台构建，可跨工具自动规划和执行任务。DRACO基准测试综合得分比Perplexity Deep Research高13.8%。微软从“模型选手“转型为“编排层”，不再押注单一模型。</div>
+              <ul class="key-points"><li>微软Copilot引入多模型协作：GPT负责生成初稿，Claude担任专家审稿角色</li><li>Critique模式：GPT写初稿+Claude基于Rubric逐条审查，聚焦来源可靠性、报告完整性、证据溯源三个维度</li><li>Council模式：GPT和Claude各自生成完整报告并排展示，评委模型生成综述分析分歧</li><li>Copilot Cowork：基于Anthropic的Claude Cowork技术平台构建，可跨工具自动规划和执行任务</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247732813&idx=2&sn=66ea3b469f64c2897b83969c6b79f5e8&chksm=91caeb1f9574b96dd6e121169160b3f1507979dd886795e431277d32fac073a2b58e959b9f5d&scene=126&sessionid=0#rd" target="_blank">ClawXRouter，端云协同路由插件，成本降低58%</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ai科技评论</span>
+                2026-03-31
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #清华大学THUNLP #中国人民大学 #AI9Stars #面壁智能 #OpenBMB</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
+              </div>
+              <div class="card-summary">清华大学THUNLP实验室联合中国人民大学、AI9Stars、面壁智能、OpenBMB发布开源插件ClawXRouter，解决AI Agent三大痛点：云端隐私泄露、成本过高、本地性能不足。该插件通过三级隐私路由、性价比感知路由、智能脱敏转发和双轨记忆机制，实现端云协同。实测在PinchBench上成本节省58%，性能提升6.3%。</div>
+              <ul class="key-points"><li>ClawXRouter是端云协同AI智能体路由插件，源于EdgeClaw框架，可轻松适配OpenClaw生态</li><li>三级隐私路由机制：S3私密数据物理隔离本地处理，S2敏感数据智能脱敏后上云，S1安全数据直接上云</li><li>性价比感知路由：内置本地小模型担任任务评估师，根据任务复杂度分配最合适模型</li><li>实测效果：在PinchBench（23项OpenClaw Agent基准测试）上成本节省58%，性能提升6.3%</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1" target="_blank">Mixtral-8x7B指令微调版本发布</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">HuggingFace Models</span>
+                2026-04-01
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
+              </div>
+              <div class="card-summary">Mistral AI在HuggingFace发布Mixtral-8x7B-Instruct-v0.1指令微调版本，这是一款基于稀疏专家混合架构的大语言模型，具备强大的指令遵循能力，可用于对话和任务执行场景。</div>
+              <ul class="key-points"><li>Mixtral-8x7B采用稀疏专家混合（SMoE）架构</li><li>Instruct-v0.1版本针对指令遵循进行了微调优化</li><li>模型可通过HuggingFace平台直接访问</li><li>Mistral AI是法国AI初创公司，专注于开源大模型开发</li></ul>
+              
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">📊 行业动态（4 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652688000&idx=2&sn=34e4e91e7d7b02dcee06464d5a440a87&chksm=f0c946e47e7b1f05a5e0c29651e4ea041b60c6c25b33e652a0715b7077e34c623600972c7c47&scene=126&sessionid=0#rd" target="_blank">摩根士丹利裁员2500人，AI替代入门级金融/法律/咨询岗位潮已至</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-03-31
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
+              </div>
+              <div class="card-summary">Anthropic CEO Dario Amodei警告AI将在1-2年内替代50%入门级白领岗位，特别是法律、金融、咨询行业。Block CEO Jack Dorsey宣布裁40%员工，约4000人，称AI工具已能替代大量人工。摩根士丹利3月宣布裁员2500人，占总员工3%，覆盖投行、交易、财富管理等几乎所有板块。技术分析显示Anthropic能力提升主要源于GB200 NVL72新硬件带来的算力暴增，而非架构创新。入门级岗位招聘量下降18%-40%，AI高暴露行业正经历深刻变革。</div>
+              <ul class="key-points"><li>Anthropic CEO Dario Amodei：AI可能在1-5年内消灭约50%入门级白领岗位，失业率或飙升至10%-20%</li><li>Block宣布裁掉约4000人（40%员工），CEO Jack Dorsey称AI工具已能替代大量人工，6000人+AI组合能完成10000人工作量</li><li>摩根士丹利2026年3月宣布裁员2500人，占总员工3%，覆盖投行、交易、财富管理、资产管理等几乎所有板块</li><li>技术突破：Anthropic能力阶跃主要源于GB200 NVL72新硬件带来的训练算力暴增，72个B200 GPU，训练性能720 petaflops，推理性能1440 petaflops</li></ul>
+              <div style="font-size:12px;color:#0077b6;font-weight:600;margin:8px 0 4px">📈 二级市场</div><table class="invest-table"><tr><th>公司</th><th>市场</th><th>详情</th></tr><tr>
+                      <td><b>Block</b><br><span style="color:#999;font-size:11px">移动支付公司，CEO Jack Dorsey宣布裁40%员工约4000人，称AI工具已能替代大量人工</span></td>
+                      <td>纽交所</td><td>股价暴涨超20%</td></tr><tr>
+                      <td><b>摩根士丹利</b><br><span style="color:#999;font-size:11px">华尔街投行，覆盖投资银行、交易、财富管理、资产管理等几乎所有板块</span></td>
+                      <td>纽交所</td><td>2025年净营收约706亿美元，创历史最好成绩，3月宣布裁员2500人占总员工3%</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=Mzk2NDg4MDcwNA==&mid=2247491819&idx=1&sn=f284b19bfb0cb6e4919599ed331ee46a&chksm=c5ec0711acc31ed553039c5fb7b0c55c2bbc095e90c6800cef124046f38f5ec6801e88eb97c1&scene=126&sessionid=0#rd" target="_blank">EAIDC 2026：全球最大规模具身智能黑客松，20支队伍真机竞技</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">具身纪元</span>
+                2026-03-31
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #自变量机器人 #深圳市人工智能行业协会 #广东省具身智能训练场</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
+              </div>
+              <div class="card-summary">全球首届具身智能开发者大会EAIDC 2026在深圳举办，上百支队伍报名，20支进入决赛。比赛采用真实物理场地，上百条机械臂真机操作，摒弃仿真环境。参赛者需在3天内完成数据采集到模型部署全流程。圆桌讨论聚焦开源真伪问题，强调开源对具身智能人才培养和行业迭代的关键作用，以及产学研深度协同的必要性。</div>
+              <ul class="key-points"><li>全球最大规模线下具身智能开发者大赛：上百条机械臂，全真实物理场地评测，摒弃仿真环境</li><li>赛制严格：3月27日下午才发放数据集和开发环境，28-29日训练，30日上午截止，窗口不到3天</li><li>四道任务递进：套环（分拣放置）、分拣水果（语义理解）、插USB线（精细操作）、摆字母方块（长时序reasoning）</li><li>自变量提供百条机械臂硬件集群、100+PFlops算力、分布式训推一体平台，数据采集到真机部署流程缩短60倍</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkwMjUxNTkwNQ==&mid=2247631872&idx=4&sn=d3315c08c41e46f906e859c9e434d028&chksm=c17dadaf71c9721b789283078c51df049f15a5210a8987d31370401f16cae24d8f4c5584e6c6&scene=126&sessionid=0#rd" target="_blank">云厂商AI算力涨价潮：腾讯云部分产品涨400%，行业告别低价竞争</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投中网</span>
+                2026-03-31
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 65</span>
+              </div>
+              <div class="card-summary">2026年3月阿里云、腾讯云、百度智能云等头部厂商AI算力服务价格普遍上调30%-50%，腾讯云部分核心产品涨幅高达400%，打破中国云计算多年持续降价惯例。涨价核心原因是AI Token需求爆发式增长，中国日均Token调用量两年间从1000亿增至140万亿，增长超千倍。行业正从“低价走量“先圈地再盈利”模式转向商业化定价新阶段，头部厂商竞争维度升级，阿里云份额连续三季度攀升至36%，火山引擎在AI云细分赛道以近50%调用量市场份额领跑。</div>
+              <ul class="key-points"><li>2026年3月云厂商集体涨价：谷歌云、亚马逊云、腾讯云、阿里云、百度智能云等10天内相继调价，核心AI算力与存储服务涨幅30%-50%，腾讯云部分产品涨幅高达400%</li><li>供需矛盾激化：中国日均Token调用量从2024年初1000亿增至2026年3月140万亿，两年间增长超千倍，尽管Token价格从每百万50-100元降至几毛钱降幅99%，但调用规模指数级扩张</li><li>行业定价逻辑根本转变：从“低价走量、先圈地再盈利“转向“合适价格+稳定AI服务体验“的综合服务模式，告别“算力二房东“角色</li><li>中小AI企业受冲击严重：资金少、话语权弱，无法锁定优惠价，算力成本翻倍导致新项目启动资金需翻倍，部分项目面临关停</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/" target="_blank">Claude Code源码泄露：虚假工具与隐藏模式曝光</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Hacker News</span>
+                2026-04-01
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
+              </div>
+              <div class="card-summary">Anthropic的Claude Code CLI工具源代码遭泄露，暴露了fake tools、frustration regexes和undercover mode等内部机制。该事件引发开发者对AI工具安全性的担忧，具体泄露范围和影响仍在调查中。</div>
+              <ul class="key-points"><li>Anthropic Claude Code CLI工具源代码遭泄露</li><li>泄露内容包含fake tools、frustration regexes等内部机制</li><li>undercover mode等隐藏功能被曝光</li><li>引发开发者对AI工具安全性和隐私的担忧</li></ul>
+              
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">📝 简报（17 篇）</div>
+          
+                <div class="card card-brief">
+                  <span class="tag tag-source">Crunchbase News</span>
+                  <a href="https://news.crunchbase.com/venture/wearable-fitness-tech-ai-whoop-seriesg-funding/" target="_blank" style="font-size:13px;color:#333">Whoop’s Wearable Fitness </a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">Whoop’s Wearable Fitness Tech Lands $575M From Athletes, Celebrities, Institutional Investors To Reach $10.1B Valuation</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">Crunchbase News</span>
+                  <a href="https://news.crunchbase.com/venture/data-largest-seed-rounds-ai-startups/" target="_blank" style="font-size:13px;color:#333">The Largest Recent Seed R</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">The Largest Recent Seed Rounds Are All For AI Companies</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">新智元</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652688000&idx=1&sn=5c67a0e128052c2a1ffe3604755febcf&chksm=f0344a727b4ef64b7716af3b88ba56c3feeb21cf18291f23a1bd5b1104a24567c09e22808aae&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">DeepSeek史诗级宕机13小时，一夜崩上热搜！网页版更新，V4真来了？</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">DeepSeek经历13小时大宕机引全网关注，V4呼之欲出</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">ai科技评论</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247732813&idx=1&sn=96115ec16947f7a1b90ae71189e1ae19&chksm=91b4c8a67f107387b80ce1d2b662b30d50fc132bf7a5da59d648895e2ac6aad4b939b58b7fbd&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">对话邓智航｜以「龙虾」为起点，起底从单个 Agent 到 Agentic Web 的安全重构</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">Agent安全正从模型层面转向系统层面，核心是控制权之争</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">ai科技评论</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247732807&idx=1&sn=d725de26545fffda9c7267103416d4dc&chksm=91fb657360fcbff395c41589e552fae0be94043fc1104c095c2caeaba7752bb611b2646534c7&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">「龙虾」时代，老板也没有免死牌</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">硅谷CEO亲自用AI编程成新趋势，周鸿祎效仿，企业家需亲自参与AI实践而非仅依赖团队</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">数字生命卡兹克</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647681169&idx=1&sn=5de4b3de92a3fb771680d454a5c7d494&chksm=f1126df4046eeb7c535dd4b7dfcf4e4e018075e6921adca59d9c99c105f02c822e5b3fe5d7a9&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">今天的乐子事大家都知道了。
+
+Claude Code的所有源码因为一个非常低级的问题泄露了，估计全世界产品的Agent框架都要起飞了，anthropics这次又以一己之力推动了全球AI圈的进步。
+
+源</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">Claude Code源码泄露暴露多个未上线新功能，或将推动全球Agent框架发展</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">模力工场</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzE5MTkyNTAxNg==&mid=2247485070&idx=1&sn=394c73cc846fef55115b7155f709dcf4&chksm=9727c8dc39f0bfb5c216e09a715a82457000011331e96a06f4773c07d1251af6355813f73de2&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">AI 真的能懂人的喜怒哀乐吗？</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">探讨AI能否真正理解人类情感，解析当前情感识别技术的能力与局限</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">投中网</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzkwMjUxNTkwNQ==&mid=2247631872&idx=1&sn=3349af13cdd2797dec8dfe109cafeb89&chksm=c14cee5ac722e83b49c1f37ab737285a36e69001793699a6c128a39e7dc75728f16e3ff2ce3a&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">中国百大创投城区：海淀区蝉联第一、江苏22区上榜</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">2025中国创投价值城区榜发布，海淀区第一，江苏22区上榜数量居首</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">ReadingFun</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzE5ODYxOTkxMg==&mid=2247485179&idx=1&sn=c0a7f4848aadb25beffd7827d553898a&chksm=97f57f2996e62e354c1dbd2dcf8413bdae241f2ba6c57bdc0348b1ebee3496d6eca9f996d61e&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">斯坦福 Meta-Harness：自动优化 Harness，性能超越顶级人工设计 Agent</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">Meta-Harness自动优化LLM外层代码，性能超人工设计6倍。</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">赛博禅心</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247514795&idx=1&sn=a31743d856ab7483e481183eedf36cc6&chksm=c384d5b974fe3364b59bec7a3fd567e364cf779c8372090d411c2f3789ba62c16d38a8c27266&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">OpenAI 给 Claude Code 做了个插件</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">OpenAI为Claude Code推出开源插件codex-plugin-cc，支持代码审查等功能</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">DeepTech深科技</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649793314&idx=1&sn=7121d7c4adc756519bc4c4a3250c98f4&chksm=86bec786c25e6339b1d4f9672ad4ffbb16b214005e9608cf62455e3b0b76c53e987c36d66245&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">Claude Code源代码意外泄露：51万行代码曝光，内含大量未发布功能</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">Claude Code源代码因npm配置疏漏意外泄露，51万行代码含大量未发布功能</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">DeepTech深科技</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649793304&idx=1&sn=a5008f1991e25951280d0b339a303a56&chksm=86eee0cd6418e213ab406a15dd225253a3d6c1ce356b400ac300c4da4b3909e28b972550d718&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">陶哲轩最新论文：拒绝技术至上，AI 需要以人为本被重新定义</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">陶哲轩论文称AI是工具演进延续，需以人为本重新定义人类智识价值</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">DeepTech深科技</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649793304&idx=2&sn=6c5b56ba77df688c1bac7daebbc5ecb3&chksm=8637028caa62af3c989ecf2d7e3c91e523c30a816729dbc99a34d3b443ef5e4454468bc25bb0&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">24小时90次实验，全程AI写代码，他独自复现了苹果三年前的论文成果</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">AI在48GB内存MacBook复现苹果论文，运行3970亿参数模型</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">DeepTech深科技</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649793278&idx=1&sn=928cff6f1accef8cc5cf51a11c59f993&chksm=86b43454bb0e640528126e96080a44679d1f2c706b213e86f076d29d63e28aeed508981ba71f&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">对话戴国浩：用Token重新理解AI的成本与价值</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">AI催生token经济学，黄仁勋称其将成第四种薪酬，重塑价值评估体系。</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">机器之心</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651024890&idx=1&sn=ef03a969ea07774bbe6935c89a1370e2&chksm=85b70485f14b617db89a7bd39ed996178ce7fabd370f66321d12cca15dea4ba3562ad264e53e&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">全网疯传fork！刚刚，Claude Code源代码泄露被开源了</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">Claude Code源码因Anthropic发布失误泄露，约57MB可通过source map直接获取，AI社区疯狂fork</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">机器之心</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651024837&idx=1&sn=b617f9c5e5adb7e9f73fa23ec41032b2&chksm=85a8a9a023062d29e8cd85d8bb5512732b858557917a3d68c27c4443259188081587f6271a94&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">龙虾太难养？刚刚发布的SOLO独立端，可能是你要的AI生产力</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">TRAE发布SOLO独立端，AI开发工具升级，覆盖产品运营全角色</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">赛博禅心</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247514821&idx=1&sn=bf13ea2ab46c31b354131505490b15e1&chksm=c3002d674c65a2e100b23a405052e3f63e0bcf3c0e0d6aef521fe4de0f7ccd9b1e537ad7d873&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">Claude Code 源码泄漏，全部细节与始末</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">Claude Code源码泄露51万行，一小时GitHub获11.3k Star</span>
+                </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">📌 其他（11 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkwMjUxNTkwNQ==&mid=2247631872&idx=2&sn=12068c2bbbd94daccac8c1991c2e4e7c&chksm=c14a03a475c49bc6e81a9bf2c5adec66fc12c1c5c2ef093ebf8a70b8108e5f4006487d930045&scene=126&sessionid=0#rd" target="_blank">啟赋早期投资企业：玻色量子完成10亿元B轮融资，“十五五”规划专用量子计算机赛道唯一代表</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投中网</span>
+                2026-03-31
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 50</span>
+              </div>
+              <div class="card-summary">（总结生成失败）</div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://huggingface.co/black-forest-labs/FLUX.1-dev" target="_blank">black-forest-labs/FLUX.1-</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">HuggingFace Models</span>
+                2026-04-01
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 50</span>
+              </div>
+              <div class="card-summary">（暂无摘要）</div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html" target="_blank">OpenAI closes funding rou</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Hacker News</span>
+                2026-04-01
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 24</span>
+              </div>
+              <div class="card-summary">得分：243 分，评论：238 条</div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://www.greptile.com/blog/ai-slopware-future" target="_blank">Slop is not necessarily t</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Hacker News</span>
+                2026-04-01
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary">得分：153 分，评论：269 条</div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://cohere.com/blog/transcribe" target="_blank">Cohere Transcribe: Speech</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Hacker News</span>
+                2026-04-01
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 14</span>
+              </div>
+              <div class="card-summary">得分：145 分，评论：47 条</div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://ministack.org/" target="_blank">Ministack (Replacement fo</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Hacker News</span>
+                2026-04-01
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 7</span>
+              </div>
+              <div class="card-summary">得分：77 分，评论：13 条</div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/danieldugas/HYPERHELL" target="_blank">4D Doom</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Hacker News</span>
+                2026-04-01
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 7</span>
+              </div>
+              <div class="card-summary">得分：77 分，评论：11 条</div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/ericlewis/libpo32" target="_blank">Teenage Engineering's PO-</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Hacker News</span>
+                2026-04-01
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 6</span>
+              </div>
+              <div class="card-summary">得分：65 分，评论：13 条</div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://scottlawsonbc.com/post/dot-system" target="_blank">A dot a day keeps the clu</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Hacker News</span>
+                2026-04-01
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 5</span>
+              </div>
+              <div class="card-summary">得分：50 分，评论：16 条</div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/" target="_blank">I Traced My Traffic Throu</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Hacker News</span>
+                2026-04-01
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 4</span>
+              </div>
+              <div class="card-summary">得分：46 分，评论：20 条</div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://prismml.com/" target="_blank">Show HN: 1-Bit Bonsai, th</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Hacker News</span>
+                2026-04-01
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 2</span>
+              </div>
+              <div class="card-summary">得分：26 分，评论：7 条</div>
+              
+              
+            </div>
+        </div>
+    
+    <div class="footer">
+      由 OpenClaw AI 自动生成 · 数据来源：各公众号 via cimidata API
+    </div>
+  </div>
+</div>
+{{< /rawhtml >}}
