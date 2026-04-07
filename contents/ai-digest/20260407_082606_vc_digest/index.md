@@ -1,0 +1,279 @@
+---
+title: "🤖 AI & 科技投资日报"
+date: 2026-04-07T08:26:41+08:00
+slug: "20260407_082606_vc_digest"
+draft: false
+type: ai-digest
+summary: "每日 AI 科技资讯摘要 - 2026-04-07"
+hideMeta: false
+ShowPostNavLinks: false
+disableShare: true
+ShowToc: false
+hidemeta: false
+---
+
+{{< rawhtml >}}
+<style>
+.digest-wrapper{
+  box-sizing:border-box;
+  background:#f5f7fa !important;
+  padding:0;
+  width:100vw;
+  margin-left:calc(50% - 50vw);
+  margin-right:calc(50% - 50vw);
+}
+.digest-wrapper .container{
+  max-width:860px !important;
+  margin:0 auto !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+}
+.digest-wrapper .stats{display:flex !important;flex-direction:row !important;flex-wrap:wrap !important;gap:6px !important;margin-top:12px !important;}
+.digest-wrapper .stat{white-space:nowrap !important;flex-shrink:0 !important;display:inline-flex !important;align-items:center !important;font-size:12px !important;padding:6px 10px !important;}
+.digest-wrapper .header{
+  background:linear-gradient(135deg,#1a1a2e,#16213e) !important;
+  color:#fff !important;
+}
+.digest-wrapper .header h1,
+.digest-wrapper .header p{color:#fff !important;}
+.digest-wrapper .card-title a{color:#1a1a2e !important;}
+
+    .digest-wrapper{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+         background:#f5f7fa;margin:0;padding:20px;color:#333}
+    .container{max-width:720px;margin:0 auto;background:#fff;
+               border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+    .header{background:linear-gradient(135deg,#1a1a2e,#16213e);
+            color:#fff;padding:28px 32px}
+    .header h1{margin:0 0 6px;font-size:22px;font-weight:700}
+    .header p{margin:0;opacity:.7;font-size:13px}
+    .stats{display:flex;gap:12px;margin-top:16px}
+    .stat{background:rgba(255,255,255,.12);border-radius:8px;
+          padding:8px 14px;font-size:13px}
+    .section{padding:0 32px 8px}
+    .section-title{font-size:16px;font-weight:700;margin:28px 0 12px;
+                   padding-bottom:8px;border-bottom:2px solid #f0f0f0;
+                   display:flex;align-items:center;gap:8px}
+    .card{background:#fafafa;border:1px solid #eee;border-radius:10px;
+          padding:16px 18px;margin-bottom:12px}
+    .card-title{font-size:14px;font-weight:700;margin:0 0 6px;
+                color:#1a1a2e;line-height:1.5}
+    .card-title a{color:#1a1a2e;text-decoration:none}
+    .card-title a:hover{text-decoration:underline}
+    .card-meta{font-size:11px;color:#999;margin-bottom:10px}
+    .card-summary{font-size:13px;line-height:1.7;color:#444;margin-bottom:10px}
+    .key-points{margin:0;padding-left:18px}
+    .key-points li{font-size:12px;color:#555;margin-bottom:4px;line-height:1.6}
+    .invest-table{width:100%;border-collapse:collapse;margin-top:10px;font-size:12px}
+    .invest-table th{background:#fff8e1;color:#8a6914;
+                     padding:6px 10px;text-align:left;font-weight:600}
+    .invest-table td{padding:6px 10px;border-top:1px solid #f0f0f0;color:#444}
+    .invest-table tr:hover td{background:#fffbf0}
+    .tag{display:inline-block;padding:2px 8px;border-radius:4px;
+         font-size:11px;font-weight:600;margin-right:6px}
+    .tag-source{background:#e8f4fd;color:#0077b6}
+    .card-brief{display:flex;align-items:baseline;gap:8px;padding:8px 14px;
+                background:#fafafa;border:1px solid #eee;border-radius:8px;
+                margin-bottom:6px;flex-wrap:wrap}
+    .footer{text-align:center;padding:20px;color:#aaa;font-size:11px;
+            border-top:1px solid #f0f0f0}
+    
+</style>
+<div class="digest-wrapper">
+<div class="container">
+    
+    <div class="header">
+      <h1>🤖 AI & 科技投资日报</h1>
+      <div class="stats">
+        <div class="stat">📅 2026年04月07日</div>
+        <div class="stat">📰 本期 12 篇</div>
+        
+        <div class="stat">⏱ 生成于 08:26</div>
+      </div>
+    </div>
+    
+    
+        <div class="section">
+          <div class="section-title">💰 一级市场投资（3 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247732969&idx=1&sn=a3186a30c1c0fce13b5eb96ced0a1dfd&chksm=91bf6d6cf0eefd864bce5be18571cc7223a93d2a6f38c500d27536ec38bc815cf7416a046440&scene=126&sessionid=0#rd" target="_blank">千寻智能30天融资30亿，雷军马云首次共同投资具身智能</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ai科技评论</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 90</span>
+              </div>
+              <div class="card-summary">千寻智能2026年4月完成10亿元融资，由顺为资本（雷军）和云锋基金（马云）联合领投，距2月近20亿元融资仅30天，累计30亿元。技术路线与Generalist AI的GEN-1模型高度吻合，采用数据驱动Scaling Law，已累计超20万小时真实交互数据。Spirit v1.5模型在RoboChallenge评测以50.33%超越美国Pi0.5拿下全球第一，核心能力为零样本泛化。商业化方面已部署于宁德时代产线和京东MALL零售场景。</div>
+              <ul class="key-points"><li>30天内完成两轮融资累计30亿元，成为2026年融资节奏最迅猛的具身公司</li><li>雷军（顺为资本）与马云（云锋基金）首次在具身赛道形成共同投资</li><li>技术路线：数据驱动Scaling Law，与Generalist AI的GEN-1模型路线高度吻合</li><li>数据能力：累计超20万小时多类型真实交互数据，预计2026年突破100万小时</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>千寻智能</b><br><span style="color:#0077b6;font-size:11px">具身智能/人形机器人</span><br><span style="color:#999;font-size:11px">具身智能公司，专注机器人数据驱动Scaling Law和零样本泛化技术</span></td><td>10亿元</td><td>A轮（4月）</td><td>顺为资本、云锋基金联合领投，达晨财智、某头部人民币基金、银河源汇、图灵基金、新鼎资本、庚辛资本</td></tr><tr><td><b>千寻智能</b><br><span style="color:#0077b6;font-size:11px">具身智能/人形机器人</span><br><span style="color:#999;font-size:11px">具身智能公司，30天内两轮融资累计30亿元</span></td><td>近20亿元</td><td>A轮（2月）</td><td>顺为资本跟投</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkwMjUxNTkwNQ==&mid=2247632021&idx=1&sn=d4fd8440ff382f80600d269e00c73cd6&chksm=c18ef0ab5ed2317d4118b444906481fe49947ef7cd1f22df3a4d408935ee7cf6e3a74b1e855e&scene=126&sessionid=0#rd" target="_blank">一级市场投资: 灵巧手供应商灵心巧手估值200亿，年内6轮融资</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投中网</span>
+                2026-04-06
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 90</span>
+              </div>
+              <div class="card-summary">宇树、智元机器人灵巧手供应商灵心巧手正以200亿元估值寻求新一轮融资。灵心巧手是全球唯一实现月产千台高自由度灵巧手的企业，占据全球80%以上市场份额。2025年收入从1000万飙升至2.5亿元，年内连续融资6轮，预计2026年申报IPO。创始人周永表示不做本体，专注做“卖铲子”的零部件定位。</div>
+              <ul class="key-points"><li>灵心巧手以200亿元估值寻求新一轮融资，超越宇树127亿元投后估值和智元150亿元估值</li><li>2025年年内连续融资6轮：4月种子轮超亿元（红杉种子基金、万凯新材领投）、8月天使轮数亿元（蚂蚁集团领投）、10月A轮数亿元、11月A+轮数亿元、12月A++轮（红杉中国、创世伙伴创投加入）、2026年2月B轮近15亿元</li><li>全球唯一月产千台高自由度灵巧手企业，占据全球80%以上市场份额</li><li>2025年收入爆发式增长：Q4收入2.5亿元，全年从1000万增长25倍</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>灵心巧手</b><br><span style="color:#0077b6;font-size:11px">具身智能/灵巧手</span><br><span style="color:#999;font-size:11px">全球唯一月产千台高自由度灵巧手供应商，占据全球80%以上市场份额</span></td><td>种子轮超亿元</td><td>种子轮</td><td>红杉种子基金、万凯新材领投</td></tr><tr><td><b>灵心巧手</b><br><span style="color:#0077b6;font-size:11px">具身智能/灵巧手</span><br><span style="color:#999;font-size:11px">全球唯一月产千台高自由度灵巧手供应商，占据全球80%以上市场份额</span></td><td>数亿元</td><td>天使轮</td><td>蚂蚁集团领投，中金资本、上海半导体装备基金等跟投</td></tr><tr><td><b>灵心巧手</b><br><span style="color:#0077b6;font-size:11px">具身智能/灵巧手</span><br><span style="color:#999;font-size:11px">全球唯一月产千台高自由度灵巧手供应商，占据全球80%以上市场份额</span></td><td>数亿元</td><td>A轮</td><td>京国瑞、博佳资本领投</td></tr><tr><td><b>灵心巧手</b><br><span style="color:#0077b6;font-size:11px">具身智能/灵巧手</span><br><span style="color:#999;font-size:11px">全球唯一月产千台高自由度灵巧手供应商，占据全球80%以上市场份额</span></td><td>数亿元</td><td>A+轮</td><td>浙江创新投资、德清产投、鼎晖百孚、乐聚机器人、奥克斯</td></tr><tr><td><b>灵心巧手</b><br><span style="color:#0077b6;font-size:11px">具身智能/灵巧手</span><br><span style="color:#999;font-size:11px">全球唯一月产千台高自由度灵巧手供应商，占据全球80%以上市场份额</span></td><td>未披露</td><td>A++轮</td><td>红杉中国、创世伙伴创投</td></tr><tr><td><b>灵心巧手</b><br><span style="color:#0077b6;font-size:11px">具身智能/灵巧手</span><br><span style="color:#999;font-size:11px">全球唯一月产千台高自由度灵巧手供应商，占据全球80%以上市场份额，投后估值百亿元</span></td><td>近15亿元</td><td>B轮</td><td>道得投资、盛世投资、新鼎资本</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkwMjUxNTkwNQ==&mid=2247632021&idx=2&sn=cdce5eb56cb61600f8b020a3b10f503e&chksm=c180a5844d9dc71302c98b483c26a8afae71a20370429360d63c37fb862860a04e04b12b8137&scene=126&sessionid=0#rd" target="_blank">AI投资新框架：Token/W时代三大赛道解析</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投中网</span>
+                2026-04-06
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
+              </div>
+              <div class="card-summary">本文提出AI投资新框架Tokens per Watt，指出竞争焦点从模型能力转向单位能耗产出有效Token。文章分析三个被重估的投资方向：1)CPU从辅助算力升级为AI工作流指挥官，代理型AI模式下消耗占比达80-90%，英特尔AMD已涨价10-15%；2)CPO共封装光学解决长上下文下GPU间数据搬运效率问题，2030年渗透率将达35%，市场规模81亿美元；3)大模型厂商重掌定价权，智谱年内涨幅579%，市值超4000亿元。</div>
+              <ul class="key-points"><li>AI投资框架从「堆GPU」转向Tokens per Watt，关注单位能耗产出有效Token的能力</li><li>CPU角色重估：从「传菜员」升级为Agent工作流的「指挥官」，承担任务编排、工具调用、实时决策</li><li>代理型AI模式下CPU消耗占工作流80-90%，vs对话式AI仅5%，数据中心CPU市场2026-2030年从250亿增至600亿美元</li><li>CPU供给高度集中于英特尔与AMD双寡头，已通知客户涨价10-15%，交货周期从1-2周延长至8-12周</li></ul>
+              <div style="font-size:12px;color:#0077b6;font-weight:600;margin:8px 0 4px">📈 二级市场</div><table class="invest-table"><tr><th>公司</th><th>市场</th><th>详情</th></tr><tr>
+                      <td><b>智谱</b><br><span style="color:#999;font-size:11px">大模型厂商，掌握Token收费权，GLM-5系列累计涨价83%仍供不应求</span></td>
+                      <td>未明确上市地</td><td>市值超4000亿元，股价最高938港元，年内涨幅579%</td></tr><tr>
+                      <td><b>MiniMax</b><br><span style="color:#999;font-size:11px">大模型厂商，资本市场对商业化叙事认可</span></td>
+                      <td>未明确上市地</td><td>年内股价涨幅483%</td></tr></table>
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">🔬 技术突破（2 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651086610&idx=1&sn=8ae2e49e1e0134101069f939b66842f8&chksm=bc186fb4c0310f62557292a51df40f813bb7be84029607052bfa194c26e53d6b28340019c758&scene=126&sessionid=0#rd" target="_blank">GPT-6预训练完成，200万token上下文，Agent能力跃升40%</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">APPSO</span>
+                2026-04-06
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 92</span>
+              </div>
+              <div class="card-summary">OpenAI GPT-6内部代号「Spud」已完成预训练，预计4月发布。模型在编码、推理、Agent任务上比GPT-5.4提升40%以上，上下文窗口从100万token扩展至200万。OpenAI为集中算力关停Sora，CEO与CFO在IPO时机上产生分歧。二级市场估值约7650亿美元，较峰值折价10%。4月将有7个重磅模型发布，包括Claude Mythos、DeepSeek V4、Qwen3.6-Max等。</div>
+              <ul class="key-points"><li>GPT-6内部代号「Spud」，3月24日在德克萨斯Stargate数据中心完成预训练，预计4月发布</li><li>性能提升：编码、推理、Agent任务比GPT-5.4高出40%以上</li><li>上下文窗口从100万token扩展至200万token</li><li>Brockman提出「Big Model Smell」概念，模型能主动对齐用户意图，减少提示工程需求</li></ul>
+              <div style="font-size:12px;color:#0077b6;font-weight:600;margin:8px 0 4px">📈 二级市场</div><table class="invest-table"><tr><th>公司</th><th>市场</th><th>详情</th></tr><tr>
+                      <td><b>OpenAI</b><br><span style="color:#999;font-size:11px">AI大模型公司，二级市场估值折价10%</span></td>
+                      <td>二级市场</td><td>估值约7650亿美元，较峰值8500亿美元折价10%；6亿美元股票卖单无人接盘</td></tr><tr>
+                      <td><b>Anthropic</b><br><span style="color:#999;font-size:11px">Claude模型开发商，估值逆势上涨</span></td>
+                      <td>二级市场</td><td>二级市场估值较上一轮融资溢价超过50%</td></tr></table>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651086614&idx=1&sn=f327b479a16a6ad55deac9c1e45121b6&chksm=bcde088cfcf7bcea7ba52b670f3c4c86dc1e2d7bfad81e10aeb743c9ce53ed0a5233fb84fa11&scene=126&sessionid=0#rd" target="_blank">Nature Medicine: SleepFM，睡眠数据预测130种疾病，准确率最高85%</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">APPSO</span>
+                2026-04-06
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #斯坦福大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
+              </div>
+              <div class="card-summary">斯坦福大学团队开发SleepFM AI模型，通过多导睡眠图(PSG)数据预测130种疾病风险。训练数据来自65000名参与者、585000小时睡眠记录(1999-2024年)。模型可提前6年预警疾病，全因死亡率预测准确率84%，痴呆症85%，心力衰竭80%，心肌梗死81%，慢性肾病79%。采用通道无关设计，未来可适配消费级可穿戴设备。模型已开源。</div>
+              <ul class="key-points"><li>SleepFM是首个基于多导睡眠图(PSG)数据训练的基础模型，可预测130种疾病风险</li><li>训练数据规模：65000+参与者，585000+小时睡眠记录，时间跨度25年(1999-2024)</li><li>核心技术创新：通道无关(channel-agnostic)架构，可适配不同传感器组合</li><li>疾病预测准确度：痴呆症85%(最高)、全因死亡率84%、心肌梗死81%、心力衰竭80%、慢性肾病79%</li></ul>
+              
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">🚀 产品发布（1 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&mid=2247492036&idx=1&sn=696d92bc30ad883300505bbc43a4130a&chksm=c0ef2fa4165ae5d2d6b353c87ae412cb16033286184dbc05d539ba92fd8b90d4da5361d1b051&scene=126&sessionid=0#rd" target="_blank">NanoCoder：950行Python复刻Claude Code核心机制</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">探索AGI</span>
+                2026-04-06
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #月之暗面 #Kimi Agent团队</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
+              </div>
+              <div class="card-summary">介绍NanoCoder开源项目，将Claude Code的50万行源码核心机制压缩至950行Python代码。该项目提取了7个核心设计模式：搜索替换式编辑、Agent工具循环+并行执行、三层上下文压缩、子代理生成、危险命令拦截、会话持久化、系统提示词动态组装。项目支持多种模型接入，可作为AI编程Agent的学习和开发基础。</div>
+              <ul class="key-points"><li>NanoCoder来自Kimi Agent团队何宇峰，核心逻辑仅950行，完整实现7个核心设计模式</li><li>搜索替换式编辑：LLM给出old_string和new_string，约束old_string必须恰好出现一次，消除编辑歧义</li><li>Agent工具循环+并行执行：StreamingToolExecutor在模型流式输出时就开始执行工具，只读工具并行，有副作用工具独占</li><li>三层上下文压缩：裁噪声→LLM摘要→硬压缩，按信息保质期分级处理128K token上下文</li></ul>
+              
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">📊 行业动态（1 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted" target="_blank">OpenAI CEO Altman信任危机引关注</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Hacker News</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
+              </div>
+              <div class="card-summary">文章探讨Sam Altman作为OpenAI CEO是否值得信任，以及他对AI未来发展的潜在影响。Altman目前掌控着可能是最重要的AI公司，其决策将影响数十亿人。文章引发了对AI治理和领导力的广泛讨论。</div>
+              <ul class="key-points"><li>Sam Altman掌控OpenAI，可能影响AI未来发展方向</li><li>公众对其信任度存疑，引发AI治理讨论</li><li>OpenAI是目前最具影响力的AI公司之一</li><li>AI技术发展面临领导力和伦理挑战</li></ul>
+              
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">📝 简报（3 篇）</div>
+          
+                <div class="card card-brief">
+                  <span class="tag tag-source">APPSO</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651086579&idx=1&sn=ae52a272f1cb49e4d6630b0317e7f71e&chksm=bc6677ccf066bd135ca9a7a0a8f08923c49df5f875b9ae9618ad69f16ce5178472d9672d80a5&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">微软把Copilot 变成牛皮癣，偷偷爬进上万个开源代码库贴小广告</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">Copilot因bug在GitHub PR中误插入Raycast广告，已修复</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">投资界</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzI5ODk1NjY1MA==&mid=2247719348&idx=3&sn=02f0b5a5c3dff3753fea1ed926f727cc&chksm=ed47b25b9326f416d99b2d304e94c2216a1de1234425930547c8ace454034c840dea5de8ece8&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">华尔街巨鳄：AI时代别打工了</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">贝莱德称AI时代工资养老破产，普通人需200万美元，华尔街推代币化。</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">新智元</span>
+                  <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652689997&idx=1&sn=ec600834a638c5b35c4124e76b09ec0f&chksm=f0bff0874a7392372cd71ca7b1ade0434d1ff131cdb59a804eac2bf92959aa45fc0f84862c0c&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333">逼AI当山顶洞人！Claude防话痨插件爆火，网友：受够了AI废话</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">让AI像穴居人一样说话的插件caveman爆火GitHub，省75%token，直击AI废话痛点。</span>
+                </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">📌 其他（2 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkwMjUxNTkwNQ==&mid=2247632021&idx=3&sn=ca3042518a31682c7c1ef90bf71ec8dc&chksm=c1c8c5b5f24a0c27a5266770586ef129e45a3f8425534f5d298b6abe2b98de58eb7ad825e38d&scene=126&sessionid=0#rd" target="_blank">蚂蚁联合吉利投了一家量子计算公司丨投融周报</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投中网</span>
+                2026-04-06
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 50</span>
+              </div>
+              <div class="card-summary">本周量子计算、细胞基因治疗、数字化基础设施获大额融资，蚂蚁吉利联手投幺正量子</div>
+              <ul class="key-points"><li>量子计算成硬科技投资热点，幺正量子获蚂蚁吉利联合领投</li><li>细胞与基因治疗（CGT）持续受资本关注</li><li>数字化冷链和数据中心基础设施获融资</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://blog.bridgexapi.io/the-anatomy-of-sms-delivery-from-request-to-carrier" target="_blank">The anatomy of SMS delive</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Hacker News</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 1</span>
+              </div>
+              <div class="card-summary">得分：15 分，评论：1 条</div>
+              
+              
+            </div>
+        </div>
+    
+    <div class="footer">
+      由 OpenClaw AI 自动生成 · 数据来源：各公众号 via cimidata API
+    </div>
+  </div>
+</div>
+{{< /rawhtml >}}
