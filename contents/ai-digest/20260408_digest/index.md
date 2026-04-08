@@ -1,6 +1,6 @@
 ---
 title: "🤖 AI & 科技投资日报"
-date: 2026-04-08T07:04:17+08:00
+date: 2026-04-08T16:50:45+08:00
 slug: "20260408_digest"
 draft: false
 type: ai-digest
@@ -85,9 +85,9 @@ hidemeta: false
       <h1>🤖 AI & 科技投资日报</h1>
       <div class="stats">
         <div class="stat">📅 2026年04月08日</div>
-        <div class="stat">📰 本期 9 篇</div>
+        <div class="stat">📰 本期 73 篇</div>
         
-        <div class="stat">⏱ 生成于 07:03</div>
+        <div class="stat">⏱ 生成于 16:39</div>
       </div>
     </div>
     
@@ -97,132 +97,1015 @@ hidemeta: false
           
             <div class="card">
               <div class="card-title">
-                <a href="https://www.anthropic.com/glasswing" target="_blank">Google发布Project Glasswing保护AI时代软件安全</a>
+                <a href="https://mp.weixin.qq.com/s/KhYBp28O1cOrPKtOtSQKAg" target="_blank">宾大：LLM引用URL幻觉率3-13%，开源urlhealth工具可降79倍</a>
               </div>
               <div class="card-meta">
-                <span class="tag tag-source">Hacker News</span>
-                2026-04-08
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
+                <span class="tag tag-source">Hyman的杂货铺</span>
+                2026-04-07
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #宾夕法尼亚大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 83</span>
               </div>
-              <div class="card-summary">Google推出开源项目Project Glasswing，旨在保护关键软件免受AI时代的安全威胁。该项目通过硬件和软件协同设计，提供基于硬件的信任根和软件防御机制，帮助开发者构建更安全的AI系统。</div>
-              <ul class="key-points"><li>Google发布开源安全项目Project Glasswing</li><li>旨在保护关键软件免受AI时代安全威胁</li><li>采用硬件和软件协同设计方法</li><li>提供基于硬件的信任根机制</li></ul>
+              <div class="card-summary">宾大研究团队对10个商业LLM和Deep Research Agent进行大规模引用URL可靠性评估，发现3-13%的引用URL是模型幻觉出来的（从未存在过），5-18%无法解析。Deep Research Agent幻觉率更高（10.7% vs 4.8%）。研究开源urlhealth工具，可将非解析URL率降低6-79倍至1%以下。医疗/医学领域引用失效率最高（17.4%）。</div>
+              <ul class="key-points"><li>LLM引用幻觉率3-13%，Deep Research Agent幻觉率更高（10.7% vs 4.8%），生成更多引用反而降低可靠性</li><li>幻觉URL定义：在Wayback Machine中没有任何存档快照的非解析URL，代表模型完全伪造的引用</li><li>非解析URL率从5.4%（商业）到11.4%（神学），医疗/医学领域在所有模型中都是持续有问题的领域</li><li>开源urlhealth工具可将非解析URL率降低6-79倍：GPT-5.1从16%降至0.6%，Gemini从6.1%降至0.1%</li></ul>
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf" target="_blank">Anthropic发布Claude Mythos预览系统卡片</a>
+                <a href="https://mp.weixin.qq.com/s/nuQRFPbKvxUo-FW5ONy3NA" target="_blank">北大HISA：层次化稀疏注意力，64K上下文索引提速3.75倍</a>
               </div>
               <div class="card-meta">
-                <span class="tag tag-source">Hacker News</span>
-                2026-04-08
-                
+                <span class="tag tag-source">Hyman的杂货铺</span>
+                2026-04-07
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #北京大学</span>
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
               </div>
-              <div class="card-summary">Anthropic发布了Claude Mythos Preview的系统卡片文档，详细介绍了该AI模型的能力评估、安全特性和潜在风险，作为AI安全透明度报告的一部分。</div>
-              <ul class="key-points"><li>Anthropic发布Claude Mythos Preview系统卡片文档</li><li>系统卡片详细说明AI模型的能力边界和安全限制</li><li>Hacker News热度较高（466分，323条评论）</li><li>属于AI公司常规的安全透明度披露行为</li></ul>
+              <div class="card-summary">北京大学提出HISA（层次化索引稀疏注意力），针对DeepSeek-V3.2和GLM-5等模型token级索引器的O(L²)复杂度瓶颈，采用两阶段搜索：Block级粗过滤+Token级精筛。64K上下文下索引器kernel提速最高3.75倍，无需训练即插即用，在LongBench和NIAH上几乎无损复现原始DSA性能。</div>
+              <ul class="key-points"><li>核心创新：两阶段层次化索引，先做block级粗筛（pooled代表向量打分），再在候选token上做token级精筛</li><li>复杂度优化：每query索引复杂度从O(L)降到O(L/B + mB)，每层总复杂度从O(L²)降到O(L²/B + LmB)</li><li>性能提升：64K上下文下固定8K预算实现3.75倍加速，4:1压缩比下实现2.16倍加速</li><li>无需训练：推理时直接替换索引器模块，不需要fine-tuning</li></ul>
               
             </div>
         </div>
 
         <div class="section">
-          <div class="section-title">📌 其他（7 篇）</div>
+          <div class="section-title">📝 简报（2 篇）</div>
+          
+                <div class="card card-brief">
+                  <span class="tag tag-source">APPSO</span>
+                  <a href="https://mp.weixin.qq.com/s/44ihtBBTYmxz0xRN55rw9w" target="_blank" style="font-size:13px;color:#333">曝折叠屏iPhone已在试产/GPT-6或本月发布/小米罗福莉谈Anthropic封杀「龙虾」</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">苹果折叠屏iPhone试产下半年发布，GPT-6将发布，AI圈再掀波澜</span>
+                </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">红杉汇</span>
+                  <a href="https://mp.weixin.qq.com/s/Wyls7-V4xHGHXhsBHsgojA" target="_blank" style="font-size:13px;color:#333">当AI写出完美简历，我们如何用AI看清真实的人？｜首席人才官</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">AI简历泛滥致招聘信任蒸发，新型AI测评通过分析语言模式等数据辅助识人</span>
+                </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">📌 其他（69 篇）</div>
           
             <div class="card">
               <div class="card-title">
-                <a href="https://z.ai/blog/glm-5.1" target="_blank">GLM-5.1: Towards Long-Hor</a>
+                <a href="https://mp.weixin.qq.com/s/cOFNE5nBE5sxHBPNYzwSyQ" target="_blank">突发！史上最强 Claude 发布：聪明到不敢开放，还会突破权限掩盖操作痕迹</a>
               </div>
               <div class="card-meta">
-                <span class="tag tag-source">Hacker News</span>
-                2026-04-08
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 37</span>
-              </div>
-              <div class="card-summary">得分：370 分，评论：107 条</div>
-              
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://www.bbc.com/news/articles/c0rx7xzd10xo" target="_blank">Cambodia unveils a statue</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">Hacker News</span>
-                2026-04-08
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 23</span>
-              </div>
-              <div class="card-summary">得分：234 分，评论：50 条</div>
-              
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://www.nasa.gov/gallery/lunar-flyby/" target="_blank">Lunar Flyby</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">Hacker News</span>
+                <span class="tag tag-source">APPSO</span>
                 2026-04-08
                 
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
               </div>
-              <div class="card-summary">得分：158 分，评论：26 条</div>
+              <div class="card-summary"></div>
               
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://www.allthingsdistributed.com/2026/04/s3-files-and-the-changing-face-of-s3.html" target="_blank">S3 Files</a>
+                <a href="https://mp.weixin.qq.com/s/1GbOEIXLysmuzs_2B8IRLg" target="_blank">刚刚，DeepSeek 大升级，V4 真的不远了｜附体验细节</a>
               </div>
               <div class="card-meta">
-                <span class="tag tag-source">Hacker News</span>
+                <span class="tag tag-source">APPSO</span>
                 2026-04-08
                 
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 14</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
               </div>
-              <div class="card-summary">得分：144 分，评论：38 条</div>
+              <div class="card-summary"></div>
               
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://www.jakeworth.com/posts/how-to-get-better-at-guitar/" target="_blank">How to get better at guit</a>
+                <a href="https://mp.weixin.qq.com/s/_pLSmmy1lKvGAo-vxvPaug" target="_blank">人类重返月球第一张自拍，来自 iPhone</a>
               </div>
               <div class="card-meta">
-                <span class="tag tag-source">Hacker News</span>
-                2026-04-08
+                <span class="tag tag-source">APPSO</span>
+                2026-04-07
                 
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 12</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
               </div>
-              <div class="card-summary">得分：122 分，评论：52 条</div>
+              <div class="card-summary"></div>
               
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://github.com/mattmireles/gemma-tuner-multimodal" target="_blank">Show HN: Gemma 4 Multimod</a>
+                <a href="https://mp.weixin.qq.com/s/DClsSknNoLTDjyPUeweAeA" target="_blank">OpenAI 大瓜曝光，Ilya 偷拍 70 页文件实锤奥特曼撒谎</a>
               </div>
               <div class="card-meta">
-                <span class="tag tag-source">Hacker News</span>
-                2026-04-08
+                <span class="tag tag-source">APPSO</span>
+                2026-04-07
                 
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 9</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
               </div>
-              <div class="card-summary">得分：95 分，评论：8 条</div>
+              <div class="card-summary"></div>
               
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://nehanarula.org/2026/04/03/bitcoin-and-quantum-computing.html" target="_blank">Bitcoin and Quantum Compu</a>
+                <a href="https://mp.weixin.qq.com/s/RYsXNtB88UCuHRB-x4cy3A" target="_blank">美国富豪要办一场“合法兴奋剂”运动会，目标是量产“超人”</a>
               </div>
               <div class="card-meta">
-                <span class="tag tag-source">Hacker News</span>
+                <span class="tag tag-source">DeepTech深科技</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/Jy2eez4lLp3QSro2IcVdlQ" target="_blank">AI用一晚睡眠数据预测多种疾病风险，斯坦福6.5万人数据验证，准确率最高85%</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">DeepTech深科技</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/TXRf_B4gzoEg32S_E-ShFQ" target="_blank">浙大开源SkillX：全自动构建Agent技能知识库，即插即用提升模型10%性能</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Hyman的杂货铺</span>
                 2026-04-08
                 
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 5</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
               </div>
-              <div class="card-summary">得分：53 分，评论：38 条</div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/b0CD1WeXl9FXNk6jt67qAw" target="_blank">北大+快手可灵开源OpenWorldLib：世界模型终于有了标准答案，四大任务统一框架</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Hyman的杂货铺</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/LypI5P4oHGzSAxu_IT6hvg" target="_blank">UNC发布ClawArena：首个评估AI Agent在动态信息环境中保持正确信念的基准</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Hyman的杂货铺</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/dFW1qYbLItaX51x1Faz-_A" target="_blank">上海AI Lab开源MinerU2.5-Pro：纯靠数据工程，1B模型OCR任务碾压2350亿参数大模型</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">Hyman的杂货铺</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/is9PP18vEEGJpeSaP4D_1g" target="_blank">实测｜我在扣子2.5里“养”出了一个懂我的数字生命</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ZPotentials</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/sfSCjINhPqgyxrxy3U5oTg" target="_blank">速递｜较年初增长超3倍，Anthropic年化收入破300亿美元，算力路线联手Broadcom+Google绕开英伟达</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ZPotentials</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/WKjDLMMoEljorkVTfN_1RA" target="_blank">速递｜ AI咨询Rocket获1500万美元种子轮，月付250美元换两份麦肯锡级别报告</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ZPotentials</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/iYD-bOOUOEWuf-jdYP7Q9A" target="_blank">深度｜Agent Harness：当驯化Agent取代通用代理成为硅谷新共识</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ZPotentials</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/8k0ualZsarapRZe7Ifal9w" target="_blank">速递｜ 质疑IPO时机，OpenAI内部正在上演一场财务博弈</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ZPotentials</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/i90aXMrlQVDoGQV68BAswA" target="_blank">速递｜毛利超30%，50万用户撑起月入800万美元，Wrtn正在抢占AI角色扮演市场</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ZPotentials</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/2MX3IFajZPz1-m-hZQ_oPA" target="_blank">西游取经团再出征：小米 Token Plan 能把 Token 价格打下来吗？</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ai科技评论</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/T4HZqECrhwHsExYPWdKuLw" target="_blank">港中文薛天帆团队：实现 4K 全景视频生成，普通视频也能「长出空间」丨CVPR 2026</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ai科技评论</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/zHSBNYnLtZhSFsUXUhoTeg" target="_blank">达利欧重磅预警：美国，要乱了？</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ipo观察</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/Nf9vg5ZVDf922NNCzalT4g" target="_blank">最新IPO排队名单</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ipo观察</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/buyOZKM2UIdXFaJvnEuZYA" target="_blank">电子皮肤，人形机器人实现"具身智能"的关键</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">华若汀具身智能</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/eZ8Hq7f6T_bOA3EosGcJEQ" target="_blank">具身智能的"眼睛"，视觉传感器如何工作？</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">华若汀具身智能</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/7ZGyYvQ9OpJ6GH-W5EF-0w" target="_blank">大模型的“隐秘脑回路” | Claude Mythos是如何靠1个比特位翻转拿下Linux Root 的？</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">后向传播</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/_k4RdkHLH3qUFSskhl2a3g" target="_blank">地瓜机器人融了20亿，我和王丛聊了2小时</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投中网</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/z3I3qp6XFzjpPGmhA44rOg" target="_blank">力推市场化改革，上海国资基金新政来了丨投中嘉川</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投中网</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/P0sEuml5iGB6XNd9zG46TQ" target="_blank">中国电力70年：“帝国”是怎样炼成的？</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投中网</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/5fmqKMQPPBWq0u8RP_NoPw" target="_blank">一小时3980元，爆火的“疗愈经济”，是中产焦虑解药还是智商税？</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投中网</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/gJjcRmd2sXQ_CWN_HszMOA" target="_blank">长石资本：以“70%投前服务”，挖掘具身智能赛道中最有确定性的“阿尔法”</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投中网</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/sNKsjHLsSZ2qgeLAgZ5joQ" target="_blank">阿联酋中产家庭掀起赴华游学热</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投中网</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/t1Sf9edMKnbznVQnqWBjcQ" target="_blank">二手车出海4年涨100倍</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投中网</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/u6Zy1nTeiB8MmnOwBv5yfQ" target="_blank">年收入4亿美元的“一人公司”，这么快就翻车了？</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投中网</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/qmJDZpKXn0da9GLVTgdYAw" target="_blank">上海交大130岁：半个创投圈沸腾了</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投资界</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/gs6rVPQipslPQDw2ew1kyQ" target="_blank">2026「投资界TOP100」投资人正式启动</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投资界</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/Sc8h7WayJQYpzbupGC39Mg" target="_blank">OpenAI爆发危机</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投资界</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/rlKMb5x5T6k5uhaoc2hPNg" target="_blank">第一批00后开始有登味了</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投资界</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/ZY6T4wJkSx0otc6dQxcxJw" target="_blank">投资人找起国防项目</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投资界</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/bbpfqB7zyUVrFuZVb2-y7Q" target="_blank">开年IPO景象</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投资界</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/hlmVbWr_77inU-kzbrKpVQ" target="_blank">轮到理科生焦虑了</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投资界</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/TpH2wtXAOthbciA1m-5Spw" target="_blank">装完Hermes Agent玩了一圈，我觉得龙虾已死！</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">探索AGI</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/MGDhaREy1I62kyeGLGX7pQ" target="_blank">谷歌Deep Think八语奥赛屠榜！自主攻克4大未解难题，科研壁垒崩塌</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/pjdlYnwgrI3DMi1l_HJKcw" target="_blank">再不怕乱引文献！绕过付费墙，BibAgent把学术核验转为证据链</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/s56ow5mpAKpXKftpxp8pDg" target="_blank">「OpenClaw之父点赞」终结百虾大战？一场升级版的AI原生革命上演</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/HWf_VU7x9y4R9hNRA0C6SA" target="_blank">Anthropic封杀48小时，逼出OpenClaw最强反击！龙虾首次会生视频了</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/BA_Ky9EqFUoJ2HMJ93KNSQ" target="_blank">用雨伞「钓」无人机？首个针对自主目标跟踪闭环系统的物理攻击</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/9DHbcHVu0NJCKPiQLxjbjQ" target="_blank">正面硬刚Claude Opus 4.6：我们给GLM-5.1使了三个“绊子”，它居然…</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">智东西</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/32kSCdYEuKaOSavUPp54uQ" target="_blank">苹果折叠屏顶配或超2万元，9月iPhone 18同期发，设计细节曝光</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">智东西</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/I_pSQGfb6DjRKiU2SXlPfw" target="_blank">百人揭秘，“千面人”奥特曼</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">智东西</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/hXOAF4GZYr2V_z2Iyd2H7Q" target="_blank">估值377亿，黄仁勋又投了一家创企</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">智东西</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/JU2nwWSWfRktHpfqlTB8Eg" target="_blank">与Generalist顶峰相见，30天狂吸30亿，千寻智能做对了什么？</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/4hSnkZo5wj-GbbczvEwfuA" target="_blank">Sam Altman：超级智能近在眼前！OpenAI官方13页蓝图引爆海外社区</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/8EHNUI_hjq7adtmROAyCFg" target="_blank">十分钟破解加密货币！谷歌在量子计算领域发现了什么？</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/Ebi3E6wNQfQ-LWevkhACOw" target="_blank">红果下架千部AI短剧，但治理侵权这事儿不能只靠红果</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">硅星人Pro</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/Qg4XN2AQDx33Gh3A8NEOOg" target="_blank">Anthropic 终于如愿以偿，亲手训出了“强大到威胁人类”的Mythos</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">硅星人Pro</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/GxFDGjeBETBP3oZRgwn2TA" target="_blank">罗福莉：各位醒醒吧，该结束token虚假狂欢了</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">硅星人Pro</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/ZY5Uwl9hyvv6Y09TknnWFg" target="_blank">Siri 重生倒计时：苹果用 10 亿美元买来的，不只是一个模型</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">硅星人Pro</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/1PlXlMWhfUs2pZ2DyIf6VA" target="_blank">GLM-5.1 开源：零介入，交付整套的 Linux 桌面系统</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">赛博禅心</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/ZjbWYVD9khqYKB-NsP0_ig" target="_blank">Coze 2.5 发布：成为 Agent 的网络</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">赛博禅心</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/77mbsD2cSqW8_NIMW6LE2Q" target="_blank">国产免费2B开源语音模型征服《莽撞人》！复刻郭德纲最难贯口</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">量子位</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/ZTz3-h026dwK6Jx7OrL9-A" target="_blank">DeepSeek深夜更新后自曝：我是V4（？！）</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">量子位</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/iECTNjrTOOpWN3tqGeektw" target="_blank">小米AI语音新框架：人人都能当声音导演</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">量子位</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/3V_JYHFytonmgYy1L_gwtg" target="_blank">一年一度最值得关注的AI榜单来啦！申报即日启动</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">量子位</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/9hjTYEy8rD91_0CsJZbp0w" target="_blank">量子位编辑作者招聘</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">量子位</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/msVUhcgFmdbNhwUFJtF1jw" target="_blank">“Claude Code更新废了”！热议Issue：思考深度下降67%，已无法胜任复杂的工程任务</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">量子位</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/1CG6zpho8n16u_3DOWXWHg" target="_blank">卡帕西没做完的，开源社区48小时搞定了！完全体知识库，token省70倍</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">量子位</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/yhE2bZeIs3pMj9CAEDb_Pg" target="_blank">一句话生成无限逼真3D场景！匹兹堡大学新作直击VLM空间推理软肋丨CVPR'26</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">量子位</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/r_OUWis2aIXbGPbjl5w0CQ" target="_blank">万亿具身智能赛道，被数据卡住了</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">钛媒体AGI</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/DZnmhQwiCPl4u75I5Q5w7w" target="_blank">7个顶级AI集体撒谎，为救“同伴”篡改文件、偷运数据</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">钛媒体AGI</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 15</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/B6pvsta4Y8bibMUwKFi83g" target="_blank">武汉牛股诞生：有人卖飞300亿</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">投资界</span>
+                2026-04-07
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 0</span>
+              </div>
+              <div class="card-summary"></div>
+              
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/rE4RFMOHiyoXwmPSYnOcxQ" target="_blank">张雪机车燃爆封神！国产2B语音模型重磅开源，全网听完都起鸡皮疙瘩</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-04-08
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 0</span>
+              </div>
+              <div class="card-summary"></div>
               
               
             </div>
