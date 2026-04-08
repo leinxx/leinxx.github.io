@@ -1,6 +1,6 @@
 ---
 title: "🤖 AI & 科技投资日报"
-date: 2026-04-09T06:26:22+08:00
+date: 2026-04-09T07:28:43+08:00
 slug: "20260409_digest"
 draft: false
 type: ai-digest
@@ -85,65 +85,27 @@ hidemeta: false
       <h1>🤖 AI & 科技投资日报</h1>
       <div class="stats">
         <div class="stat">📅 2026年04月09日</div>
-        <div class="stat">📰 本期 3 篇</div>
+        <div class="stat">📰 本期 1 篇</div>
         
-        <div class="stat">⏱ 生成于 06:25</div>
+        <div class="stat">⏱ 生成于 07:28</div>
       </div>
     </div>
     
     
         <div class="section">
-          <div class="section-title">🔬 技术突破（1 篇）</div>
-          
-            <div class="card">
-              <div class="card-title">
-                <a href="https://piechowski.io/post/git-commands-before-reading-code/" target="_blank">阅读代码前必用的Git命令技巧</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">Hacker News</span>
-                2026-04-09
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
-              </div>
-              <div class="card-summary">分享在阅读他人代码前应该运行的Git命令，帮助开发者快速了解代码库状态、查看提交历史、识别关键变更等实用技巧，涵盖git status、git log、git diff等常用命令的最佳实践。</div>
-              <ul class="key-points"><li>介绍阅读代码前应先运行的Git命令</li><li>包括git status查看当前状态</li><li>git log查看提交历史</li><li>git diff查看文件变更</li></ul>
-              
-            </div>
-        </div>
-
-        <div class="section">
-          <div class="section-title">🚀 产品发布（1 篇）</div>
-          
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/f/prompts.chat" target="_blank">ChatGPT提示词分享社区平台</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Trending</span>
-                2026-04-09
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 55</span>
-              </div>
-              <div class="card-summary">开源的ChatGPT提示词分享社区平台，前身为Awesome ChatGPT Prompts，用户可在此发现、分享和收集优质提示词，支持免费自托管，星数超15万。</div>
-              <ul class="key-points"><li>前身为Awesome ChatGPT Prompts</li><li>开源免费社区项目</li><li>星数达158295，社区热度极高</li><li>支持用户分享和发现提示词</li></ul>
-              
-            </div>
-        </div>
-
-        <div class="section">
           <div class="section-title">📌 其他（1 篇）</div>
           
             <div class="card">
               <div class="card-title">
-                <a href="https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess" target="_blank">ML promises to be profoun</a>
+                <a href="https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html" target="_blank">I ported Mac OS X to the </a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">Hacker News</span>
                 2026-04-09
                 
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 31</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 50</span>
               </div>
-              <div class="card-summary">得分：314 分，评论：359 条</div>
+              <div class="card-summary">得分：1118 分，评论：204 条</div>
               
               
             </div>
