@@ -1,6 +1,6 @@
 ---
 title: "🤖 AI & 科技投资日报"
-date: 2026-04-09T08:03:29+08:00
+date: 2026-04-09T08:21:01+08:00
 slug: "20260409_digest"
 draft: false
 type: ai-digest
@@ -87,28 +87,19 @@ hidemeta: false
         <div class="stat">📅 2026年04月09日</div>
         <div class="stat">📰 本期 1 篇</div>
         
-        <div class="stat">⏱ 生成于 08:00</div>
+        <div class="stat">⏱ 生成于 08:18</div>
       </div>
     </div>
     
     
         <div class="section">
-          <div class="section-title">🚀 产品发布（1 篇）</div>
+          <div class="section-title">📝 简报（1 篇）</div>
           
-            <div class="card">
-              <div class="card-title">
-                <a href="https://www.skoda-storyboard.com/en/skoda-world/skoda-duobell-a-bicycle-bell-that-outsmarts-even-smart-headphones/" target="_blank">斯柯达发布穿透降噪耳机自行车铃DuoBell</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">Hacker News</span>
-                2026-04-09
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
-              </div>
-              <div class="card-summary">斯柯达推出DuoBell自行车铃，独特设计可穿透苹果AirPods等降噪耳机，让骑行者安全提醒佩戴降噪耳机的行人。铃铛采用特殊音频技术，频率范围覆盖降噪耳机过滤频段。</div>
-              <ul class="key-points"><li>斯柯达发布DuoBell自行车铃</li><li>专为穿透降噪耳机设计</li><li>解决骑行者与佩戴降噪耳机行人之间的安全沟通问题</li><li>采用特殊音频频率技术</li></ul>
-              
-            </div>
+                <div class="card card-brief">
+                  <span class="tag tag-source">经纬创投</span>
+                  <a href="https://mp.weixin.qq.com/s/hslik5vLZ64RbwntmT6rmQ" target="_blank" style="font-size:13px;color:#333">史上最强 Claude 发布：聪明到不敢开放，还会突破权限掩盖操作痕迹</a>
+                  <span style="color:#888;font-size:12px;margin-left:6px">Anthropic发布最强AI模型Mythos，漏洞挖掘能力超人类，引发AI安全担忧</span>
+                </div>
         </div>
     
     <div class="footer">
