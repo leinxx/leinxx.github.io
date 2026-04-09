@@ -1,6 +1,6 @@
 ---
 title: "🤖 AI & 科技投资日报"
-date: 2026-04-08T12:21:08+08:00
+date: 2026-04-08T12:36:10+08:00
 slug: "20260408_digest"
 draft: false
 type: ai-digest
@@ -87,7 +87,7 @@ hidemeta: false
         <div class="stat">📅 2026年04月08日</div>
         <div class="stat">📰 本期 45 篇</div>
         
-        <div class="stat">⏱ 生成于 12:20</div>
+        <div class="stat">⏱ 生成于 12:35</div>
       </div>
     </div>
     
@@ -126,7 +126,7 @@ hidemeta: false
         </div>
 
         <div class="section">
-          <div class="section-title">🔬 技术突破（17 篇）</div>
+          <div class="section-title">🔬 技术突破（14 篇）</div>
           
             <div class="card">
               <div class="card-title">
@@ -298,7 +298,7 @@ hidemeta: false
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://github.com/huggingface/transformers" target="_blank">Hugging Face transformers库星数超15.9万，全球最流行开源AI框架持续领跑</a>
+                <a href="https://github.com/pytorch/pytorch" target="_blank">PyTorch星数近10万，深度学习框架龙头地位稳固，AI开源生态核心资产</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">GitHub Trending</span>
@@ -306,70 +306,28 @@ hidemeta: false
                 
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
               </div>
-              <div class="card-summary">Hugging Face的transformers库GitHub星数达15.9万，成为全球最受欢迎的机器学习模型定义框架，支持文本、视觉、音频等多模态AI模型开发。作为开源生态核心，该项目体现了AI开源社区的高度活跃，对投资评估具有重要参考价值。</div>
-              <ul class="key-points"><li>transformers库星数达159055颗，是GitHub上最受欢迎的AI开源项目之一</li><li>支持文本、视觉、音频等多模态机器学习模型</li><li>Python语言开发，已成为AI领域的事实标准框架</li><li>Hugging Face通过开源生态建立商业化壁垒</li></ul>
+              <div class="card-summary">PyTorch是Meta旗下最成功的AI开源项目之一，星数达98936，在深度学习框架领域与TensorFlow并驾齐驱。作为Python生态的核心ML库，其技术领先性和社区活跃度对评估AI基础设施投资具有重要参考价值。</div>
+              <ul class="key-points"><li>PyTorch星数达98936，接近10万，是GitHub上最受欢迎的深度学习框架之一</li><li>支持GPU加速和动态神经网络，Python生态核心ML库</li><li>Meta旗下开源项目，AI开源基础设施核心资产</li></ul>
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://huggingface.co/meta-llama/Llama-2-7b-chat-hf" target="_blank">Meta发布Llama-2-7B开源聊天模型，大模型竞争格局生变</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">HuggingFace Models</span>
-                2026-04-09
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
-              </div>
-              <div class="card-summary">Meta发布Llama-2-7B聊天模型，基于Transformer架构，具备强大对话能力。该模型开源可商用，对当前大模型竞争格局产生重大影响，可能降低AI应用开发成本，为初创公司提供更多选择。</div>
-              <ul class="key-points"><li>Meta发布Llama-2-7B参数聊天模型</li><li>模型基于Transformer架构</li><li>开源可商用，对行业竞争格局产生影响</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/pytorch/pytorch" target="_blank">PyTorch星数近10万，全球最流行AI框架之一，Meta开源生态核心资产</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Trending</span>
-                2026-04-09
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
-              </div>
-              <div class="card-summary">PyTorch是Meta开源的深度学习框架，星数近10万，是全球最流行的AI框架之一，支持GPU加速的动态神经网络。作为开源生态核心，PyTorch的技术领先性和活跃社区对Meta的AI战略有重要支撑，技术生态价值极高。</div>
-              <ul class="key-points"><li>Meta开源深度学习框架PyTorch星数近10万</li><li>全球最流行的AI框架之一，支持GPU加速动态神经网络</li><li>开源生态核心资产，技术领先性和社区活跃度支撑Meta AI战略</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://huggingface.co/bigscience/bloom" target="_blank">开源大模型Bloom发布，bigscience推动AI民主化进程</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">HuggingFace Models</span>
-                2026-04-09
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
-              </div>
-              <div class="card-summary">HuggingFace托管bigscience开源项目Bloom，这是迄今为止最大的开源多语言大语言模型之一，对AI开源生态具有重要意义，但商业化路径尚不清晰。</div>
-              <ul class="key-points"><li>Bloom是bigscience开发的开源大语言模型</li><li>模型托管于HuggingFace平台</li><li>为AI开源生态提供重要基础设施</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html" target="_blank">技术极客成功将Mac OS X移植至Wii，Hacker News获1350分关注</a>
+                <a href="https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess" target="_blank">机器学习将极其怪异，AI发展进入不可预测新阶段</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">Hacker News</span>
                 2026-04-09
                 
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 50</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
               </div>
-              <div class="card-summary">技术爱好者成功将Mac OS X移植至任天堂Wii主机，展现逆向工程与系统底层技术能力。该项目在Hacker News获得1350分高分和232条讨论，反映社区对系统移植技术的高度兴趣，但对投资无直接价值。</div>
-              <ul class="key-points"><li>技术爱好者完成Mac OS X至Nintendo Wii的系统移植项目</li><li>项目在Hacker News获得1350高分和232条评论，社区关注度高</li><li>展示逆向工程和系统底层技术能力，属于技术展示性质</li></ul>
+              <div class="card-summary">机器学习正朝着极其怪异的方向发展，这一趋势可能预示AI技术范式的重大转变。投资需关注前沿技术动态，警惕过度依赖传统模型，关注人机协作新范式。</div>
+              <ul class="key-points"><li>机器学习正朝着极其怪异、不可预测的方向发展</li><li>这一趋势可能预示AI技术范式的重大转变</li></ul>
               
             </div>
         </div>
 
         <div class="section">
-          <div class="section-title">🚀 产品发布（15 篇）</div>
+          <div class="section-title">🚀 产品发布（8 篇）</div>
           
             <div class="card">
               <div class="card-title">
@@ -443,34 +401,6 @@ hidemeta: false
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct" target="_blank">Meta发布Llama 3.1-8B指令微调模型，小参数高性能，推理成本优势明显</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">HuggingFace Models</span>
-                2026-04-09
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 78</span>
-              </div>
-              <div class="card-summary">Meta发布Llama 3.1-8B-Instruct指令微调模型，这是Llama 3.1系列的小参数版本。该模型继承Llama 3.1系列的技术改进，在8B参数规模下实现了较高的性能表现，适合资源受限场景部署。对于投资而言，小参数模型有助于降低推理成本，推动端侧AI应用落地。</div>
-              <ul class="key-points"><li>Meta发布Llama 3.1-8B-Instruct指令微调模型</li><li>8B参数版本适合资源受限场景部署</li><li>继承Llama 3.1系列技术改进，性能表现优于前代</li><li>小参数模型降低推理成本，推动端侧AI应用发展</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://huggingface.co/stabilityai/stable-diffusion-3-medium" target="_blank">Stability AI发布SD3-Mid图像生成模型，文本到图像能力再升级</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">HuggingFace Models</span>
-                2026-04-09
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 78</span>
-              </div>
-              <div class="card-summary">Stability AI发布Stable Diffusion 3 Medium文本到图像模型，模型能力进一步提升。作为开源图像生成领域头部玩家，SD3-Mid在图像质量、提示词理解和生成速度方面实现突破，展现其在AIGC视觉赛道的技术竞争力。该发布有望推动AI图像生成技术的更广泛应用。</div>
-              <ul class="key-points"><li>Stability AI发布Stable Diffusion 3 Medium文本到图像生成模型</li><li>模型在图像质量、提示词理解和生成速度方面实现技术升级</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
                 <a href="https://mp.weixin.qq.com/s/zJ8NdAr9Bel9yk_tgv1Raw" target="_blank">DeepSeek上线双模式，V4前哨战已打响，专家模式推理更快</a>
               </div>
               <div class="card-meta">
@@ -485,106 +415,36 @@ hidemeta: false
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://github.com/openclaw/openclaw" target="_blank">GitHub星数破35万，openclaw成最受欢迎开源AI助手</a>
+                <a href="https://github.com/f/prompts.chat" target="_blank">ChatGPT提示词开源社区获15.8万星，AI提示工程生态持续壮大</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">GitHub Trending</span>
                 2026-04-09
                 
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
               </div>
-              <div class="card-summary">openclaw是一个开源的个人AI助手项目，支持任意操作系统和平台，采用TypeScript开发。GitHub星数高达352,463，表明市场对该开源AI助手高度认可，反映出开源AI助手赛道的活跃度与竞争潜力。</div>
-              <ul class="key-points"><li>开源AI助手项目openclaw发布，支持多平台</li><li>GitHub星数达352,463，受欢迎程度极高</li><li>采用TypeScript语言开发</li></ul>
+              <div class="card-summary">Awesome ChatGPT Prompts项目更名f/prompts.chat，星数达15.8万，是最大的ChatGPT提示词开源社区。该项目免费开源可自托管，反映提示工程作为AI应用重要分支的快速发展，对AI工具层投资具有参考价值。</div>
+              <ul class="key-points"><li>ChatGPT提示词开源项目星数达158397，是提示词领域最大社区</li><li>项目由Awesome ChatGPT Prompts更名为f/prompts.chat</li><li>免费开源可自托管，体现AI工具层开源生态活跃</li><li>提示工程成为AI应用落地的重要细分方向</li></ul>
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://huggingface.co/black-forest-labs/FLUX.1-dev" target="_blank">Black Forest Labs发布FLUX.1-dev图像生成模型，AI生图领域再添新玩家</a>
+                <a href="https://github.com/n8n-io/n8n" target="_blank">开源工作流平台n8n星数超18万，原生AI能力+自托管特性强化竞争力</a>
               </div>
               <div class="card-meta">
-                <span class="tag tag-source">HuggingFace Models</span>
-                2026-04-09
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 65</span>
-              </div>
-              <div class="card-summary">Black Forest Labs在HuggingFace发布FLUX.1-dev图像生成模型。AI图像生成赛道持续火热，技术迭代加速，市场竞争格局生变。关注底层模型技术突破及算力基础设施投资机会。</div>
-              <ul class="key-points"><li>Black Forest Labs发布FLUX.1-dev图像生成模型</li><li>AI图像生成领域竞争激烈，新模型持续涌现</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://huggingface.co/openai/whisper-large-v3" target="_blank">OpenAI发布Whisper-large-v3，语音识别能力再升级，HuggingFace同步开源</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">HuggingFace Models</span>
-                2026-04-09
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 65</span>
-              </div>
-              <div class="card-summary">OpenAI发布Whisper-large-v3语音识别模型，参数规模进一步提升。该版本在HuggingFace平台开源，性能较前代有明显改进。作为开源社区的重要补充，Whisper-v3将推动语音识别技术普及，对相关AI投资具有积极意义。</div>
-              <ul class="key-points"><li>OpenAI发布Whisper-large-v3语音识别模型</li><li>模型在HuggingFace平台开源发布</li><li>性能较前代版本有明显提升</li><li>推动语音识别技术开源生态发展</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://huggingface.co/black-forest-labs/FLUX.1-schnell" target="_blank">Black Forest Labs发布FLUX.1-schnell快速图像生成模型，对标Stable Diffusion XL</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">HuggingFace Models</span>
-                2026-04-09
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 65</span>
-              </div>
-              <div class="card-summary">Black Forest Labs在HuggingFace发布FLUX.1-schnell图像生成模型，主打快速推理能力。该模型延续FLUX.1系列的高质量图像生成能力，通过优化推理速度降低部署成本。AI图像生成赛道竞争加剧，快速推理成差异化关键，建议关注具备推理优化能力的图像生成公司。</div>
-              <ul class="key-points"><li>Black Forest Labs发布FLUX.1-schnell快速图像生成模型</li><li>模型主打快速推理能力，降低部署成本</li><li>FLUX.1系列持续迭代，图像生成能力对标Stable Diffusion XL</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://huggingface.co/openai/gpt-oss-120b" target="_blank">OpenAI发布120B参数开源模型gpt-oss-120b，首次大规模开源尝试</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">HuggingFace Models</span>
-                2026-04-09
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 65</span>
-              </div>
-              <div class="card-summary">OpenAI发布120B参数开源模型gpt-oss-120b，标志其首次大规模开源布局。尽管具体开源程度和许可条款未披露，但1200亿参数规模彰显技术实力。此举可能为抢占开源生态市场份额，对Meta Llama等开源竞争对手形成压力。</div>
-              <ul class="key-points"><li>OpenAI发布gpt-oss-120b模型，参数规模达1200亿</li><li>模型名称中"oss"暗示开源属性，为OpenAI首次大规模开源尝试</li><li>开源布局可能为应对Meta Llama等开源模型竞争</li><li>具体开源程度和许可条款尚未披露</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://huggingface.co/hexgrad/Kokoro-82M" target="_blank">开源TTS模型Kokoro-82M发布，82M参数定位轻量级语音合成赛道</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">HuggingFace Models</span>
+                <span class="tag tag-source">GitHub Trending</span>
                 2026-04-09
                 
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 55</span>
               </div>
-              <div class="card-summary">HuggingFace上线hexgrad开源的Kokoro-82M语音合成模型，82M参数规模定位轻量级TTS场景。开源社区持续贡献高效小模型，反映边缘部署需求趋势，对算力成本敏感的应用场景具有参考价值。</div>
-              <ul class="key-points"><li>hexgrad发布Kokoro-82M语音合成模型</li><li>82M参数规模定位轻量级TTS应用</li><li>模型开源可获取，反映边缘部署趋势</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1" target="_blank">Mistral AI发布Mixtral-8x7B指令微调版，开源MoE模型再添新成员</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">HuggingFace Models</span>
-                2026-04-09
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 55</span>
-              </div>
-              <div class="card-summary">Mistral AI在HuggingFace发布Mixtral-8x7B-Instruct-v0.1指令微调版本。该模型采用稀疏MoE架构，拥有8个专家、12B活跃参数。开源社区再获高性能模型选择，但商业化价值待观察。</div>
-              <ul class="key-points"><li>Mistral AI发布Mixtral-8x7B-Instruct-v0.1指令微调版本</li><li>模型采用稀疏MoE架构，8个专家12B活跃参数</li></ul>
+              <div class="card-summary">n8n是开源工作流自动化平台，星数达18.3万，支持原生AI功能，允许可视化构建与自定义代码结合，支持自托管。开源工作流自动化赛道竞争激烈，n8n凭借高星数和AI集成能力具备一定差异化价值。</div>
+              <ul class="key-points"><li>开源工作流自动化平台，星数超18万，GitHub热度高</li><li>原生支持AI能力，支持可视化构建与自定义代码结合</li><li>支持自托管部署，满足企业级需求</li></ul>
               
             </div>
         </div>
 
         <div class="section">
-          <div class="section-title">📊 行业动态（7 篇）</div>
+          <div class="section-title">📊 行业动态（6 篇）</div>
           
             <div class="card">
               <div class="card-title">
@@ -670,45 +530,108 @@ hidemeta: false
               <ul class="key-points"><li>电子皮肤是人形机器人实现具身智能的关键感知部件，将感知能力从内部扩展到外部、从局部扩展到全身，实现主动交互</li><li>压阻式为当前主流传感方案，结构简单、灵敏度高、成本低，有望率先实现规模化量产；但存在迟滞性较大、快速响应不足等问题</li><li>压阻方案核心技术参数领先：阵列化感知点1000+，最小像素点<1毫米，触发力1克，使用寿命300万次，采样频率400-1000Hz，对芯片无依赖</li><li>全球市场空间：2024年约63亿美元，预计2034年达310.6亿美元，复合增速17.3%；北美占40%市场份额，亚太增速最快</li></ul>
               
             </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/tensorflow/tensorflow" target="_blank">TensorFlow星数超19万，GitHub最高星AI项目，开源框架生态投资价值凸显</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Trending</span>
-                2026-04-09
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 55</span>
-              </div>
-              <div class="card-summary">TensorFlow是Google开源的机器学习框架，星数达194,580，是GitHub上星数最高的AI/ML项目。作为全球最流行的开源ML框架之一，TensorFlow奠定了深度学习工具链基础设施地位，对AI开发生态具有重要战略价值。</div>
-              <ul class="key-points"><li>TensorFlow是Google开源的机器学习框架，星数达194,580</li><li>该星数使其成为GitHub上最受欢迎的AI/ML项目</li><li>使用C++开发，支持多平台部署</li><li>作为开源基础设施，对AI开发生态具有战略意义</li></ul>
-              
-            </div>
         </div>
 
         <div class="section">
-          <div class="section-title">📝 简报（4 篇）</div>
+          <div class="section-title">📝 简报（15 篇）</div>
           
                 <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
                   <div>
-                    <span class="tag tag-source">Hacker News</span>
-                    <a href="https://piechowski.io/post/git-commands-before-reading-code/" target="_blank" style="font-size:13px;color:#333;font-weight:600">Git 进阶技巧：代码审查前必用的 5 个高效命令</a>
+                    <span class="tag tag-source">HuggingFace Models</span>
+                    <a href="https://huggingface.co/deepseek-ai/DeepSeek-R1" target="_blank" style="font-size:13px;color:#333;font-weight:600">DeepSeek发布R1推理模型，性能比肩OpenAI o1，国产大模型新突破</a>
                   </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Git 进阶命令教程在 Hacker News 获 1877 分高关注，反映开发者对代码审查效率工具的强烈需求。该类技术…</div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">DeepSeek发布R1推理大模型，性能对标OpenAI o1，展现中国AI团队在推理能力上的突破。R1在数学、代码等推…</div>
+                </div>
+                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
+                  <div>
+                    <span class="tag tag-source">HuggingFace Models</span>
+                    <a href="https://huggingface.co/stabilityai/stable-diffusion-3-medium" target="_blank" style="font-size:13px;color:#333;font-weight:600">Stability AI发布Stable Diffusion 3-medium，图像生成能力再升级</a>
+                  </div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Stability AI发布第三代文本到图像生成模型Stable Diffusion 3-medium，已开源发布在Hu…</div>
+                </div>
+                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
+                  <div>
+                    <span class="tag tag-source">HuggingFace Models</span>
+                    <a href="https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct" target="_blank" style="font-size:13px;color:#333;font-weight:600">Meta发布Llama 3.1-8B指令模型，参数精简但性能强劲，开源大模型生态再升级</a>
+                  </div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Meta推出Llama 3.1-8B指令微调版本，在较小参数规模下保持较强性能，进一步完善开源大模型产品线。此举将加剧开…</div>
+                </div>
+                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
+                  <div>
+                    <span class="tag tag-source">HuggingFace Models</span>
+                    <a href="https://huggingface.co/black-forest-labs/FLUX.1-schnell" target="_blank" style="font-size:13px;color:#333;font-weight:600">Black Forest Labs发布FLUX.1图像生成模型，主打快速推理开源闭源双版本</a>
+                  </div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Black Forest Labs推出FLUX.1系列图像生成模型，包含schnell（快速）和dev两版本。schne…</div>
+                </div>
+                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
+                  <div>
+                    <span class="tag tag-source">HuggingFace Models</span>
+                    <a href="https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1" target="_blank" style="font-size:13px;color:#333;font-weight:600">Mistral发布Mixtral-8x7B指令微调版，稀疏MoE大模型竞争加剧</a>
+                  </div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Mistral AI发布Mixtral-8x7B-Instruct-v0.1指令微调版本，这是基于稀疏专家混合架构的大语…</div>
+                </div>
+                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
+                  <div>
+                    <span class="tag tag-source">HuggingFace Models</span>
+                    <a href="https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0" target="_blank" style="font-size:13px;color:#333;font-weight:600">Stability AI发布SDXL 1.0图像生成模型，文本到图像能力再升级</a>
+                  </div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Stability AI推出Stable Diffusion XL Base 1.0版本，这是其文本到图像生成模型的重大…</div>
+                </div>
+                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
+                  <div>
+                    <span class="tag tag-source">HuggingFace Models</span>
+                    <a href="https://huggingface.co/meta-llama/Llama-2-7b-chat-hf" target="_blank" style="font-size:13px;color:#333;font-weight:600">Meta发布Llama-2-7b-chat开源聊天模型，推动大模型开源生态发展</a>
+                  </div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Meta在HuggingFace发布Llama-2-7b-chat-hf聊天模型，这是开源大模型的重要里程碑。7B参数版…</div>
+                </div>
+                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
+                  <div>
+                    <span class="tag tag-source">HuggingFace Models</span>
+                    <a href="https://huggingface.co/hexgrad/Kokoro-82M" target="_blank" style="font-size:13px;color:#333;font-weight:600">hexgrad发布Kokoro-82M模型，HuggingFace开源82M参数AI模型</a>
+                  </div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">hexgrad组织在HuggingFace平台发布Kokoro-82M开源模型，参数规模为8200万。该模型发布于Hug…</div>
+                </div>
+                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
+                  <div>
+                    <span class="tag tag-source">HuggingFace Models</span>
+                    <a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2" target="_blank" style="font-size:13px;color:#333;font-weight:600">HuggingFace发布轻量级句子嵌入模型MiniLM-L6-v2，赋能语义搜索与文本相似度应用</a>
+                  </div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">sentence-transformers/all-MiniLM-L6-v2是HuggingFace托管的轻量级高性能句…</div>
                 </div>
                 <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
                   <div>
                     <span class="tag tag-source">Hacker News</span>
-                    <a href="http://www.terrybisson.com/theyre-made-out-of-meat-2/" target="_blank" style="font-size:13px;color:#333;font-weight:600">1991年经典文章：人类是肉做的，机器会思考吗？</a>
+                    <a href="https://piechowski.io/post/git-commands-before-reading-code/" target="_blank" style="font-size:13px;color:#333;font-weight:600">Git进阶技巧：5个高效命令优化代码审查流程</a>
                   </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">一篇1991年的经典文章在Hacker News上引发热议，探讨人类（由肉组成）与机器的本质区别，思考意识与思考的哲学命…</div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">技术教程类内容，介绍在阅读代码前应使用的Git命令技巧，如查看提交历史、分支状态等。获得高社区关注度（1882分、401…</div>
+                </div>
+                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
+                  <div>
+                    <span class="tag tag-source">GitHub Trending</span>
+                    <a href="https://github.com/tensorflow/tensorflow" target="_blank" style="font-size:13px;color:#333;font-weight:600">TensorFlow星数超19万，Google开源ML框架霸主地位稳固</a>
+                  </div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">TensorFlow是Google开源的机器学习框架，GitHub星数达194,580，采用C++编写。作为全球最受欢迎…</div>
+                </div>
+                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
+                  <div>
+                    <span class="tag tag-source">Hacker News</span>
+                    <a href="https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html" target="_blank" style="font-size:13px;color:#333;font-weight:600">技术爱好者成功将Mac OS X移植至Wii主机，展示逆向工程能力获社区热议</a>
+                  </div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">技术爱好者将Mac OS X成功移植至任天堂Wii游戏机，该项目获得1362分高关注和232条评论。此类技术展示项目虽展…</div>
+                </div>
+                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
+                  <div>
+                    <span class="tag tag-source">Hacker News</span>
+                    <a href="http://www.terrybisson.com/theyre-made-out-of-meat-2/" target="_blank" style="font-size:13px;color:#333;font-weight:600">1991年经典科幻短篇探讨外星视角：人类竟由"肉"构成</a>
+                  </div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">HN上分享的1991年经典科幻短篇《They're Made Out of Meat》，讲述外星访客发现地球人由"肉"组…</div>
                 </div>
                 <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
                   <div>
                     <span class="tag tag-source">Hacker News</span>
                     <a href="https://theamericanscholar.org/the-importance-of-being-idle/" target="_blank" style="font-size:13px;color:#333;font-weight:600">The Importance of Being I</a>
                   </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">得分：48 分，评论：4 条</div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">得分：53 分，评论：4 条</div>
                 </div>
                 <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
                   <div>
