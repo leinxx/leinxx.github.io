@@ -1,6 +1,6 @@
 ---
 title: "🤖 AI & 科技投资日报"
-date: 2026-04-09T13:04:58+08:00
+date: 2026-04-09T15:09:16+08:00
 slug: "20260409_digest"
 draft: false
 type: ai-digest
@@ -85,15 +85,15 @@ hidemeta: false
       <h1>🤖 AI & 科技投资日报</h1>
       <div class="stats">
         <div class="stat">📅 2026年04月09日</div>
-        <div class="stat">📰 本期 39 篇</div>
+        <div class="stat">📰 本期 17 篇</div>
         
-        <div class="stat">⏱ 生成于 13:01</div>
+        <div class="stat">⏱ 生成于 15:08</div>
       </div>
     </div>
     
     
         <div class="section">
-          <div class="section-title">🔬 技术突破（5 篇）</div>
+          <div class="section-title">🔬 技术突破（7 篇）</div>
           
             <div class="card">
               <div class="card-title">
@@ -125,7 +125,7 @@ hidemeta: false
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://github.com/OpenBMB/VoxCPM" target="_blank">面壁智能开源VoxCPM2：突破性无分词器TTS，支持多语言语音克隆</a>
+                <a href="https://github.com/NousResearch/hermes-agent" target="_blank">开源AI Agent项目hermes-agent星数超4.7万，NousResearch打造可自成长的智能代理框架</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">GitHub Explore</span>
@@ -133,42 +133,70 @@ hidemeta: false
                 
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
               </div>
-              <div class="card-summary">面壁智能发布VoxCPM2，采用无分词器架构实现多语言语音生成与真实语音克隆，星数达7846。该技术降低TTS门槛，有望在语音交互、内容创作领域开辟新场景，技术开源或加速商业化落地。</div>
-              <ul class="key-points"><li>采用Tokenizer-Free架构，突破传统TTS对分词器的依赖，提升多语言适应性</li><li>支持创意语音设计与真实语音克隆，星数7846显示较高社区关注度</li></ul>
+              <div class="card-summary">NousResearch发布开源AI Agent项目hermes-agent，星数达47127，表明该智能代理框架获得极高社区认可。作为Python开发的可自成长代理工具，反映了AI Agent赛道的活跃发展，对关注AI应用层投资的机构具有参考价值。</div>
+              <ul class="key-points"><li>hermes-agent是开源AI Agent项目，星数达47127，社区关注度极高</li><li>项目由NousResearch开发，定位为可自成长的智能代理</li><li>使用Python开发，符合当前AI开发主流语言趋势</li><li>星数超4.7万表明该技术在开发者社区具有重要影响力</li></ul>
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://github.com/obra/superpowers" target="_blank">GitHub星超14万的AI智能体开发框架obra/superpowers，或将改变软件开发方法论</a>
+                <a href="https://github.com/OpenBMB/VoxCPM" target="_blank">面壁智能开源VoxCPM2：突破性无分词器TTS，支持多语言语音生成与克隆</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">GitHub Explore</span>
-                2026-04-06
+                2026-04-10
                 
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 72</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 70</span>
               </div>
-              <div class="card-summary">obra/superpowers是一个智能体技能框架与软件开发方法论，获144126星社区高度认可。作为Shell语言开发的高星项目，其agentic技能框架理念代表AI开发工具新方向，对一级市场AI开发工具赛道具有参考价值。</div>
-              <ul class="key-points"><li>GitHub星数达144126，社区认可度极高</li><li>定位为agentic智能体技能框架与软件开发方法论</li><li>使用Shell语言开发，体现轻量级工具特点</li><li>代表AI辅助开发工具领域的重要实践</li></ul>
+              <div class="card-summary">OpenBMB发布VoxCPM2文本转语音模型，星数达7962。该模型首创Tokenizer-Free架构，支持多语言语音生成、创意声音设计与真实声音克隆。TTS技术持续迭代，面壁智能开源生态受社区认可，语音AI赛道竞争加剧。</div>
+              <ul class="key-points"><li>VoxCPM2采用Tokenizer-Free架构，突破传统TTS分词器限制</li><li>支持多语言语音生成、创意声音设计与真实声音克隆</li><li>项目星数7962，社区关注度高</li><li>来自OpenBMB（面壁智能），清华大学技术背景</li></ul>
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank">Karpathy发布LLM编程避坑指南，星数破万成开发者热门工具</a>
+                <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank">Andrej Karpathy发布LLM编程避坑指南，GitHub星标破万成开发者热门资源</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">GitHub Explore</span>
                 2026-02-16
                 
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
+              </div>
+              <div class="card-summary">Karpathy基于对大型语言模型编程陷阱的深度观察，制作成CLAUDE.md文件以优化Claude Code表现。该项目获10930星标，反映出开发者对AI编程辅助工具的强烈需求，以及提示工程在提升LLM代码输出质量方面的价值。</div>
+              <ul class="key-points"><li>项目星标数10930，受开发者社区高度关注</li><li>Karpathy为前特斯拉AI总监、李飞飞学生，在AI领域具有重要影响力</li><li>CLAUDE.md文件旨在帮助改进Claude Code的编程行为</li><li>聚焦LLM编程中的常见陷阱和优化策略</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/HKUDS/DeepTutor" target="_blank">港大团队开源DeepTutor，星数破1.5万，Agent原生学习助手受热捧</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">GitHub Explore</span>
+                2026-04-09
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
+              </div>
+              <div class="card-summary">HKUDS开源的DeepTutor是Agent原生的个性化学习助手，星数达15287，表明AI教育应用受开发者高度关注。该项目代表AI Agent在教育场景的落地潜力，技术开源或加速行业竞争。</div>
+              <ul class="key-points"><li>HKUDS发布开源项目DeepTutor，定位为Agent原生个性化学习助手</li><li>星数达15287，受开发者社区高度关注和认可</li><li>采用Python语言开发，体现AI教育应用的技术创新</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/opendataloader-project/opendataloader-pdf" target="_blank">开源PDF解析器获1.4万星，赋能AI数据准备与无障碍化</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">GitHub Explore</span>
+                2026-04-10
+                
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 50</span>
               </div>
-              <div class="card-summary">Andrej Karpathy发布编程指南，帮助开发者避免LLM编码陷阱。GitHub星数超1万，说明AI编程辅助工具市场需求旺盛，对投资AI开发者工具赛道有参考价值。</div>
-              <ul class="key-points"><li>Andrej Karpathy发布LLM编程避坑指南</li><li>GitHub星数突破1万，受开发者欢迎</li><li>旨在改进Claude Code行为</li><li>反映AI编程辅助工具市场需求</li></ul>
+              <div class="card-summary">OpenDataLoader PDF是一个开源Java PDF解析器，星数达14162，具备AI数据准备和PDF无障碍自动化能力。该项目反映了AI数据预处理工具的市场需求，作为基础设施层技术对大模型数据处理有潜在价值，但属于开源社区项目，无商业融资背景。</div>
+              <ul class="key-points"><li>开源PDF解析器项目，星数14162，社区认可度高</li><li>支持AI数据准备与PDF无障碍自动化</li><li>Java语言实现，面向开发者工具</li><li>属于AI数据基础设施层，无商业融资</li></ul>
               
             </div>
         </div>
 
         <div class="section">
-          <div class="section-title">🚀 产品发布（6 篇）</div>
+          <div class="section-title">🚀 产品发布（4 篇）</div>
           
             <div class="card">
               <div class="card-title">
@@ -186,63 +214,21 @@ hidemeta: false
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://github.com/NousResearch/hermes-agent" target="_blank">NousResearch推出hermes-agent开源AI代理，星数破4.6万引领开发者社区</a>
+                <a href="https://github.com/obra/superpowers" target="_blank">GitHub星数超14万的开源agentic开发框架Superpowers</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">GitHub Explore</span>
-                2026-04-10
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 65</span>
-              </div>
-              <div class="card-summary">NousResearch发布hermes-agent开源AI代理项目，星数高达46285，Python语言开发，定位为成长型代理。该高热度反映AI代理技术的开源生态活跃度提升，为一级市场提供技术趋势参考。</div>
-              <ul class="key-points"><li>hermes-agent是开源AI代理项目，星数达46285，在GitHub上热度极高</li><li>项目定位为成长型代理（The agent that grows with you），Python语言开发</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/opendataloader-project/opendataloader-pdf" target="_blank">开源PDF解析器获1.4万星，AI数据准备工具链再添利器</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-04-09
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 65</span>
-              </div>
-              <div class="card-summary">OpenDataLoader PDF是专注于AI训练数据准备的Java开源PDF解析工具，星数达14018颗，具备PDF无障碍化自动化能力。该项目反映AI数据预处理环节的工具化趋势，对提升大模型数据质量具有基础设施价值。</div>
-              <ul class="key-points"><li>Java开源PDF解析器，专注AI训练数据准备</li><li>GitHub星数14018，社区认可度较高</li><li>支持PDF自动化无障碍化处理</li><li>可提升AI模型训练的数据质量与效率</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/coleam00/Archon" target="_blank">开源AI编程测试框架Archon获1.5万星，解决AI代码生成可重复性难题</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-04-09
+                2026-04-06
                 
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
               </div>
-              <div class="card-summary">Archon是首个开源的AI编程harness builder，通过构建标准化测试环境让AI编程变得确定性和可重复。项目获14540星，反映开发者对AI代码质量保障工具的强烈需求。随着AI编程工具普及，测试和验证框架将成为关键基础设施，市场潜力可观。</div>
-              <ul class="key-points"><li>首个开源AI编程harness builder，降低AI代码测试门槛</li><li>星数14540，社区认可度高，TypeScript生态</li><li>解决AI编程可重复性痛点，提升代码质量保障能力</li><li>开发者工具类项目，商业模式待验证</li></ul>
+              <div class="card-summary">obra/superpowers是一个agentic技能框架与软件开发方法论，获得144346颗星（Shell语言）。虽非融资事件，但高星数反映开发者社区对AI agent开发工具的高度关注，属于一般产品更新。</div>
+              <ul class="key-points"><li>GitHub星数达144346颗，社区关注度极高</li><li>定位为agentic技能框架与软件开发方法论</li><li>使用Shell语言开发</li></ul>
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://github.com/HKUDS/DeepTutor" target="_blank">港大团队开源DeepTutor，星数超1.5万，AI教育智能体受关注</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-04-09
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 55</span>
-              </div>
-              <div class="card-summary">香港大学团队开源DeepTutor，定位为智能体原生个性化学习助手，星数超1.5万。AI教育智能体赛道逐渐成形，开源模式有助于技术验证与生态扩展，但商业化路径仍需观察。</div>
-              <ul class="key-points"><li>港大团队开源DeepTutor，星数超1.5万</li><li>定位为Agent-Native个性化学习助手</li><li>Python开发，AI教育应用领域</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/TheCraigHewitt/seomachine" target="_blank">AI博客写作工具seomachine获5289星，Claude Code驱动SEO内容创作</a>
+                <a href="https://github.com/TheCraigHewitt/seomachine" target="_blank">GitHub开源项目seomachine：基于Claude Code的SEO博客内容创作工具</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">GitHub Explore</span>
@@ -250,8 +236,22 @@ hidemeta: false
                 
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 55</span>
               </div>
-              <div class="card-summary">基于Claude Code的SEO博客写作工具GitHub星数达5289，反映AI内容生成在营销领域的需求增长。该工具可自动生成长篇SEO优化内容，降低内容创作门槛，具有商业化潜力。</div>
-              <ul class="key-points"><li>基于Claude Code的SEO优化博客内容创作工具</li><li>GitHub星数5289，表明有一定社区认可度</li><li>使用Python开发，支持长篇内容生成</li><li>面向企业营销内容创作场景</li></ul>
+              <div class="card-summary">seomachine是一个GitHub开源项目，利用Claude Code技术为任何企业创建长篇SEO优化博客内容。该项目获得5343颗星标，表明其在内容创作工具领域具有一定的社区认可度。作为AI应用层工具，它展示了生成式AI在营销内容创作方面的实际应用价值。</div>
+              <ul class="key-points"><li>基于Claude Code构建的SEO内容创作工具</li><li>支持长篇博客内容的自动化生成</li><li>GitHub星数达5343，具有一定社区关注度</li><li>使用Python语言开发</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/coleam00/Archon" target="_blank">首个开源AI编程Harness Builder获14.6K星，让AI编码更可控可重复</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">GitHub Explore</span>
+                2026-04-10
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 50</span>
+              </div>
+              <div class="card-summary">GitHub开源项目Archon定位为首个开源AI编程harness builder，旨在让AI编程变得确定性和可重复。项目获14.6K星，反映开发者对AI编程工具链标准化的高度关注。作为技术基础设施层工具，虽非直接融资事件，但对AI开发者生态具有参考价值。</div>
+              <ul class="key-points"><li>首个开源AI编程harness builder，降低AI编码不确定性</li><li>GitHub星数14.6K，社区认可度较高</li><li>TypeScript语言开发，面向开发者工具赛道</li></ul>
               
             </div>
         </div>
@@ -276,105 +276,28 @@ hidemeta: false
         </div>
 
         <div class="section">
-          <div class="section-title">📝 简报（27 篇）</div>
+          <div class="section-title">📝 简报（5 篇）</div>
           
                 <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
                   <div>
-                    <span class="tag tag-source">HuggingFace Trending</span>
-                    <a href="https://huggingface.co/meta-llama/Meta-Llama-3-8B" target="_blank" style="font-size:13px;color:#333;font-weight:600">Meta发布Llama 3-8B开源大模型，性能超越同级别竞品</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Meta发布Llama 3 8B参数开源大模型，在多项基准测试中表现优异，8B参数规模实现高性能突破。作为开源模型，对闭…</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">HuggingFace Trending</span>
-                    <a href="https://huggingface.co/deepseek-ai/DeepSeek-R1" target="_blank" style="font-size:13px;color:#333;font-weight:600">DeepSeek发布R1推理模型，性能比肩OpenAI o1，开源策略冲击闭源格局</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">DeepSeek发布R1推理模型，在数学、代码等任务上性能与OpenAI o1相当，采用开源策略向社区发布模型权重。这标…</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">HuggingFace Trending</span>
-                    <a href="https://huggingface.co/CompVis/stable-diffusion-v1-4" target="_blank" style="font-size:13px;color:#333;font-weight:600">CompVis发布Stable Diffusion v1-4，开源图像生成模型降低AIGC应用门槛</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">CompVis发布Stable Diffusion v1-4开源图像生成模型，采用潜在扩散技术实现高效文生图。该模型开源…</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">HuggingFace Trending</span>
-                    <a href="https://huggingface.co/black-forest-labs/FLUX.1-dev" target="_blank" style="font-size:13px;color:#333;font-weight:600">Black Forest Labs发布FLUX.1-dev模型，开源AI生成赛道再添新玩家</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Black Forest Labs在HuggingFace发布FLUX.1-dev模型，定位开源AI生成工具。该模型代表…</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
                     <span class="tag tag-source">Crunchbase News</span>
-                    <a href="https://news.crunchbase.com/fintech/cpa-founded-ai-tax-return-startup-juno-seed-funding/" target="_blank" style="font-size:13px;color:#333;font-weight:600">Exclusive: Juno, CPA-Foun</a>
+                    <a href="https://news.crunchbase.com/fintech/cpa-founded-ai-tax-return-startup-juno-seed-funding/" target="_blank" style="font-size:13px;color:#333;font-weight:600">Exclusive: Juno, CPA-Founded Startup That Aims To Make Tax Returns Less Painful With AI, Raises $12M</a>
                   </div>
                   <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Exclusive: Juno, CPA-Founded Startup That Aims To Make Tax R…</div>
                 </div>
                 <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
                   <div>
                     <span class="tag tag-source">Crunchbase News</span>
-                    <a href="https://news.crunchbase.com/venture/global-vcs-boost-late-stage-boom-latin-america-q1-2026/" target="_blank" style="font-size:13px;color:#333;font-weight:600">Global Investors Help Boo</a>
+                    <a href="https://news.crunchbase.com/venture/global-vcs-boost-late-stage-boom-latin-america-q1-2026/" target="_blank" style="font-size:13px;color:#333;font-weight:600">Global Investors Help Boost Latin America’s Late-Stage Funding Boom In Q1</a>
                   </div>
                   <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Global Investors Help Boost Latin America’s Late-Stage Fundi…</div>
                 </div>
                 <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
                   <div>
-                    <span class="tag tag-source">HuggingFace Spaces</span>
-                    <a href="https://huggingface.co/spaces/facebook/MusicGen" target="_blank" style="font-size:13px;color:#333;font-weight:600">Meta发布MusicGen音乐生成模型，AI音频赛道再添重磅玩家</a>
+                    <span class="tag tag-source">Crunchbase News</span>
+                    <a href="https://news.crunchbase.com/venture/data-most-active-highest-spending-startup-investors-q1-2026/" target="_blank" style="font-size:13px;color:#333;font-weight:600">Most Active And Highest-Spending Startup Investors Diverged In Q1</a>
                   </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Meta发布MusicGen音乐生成模型，可根据文本描述或旋律生成高质量音乐。该模型基于Transformer架构，在音…</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">HuggingFace Trending</span>
-                    <a href="https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0" target="_blank" style="font-size:13px;color:#333;font-weight:600">Stability AI发布SDXL 1.0，文本到图像生成能力显著提升，标志生成式AI产品化成熟</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Stability AI发布Stable Diffusion XL 1.0基础模型，在图像质量、细节表现和prompt理…</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">HuggingFace Spaces</span>
-                    <a href="https://huggingface.co/spaces/dalle-mini/dalle-mini" target="_blank" style="font-size:13px;color:#333;font-weight:600">HuggingFace开源dalle-mini，轻量级文生图模型降低AI创作门槛</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">dalle-mini是HuggingFace托管的开源文本到图像生成模型，作为DALL-E的轻量级版本。该项目降低了AI…</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">HuggingFace Spaces</span>
-                    <a href="https://huggingface.co/spaces/jbilcke-hf/ai-comic-factory" target="_blank" style="font-size:13px;color:#333;font-weight:600">开源AI漫画生成工具上线HuggingFace，降低创作门槛推动AIGC普及</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">AI漫画生成工具ai-comic-factory开源发布，为创作者提供低门槛的漫画制作解决方案。该项目反映AIGC在创意…</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">HuggingFace Spaces</span>
-                    <a href="https://huggingface.co/spaces/Kwai-Kolors/Kolors-Virtual-Try-On" target="_blank" style="font-size:13px;color:#333;font-weight:600">快手Kolors上线虚拟试穿，可生成服装上身效果预览</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">快手在HuggingFace发布Kolors-Virtual-Try-On虚拟试穿模型，可根据用户上传的人像和服装图片生…</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">HuggingFace Spaces</span>
-                    <a href="https://huggingface.co/spaces/mteb/leaderboard" target="_blank" style="font-size:13px;color:#333;font-weight:600">HuggingFace发布MTEB排行榜，聚焦文本嵌入模型性能评估</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">HuggingFace推出MTEB（大规模文本嵌入基准）排行榜，为文本嵌入模型提供标准化评估框架。该工具帮助开发者比较模…</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">HuggingFace Spaces</span>
-                    <a href="https://huggingface.co/spaces/AP123/IllusionDiffusion" target="_blank" style="font-size:13px;color:#333;font-weight:600">HuggingFace上线IllusionDiffusion图像扩散模型，可生成幻觉风格图像</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">HuggingFace平台发布IllusionDiffusion项目，这是一款专注于幻觉风格图像生成的扩散模型。从标题推…</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">HuggingFace Spaces</span>
-                    <a href="https://huggingface.co/spaces/Wan-AI/Wan2.2-Animate" target="_blank" style="font-size:13px;color:#333;font-weight:600">Wan-AI开源Wan2.2-Animate视频生成模型，AI视频生成赛道再添新玩家</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Wan-AI在HuggingFace开源Wan2.2-Animate视频生成模型，丰富AI视频生成开源生态。该模型可实现…</div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Most Active And Highest-Spending Startup Investors Diverged …</div>
                 </div>
                 <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
                   <div>
@@ -389,83 +312,6 @@ hidemeta: false
                     <a href="https://mp.weixin.qq.com/s/e14GMbUywNXvozhX0gZiWg" target="_blank" style="font-size:13px;color:#333;font-weight:600">寻影连续五年增长超50%，刘博：我们要干掉「拍」这件事</a>
                   </div>
                   <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">全球高端Webcam市占率第一，旗舰产品Tail 2在美国B&H的PTZ品类排名第一，定位系统公司不做硬件。</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">HuggingFace Spaces</span>
-                    <a href="https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard" target="_blank" style="font-size:13px;color:#333;font-weight:600">HuggingFace开源LLM排行榜更新，为AI模型评测提供基准</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">HuggingFace发布开源LLM排行榜工具，提供大语言模型性能评测基准，助力研究者和开发者对比模型能力，反映当前大模…</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">Hacker News</span>
-                    <a href="https://arhan.sh/blog/native-instant-space-switching-on-macos/" target="_blank" style="font-size:13px;color:#333;font-weight:600">Native Instant Space Swit</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">得分：383 分，评论：188 条</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">Hacker News</span>
-                    <a href="https://cacm.acm.org/news/how-nasa-built-artemis-iis-fault-tolerant-computer/" target="_blank" style="font-size:13px;color:#333;font-weight:600">How NASA built Artemis II</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">得分：183 分，评论：63 条</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">Hacker News</span>
-                    <a href="https://charcuterie.elastiq.ch/" target="_blank" style="font-size:13px;color:#333;font-weight:600">Charcuterie – Visual simi</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">得分：172 分，评论：29 条</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">Hacker News</span>
-                    <a href="https://eaw.app/picoz80/" target="_blank" style="font-size:13px;color:#333;font-weight:600">PicoZ80 – Drop-In Z80 Rep</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">得分：166 分，评论：30 条</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">Hacker News</span>
-                    <a href="https://www.youtube.com/watch?v=KKbgulTp3FE" target="_blank" style="font-size:13px;color:#333;font-weight:600">RAM Has a Design Flaw fro</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">得分：98 分，评论：9 条</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">Hacker News</span>
-                    <a href="https://bigbrotherwatch.org.uk/blog/apples-new-iphone-update-is-restricting-internet-freedom-in-the-uk/" target="_blank" style="font-size:13px;color:#333;font-weight:600">Apple's New iPhone Update</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">得分：87 分，评论：34 条</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">Hacker News</span>
-                    <a href="https://blog.veitheller.de/Generative_art_over_the_years.html" target="_blank" style="font-size:13px;color:#333;font-weight:600">Generative art over the y</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">得分：62 分，评论：17 条</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">Hacker News</span>
-                    <a href="https://www.bbc.co.uk/news/articles/c2evppm30p7o" target="_blank" style="font-size:13px;color:#333;font-weight:600">Hip-hop pioneer, Afrika B</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">得分：24 分，评论：1 条</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">Hacker News</span>
-                    <a href="https://www.cockroachlabs.com/blog/raft-is-so-fetch/" target="_blank" style="font-size:13px;color:#333;font-weight:600">The Raft Consensus Algori</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">得分：15 分，评论：1 条</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">Hacker News</span>
-                    <a href="https://www.ycombinator.com/companies/collectwise/jobs/Ktc6m6o-ai-agent-engineer" target="_blank" style="font-size:13px;color:#333;font-weight:600">CollectWise (YC F24) Is H</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">得分：1 分，评论：0 条</div>
                 </div>
         </div>
     
