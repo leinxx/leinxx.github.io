@@ -16,9 +16,9 @@ jobs:
           submodules: false
           fetch-depth: 0
       - name: Setup Hugo
-        uses: gohugoio/setup-hugo@v3
+        uses: peaceiris/actions-hugo@v2
         with:
-          version: "latest"
+          hugo-version: "latest"
           extended: true
       - name: Build
         run: hugo --minify
