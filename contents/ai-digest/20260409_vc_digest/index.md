@@ -1,6 +1,6 @@
 ---
 title: "🤖 AI & 科技投资日报"
-date: 2026-04-09Tvc:_d:ig+08:00
+date: 2026-04-09T12:00:00+08:00
 slug: "20260409_vc_digest"
 draft: false
 type: ai-digest
