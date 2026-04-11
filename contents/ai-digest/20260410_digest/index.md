@@ -1,6 +1,6 @@
 ---
 title: "🤖 AI & 科技投资日报"
-date: 2026-04-10T08:03:52+08:00
+date: 2026-04-10T09:17:37+08:00
 slug: "20260410_digest"
 draft: false
 type: ai-digest
@@ -85,9 +85,9 @@ hidemeta: false
       <h1>🤖 AI & 科技投资日报</h1>
       <div class="stats">
         <div class="stat">📅 2026年04月10日</div>
-        <div class="stat">📰 本期 28 篇</div>
+        <div class="stat">📰 本期 31 篇</div>
         
-        <div class="stat">⏱ 生成于 08:00</div>
+        <div class="stat">⏱ 生成于 09:16</div>
       </div>
     </div>
     
@@ -97,7 +97,7 @@ hidemeta: false
           
             <div class="card">
               <div class="card-title">
-                <a href="https://mp.weixin.qq.com/s/n8EfRR2HTPqPyX9j9WZB5g" target="_blank">Elorian融资5500万美元，前DeepMind研究员创办，NVIDIA参投，估值3亿美元</a>
+                <a href="https://mp.weixin.qq.com/s/n8EfRR2HTPqPyX9j9WZB5g" target="_blank">前DeepMind研究员创办Elorian，5500万美元攻视觉推理，估值3亿美元</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">ZPotentials</span>
@@ -105,13 +105,13 @@ hidemeta: false
                 
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
               </div>
-              <div class="card-summary">前DeepMind研究员Andrew Dai创立Elorian，专注视觉推理AI开发，认为当前大模型视觉理解能力仅相当于3岁儿童。Elorian基于开源模型构建推理视觉模型，目标在建筑、汽车、机器人等行业实现部署。融资5500万美元分两阶段完成，估值从1.2亿美元增至3亿美元，投资者包括NVIDIA、Jeff Dean及多家顶级风投。联合创始团队还包括前Google/Apple AI研究员Yinfei Yang及哈佛教授Seth Neel。</div>
-              <ul class="key-points"><li>核心定位：开发推理视觉模型（Visual Reasoning），而非生成式AI，聚焦理解物理世界而非生成媒体内容</li><li>技术判断：现有大模型（Google/OpenAI）在视觉分析卫星图像、推理物理产品设计方面仍表现不佳，需专门构建推理模型</li><li>团队背景：CEO Andrew Dai曾参与Google Gemini模型构建，CTO Yinfei Yang来自Google/Apple，Seth Neel为哈佛大学教授</li><li>投资方亮点：NVIDIA和Jeff Dean个人参投，Striker Venture Partners合伙人称Andrew Dai「知道Gemini的秘诀，没有浪费一分钱」</li></ul>
-              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>Elorian</b><br><span style="color:#0077b6;font-size:11px">多模态大模型/视觉推理</span><br><span style="color:#999;font-size:11px">开发推理视觉模型，帮助AI理解物理世界图像，应用于建筑、汽车、机器人等行业</span></td><td>5500万美元</td><td>种子轮/天使轮（分两阶段）</td><td>Striker Venture Partners、Menlo Ventures、Altimeter Capital、NVIDIA、Jeff Dean</td></tr></table>
+              <div class="card-summary">前DeepMind研究员Andrew Dai创立Elorian，专注视觉推理AI，融资5500万美元，估值3亿美元。核心判断：当前大模型视觉理解能力仅相当于3岁儿童，需引入「成年人」级别的推理能力。投资方包括Striker、Menlo Ventures、Altimeter、NVIDIA及Jeff Dean。计划12个月内发布首个公开推理模型，目标场景包括建筑、汽车、机器人等物理世界应用。对VC意义：视觉推理是AI从生成向理解跃迁的关键路径，NVIDIA参投显示算力巨头对该方向的认可。</div>
+              <ul class="key-points"><li>创始人背景：Andrew Dai曾参与Google Gemini模型构建，具备从DeepMind招聘顶级研究人员的能力，被投资人视为高效构建模型的保障</li><li>技术差异化：不同于OpenAI/Google侧重生成式模型，Elorian专注推理能力，目标解决「如何制造更轻的汽车或更高效火箭」等物理世界决策问题</li><li>融资结构：分两阶段，第一阶段估值1.2亿美元，第二阶段估值3亿美元，创始人主动控制估值以确保早期员工获得股权增长空间</li><li>商业模式：基于开源模型开发，早期考虑开源较小版本，旗舰版本保持专有；暂无收入，正与潜在客户讨论</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>Elorian</b><br><span style="color:#0077b6;font-size:11px">多模态大模型/视觉推理</span><br><span style="color:#999;font-size:11px">开发能够更好理解周围世界图像的AI推理模型，专注于视觉推理能力，目标场景包括建筑、汽车市场和机器人等行业</span></td><td>5500万美元</td><td>天使轮/种子轮（从隐身模式亮相）</td><td>Striker Venture Partners、Menlo Ventures、Altimeter Capital、NVIDIA、Jeff Dean</td></tr></table>
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://mp.weixin.qq.com/s/tG0D_uIfzxPYRCbIk3ZJSQ" target="_blank">智平方完成股改冲刺IPO，一年12轮融资超10亿元，估值破百亿</a>
+                <a href="https://mp.weixin.qq.com/s/tG0D_uIfzxPYRCbIk3ZJSQ" target="_blank">智平方完成股改拟IPO，B轮融资超10亿元估值破百亿，12轮融资加速度</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">华若汀具身智能</span>
@@ -119,34 +119,46 @@ hidemeta: false
                 
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
               </div>
-              <div class="card-summary">智平方完成股份制改造，开启IPO进程。公司2023年成立，是国内最早布局VLA端到端技术路线的创业团队，自研GOVLA大模型为全球首个全域全身VLA具身大模型。2025-2026年一年完成12轮融资，今年2月B轮超10亿元，估值破百亿。已与惠科签订3年1000台订单，2025年产能千台，2026年计划扩产至万台。</div>
-              <ul class="key-points"><li>智平方完成股份制改造，公司名称变更为智平方（深圳）科技股份有限公司，IPO进程正式开启</li><li>2025-2026年一年完成12轮融资（2025年7轮+2026年5轮），今年2月B轮融资超10亿元，估值突破100亿元</li><li>核心产品GOVLA大模型：全球首个全域全身VLA具身大模型，实现从桌面到开放环境、从单臂到全身协同、从简单执行到长程推理三大跨越</li><li>产品AlphaBot系列采用轮式双臂结构，AlphaBot 2核心部件无故障运行超5万小时，达工业级可靠性标准</li></ul>
-              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>智平方</b><br><span style="color:#0077b6;font-size:11px">具身智能/通用机器人</span><br><span style="color:#999;font-size:11px">通用智能机器人企业，自研全球首个全域全身VLA具身大模型GOVLA，AlphaBot系列机器人已量产</span></td><td>超10亿元</td><td>B轮</td><td>未披露</td></tr></table><div style="font-size:12px;color:#0077b6;font-weight:600;margin:8px 0 4px">📈 二级市场</div><table class="invest-table"><tr><th>公司</th><th>市场</th><th>详情</th></tr><tr>
-                      <td><b>智平方</b><br><span style="color:#999;font-size:11px">完成股份制改造，计划登陆资本市场</span></td>
-                      <td>未披露</td><td>估值100亿元</td></tr></table>
+              <div class="card-summary">智平方完成股份制改造，正式开启IPO进程，成为国内具身智能赛道资本化加速的标志性事件。公司2023年成立，今年2月B轮融资超10亿元、估值破百亿，一年累计完成12轮融资。其自主研发的GOVLA大模型是全球首个全域全身VLA具身大模型，AlphaBot系列已获惠科3年1000台订单，2026年产能规划扩至万台。</div>
+              <ul class="key-points"><li>智平方完成股改，公司名称变更为智平方（深圳）科技股份有限公司，标志着IPO进程正式开启</li><li>2026年完成B轮融资超10亿元，投后估值突破100亿元，成为继优必选、智元机器人后第三家百亿级具身智能企业</li><li>2025-2026年一年累计完成12轮融资，融资节奏密集，反映资本市场对具身智能赛道高度看好</li><li>自主研发GOVLA大模型：全球首个全域全身VLA具身大模型，实现从桌面到开放环境、从单臂到全身协同、从简单执行到长程推理三大跨越</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>智平方</b><br><span style="color:#0077b6;font-size:11px">具身智能/机器人</span><br><span style="color:#999;font-size:11px">通用智能机器人企业，自主研发GOVLA全球首个全域全身VLA大模型，AlphaBot系列机器人已获惠科千台订单</span></td><td>超10亿元</td><td>B轮</td><td>未披露</td></tr></table>
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzI5ODk1NjY1MA==&mid=2247719969&idx=2&sn=60a780a55be8067d48a9757f40091ca5&chksm=edad18d1a6bc189f462f951ca424e2372f1a3e07f8a6259327c980c13924d6e86070d86ee3b0&scene=126&sessionid=0#rd" target="_blank">章鱼动力获郭鹤年家族数亿元战略投资，物理AGI成具身智能新风口</a>
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI5ODk1NjY1MA==&mid=2247719969&idx=2&sn=60a780a55be8067d48a9757f40091ca5&chksm=edad18d1a6bc189f462f951ca424e2372f1a3e07f8a6259327c980c13924d6e86070d86ee3b0&scene=126&sessionid=0#rd" target="_blank">章鱼动力获郭鹤年家族数亿元战略投资，物理AGI赛道3个月融资近5000万美元</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">投资界</span>
                 2026-04-10
-                
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #投资界</span>
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
               </div>
-              <div class="card-summary">地平线元老都大龙创办的章鱼动力获K3（郭鹤年家族）领投数亿元战略投资，高瓴、小米、顺为、线性资本跟投。章鱼动力成立于2026年1月，定位物理AGI，致力于打造可持续自进化的具身智能生产力。成立60天内完成近5000万美元首轮融资，提出SYNTH深思架构。物理AGI被视为AI走向物理世界的终极方向，未来3-5年将诞生一批独角兽企业。</div>
-              <ul class="key-points"><li>创始人都大龙为地平线6号创始员工、前鉴智机器人CTO，中科院计算所硕士、清华大学创新领军工程博士，曾获两次百度百万美金最高奖</li><li>公司提出SYNTH深思架构，包含世界基础模型、分频多尺度策略模型、全模态数据体系三大核心技术</li><li>K3为郭鹤年家族第三代郭孟雄创办，代表产业资本和Old Money布局科技投资的新趋势</li><li>物理AGI被视为AI与机器人技术深度结合的终极方向，未来3-5年将诞生万亿级产业革命</li></ul>
-              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>章鱼动力（SynapX）</b><br><span style="color:#0077b6;font-size:11px">具身智能/物理AGI</span><br><span style="color:#999;font-size:11px">以物理AGI为使命的前沿科技公司，致力于打造可持续自进化的具身智能生产力</span></td><td>数亿元</td><td>战略投资</td><td>K3（郭鹤年家族）领投，顺为资本、小米战投、高瓴创投、线性资本跟投</td></tr><tr><td><b>章鱼动力（SynapX）</b><br><span style="color:#0077b6;font-size:11px">具身智能/物理AGI</span><br><span style="color:#999;font-size:11px">成立于2026年1月，成立60天内完成首轮融资</span></td><td>近5000万美元</td><td>首轮融资</td><td>地平线、高瓴创投、小米战投、顺为资本、线性资本</td></tr></table>
+              <div class="card-summary">章鱼动力获郭鹤年家族K3领投数亿元战略投资，3个月完成近5000万美元首轮融资。创始团队来自地平线（6号创始员工都大龙）和鉴智机器人，提出SYNTH深思架构布局物理AGI。物理AGI被视为AI与机器人深度结合的终极方向，未来3-5年将诞生行业独角兽，万亿级产业革命正在展开。</div>
+              <ul class="key-points"><li>章鱼动力获郭鹤年家族K3领投数亿元战略投资，3个月获近5000万美元首轮融资，投资方包括地平线、高瓴创投、小米战投、顺为资本、线性资本</li><li>创始团队为地平线6号创始员工都大龙联合创办，曾主导国内首款AI芯片BPU设计，提出SYNTH深思架构面向物理AGI</li><li>物理AGI被视为AI走向物理世界的终极方向，2026年赛道融资爆发式增长，未来3-5年将诞生定义行业的独角兽</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>章鱼动力</b><br><span style="color:#0077b6;font-size:11px">具身智能/物理AGI</span><br><span style="color:#999;font-size:11px">物理AGI初创公司，使命为打造可持续自进化的具身智能生产力</span></td><td>数亿元（战略投资）+ 近5000万美元（首轮融资）</td><td>战略投资+首轮融资</td><td>K3（郭鹤年家族领投）、顺为资本、小米战投、高瓴创投、线性资本</td></tr></table>
             </div>
         </div>
 
         <div class="section">
-          <div class="section-title">🔬 技术突破（10 篇）</div>
+          <div class="section-title">🔬 技术突破（8 篇）</div>
           
             <div class="card">
               <div class="card-title">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882085&idx=2&sn=8c181403345d630adbc7a1f01756eeb0&chksm=e9e755654c86f0312b0eaae54f03af720a9748ffb50c5ffb4ec33741283c4b6bc920f01f8805&scene=126&sessionid=0#rd" target="_blank">ICLR26 Oral: 字节Seed+北大 In-Place TTT，原地MLP改参数，128K上下文SOTA</a>
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651026977&idx=3&sn=706efc2a22e98809d60669a85905269c&chksm=854cc023e091f85f6b89066dd528796c7fe3576076c2c401c86f4fd6da3b4344226e9b92a8d0&scene=126&sessionid=0#rd" target="_blank">CVPR26: 阿里浙大TC-Padé，扩散模型20步2.88×加速，低步数画质超现有方法</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-04-10
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #阿里巴巴 #浙江大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 92</span>
+              </div>
+              <div class="card-summary">阿里安全AGI实验室联合浙大提出TC-Padé扩散加速方法，基于Padé逼近构建残差预测框架，无需训练即插即用。在FLUX.1-dev实现2.88×加速、Wan2.1视频生成1.72×加速、DiT-XL/2达1.46×加速。该方法解决低步数采样下特征缓存失效问题，为扩散模型工业落地提供高实用价值方案，已被CVPR 2026录用。</div>
+              <ul class="key-points"><li>核心创新：TC-Padé采用Padé逼近（有理函数形式）替代传统泰勒多项式，在低步数大跨度时间间隔下具有更好稳定性</li><li>残差预测：转向预测层间残差而非原始特征，残差具有更高时间连续性和更稳定变化规律，降低误差累积</li><li>步感知策略：针对扩散模型不同阶段（早期/中期/后期）动态特性，采用不同残差更新方式，避免过度外推</li><li>自适应轨迹稳定性：引入TSI指标判断是否跳过计算，在稳定区间加速、关键区间保留精细计算</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882085&idx=2&sn=8c181403345d630adbc7a1f01756eeb0&chksm=e9e755654c86f0312b0eaae54f03af720a9748ffb50c5ffb4ec33741283c4b6bc920f01f8805&scene=126&sessionid=0#rd" target="_blank">ICLR26 Oral: 字节Seed+北大In-Place TTT，推理时原地改MLP参数，128K长上下文提升显著</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">量子位</span>
@@ -154,13 +166,13 @@ hidemeta: false
                 <span style="color:#888;font-size:11px;margin-left:6px">👥 #字节Seed #北京大学</span>
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 92</span>
               </div>
-              <div class="card-summary">字节Seed和北大提出In-Place TTT（原地测试时训练），复用Transformer已有MLP模块实现推理时参数更新，解决TTT架构不兼容、计算效率低、优化目标不匹配三大问题。该方法可即插即用到现有预训练模型，实验显示Qwen3-4B、Llama3.1-8B、Qwen3-14B在128K-256K长上下文任务上显著提升。获ICLR 2026 Oral认可。</div>
-              <ul class="key-points"><li>核心创新：复用Transformer中MLP的最后一个投影矩阵W_down作为快速权重，实现原地更新，无需新增层或改架构</li><li>解决三大问题：(1)架构兼容-即插即用到现有预训练模型；(2)计算效率-块级更新+上下文并行，支持GPU/TPU并行；(3)优化目标-通过Conv1D使TTT目标与预测下一个Token任务对齐</li><li>实验结果：Qwen3-4B、Llama3.1-8B、Qwen3-14B在128K-256K长上下文任务上显著提升，优于其他TTT方法和从头训练方案</li><li>技术突破意义：让大模型在推理时能边干活边学习，适配超长上下文而不崩溃，为智能体时代的长上下文任务提供新范式</li></ul>
+              <div class="card-summary">字节Seed与北大提出In-Place TTT，让大模型在推理时无需新增层即可原地更新MLP参数。核心创新包括：复用Transformer已有MLP作为快速权重、设计与自回归语言模型对齐的优化目标、块级更新支持并行计算。实验显示Qwen3-4B、Llama3.1-8B、Qwen3-14B在128K-256K长上下文任务上显著提升。该方法解决了TTT架构不兼容、计算效率低、优化目标不匹配三大问题，可作为即插即用模块集成到现有预训练模型。中选ICLR 2026 Oral。</div>
+              <ul class="key-points"><li>In-Place TTT核心创新：复用Transformer中已有的MLP模块，将MLP最后一个投影矩阵W_down作为快速权重进行原地更新，无需引入新层或改变架构</li><li>解决三大问题：1)架构不兼容-即插即用无需重新预训练；2)计算效率低-块级更新+上下文并行支持GPU/TPU并行；3)优化目标不匹配-通过Conv1D使目标值包含未来Token信息，对齐「预测下一个Token」任务</li><li>实验结果：Qwen3-4B、Llama3.1-8B、Qwen3-14B在128K和256K长上下文任务上显著提升，优于从头训练的其他TTT方法</li><li>论文中选ICLR 2026 Oral，一作冯古豪（北大，字节Seed实习生）、罗胜杰（北大），通讯作者贺笛、Wenhao Huang（字节Seed）</li></ul>
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://mp.weixin.qq.com/s/vqbIanA7bvxLZ3SZ5Wyp9Q" target="_blank">清华系星动纪元击败PI获具身奥运三冠，刷新世界纪录</a>
+                <a href="https://mp.weixin.qq.com/s/vqbIanA7bvxLZ3SZ5Wyp9Q" target="_blank">清华系星动纪元击败PI斩获具身奥运三冠，VLA模型+世界模型实现柔性操作突破</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">ai科技评论</span>
@@ -168,83 +180,69 @@ hidemeta: false
                 <span style="color:#888;font-size:11px;margin-left:6px">👥 #清华大学 #星动纪元</span>
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 90</span>
               </div>
-              <div class="card-summary">星动纪元在Benjie's Olympics击败全球最强具身大脑公司PI，斩获三项全球第一。创始人陈建宇为清华大学交叉信息研究院最年轻博导，公司2023年8月成立。技术指标全面领先：剥橘子1分47秒（比PI快35%）、开锁49秒（比PI快26%）、翻袜子用120样本达1分04秒（样本减少32%）。星动纪元是全球四家能实现全尺寸人形机器人全身及五指灵巧手精准控制的公司之一，标志中国具身智能跻身全球第一梯队。</div>
-              <ul class="key-points"><li>星动纪元在Benjie's Humanoid Olympic Games获三项任务全球第一，首次有中国公司登顶该赛事</li><li>击败全球最强具身大脑公司PI（Physical Intelligence，融资近20亿美元），PI使用的是最新闭源模型PI0.6</li><li>创始人陈建宇为清华大学交叉信息研究院最年轻博导之一，2020年博士毕业回国，2023年8月创立星动纪元</li><li>自研VLA模型实现剥橘子无工具纯手剥1分47秒，比PI用时2分46秒快35%；开锁49秒比PI的66秒快26%</li></ul>
+              <div class="card-summary">星动纪元在Benjie's Olympics赛事中击败全球最强具身大脑公司PI，斩获剥橘子、开锁、翻袜子三项全球第一。创始人陈建宇为清华大学最年轻博导之一，公司软硬一体全栈自研。其VLA模型+世界模型技术路线实现柔性物体操作、毫米级精密交互等突破，数据利用效率提升32%。星动纪元是全球四家能实现全尺寸人形机器人全身及五指灵巧手精准控制的公司之一，标志着中国具身智能跻身全球第一梯队。</div>
+              <ul class="key-points"><li>星动纪元在Benjie's Olympics击败PI获三项全球第一：剥橘子1分47秒（PI用工具2分46秒）、开锁49秒（PI 66秒）、翻袜子1分04秒（PI 1分33秒）</li><li>技术突破：VLA模型+世界模型（Ctrl-World）协同优化，实现柔性物体操作、毫米级精密交互、长时序任务</li><li>工程创新：异步高频推理+短时域规划策略，实现「边做边想」架构，提升实时响应能力</li><li>小样本泛化能力：120个样本达到PI用176个样本的性能，数据利用效率提升32%</li></ul>
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651026739&idx=1&sn=052aa5f201fbac49626364edaaa3724c&chksm=8549ad0a100915c32557a0ee574542ad11cb7bd8d7f040e5c7ec053dd77fb42ae37b5816f345&scene=126&sessionid=0#rd" target="_blank">星动纪元击败PI闭源模型获具身奥运三项第一，VLA模型小样本学习+自适应注意力实现全面超越</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">机器之心</span>
-                2026-04-10
-                <span style="color:#888;font-size:11px;margin-left:6px">👥 #星动纪元</span>
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 90</span>
-              </div>
-              <div class="card-summary">星动纪元在Benjie's Olympics具身智能大赛中击败Physical Intelligence的闭源模型π*0.6，斩获开锁、剥橘子、翻袜子三项任务全球第一。核心技术优势包括：小样本学习能力（翻袜子仅用120样本vs PI的176样本，减少32%）、自适应视觉注意力机制（开锁任务49秒vs PI的66秒，提升25%）、异步高频推理与短时域规划（剥橘子纯手剥1分47秒vs PI的2分46秒，快35%）。这是首次有机构在全力对阵PI闭源模型条件下实现全面超越，验证了星动纪元在VLA架构、具身大脑领域的全球领先地位。</div>
-              <ul class="key-points"><li>星动纪元在Benjie's Olympics击败PI闭源模型π*0.6，夺得三项第一，成为该赛事唯一上榜中国企业</li><li>剥橘子任务：首个实现纯手剥，1分47秒完成，速度比PI快35%，展现对柔性物体形变的深度理解能力</li><li>开锁任务：49秒完成，速度比PI提升25%，自适应视觉注意力机制在高反光干扰环境下保持毫米级精度</li><li>翻袜子任务：仅用120个训练样本（比PI少32%），1分04秒完成，验证小样本泛化能力和高效数据利用率</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651026739&idx=2&sn=2a2bc5a4e0dd8c9fd60b7c9e909fdc23&chksm=850bffa5106810230ec97a27dd7685355604f7906adb576f0951fa82e27ced55e8deef1009e2&scene=126&sessionid=0#rd" target="_blank">CVPR26: Meta+哥本哈根大学 OneStory，自适应记忆机制实现分钟级十镜头连贯叙事</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">机器之心</span>
-                2026-04-10
-                <span style="color:#888;font-size:11px;margin-left:6px">👥 #哥本哈根大学 #Meta</span>
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 90</span>
-              </div>
-              <div class="card-summary">Meta与哥本哈根大学联合推出OneStory，通过自适应记忆建模解决多镜头视频生成的跨镜头一致性问题。核心创新包括Frame Selection（语义相关帧筛选）和Adaptive Conditioner（自适应粒度patchification），实现shot-by-shot自回归生成，支持分钟级、十镜头长视频的连贯叙事。该工作为长视频生成和可控世界模型提供了新的自适应memory管理机制，具有重要的技术突破意义。</div>
-              <ul class="key-points"><li>核心创新：提出自适应记忆机制，通过Frame Selection模块从历史镜头中自动筛选语义相关的帧，避免固定窗口滑动带来的遗忘问题</li><li>Adaptive Conditioner：根据帧重要性自适应调整patchification粒度，将历史上下文压缩为紧凑有效的条件信号，平衡全局信息建模能力与计算效率</li><li>任务重构：将多镜头生成重新定义为next-shot generation问题，实现shot-by-shot自回归生成，统一支持text-to-multi-shot和image-to-multi-shot两种模式</li><li>实验验证：在复杂叙事场景中验证了外观变化下的人物一致性、空间定位能力、叙事延续能力，展现跨镜头叙事理解能力</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882085&idx=1&sn=56c8015fc875c7d8108c9f5bafea4151&chksm=e97bf8ba5e49ab74a38849cc435d0cd64e6e476c16456bae3bfae645c80c64ec2ffa52e165e9&scene=126&sessionid=0#rd" target="_blank">星动纪元击败PI夺具身奥赛三冠，纯手剥橙子1分47秒创纪录</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">量子位</span>
-                2026-04-10
-                <span style="color:#888;font-size:11px;margin-left:6px">👥 #量子位</span>
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 88</span>
-              </div>
-              <div class="card-summary">中国具身智能公司星动纪元在Benjie's Olympics具身灵巧操作挑战赛中击败美国明星公司PI，斩获三项全球第一（剥橙子、开锁获金牌，翻袜子获银牌）。其自研VLA具身大模型通过知识迁移、自适应视觉注意力、异步高频推理三大技术创新，实现纯手剥橙子1分47秒（比PI快35%）、开锁49秒（比PI快25%）、翻袜子120样本超越PI的176样本。该赛事被评价为物理智能终极真实压力测试，星动纪元为唯一打败PI闭源模型的中国企业。</div>
-              <ul class="key-points"><li>星动纪元在Benjie's Olympics获三项全球第一：剥橙子（金牌）、开锁（金牌）、翻袜子（银牌），全面超越PI</li><li>自研VLA具身大模型三大优势：知识迁移能力（120样本超越对手176样本）、自适应视觉注意力机制（精准识别细小目标）、异步高频推理（实时预测下一段轨迹）</li><li>剥橙子任务：星动纪元纯手剥1分47秒，PI用工具2分46秒，速度提升35%，首创无工具纯手剥操作</li><li>开锁任务：星动纪元49秒完成，PI 66秒，提升25%，需克服毫米级目标识别、光照变化、金属反光等干扰</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882108&idx=3&sn=e9969e5c78c7107ce60b7c9123669cc9&chksm=e98f6476726da7e9f6b5873d5bf4af79e1a10afa5973fba3a5d6ac4c34089d926a588dbb3f07&scene=126&sessionid=0#rd" target="_blank">腾讯混元开源HiVG：3B参数超越GPT-5.2，层次化分词让SVG生成效率提升2.7倍</a>
+                <a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882108&idx=3&sn=e9969e5c78c7107ce60b7c9123669cc9&chksm=e98f6476726da7e9f6b5873d5bf4af79e1a10afa5973fba3a5d6ac4c34089d926a588dbb3f07&scene=126&sessionid=0#rd" target="_blank">腾讯开源HiVG：3B参数超GPT-5.2，SVG生成token压缩63.8%</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">量子位</span>
                 2026-04-10
                 <span style="color:#888;font-size:11px;margin-left:6px">👥 #腾讯混元团队</span>
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 90</span>
               </div>
-              <div class="card-summary">腾讯混元团队开源HiVG模型，通过创新的层次化分词框架（原子词元+路径片段词元），将SVG序列压缩62.7%-63.8%。仅3B参数在SSIM（0.896）、LPIPS（0.114）、CLIP-S（0.957）等指标上超越GPT-5.2、Claude-4.5-Sonnet等闭源模型及OmniSVG-8B等8B开源模型。核心创新在于将绘图命令与坐标参数组合为可执行几何单元，并提出HMN初始化策略赋予token空间感知能力。该工作表明：在结构化生成任务中，让表征与数据结构对齐比单纯增加参数更有效。</div>
-              <ul class="key-points"><li>核心创新：层次化分词框架，将SVG的绘图命令+坐标参数组合为路径片段词元（segment token），实现2.68×-2.76×压缩</li><li>技术突破：提出HMN初始化策略，通过RBF+多项式特征映射赋予token初始空间感知能力，解决新token与预训练空间对齐问题</li><li>性能表现：3B参数在Image-to-SVG任务上SSIM达0.896（超越Gemini-2.5-pro的0.790），LPIPS仅0.114（超越GPT-5.2的0.205）</li><li>效率优势：token压缩率62.7%-63.8%，仅需约2.7×更少训练token即可达到与基线相当的生成质量</li></ul>
+              <div class="card-summary">腾讯混元团队开源HiVG模型，采用层次化分词框架，将SVG的坐标token压缩63.8%，3B参数在SVG生成任务上超越GPT-5.2、Claude-4.5-Sonnet等闭源模型。核心创新在于将绘图命令与坐标组合为路径片段词元，配合HMN初始化赋予模型空间感知能力。该思路可推广至CAD、3D Mesh、机器人动作序列等结构化生成领域。</div>
+              <ul class="key-points"><li>腾讯混元团队发布HiVG模型，3B参数在SVG生成任务上超越GPT-5.2、Claude-4.5-Sonnet等闭源模型</li><li>核心创新：层次化分词框架，将绘图命令和坐标组合为路径片段词元，token压缩率达63.8%</li><li>HMN初始化策略：通过高斯-多项式基函数使坐标在表示空间中保持邻近，赋予模型初始空间感知能力</li><li>实验结果：0.896 SSIM（vs Gemini-2.5-pro 0.790），0.114 LPIPS（vs GPT-5.2 0.205），CLIP-S得分0.957</li></ul>
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651026761&idx=1&sn=789bf4b0f5e2af74421f476296204319&chksm=850008cdeaba2ede75cf9c129962bfbba52b1a8d574572257ec5ba37016d5ac09ea094b56888&scene=126&sessionid=0#rd" target="_blank">蚂蚁AI鉴真夺CVPR 2026冠军，ROC AUC 0.9723破复杂场景检测难题</a>
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651026739&idx=1&sn=052aa5f201fbac49626364edaaa3724c&chksm=8549ad0a100915c32557a0ee574542ad11cb7bd8d7f040e5c7ec053dd77fb42ae37b5816f345&scene=126&sessionid=0#rd" target="_blank">星动纪元具身智能击败PI闭源模型，三项任务全球第一</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">机器之心</span>
                 2026-04-10
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 78</span>
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #星动纪元</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 88</span>
               </div>
-              <div class="card-summary">蚂蚁集团AI安全实验室在CVPR 2026 NTIRE挑战赛中夺冠，ROC AUC达0.9723。其基于DINOv3的鲁棒检测框架解决了跨域泛化与真实世界降质干扰两大核心难题。Veritas框架被ICLR 2026录用为口头报告，技术已落地短视频、灵光、鲸探等平台，服务数亿用户。对VC而言，AI鉴真技术是应对深度伪造乱象的基础设施，具备长期投资价值。</div>
-              <ul class="key-points"><li>蚂蚁AI安全实验室MICV队伍获CVPR 2026 NTIRE鲁棒性AIGC图像检测挑战赛冠军，ROC AUC达0.9723</li><li>提出基于DINOv3视觉基础模型的双流特征融合集成架构，解决跨域泛化与降质干扰难题</li><li>构建百万级多源训练语料库，分层覆盖开源基准、商业API及比赛数据</li><li>研发难度感知鲁棒数据增强，模拟互联网传播链路的阶梯式退化</li></ul>
+              <div class="card-summary">星动纪元在Benjie's Olympics具身灵巧操作大赛中击败Physical Intelligence的闭源模型π*0.6，斩获开锁、剥橘子、翻袜子三项全球第一。剥橘子纯手剥比PI快35%，开锁快25%，翻袜子仅用120样本比PI少32%数据却快30%。其VLA模型通过小样本学习、自适应视觉注意力、异步高频推理三大技术创新，在柔性物体操作、双手协作、精细感知等核心能力上实现全面超越。这是具身智能行业首次有机构在全力对阵PI闭源模型条件下实现全面超越，验证了中国公司在具身智能领域的技术领先地位。</div>
+              <ul class="key-points"><li>星动纪元在Benjie's Olympics击败PI闭源模型π*0.6，斩获开锁、剥橘子、翻袜子三项任务全球第一，成为该赛事唯一上榜中国企业</li><li>技术指标：剥橘子纯手剥1分47秒比PI快35%；开锁49秒比PI快25%；翻袜子120样本比PI少32%却快30%（1分04秒 vs 1分33秒）</li><li>VLA模型三大核心技术：小样本学习（知识迁移能力）、自适应视觉注意力机制（毫米级精度感知）、异步高频推理与短时域规划（实时误差修正）</li><li>星动纪元全球首个提出分频VLA架构（HiRT，2024年9月），早于PI/Figure/谷歌/英伟达；发布融合世界模型的VPP框架（2024年12月开源）</li></ul>
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://github.com/coleam00/Archon" target="_blank">首个开源AI编程Harness工具，星数1.5万+，让AI编码确定性可重复</a>
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651026761&idx=1&sn=789bf4b0f5e2af74421f476296204319&chksm=850008cdeaba2ede75cf9c129962bfbba52b1a8d574572257ec5ba37016d5ac09ea094b56888&scene=126&sessionid=0#rd" target="_blank">蚂蚁AI鉴真夺CVPR 2026冠军，ROC AUC达0.9723，破解深度伪造检测难题</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-04-10
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #蚂蚁集团AI安全实验室</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
+              </div>
+              <div class="card-summary">蚂蚁集团AI安全实验室MICV队伍在CVPR 2026 NTIRE鲁棒性AIGC图像检测挑战赛中夺冠，ROC AUC达0.9723。团队提出基于DINOv3的鲁棒集成检测框架，通过百万级多源训练语料、双流特征融合架构及阶梯式退化增强解决跨域泛化与真实世界降质干扰难题。已发布Veritas框架和Locate-Then-Examine两阶段检测范式，服务蚂蚁旗下数亿用户平台。对VC而言，AI鉴真技术是应对AIGC滥用的基础设施，市场需求明确且紧迫。</div>
+              <ul class="key-points"><li>蚂蚁AI安全实验室MICV队伍获CVPR 2026 NTIRE鲁棒性AIGC图像检测挑战赛冠军，ROC AUC达0.9723，击败全球500多支队伍</li><li>提出基于DINOv3的鲁棒集成检测框架：双流特征融合架构+百万级多源训练语料+阶梯式退化数据增强+Focal Loss+SWA+TTA</li><li>解决两大核心技术难题：跨域泛化能力不足（不同生成架构差异大）和真实世界降质干扰（压缩/模糊/加噪掩盖生成痕迹）</li><li>发布Veritas框架：结合多模态大语言模型和模式感知推理，突破传统纯文本思维链限制，被ICLR 2026录用为口头报告</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651026739&idx=2&sn=2a2bc5a4e0dd8c9fd60b7c9e909fdc23&chksm=850bffa5106810230ec97a27dd7685355604f7906adb576f0951fa82e27ced55e8deef1009e2&scene=126&sessionid=0#rd" target="_blank">CVPR26: Meta+哥本哈根大学 OneStory，自适应记忆建模实现分钟级十镜头连贯叙事</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-04-10
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #Meta #哥本哈根大学</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
+              </div>
+              <div class="card-summary">OneStory是首个支持自适应记忆建模的多镜头视频生成模型，通过Frame Selection和Adaptive Conditioner两个模块实现全局但紧凑的跨镜头上下文表示。该模型可生成长达一分钟、十镜头的复杂叙事视频，同时保持人物外观和场景一致性。论文已录用于CVPR 2026，为长视频生成和可控世界模型提供了新的自适应memory管理机制。</div>
+              <ul class="key-points"><li>OneStory将多镜头视频生成重新表述为next-shot generation问题，实现shot-by-shot自回归式生成，而非一次性生成整段视频</li><li>Frame Selection模块：从所有历史镜头中自动挑选与当前镜头prompt语义最相关的帧，避免固定窗口滑动带来的遗忘问题</li><li>Adaptive Conditioner模块：根据Frame Selection预测的重要性，对历史帧进行自适应patchification，重要信息保留细粒度表示，关键信息更强压缩</li><li>统一支持text-to-multi-shot和image-to-multi-shot两种生成方式，首个shot可由任意T2V或I2V模型生成</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/rowboatlabs/rowboat" target="_blank">开源AI同事工具rowboat获1.1万星，TypeScript开发具有记忆功能</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">GitHub Explore</span>
@@ -252,107 +250,18 @@ hidemeta: false
                 
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
               </div>
-              <div class="card-summary">Archon是首个开源的AI编程Harness构建工具，旨在使AI编码变得确定性和可重复。项目获得1.5万+星标，社区关注度极高，代表AI编程工具领域的重要技术突破，有望提升AI代码生成的可靠性。</div>
-              <ul class="key-points"><li>首个开源的AI编程Harness构建工具</li><li>让AI编码变得确定性和可重复</li><li>星数达15581，社区关注度高</li><li>使用TypeScript开发</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/shiyu-coder/Kronos" target="_blank">金融领域基础模型Kronos登GitHub热榜，星数超1.2万或预示AI+金融应用加速</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-01-02
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 65</span>
-              </div>
-              <div class="card-summary">Kronos是由个人开发者开源的金融市场语言基础模型，星数达12703表明社区关注度极高。该模型针对金融领域文本处理，有望在量化投资、风险评估等场景落地，虽非巨头产品但反映AI垂直应用趋势。</div>
-              <ul class="key-points"><li>Kronos定位为金融市场语言的基础模型，聚焦金融文本处理能力</li><li>GitHub星数12703，社区关注度和认可度较高</li><li>Python实现，易于集成到现有量化系统</li><li>个人开发者开源项目，反映AI在金融垂直领域的应用趋势</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/HKUDS/DeepTutor" target="_blank">DeepTutor开源获1.6万星，Agent原生个性化学习助手或颠覆教育AI赛道</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-04-10
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 65</span>
-              </div>
-              <div class="card-summary">HKU港大团队开源DeepTutor，采用Agent架构打造个性化学习助手，获1.6万星关注。Python实现，定位'Agent-Native'差异化路径，在教育AI赛道中展现技术潜力，值得关注其商业化进展。</div>
-              <ul class="key-points"><li>DeepTutor定位为Agent-Native（Agent原生）个性化学习助手，区别于传统AI辅导工具</li><li>GitHub星数达15947，表明项目在开发者社区获得高度认可</li></ul>
+              <div class="card-summary">rowboatlabs推出的开源AI coworker项目，使用TypeScript开发，具备记忆功能，在GitHub获得11737星。该项目反映了市场对具有持久记忆的AI助手工具的需求，是AI agent领域的一个活跃开源项目。</div>
+              <ul class="key-points"><li>使用TypeScript开发的开源AI同事工具</li><li>具备记忆功能的AI助手</li><li>GitHub星数达11737，受社区欢迎</li></ul>
               
             </div>
         </div>
 
         <div class="section">
-          <div class="section-title">🚀 产品发布（4 篇）</div>
+          <div class="section-title">🚀 产品发布（7 篇）</div>
           
             <div class="card">
               <div class="card-title">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651027007&idx=1&sn=8c91988b14a98928c0e2361b58827d45&chksm=85a911c8404a436c56b7aed1e835f60ad0303e5d4ddf03d9d65c9bc92bac4555be17827936ad&scene=126&sessionid=0#rd" target="_blank">MiniMax Music 2.6 强势登场，20秒出歌+全风格Cover，AI音乐进入零门槛时代</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">机器之心</span>
-                2026-04-10
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
-              </div>
-              <div class="card-summary">MiniMax发布Music 2.6模型，支持20秒内生成完整歌曲，覆盖100+乐器种类，新增Cover翻唱功能可实现旋律保留下的风格迁移。开放API并提供C端14天免费体验（每日500首），标志着AI音乐从生成进入二次创作阶段，创作门槛大幅降低。</div>
-              <ul class="key-points"><li>Music 2.6首包延迟压缩至20秒以内，支持超100种乐器，中低频音质优化（贝斯、鼓点下潜质感提升）</li><li>Cover翻唱功能实现旋律保留下的编曲语言、演唱风格、律动质感全风格置换，支持歌词替换</li><li>开放三个Music Skills套件：minimax-music-gen（核心生成引擎）、minimax-music-playlist（个性化歌单生成）、buddy-sings（宠物歌曲定制）</li><li>C端免费14天体验，每日500首生成额度，API全面开放</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/microsoft/markitdown" target="_blank">微软markitdown登顶GitHub趋势，星数近10万成文档转换新标准</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-03-30
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 70</span>
-              </div>
-              <div class="card-summary">微软发布markitdown文档转换工具，星数高达99619，成为Python生态中最受欢迎的文档处理工具之一。该工具支持将各类文件和Office文档一键转换为Markdown格式，显著降低内容迁移门槛，具有较高的技术实用性和社区认可度，对文档处理赛道具有参考价值。</div>
-              <ul class="key-points"><li>微软发布markitdown文档转换工具，星数达99619</li><li>支持将各类文件和Office文档转换为Markdown格式</li><li>Python生态中最受欢迎的文档处理工具之一</li><li>降低内容迁移门槛，具有较高技术实用性</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/rowboatlabs/rowboat" target="_blank">开源AI同事助手Rowboat获1.2万星，TypeScript开发，主打记忆功能</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-04-10
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 65</span>
-              </div>
-              <div class="card-summary">Rowboat是开源AI同事助手，具备记忆功能，使用TypeScript开发，在GitHub获1.2万星关注。作为开源项目，其社区活跃度较高，可能为AI助手赛道带来新变量，但商业化路径待观察。</div>
-              <ul class="key-points"><li>开源AI同事助手，具有记忆功能</li><li>使用TypeScript开发</li><li>GitHub星数达11714，社区关注度高</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/multica-ai/multica" target="_blank">开源托管代理平台multica获6千星，AI编程助手向团队协作演进</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-04-10
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 58</span>
-              </div>
-              <div class="card-summary">multica是一个开源托管代理平台，帮助将编码代理转变为真正的团队成员，支持任务分配、进度追踪和知识积累。当前星数6026，表明开发者社区对AI代理协作工具的高度关注。该项目代表AI编程助手从单点工具向团队协作平台演进的趋势，具有一定的工具链投资价值。</div>
-              <ul class="key-points"><li>开源托管代理平台，支持任务分配、进度追踪和知识积累</li><li>星数6026，社区关注度较高</li><li>TypeScript语言开发</li><li>将AI编码代理从单点工具转变为可协作的团队成员</li></ul>
-              
-            </div>
-        </div>
-
-        <div class="section">
-          <div class="section-title">📊 行业动态（4 篇）</div>
-          
-            <div class="card">
-              <div class="card-title">
-                <a href="https://mp.weixin.qq.com/s/zs0iY1t2Uu-zNGBI78amLA" target="_blank">OpenAI 2030年广告收入剑指1020亿美元，CPM定价60美元对标Meta，ARPU将达60美元</a>
+                <a href="https://mp.weixin.qq.com/s/Y2ynUz1uRF9jyfML7RSmDQ" target="_blank">Viggle AI创始人楚航：11年深耕3D生成，世界模型如何实现「先玩后造」</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">ZPotentials</span>
@@ -360,50 +269,181 @@ hidemeta: false
                 
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
               </div>
-              <div class="card-summary">OpenAI预测2030年广告收入将达1020亿美元，占总收入的36%。今年广告收入预计24亿美元，明年翻四倍至110亿美元。CPM定价60美元高于Meta，平均每用户收入（ARPU）将从今年3.5美元激增至2030年60美元，与Meta去年57美元水平相当。OpenAI已关闭Sora等副业项目，将资源集中于广告等创收项目，反映AI公司从技术研发转向商业化变现的趋势。</div>
-              <ul class="key-points"><li>OpenAI预测2030年广告收入1020亿美元，占总收入的36%，目标成为最大收入来源</li><li>CPM定价60美元高于Meta等竞争对手，广告试点仅6周年化收入已超1亿美元</li><li>ARPU从今年3.5美元增长到2030年60美元，是2025年初预测的4倍，对标Meta去年57美元水平</li><li>周活跃用户9.2亿，低于去年底10亿预期，非付费用户为广告提供广阔空间</li></ul>
+              <div class="card-summary">Viggle AI上线4个月Discord社区达450万用户，成为全球第二大AI创作社区。创始人楚航在多伦多大学博士阶段便专注3D生成式方向，历经Google、NVIDIA、Facebook、Autodesk，11年坚持「World Model」路线。与传统语言模型压缩路径不同，Viggle选择直接建模物理世界的空间与运动属性，通过「World Token」实现可控性、一致性与零延迟，目标是将创作门槛降至零，实现「AI原生游戏」愿景。</div>
+              <ul class="key-points"><li>Viggle AI上线4个月Discord社区达450万用户，成为全球第二大AI创作社区，访问量超600万</li><li>创始人楚航11年专注3D生成式方向：多伦多大学博士→Google→NVIDIA→Facebook→Autodesk→创业</li><li>技术路线：直接建模物理世界结构，用具备空间与运动属性的「World Token」表达对象与关系</li><li>与主流多模态模型（将信息压缩进语言序列）不同，选择从第一性原理重构世界模型和世界引擎</li></ul>
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652691049&idx=1&sn=77954ab1e2de4ff2230d3760a80d630f&chksm=f084dab4b126115bfeee332cda0fc9f1902b4df7e046b2d703f78feb9074ea7eb6e67815c807&scene=126&sessionid=0#rd" target="_blank">AI Agent架构进入OS时代：Anthropic推Managed Agents，Hermes开源4万星</a>
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651027007&idx=1&sn=8c91988b14a98928c0e2361b58827d45&chksm=85a911c8404a436c56b7aed1e835f60ad0303e5d4ddf03d9d65c9bc92bac4555be17827936ad&scene=126&sessionid=0#rd" target="_blank">MiniMax Music 2.6发布：20秒出歌+Cover全风格，AI音乐进入零成本创作时代</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-04-10
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
+              </div>
+              <div class="card-summary">MiniMax发布Music 2.6模型，实现AI音乐生成三大突破：首包延迟压缩至20秒内、支持超100种乐器、中低频音质优化。核心新功能Cover翻唱支持旋律保留下的风格迁移。同步开放三个Music Skills套件（minimax-music-gen、minimax-music-playlist、buddy-sings），推动AI音乐Agent化。C端免费体验14天、每日500首额度。对投资人而言，AI音乐工具化降低创作门槛，为内容创作、社交娱乐等垂直场景带来新的应用机会。</div>
+              <ul class="key-points"><li>Music 2.6实现「可控创作」：首包延迟压缩至20秒内，支持超100种乐器，人声往真实演唱状态靠拢，中低频（贝斯、鼓点）质感改善</li><li>Cover翻唱功能突破：保持参考歌曲旋律特征基础上，实现伴奏改编、歌词替换、风格迁移，解决AI音乐领域反复尝试却翻车的难题</li><li>Music Skills套件推动Agent化：minimax-music-gen（核心生成引擎）、minimax-music-playlist（个性化歌单生成）、buddy-sings（宠物歌曲定制），通过mmx-cli调用</li><li>创作门槛大幅降低：无需音乐基础，不输入歌词仅给风格提示词最快20秒生成完整曲目，C端免费体验14天每日500首额度</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/microsoft/markitdown" target="_blank">微软开源文档转Markdown工具，星数近10万，助力AI文档处理</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">GitHub Explore</span>
+                2026-03-30
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
+              </div>
+              <div class="card-summary">微软开源markitdown工具，可将文件和办公文档转换为Markdown格式，GitHub星数近10万。该工具支持多种文档格式转换，为AI应用提供便捷的文档处理能力，开源社区反响热烈。</div>
+              <ul class="key-points"><li>微软开源Python工具markitdown，支持文件和办公文档转Markdown</li><li>GitHub星数达99,721，社区关注度高</li><li>降低AI应用文档处理门槛，提升数据准备效率</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/multica-ai/multica" target="_blank">开源代理管理平台multica获6.1K星，让AI编码代理成为团队成员</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">GitHub Explore</span>
+                2026-04-10
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
+              </div>
+              <div class="card-summary">multica是开源托管代理平台，旨在将AI编码代理转变为真正的团队成员，提供任务分配、进度跟踪等功能。当前GitHub星数6100，显示开发者对代理协作工具有较强需求。投资角度需关注其后续商业化路径及与主流开发工具的整合能力。</div>
+              <ul class="key-points"><li>开源托管代理平台multica，目标是将AI编码代理变成真正的团队成员</li><li>核心功能包括任务分配、进度跟踪和复合能力</li><li>GitHub星数6100，显示一定的社区关注度</li><li>使用TypeScript开发</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/coleam00/Archon" target="_blank">首个开源AI编程harness工具Archon登顶GitHub，星数超1.5万</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">GitHub Explore</span>
+                2026-04-11
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 65</span>
+              </div>
+              <div class="card-summary">Archon为首个开源AI编程harness builder，旨在使AI编程具有确定性和可重复性。该项目获1.56万星，反映AI编程工具赛道热度上升，开源生态正成为AI开发者工具的重要分发渠道，具有一定投资关注价值。</div>
+              <ul class="key-points"><li>首个开源AI编程harness builder，降低AI编程使用门槛</li><li>GitHub星数达1.56万，受开发者社区高度关注</li><li>TypeScript语言实现，聚焦AI编程确定性与可重复性</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank">Karpathy打造LLM编程避坑指南，GitHub星数超1.1万受热捧</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">GitHub Explore</span>
+                2026-02-16
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
+              </div>
+              <div class="card-summary">Andrej Karpathy基于对LLM编程陷阱的深度观察，制作CLAUDE.md文件优化Claude Code编程行为。该工具获11743星关注，反映开发者对AI编程辅助工具的强烈需求，属于工具类创新但非融资事件。</div>
+              <ul class="key-points"><li>Andrej Karpathy基于LLM编程陷阱观察制作CLAUDE.md文件</li><li>目标优化Claude Code的编程行为和输出质量</li><li>GitHub星数达11743，反映开发者社区高度关注</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/HKUDS/DeepTutor" target="_blank">港大开源DeepTutor获1.6万星，Agent原生个性化学习助手或重塑AI教育</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">GitHub Explore</span>
+                2026-04-10
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
+              </div>
+              <div class="card-summary">HKUDS发布DeepTutor，采用Agent原生架构的个性化学习助手，GitHub星数达15985。Python开发，面向AI教育场景，技术架构有创新性，但未涉及商业融资，投资关注其技术路线而非商业价值。</div>
+              <ul class="key-points"><li>Agent原生架构的个性化学习助手，技术路线有差异化</li><li>GitHub星数15985，开源社区关注度高</li><li>HKUDS（香港大学）学术团队开发</li></ul>
+              
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">📊 行业动态（6 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652691049&idx=1&sn=77954ab1e2de4ff2230d3760a80d630f&chksm=f084dab4b126115bfeee332cda0fc9f1902b4df7e046b2d703f78feb9074ea7eb6e67815c807&scene=126&sessionid=0#rd" target="_blank">Anthropic推Managed Agents降维打击OpenClaw，Hermes开源4万星，AI OS时代降临</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">新智元</span>
                 2026-04-10
-                <span style="color:#888;font-size:11px;margin-left:6px">👥 #新智元</span>
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
               </div>
-              <div class="card-summary">Anthropic推出Managed Agents，将Agent拆解为Session（会话层）、Harness（框架层）、Sandbox（沙箱层）三个标准组件，实现大脑与执行环境的彻底解耦。同时Nous Research推出的Hermes Agent在GitHub狂揽4万星，具备记忆-技能-训练数据三层学习闭环，可将任务经验反哺模型训练。文章认为这标志着AI操作系统时代来临，传统OpenClaw架构面临淘汰。</div>
-              <ul class="key-points"><li>Anthropic Managed Agents：三个标准组件致敬Unix设计，实现大脑（模型）与双手（沙箱）彻底解耦，突破上下文窗口限制，p50 TTFT下降约60%，p95下降90%以上</li><li>Hermes Agent：具备记忆层（MEMORY.md/USER.md+FTS5跨会话检索）、技能层（经验沉淀为技能文件）、训练数据层（轨迹回收反哺模型），实现真正的学习闭环</li><li>OpenClaw架构缺陷：36.8%插件存在安全漏洞，ClawHavoc攻击事件导致私钥泄露，Token成本高昂且存在版本更新风险</li><li>安全隔离：Managed Agents中Token保存在沙箱外部的安全保险库，Prompt Injection攻击失去物理目标</li></ul>
+              <div class="card-summary">Anthropic发布Managed Agents，将Agent拆解为Session（会话层）、Harness（框架层）、Sandbox（沙箱层）三层解耦架构，实现「大脑与双手分离」的计算拓扑变革；同时Nous Research的Hermes Agent开源获4万星，构建记忆-技能-训练数据三层学习闭环，可将任务轨迹反哺模型训练。两款产品对现有OpenClaw架构形成降维打击，标志AI操作系统时代到来。</div>
+              <ul class="key-points"><li>Anthropic发布Managed Agents：采用Session/Harness/Sandbox三层解耦架构，致敬Unix设计哲学，实现大脑与执行环境分离</li><li>Managed Agents突破上下文窗口限制：会话不是窗口而是日志，通过外部存储和按需interrogation解决长周期任务</li><li>安全隔离升级：Token保存在沙箱外部安全保险库，Prompt Injection攻击失去物理目标</li><li>性能提升显著：p50 TTFT下降约60%，p95下降90%以上，支持多脑多手集群推理</li></ul>
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882254&idx=2&sn=21fb6d3e685238a789b5486219621694&chksm=e9a761afc94d74b0b678041c7a60876b0c4c274988ef6cc66f9d025e86c46989a5792034e8dd&scene=126&sessionid=0#rd" target="_blank">中国开源模型席卷硅谷：性价比超美国闭源模型10倍</a>
+                <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652691049&idx=2&sn=a7c97769ee020e9859d698b0a02b7dbb&chksm=f08eec7dddb5897c69b3f9098b5186618477bab778b2876ef9f2afdf4e71b19a87629fd53cd6&scene=126&sessionid=0#rd" target="_blank">Anthropic年化收入破300亿美元，托管Agent剑指万亿服务市场，SaaS时代终结</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">新智元</span>
+                2026-04-10
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
+              </div>
+              <div class="card-summary">Anthropic发布Claude Managed Agents，提供生产级全托管智能体基础设施，几天即可上线。ARR四个月突破300亿美元，Notion、Sentry、Rakuten等已接入。对AI初创公司造成降维打击，传统SaaS模式面临终结。预示AaaS时代开启，万亿美元服务市场将被重构。</div>
+              <ul class="key-points"><li>技术架构：采用「大脑与手解耦」设计，大脑负责思考决策并自动适配模型迭代，沙盒按需启动响应速度提升90%，记忆系统独立即使断网也能续接</li><li>市场冲击：Notion、Sentry、乐天等已接入托管Agent，AI基础设施初创公司核心护城河变为Anthropic一个API参数，面临生存危机</li><li>行业格局：红杉资本指出价值万亿美元服务市场被AI Agent颠覆，传统SaaS靠操作界面和用户习惯的护城河被彻底瓦解，AaaS时代开启</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651026977&idx=1&sn=c28ed343f67058124f4c89d3cff0e36b&chksm=859e917f9ad3763bc8a73a91392fd9160bb34fdffd56a5bb075fc4497553abfcaf4d13d6c7fe&scene=126&sessionid=0#rd" target="_blank">具身智能竞争从模型转向数据引擎，光轮智能：仿真已成必备条件</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">机器之心</span>
+                2026-04-10
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #机器之心 #光轮智能</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
+              </div>
+              <div class="card-summary">GEN-1模型将具身智能首次推向可部署阶段（成功率99%、速度快3倍），行业竞争焦点从模型层迁移至数据、评测、仿真等基础设施层。光轮智能CEO谢晨指出仿真已是机器人必备条件，行业正从「模型驱动」转向「基础设施驱动」。数据引擎需具备反馈驱动、评测驱动的学习能力，类似教育系统而非量贩式工厂。</div>
+              <ul class="key-points"><li>具身智能竞争范式转变：GEN-1将行业从「能演示」推至「可部署」阶段，竞争焦点从模型能力转向数据引擎、仿真、评测等学习基础设施</li><li>仿真从辅助工具升级为必备条件：谢晨强调「仿真对机器人是必备条件，没有仿真做不成」，高精度仿真是建立规模化评测与学习闭环的唯一路径</li><li>数据从静态数据集演进为动态教育系统：最有效数据是「先失败再成功」的数据，需构建「发现问题→补充数据→再次训练→重新验证」的反馈闭环</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882205&idx=2&sn=0c1f08638eaddbb36c7bc12d680b7146&chksm=e9ad81b619012589dba0eb9266bf8fdfffc2299c793aa7810e1b9a281e3ea8861e84903bedb3&scene=126&sessionid=0#rd" target="_blank">马斯克泄露Claude参数：Sonnet 1T、Opus 5T，xAI 10T模型训练中</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">量子位</span>
                 2026-04-10
                 
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
               </div>
-              <div class="card-summary">中国开源模型正在硅谷快速渗透，Cursor、Devin等明星AI编程产品被曝套壳国产模型，Meta也用Qwen做蒸馏训练。价格方面，国产模型每百万token输入2-6元、输出8-24元，而Opus 4.6高达5美元/25美元，性价比相差10-20倍。Shopify切换Qwen年省500万美元，爱彼迎、斯坦福大学等机构也纷纷采用。中国开源模型已占领硅谷，标志着全球AI开源格局进入中国时间。</div>
-              <ul class="key-points"><li>Cursor的Composer 2被曝套壳Kimi K2.5，Cognition的SWE-1.6疑似在GLM模型上进行后训练</li><li>Meta'牛油果'项目使用Qwen开源模型做蒸馏训练，Llama系列增长乏力</li><li>Shopify切换至Qwen每年节省500万美元，爱彼迎联创Brian Chesky公开点赞Qwen'又好又快又便宜'</li><li>斯坦福大学李飞飞团队基于Qwen2.5-32B构建s1-32B，成本不到50美元，性能比肩OpenAI o1</li></ul>
+              <div class="card-summary">马斯克意外透露Claude参数规模：Sonnet为1T、Opus为5T。xAI Colossus 2超算正训练7个模型，最大达10T参数，训练需约2个月。Grok 4.2总参数量500B，是Sonnet一半、Opus十分之一。网友通过推理成本反推、性能基准对标等方法估算Claude各版本参数，Claude 4.5/4.6激活参数约93-154B，总参数量1.5-2T。对投资而言，参数规模竞争加剧，但行业正转向提升参数利用效率而非单纯堆参数。</div>
+              <ul class="key-points"><li>马斯克发帖意外泄露Claude参数：Sonnet 1T、Opus 5T，Grok 4.2为500B</li><li>xAI Colossus 2超算训练7个模型，最大10T参数，预训练需约2个月</li><li>Claude 4.6 Opus激活参数量约93-154B，总参数量推测1.5-2T，由Opus 4/4.1蒸馏而来</li><li>Claude Opus 4/4.1参数量推测5-6T，采用MoE架构</li></ul>
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882205&idx=2&sn=0c1f08638eaddbb36c7bc12d680b7146&chksm=e9ad81b619012589dba0eb9266bf8fdfffc2299c793aa7810e1b9a281e3ea8861e84903bedb3&scene=126&sessionid=0#rd" target="_blank">马斯克意外曝光：Claude Opus 5T参数、Sonnet 1T，Grok 4.2仅0.5T</a>
+                <a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882254&idx=2&sn=21fb6d3e685238a789b5486219621694&chksm=e9a761afc94d74b0b678041c7a60876b0c4c274988ef6cc66f9d025e86c46989a5792034e8dd&scene=126&sessionid=0#rd" target="_blank">中国开源模型占领硅谷：性价比超10倍，Meta/爱彼迎/Shopify集体转向</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">量子位</span>
                 2026-04-10
-                
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #量子位</span>
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
               </div>
-              <div class="card-summary">马斯克发帖意外透露Claude系列模型参数规模：Sonnet约1T、Opus约5T，Grok 4.2为0.5T仅为前者的1/10和1/20。同时xAI Colossus 2超算正在训练10T参数最大模型，预训练需约2个月。该超算已部署11万个GB200 GPU，最终目标超55万个，功率需求超1.1GW。行业趋势显示超大参数模型正在被摒弃，转向提升参数利用效率，Claude Opus 4.5/4.6已由4/4.1蒸馏至1.5-2T规模。</div>
-              <ul class="key-points"><li>马斯克意外透露Claude参数规模：Sonnet约1T、Opus约5T，Grok 4.2总参数量0.5T</li><li>xAI Colossus 2超算训练7个模型，最大参数量达10T，预训练阶段约需2个月</li><li>Colossus 2已部署11万个GB200 NVL72 GPU，最终目标超55万个，峰值功率超1.1GW</li><li>Claude Opus 4/4.1参数量约5T-6T，采用MoE架构，已蒸馏出4.5/4.6版本</li></ul>
+              <div class="card-summary">中国开源模型正在硅谷快速普及，Meta、Cursor、Devin、爱彼迎、Shopify等科技巨头和明星初创企业纷纷采用国产模型进行蒸馏或后训练。核心原因是中国模型性价比优势显著：同等质量模型价格仅为美国的1/10-1/20。智谱GLM-5.1部分指标超Opus 4.6，Qwen被斯坦福李飞飞团队用于构建顶级推理模型s1-32B。中国开源模型已实现从“替代品”到“首选”的转变。</div>
+              <ul class="key-points"><li>硅谷明星AI公司套壳国产模型：Cursor Composer 2套壳Kimi K2.5，Cognition的SWE-1系列被曝在GLM模型上进行后训练</li><li>Meta转向中国开源模型：去年12月Meta「牛油果」项目被曝使用Qwen做蒸馏训练，最新模型Muse Spark已闭源</li><li>爱彼迎/Shopify大规模采用：Brian Chesky表示Qwen「又好又快又便宜」，Shopify切换至Qwen年省500万美元</li><li>学术机构跟进：斯坦福李飞飞团队基于Qwen2.5-32B构建s1-32B推理模型，成本不到50美元，性能比肩OpenAI o1</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://mp.weixin.qq.com/s/zs0iY1t2Uu-zNGBI78amLA" target="_blank">OpenAI预测2030年广告收入1020亿美元，CPM定价60美元对标Meta，ARPU三年翻17倍</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">ZPotentials</span>
+                2026-04-10
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 65</span>
+              </div>
+              <div class="card-summary">OpenAI大幅上调广告收入预测，预计2030年广告收入达1020亿美元（占总收入36%），CPM定价60美元高于Meta。今年广告收入24亿美元明年110亿美元，ARPU从3.5美元飙升至2030年60美元（翻17倍）。当前周活9.2亿，广告年化收入已超1亿美元（推出仅6周）。公司正收缩副业项目，将资源转向广告等创收业务。融资前估值7300亿美元，获122亿美元融资承诺。</div>
+              <ul class="key-points"><li>OpenAI预测2030年广告收入1020亿美元，占总收入的36%，约为Meta去年广告收入的一半</li><li>CPM定价60美元，高于Meta等竞争对手，但广告效果尚未得到代理商认可</li><li>ARPU预测大幅上调：从今年3.5美元明年涨至12美元，2030年达60美元，是2025年初预测的4倍</li><li>周活跃用户9.2亿，低于去年底10亿预期；广告年化收入已超1亿美元（试点仅6周）</li></ul>
               
             </div>
         </div>
@@ -420,45 +460,45 @@ hidemeta: false
                 </div>
                 <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
                   <div>
-                    <span class="tag tag-source">GitHub Explore</span>
-                    <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank" style="font-size:13px;color:#333;font-weight:600">Andrej Karpathy发布LLM编码指南获1.2万星，开源工具赋能AI开发者</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">GitHub开源项目forrestchang/andrej-karpathy-skills提供单一CLAUDE.md文件…</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
-                    <span class="tag tag-source">ZPotentials</span>
-                    <a href="https://mp.weixin.qq.com/s/Y2ynUz1uRF9jyfML7RSmDQ" target="_blank" style="font-size:13px;color:#333;font-weight:600">Viggle AI 4个月Discord跃居全球第二楚航：直接建模物理世界是构建World Model的唯一路径</a>
-                  </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Viggle选择直接对世界结构建模、用World Token表达空间与运动，上线4个月访问量超600万，Discord社…</div>
-                </div>
-                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
-                  <div>
                     <span class="tag tag-source">新智元</span>
-                    <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652690912&idx=1&sn=da1c9aaa7e6b3aa534e0080727af51e3&chksm=f0791a68d627680e0ed234155c20267bda8bef1a31e35e63359731d3c3b0ddd8e48f463974f5&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333;font-weight:600">无问芯穹首发全模态脱敏盒子：数据全程不出域，破解OpenClaw隐私裸奔</a>
+                    <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652690839&idx=3&sn=dbc11cafeb1560c982ccec0dcd97804f&chksm=f0d07990aa541150e8f0108034077b44fc3bcaddebddb6199128601c99a8f28b6299a89835a5&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333;font-weight:600">研究揭示：过渡词后是多模态幻觉高发区，高熵节点视觉注意力降超50%</a>
                   </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">端云一体三段式架构实现文本/语音/视频全链路脱敏，内置80+垂直Skills，剑指企业级AI安全落地痛点</div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Monash/GaTech/Cornell发现MLRMs在because等转折词处熵值飙升，视觉证据依赖下降导致推理偏航…</div>
+                </div>
+                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
+                  <div>
+                    <span class="tag tag-source">机器之心</span>
+                    <a href="http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651027007&idx=2&sn=3e7458995625e8e3cde0521e3f9855a1&chksm=858c2e61921ab95362f56f920afba01cd1209933853236a28bfc9d10220c547e5d114d3e05a5&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333;font-weight:600">AdaGen用RL训练轻量策略网络，图像生成告别静态调度</a>
+                  </div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">通过将四大生成范式统一建模为MDP，用PPO训练策略网络为每个样本自适应定制策略，在保持生成模型冻结状态下实现显著性能提…</div>
                 </div>
                 <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
                   <div>
                     <span class="tag tag-source">硅谷科技评论</span>
-                    <a href="https://mp.weixin.qq.com/s/AgC3eGH6x73lklancLfpVg" target="_blank" style="font-size:13px;color:#333;font-weight:600">2026 Q1 AI融资创纪录：2748亿美元涌入，头部模型公司吸走76%资金</a>
+                    <a href="https://mp.weixin.qq.com/s/AgC3eGH6x73lklancLfpVg" target="_blank" style="font-size:13px;color:#333;font-weight:600">AI创投"一极格局"：Q1模型层吸金2099亿占76%，头部4家美企募1700亿</a>
                   </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">模型层单笔融资额达应用层34倍，但应用层633起融资仍占事件数78%，说明做应用仍是多数创业者最现实路径。</div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">应用层633起融资仅获520亿美元，平均单笔额仅为模型层的1/34，中国资金正流向具身智能机器人赛道。</div>
                 </div>
                 <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
                   <div>
                     <span class="tag tag-source">量子位</span>
-                    <a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882254&idx=1&sn=5748dc790f362b70535e7a3b38d55eab&chksm=e9a6e2042fda7955db32d9a061e79a16c8cc83535fe6a3f52d2abd32b67b6d9ea0cbb6c77ffa&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333;font-weight:600">SBTI刷屏背后：人工策划+AI生成文案，15维人格向量匹配算法</a>
+                    <a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882254&idx=1&sn=5748dc790f362b70535e7a3b38d55eab&chksm=e9a6e2042fda7955db32d9a061e79a16c8cc83535fe6a3f52d2abd32b67b6d9ea0cbb6c77ffa&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333;font-weight:600">SBTI 15维人格匹配算法解析：AI辅助+人工创意成轻量应用新范式</a>
                   </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">GLM-5.1分析显示代码文案由GPT/Claude生成，但创意来自B站UP主；算法用15维度向量匹配人格模板，为AI辅…</div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">SBTI通过15个小标签构建人格向量，用数学距离匹配模板，本质是人工主导+AI辅助的Vibe Coding产物，技术栈为…</div>
                 </div>
                 <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
                   <div>
                     <span class="tag tag-source">量子位</span>
-                    <a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882205&idx=1&sn=4368ffc136f78c2abc21cad71b9001c8&chksm=e9b2efc836221be561dab761c38a318367fee13be0f19d4c604d9b4f61e9a4cf52294f399603&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333;font-weight:600">清华无问芯穹发布InfiniClaw Box：端云一体实现数据不出盒、能力不打折</a>
+                    <a href="http://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882205&idx=1&sn=4368ffc136f78c2abc21cad71b9001c8&chksm=e9b2efc836221be561dab761c38a318367fee13be0f19d4c604d9b4f61e9a4cf52294f399603&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333;font-weight:600">清华系无问芯穹推InfiniClaw Box：首创三段式全模态脱敏，数据零出域</a>
                   </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">首创本地脱敏-云端处理-本地回填三段式架构，支持文本/语音/视频全模态脱敏，覆盖80+垂类场景，打破脱敏即降智难题</div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">支持文本/语音/视频全模态脱敏，调用GLM-5/Kimi等顶级模型，实现数据不出盒、能力不打折的企业级AI推理</div>
+                </div>
+                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
+                  <div>
+                    <span class="tag tag-source">GitHub Explore</span>
+                    <a href="https://github.com/shiyu-coder/Kronos" target="_blank" style="font-size:13px;color:#333;font-weight:600">shiyu-coder/Kronos</a>
+                  </div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">描述：Kronos: A Foundation Model for the Language of Financial …</div>
                 </div>
         </div>
     
