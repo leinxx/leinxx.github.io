@@ -1,6 +1,6 @@
 ---
 title: "🤖 AI & 科技投资日报"
-date: 2026-04-12T11:22:25+08:00
+date: 2026-04-12T11:28:25+08:00
 slug: "20260412_digest"
 draft: false
 type: ai-digest
@@ -85,15 +85,15 @@ hidemeta: false
       <h1>🤖 AI & 科技投资日报</h1>
       <div class="stats">
         <div class="stat">📅 2026年04月12日</div>
-        <div class="stat">📰 本期 18 篇</div>
+        <div class="stat">📰 本期 10 篇</div>
         
-        <div class="stat">⏱ 生成于 11:16</div>
+        <div class="stat">⏱ 生成于 11:27</div>
       </div>
     </div>
     
     
         <div class="section">
-          <div class="section-title">🔬 技术突破（5 篇）</div>
+          <div class="section-title">🔬 技术突破（3 篇）</div>
           
             <div class="card">
               <div class="card-title">
@@ -137,38 +137,10 @@ hidemeta: false
               <ul class="key-points"><li>CIK分类法：首次系统提出AI智能体持久状态的三维攻击面——Capability（能力）、Identity（身份）、Knowledge（知识），构成智能体自我进化的基础</li><li>核心数据：Knowledge投毒平均攻击成功率74.4%（因智能体几乎不拒绝记忆更新），Capability投毒注入成功率100%（skill安装即执行），最高攻击成功率89.2%</li><li>模型无关性：Claude/Gemini/GPT系列均受影响，Opus 4.6未投毒仅10%成功率，投毒后飙升至44.2%，证明是架构层面系统性漏洞而非模型缺陷</li><li>攻击案例：Knowledge投毒可伪造用户习惯诱导退款；Identity投毒可植入信任地址窃取API密钥；Capability投毒可隐藏删除脚本让智能体「自杀」</li></ul>
               
             </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/shanraisshan/claude-code-best-practice" target="_blank">GitHub超4万星Claude Code最佳实践项目爆火，AI编程工具落地加速</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-04-12
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
-              </div>
-              <div class="card-summary">该GitHub仓库提供Claude Code编程最佳实践，获39324星关注，反映AI辅助编程工具在开发者社区的快速普及。随着Claude等AI编程工具能力提升，开发者效率工具赛道热度上升，建议关注AI开发者工具领域的投资机会。</div>
-              <ul class="key-points"><li>GitHub项目shanraisshan/claude-code-best-practice聚焦Claude Code编程最佳实践</li><li>项目获得39324星，反映AI编程工具在开发者社区的高热度</li><li>该类工具降低编程门槛，推动AI开发者生态发展</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/OpenBMB/VoxCPM" target="_blank">开源TTS模型VoxCPM2登顶，星数破1.1万，Tokenizer-Free技术突破语音生成边界</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-04-11
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 70</span>
-              </div>
-              <div class="card-summary">OpenBMB发布VoxCPM2，采用无需分词器架构实现多语言语音生成、创意语音设计与真实语音克隆。星数达11471，表明开源社区对新一代TTS技术的高度认可。该技术路线有望降低语音合成门槛，推动AI语音应用普及。</div>
-              <ul class="key-points"><li>VoxCPM2采用Tokenizer-Free架构，突破传统TTS分词器限制</li><li>支持多语言语音生成、创意语音设计与真实语音克隆三大功能</li><li>开源项目星数达11471，社区认可度高</li><li>Python实现，降低开发者使用门槛</li></ul>
-              
-            </div>
         </div>
 
         <div class="section">
-          <div class="section-title">🚀 产品发布（7 篇）</div>
+          <div class="section-title">🚀 产品发布（1 篇）</div>
           
             <div class="card">
               <div class="card-title">
@@ -182,90 +154,6 @@ hidemeta: false
               </div>
               <div class="card-summary">宇树科技发布H1人形机器人，跑步速度达每秒10米，刷新世界纪录。H1体重62kg、腿长0.8m，采用无头设计以降低风阻，单腿6自由度。镜识科技Bolt同步达到10m/s峰值速度，人形机器人运动能力竞争加剧，2026北京亦庄半程马拉松值得期待。</div>
               <ul class="key-points"><li>宇树H1跑步速度达10m/s（36km/h），刷新人形机器人世界纪录，超过新国标电动自行车最高限速25km/h</li><li>H1采用无头设计、腿长0.8米、体重62kg，单腿6自由度（髋3+膝1+踝2），下盘极低实现贴地飞行</li><li>镜识科技Bolt同步达到10m/s峰值速度，人形机器人运动能力成为竞争焦点</li><li>H1极速与二级运动员相当，但加速性能与人类仍有差距</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/NousResearch/hermes-agent" target="_blank">NousResearch开源AI Agent获6.8万星，社区高度认可，Agent赛道迎爆发</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-04-13
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 80</span>
-              </div>
-              <div class="card-summary">NousResearch发布开源AI Agent项目hermes-agent，星数达68601颗，反映开源Agent社区热度高涨。该项目定位为成长型智能体，Python实现，关注度居Agent领域前列，对投资判断具有参考价值。</div>
-              <ul class="key-points"><li>NousResearch发布开源AI Agent项目hermes-agent</li><li>GitHub星数达68601颗，社区关注度极高</li><li>项目定位为成长型智能体（The agent that grows with you）</li><li>采用Python语言实现</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/multica-ai/multica" target="_blank">开源AI代理管理平台multica上线，让编码代理变团队成员，获9.6k星</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-04-12
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 65</span>
-              </div>
-              <div class="card-summary">multica是开源托管代理平台，支持任务分配、进度追踪和知识积累，将编码AI代理转化为可协作的团队成员。该项目获9621星，表明AI开发者工具赛道热度高，开源模式有助于生态构建，但商业化路径待验证。</div>
-              <ul class="key-points"><li>开源托管代理平台multica，支持任务分配、进度追踪和知识积累</li><li>将编码AI代理转化为可协作的团队成员</li><li>GitHub星数达9621，表明社区认可度高</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/shiyu-coder/Kronos" target="_blank">Kronos金融语言基础模型获1.5万星，AI垂直应用持续突破</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-01-02
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
-              </div>
-              <div class="card-summary">开源金融基础模型Kronos在GitHub获15973星标，专注于金融市场语言处理。Python开发，反映AI在金融垂直领域的应用深化，为技术投资提供参考方向。</div>
-              <ul class="key-points"><li>Kronos是专注于金融市场语言的基础模型</li><li>GitHub星数达15973，表明较高的社区认可度</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank">Karpathy开源LLM编码指南获1.7万星，提示工程工具成AI开发者新宠</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-02-16
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
-              </div>
-              <div class="card-summary">开源项目整合Karpathy对LLM编码陷阱的洞察，提供CLAUDE.md配置指南帮助开发者优化AI编程助手表现。17358星表明社区对AI编码辅助工具的高度认可，反映提示工程在提升LLM应用效果方面的投资价值。</div>
-              <ul class="key-points"><li>项目整合Andrej Karpathy对LLM编码常见陷阱的观察</li><li>提供CLAUDE.md配置文件改进Claude Code行为</li><li>17358星显示开发者社区对AI编程辅助工具的高度关注</li><li>属于提示工程领域的实践工具资源</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/microsoft/markitdown" target="_blank">微软开源markitdown：文件转Markdown工具，星数超10.5万成Python生态热门</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-03-30
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
-              </div>
-              <div class="card-summary">微软发布markitdown工具，实现文件和Office文档到Markdown格式转换，星数超10.5万。该工具有助于简化文档处理流程，提升AI训练数据预处理效率，对文档处理赛道具有参考价值。</div>
-              <ul class="key-points"><li>微软开源markitdown文档转换工具</li><li>支持将文件和Office文档转换为Markdown格式</li><li>星数超过10.5万，成为Python生态热门项目</li><li>Python语言开发，集成便捷</li></ul>
-              
-            </div>
-            <div class="card">
-              <div class="card-title">
-                <a href="https://github.com/coleam00/Archon" target="_blank">开源AI编程框架Archon获1.7万星，首个harness构建工具助力代码生成确定性</a>
-              </div>
-              <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-04-12
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 50</span>
-              </div>
-              <div class="card-summary">Archon为首个开源AI编程harness构建工具，目标使AI编码可确定性运行。该项目获17141星关注（数据截至2024年），TypeScript开发，反映AI编程工具赛道创新活跃。作为开源项目，其商业化路径待观察，投资意义相对有限。</div>
-              <ul class="key-points"><li>首个开源AI编程harness构建工具</li><li>星数达17141，社区关注度高</li><li>TypeScript语言开发</li><li>目标使AI编程可确定性、可重复执行</li></ul>
               
             </div>
         </div>
