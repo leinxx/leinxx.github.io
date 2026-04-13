@@ -1,6 +1,6 @@
 ---
 title: "🤖 AI & 科技投资日报"
-date: 2026-04-12T05:01:45+08:00
+date: 2026-04-12T11:22:25+08:00
 slug: "20260412_digest"
 draft: false
 type: ai-digest
@@ -85,52 +85,61 @@ hidemeta: false
       <h1>🤖 AI & 科技投资日报</h1>
       <div class="stats">
         <div class="stat">📅 2026年04月12日</div>
-        <div class="stat">📰 本期 8 篇</div>
+        <div class="stat">📰 本期 18 篇</div>
         
-        <div class="stat">⏱ 生成于 05:01</div>
+        <div class="stat">⏱ 生成于 11:16</div>
       </div>
     </div>
     
     
         <div class="section">
-          <div class="section-title">🔬 技术突破（2 篇）</div>
+          <div class="section-title">🔬 技术突破（5 篇）</div>
           
             <div class="card">
               <div class="card-title">
-                <a href="https://github.com/shiyu-coder/Kronos" target="_blank">金融基础模型Kronos登顶GitHub，星数超1.5万，或成金融AI基础设施</a>
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&mid=2652800679&idx=1&sn=ff7d0b8c3b70edad02647f5d48a9ac2e&chksm=85225c7406bffd2d471228d465ec9a0612c89319790162d5a5d11cd9bd603530ba5c4c87aa3b&scene=126&sessionid=0#rd" target="_blank">腾讯云Agent Runtime发布：80ms启动、百万吞吐，为AI Agent装上「防爆箱」</a>
               </div>
               <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-01-02
+                <span class="tag tag-source">智东西</span>
+                2026-04-12
                 
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 78</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
               </div>
-              <div class="card-summary">Kronos是首个专注于金融市场语言的基础模型，基于大规模金融文本训练，在金融情感分析、市场预测等任务上表现优异。星数超1.5万显示开发者社区高度关注，有望成为金融AI领域的基础设施级产品，投资价值显著。</div>
-              <ul class="key-points"><li>首个专注于金融市场语言的基础模型</li><li>星数达15639，社区关注度极高</li><li>基于Python实现，易于集成部署</li></ul>
+              <div class="card-summary">腾讯云发布Agent Runtime沙箱方案，为企业大规模部署AI Agent提供安全可控的运行底座。该方案支持80ms极速启动、百万级吞吐、十万级并发，已在MiniMax强化学习训练场景落地验证，每分钟可并发创建60万沙箱实例，成功率99.99%。腾讯云同时宣布将底层沙箱技术Cube开源，为Agent时代提供新型基础设施。</div>
+              <ul class="key-points"><li>腾讯云发布Agent Runtime沙箱方案，为AI Agent打造专属「数字办公环境」，解决企业大规模部署Agent的安全可控难题</li><li>核心技术能力：80ms极速启动（P99延迟<1秒）、百万级吞吐、十万级并发，每分钟可并发创建60万沙箱实例，成功率99.99%</li><li>已在MiniMax的Forge智能体强化学习框架中落地，支持大规模Agent训练场景的「环境秒开、用完即删」</li><li>三大企业级特性：1）状态管理与行为治理（状态算力分离、VM沙箱隔离、凭证按需注入）；2）数据资产沉淀（技能/记忆/协作关系独立存储）；3）全局管控（模板封装、策略控制、成本管理）</li></ul>
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://github.com/OpenBMB/VoxCPM" target="_blank">清华OpenBMB发布VoxCPM2：无分词器多语言TTS，支持创意声音设计与真实语音克隆</a>
+                <a href="http://mp.weixin.qq.com/s?__biz=MzkzODY5NjM5Mw==&mid=2247491052&idx=2&sn=bd95f1baf7de1c9b32e9de824b4fa846&chksm=c313283822890bd427f3316bf1aea93bcc4cbe8a7caaf3019c364d31deeb22263ccbb7834d04&scene=126&sessionid=0#rd" target="_blank">Google发布PaperOrchestra：五智能体协同论文写作，文献综述质量胜率超基线50%-68%</a>
               </div>
               <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-04-11
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 70</span>
+                <span class="tag tag-source">Hyman的杂货铺</span>
+                2026-04-12
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #Google Cloud AI Research</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 80</span>
               </div>
-              <div class="card-summary">清华大学NLP团队OpenBMB发布VoxCPM2，采用Tokenizer-Free架构实现多语言语音生成、创意声音设计和真实语音克隆。星数超1.1万，体现开源社区对语音技术创新的认可。TTS领域技术迭代加速，关注语音AI商业化落地机会。</div>
-              <ul class="key-points"><li>VoxCPM2采用Tokenizer-Free架构，突破传统TTS对分词器的依赖</li><li>支持多语言语音生成、创意声音设计和真实语音克隆三大功能</li><li>项目星数达11135，开源社区影响力显著</li><li>OpenBMB是清华大学NLP实验室主导的大模型开源平台</li></ul>
+              <div class="card-summary">Google Cloud AI Research发布PaperOrchestra框架，采用五智能体协同架构（提纲、图表、文献综述、撰写、优化），将实验日志和想法摘要自动转化为可投稿LaTeX论文。针对现有系统与实验流程深度耦合、文献综述流于表面两大痛点，通过Semantic Scholar API验证机制消除引用幻觉。在人工评测中，文献综述质量相对单智能体基线胜率提升50%-68%，相对AI Scientist-v2显著领先。同步发布首个标准化评测基准PaperWritingBench。该系统定位为辅助工具而非替代作者，适合已有实验结果但需写作帮助的研究者。</div>
+              <ul class="key-points"><li>五智能体架构：Outline Agent（提纲）、Plotting Agent（图表生成，含统计图表和概念示意图）、Literature Review Agent（文献综述）、Section Writing Agent（撰写）、Content Refinement Agent（内容优化）</li><li>Semantic Scholar API验证机制：在生成引用前验证论文真实存在，从根本上消除引用幻觉问题</li><li>无约束输入设计：接受想法摘要、实验日志、LaTeX模板，不与特定实验流程绑定，兼容AI自动或人工完成的实验</li><li>Content Refinement Agent多轮反思机制：扮演同行评审者角色，迭代优化论文质量，模拟接受率显著提升</li></ul>
               
             </div>
-        </div>
-
-        <div class="section">
-          <div class="section-title">🚀 产品发布（4 篇）</div>
-          
             <div class="card">
               <div class="card-title">
-                <a href="https://github.com/NousResearch/hermes-agent" target="_blank">NousResearch开源AI Agent框架hermes-agent获6.5万星，Python生态迎重磅玩家</a>
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA3NzMxNTI1MQ==&mid=2649784028&idx=1&sn=5ec667746a04349a5bd3c98fef3fdde4&chksm=86cd3ff3084ab1059602c14589f024a053effad3d2a782f41c3106bfb0ebbf15cb9af5e68690&scene=126&sessionid=0#rd" target="_blank">CVPR26: UCSC+NUS+字节等联合发布CIK投毒框架，OpenClaw攻击成功率最高89.2%</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">钛媒体AGI</span>
+                2026-04-12
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #加州大学圣克鲁兹分校 #新加坡国立大学 #腾讯 #字节跳动 #加州大学伯克利分校 #北卡罗来纳大学教堂山分校</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
+              </div>
+              <div class="card-summary">UCSC等六机构联合发布首个AI智能体真实环境安全评估，揭示OpenClaw的CIK（Capability/Identity/Knowledge）持久状态投毒攻击框架。研究在真实Gmail、Stripe环境中测试，Knowledge投毒攻击成功率74.4%，Capability投毒注入率100%，最高达89.2%。即使最安全的Opus 4.6模型，被投毒后攻击成功率也从10%飙升至44.2%。论文指出这是架构层面的系统性漏洞，传统安全方案难以应对，AI智能体安全进入跨会话语义攻击新阶段。</div>
+              <ul class="key-points"><li>CIK分类法：首次系统提出AI智能体持久状态的三维攻击面——Capability（能力）、Identity（身份）、Knowledge（知识），构成智能体自我进化的基础</li><li>核心数据：Knowledge投毒平均攻击成功率74.4%（因智能体几乎不拒绝记忆更新），Capability投毒注入成功率100%（skill安装即执行），最高攻击成功率89.2%</li><li>模型无关性：Claude/Gemini/GPT系列均受影响，Opus 4.6未投毒仅10%成功率，投毒后飙升至44.2%，证明是架构层面系统性漏洞而非模型缺陷</li><li>攻击案例：Knowledge投毒可伪造用户习惯诱导退款；Identity投毒可植入信任地址窃取API密钥；Capability投毒可隐藏删除脚本让智能体「自杀」</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/shanraisshan/claude-code-best-practice" target="_blank">GitHub超4万星Claude Code最佳实践项目爆火，AI编程工具落地加速</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">GitHub Explore</span>
@@ -138,50 +147,125 @@ hidemeta: false
                 
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 75</span>
               </div>
-              <div class="card-summary">NousResearch发布开源Agent框架hermes-agent，定位「与你一起成长的agent」。作为纯Python项目获6.5万星标，表明开源Agent工具在开发者社区高度受欢迎，Python生态在AI Agent领域持续强化。</div>
-              <ul class="key-points"><li>NousResearch发布开源Agent框架hermes-agent</li><li>GitHub星数达65717颗，社区认可度极高</li><li>采用Python语言开发，生态兼容性好</li><li>定位为成长型Agent，具备自学习能力</li></ul>
+              <div class="card-summary">该GitHub仓库提供Claude Code编程最佳实践，获39324星关注，反映AI辅助编程工具在开发者社区的快速普及。随着Claude等AI编程工具能力提升，开发者效率工具赛道热度上升，建议关注AI开发者工具领域的投资机会。</div>
+              <ul class="key-points"><li>GitHub项目shanraisshan/claude-code-best-practice聚焦Claude Code编程最佳实践</li><li>项目获得39324星，反映AI编程工具在开发者社区的高热度</li><li>该类工具降低编程门槛，推动AI开发者生态发展</li></ul>
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://github.com/multica-ai/multica" target="_blank">开源托管代理平台获9千+星，AI Agent工程化基础设施再添新玩家</a>
+                <a href="https://github.com/OpenBMB/VoxCPM" target="_blank">开源TTS模型VoxCPM2登顶，星数破1.1万，Tokenizer-Free技术突破语音生成边界</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">GitHub Explore</span>
+                2026-04-11
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 70</span>
+              </div>
+              <div class="card-summary">OpenBMB发布VoxCPM2，采用无需分词器架构实现多语言语音生成、创意语音设计与真实语音克隆。星数达11471，表明开源社区对新一代TTS技术的高度认可。该技术路线有望降低语音合成门槛，推动AI语音应用普及。</div>
+              <ul class="key-points"><li>VoxCPM2采用Tokenizer-Free架构，突破传统TTS分词器限制</li><li>支持多语言语音生成、创意语音设计与真实语音克隆三大功能</li><li>开源项目星数达11471，社区认可度高</li><li>Python实现，降低开发者使用门槛</li></ul>
+              
+            </div>
+        </div>
+
+        <div class="section">
+          <div class="section-title">🚀 产品发布（7 篇）</div>
+          
+            <div class="card">
+              <div class="card-title">
+                <a href="http://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&mid=2652800669&idx=1&sn=9988c0897f5face7870afaaf2a996b8a&chksm=85a347d2853473cb3d0ad4b0a33c408780534a4b24ca82bdf72cbb076faa847c6c28e05b9098&scene=126&sessionid=0#rd" target="_blank">宇树H1跑步速度达10m/s刷新世界纪录，无头设计引关注，人形机器人运动能力再突破</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">智东西</span>
+                2026-04-12
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
+              </div>
+              <div class="card-summary">宇树科技发布H1人形机器人，跑步速度达每秒10米，刷新世界纪录。H1体重62kg、腿长0.8m，采用无头设计以降低风阻，单腿6自由度。镜识科技Bolt同步达到10m/s峰值速度，人形机器人运动能力竞争加剧，2026北京亦庄半程马拉松值得期待。</div>
+              <ul class="key-points"><li>宇树H1跑步速度达10m/s（36km/h），刷新人形机器人世界纪录，超过新国标电动自行车最高限速25km/h</li><li>H1采用无头设计、腿长0.8米、体重62kg，单腿6自由度（髋3+膝1+踝2），下盘极低实现贴地飞行</li><li>镜识科技Bolt同步达到10m/s峰值速度，人形机器人运动能力成为竞争焦点</li><li>H1极速与二级运动员相当，但加速性能与人类仍有差距</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/NousResearch/hermes-agent" target="_blank">NousResearch开源AI Agent获6.8万星，社区高度认可，Agent赛道迎爆发</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">GitHub Explore</span>
+                2026-04-13
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 80</span>
+              </div>
+              <div class="card-summary">NousResearch发布开源AI Agent项目hermes-agent，星数达68601颗，反映开源Agent社区热度高涨。该项目定位为成长型智能体，Python实现，关注度居Agent领域前列，对投资判断具有参考价值。</div>
+              <ul class="key-points"><li>NousResearch发布开源AI Agent项目hermes-agent</li><li>GitHub星数达68601颗，社区关注度极高</li><li>项目定位为成长型智能体（The agent that grows with you）</li><li>采用Python语言实现</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/multica-ai/multica" target="_blank">开源AI代理管理平台multica上线，让编码代理变团队成员，获9.6k星</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">GitHub Explore</span>
                 2026-04-12
                 
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 58</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 65</span>
               </div>
-              <div class="card-summary">开源托管代理平台，支持任务分配、进度跟踪等功能，星数达9227。TypeScript开发，在GitHub上获得一定社区认可。作为AI Agent工程化工具链的一部分，反映了AI开发从模型层向应用层基础设施演进的趋势，但商业化路径待观察。</div>
-              <ul class="key-points"><li>开源托管代理平台，支持任务分配、进度跟踪等功能</li><li>GitHub星数达9227，社区关注度较高</li><li>TypeScript语言开发</li><li>定位为AI Agent工程化基础设施工具</li></ul>
+              <div class="card-summary">multica是开源托管代理平台，支持任务分配、进度追踪和知识积累，将编码AI代理转化为可协作的团队成员。该项目获9621星，表明AI开发者工具赛道热度高，开源模式有助于生态构建，但商业化路径待验证。</div>
+              <ul class="key-points"><li>开源托管代理平台multica，支持任务分配、进度追踪和知识积累</li><li>将编码AI代理转化为可协作的团队成员</li><li>GitHub星数达9621，表明社区认可度高</li></ul>
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://github.com/coleam00/Archon" target="_blank">开源AI编程工具Archon获1.7万星，让AI编码可预测可重复</a>
+                <a href="https://github.com/shiyu-coder/Kronos" target="_blank">Kronos金融语言基础模型获1.5万星，AI垂直应用持续突破</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">GitHub Explore</span>
-                2026-04-12
+                2026-01-02
                 
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 58</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
               </div>
-              <div class="card-summary">Archon为首个开源AI编程harness构建工具，星数达16968，社区关注度高。该工具旨在解决AI编程不确定性问题，提升开发可重复性，属于AI开发工具赛道，开源模式有助于生态建设但商业化路径待验证。</div>
-              <ul class="key-points"><li>首个开源AI编程harness构建工具，目标使AI编码确定可重复</li><li>GitHub星数16968，社区关注度和活跃度较高</li><li>TypeScript语言开发，体现前端/全栈AI工具趋势</li><li>开源模式利于技术传播但商业化模式待探索</li></ul>
+              <div class="card-summary">开源金融基础模型Kronos在GitHub获15973星标，专注于金融市场语言处理。Python开发，反映AI在金融垂直领域的应用深化，为技术投资提供参考方向。</div>
+              <ul class="key-points"><li>Kronos是专注于金融市场语言的基础模型</li><li>GitHub星数达15973，表明较高的社区认可度</li></ul>
               
             </div>
             <div class="card">
               <div class="card-title">
-                <a href="https://github.com/microsoft/markitdown" target="_blank">微软markitdown获10万星，文件转Markdown工具受热捧</a>
+                <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank">Karpathy开源LLM编码指南获1.7万星，提示工程工具成AI开发者新宠</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">GitHub Explore</span>
+                2026-02-16
+                
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
+              </div>
+              <div class="card-summary">开源项目整合Karpathy对LLM编码陷阱的洞察，提供CLAUDE.md配置指南帮助开发者优化AI编程助手表现。17358星表明社区对AI编码辅助工具的高度认可，反映提示工程在提升LLM应用效果方面的投资价值。</div>
+              <ul class="key-points"><li>项目整合Andrej Karpathy对LLM编码常见陷阱的观察</li><li>提供CLAUDE.md配置文件改进Claude Code行为</li><li>17358星显示开发者社区对AI编程辅助工具的高度关注</li><li>属于提示工程领域的实践工具资源</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/microsoft/markitdown" target="_blank">微软开源markitdown：文件转Markdown工具，星数超10.5万成Python生态热门</a>
               </div>
               <div class="card-meta">
                 <span class="tag tag-source">GitHub Explore</span>
                 2026-03-30
                 
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 60</span>
+              </div>
+              <div class="card-summary">微软发布markitdown工具，实现文件和Office文档到Markdown格式转换，星数超10.5万。该工具有助于简化文档处理流程，提升AI训练数据预处理效率，对文档处理赛道具有参考价值。</div>
+              <ul class="key-points"><li>微软开源markitdown文档转换工具</li><li>支持将文件和Office文档转换为Markdown格式</li><li>星数超过10.5万，成为Python生态热门项目</li><li>Python语言开发，集成便捷</li></ul>
+              
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <a href="https://github.com/coleam00/Archon" target="_blank">开源AI编程框架Archon获1.7万星，首个harness构建工具助力代码生成确定性</a>
+              </div>
+              <div class="card-meta">
+                <span class="tag tag-source">GitHub Explore</span>
+                2026-04-12
+                
                 <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 50</span>
               </div>
-              <div class="card-summary">微软开源markitdown工具，星数超10万，提供文件及Office文档转Markdown功能，社区认可度极高，反映文档处理和格式转换工具市场需求旺盛。</div>
-              <ul class="key-points"><li>微软开源Python工具markitdown，星数超10万</li><li>支持将文件和Office文档转换为Markdown格式</li><li>社区认可度高，反映文档处理工具市场需求</li></ul>
+              <div class="card-summary">Archon为首个开源AI编程harness构建工具，目标使AI编码可确定性运行。该项目获17141星关注（数据截至2024年），TypeScript开发，反映AI编程工具赛道创新活跃。作为开源项目，其商业化路径待观察，投资意义相对有限。</div>
+              <ul class="key-points"><li>首个开源AI编程harness构建工具</li><li>星数达17141，社区关注度高</li><li>TypeScript语言开发</li><li>目标使AI编程可确定性、可重复执行</li></ul>
               
             </div>
         </div>
@@ -191,29 +275,57 @@ hidemeta: false
           
             <div class="card">
               <div class="card-title">
-                <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank">GitHub热榜：Karpathy分享LLM编码实践CLAUDE.md，狂揽1.6万星</a>
+                <a href="http://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651087294&idx=1&sn=9a081bedd1ca7efc77e293ae062a44f9&chksm=bcab15257112659b9119c9ae6a5998aae7d9cbdfdbc04a21d107aae28e459598e6ca3763a3c3&scene=126&sessionid=0#rd" target="_blank">世界模型五大门派成型：JEPA、空间智能、仿真派、基建派、主动推断各显神通</a>
               </div>
               <div class="card-meta">
-                <span class="tag tag-source">GitHub Explore</span>
-                2026-02-16
-                
-                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 55</span>
+                <span class="tag tag-source">APPSO</span>
+                2026-04-12
+                <span style="color:#888;font-size:11px;margin-left:6px">👥 #APPSO</span>
+                <span style="color:#aaa;font-size:11px;margin-left:6px">⭐ VC优先级 85</span>
               </div>
-              <div class="card-summary">开发者社区自发整理Karpathy关于LLM编码陷阱的观察，形成CLAUDE.md配置文件以优化Claude Code使用体验。该项目获1.6万星关注，反映出提示工程在开发者工具领域的热度上升，但属于社区贡献性质，无直接投资价值。</div>
-              <ul class="key-points"><li>项目源自Karpathy对LLM编码常见陷阱的观察总结</li><li>通过CLAUDE.md配置文件提升Claude Code使用效果</li><li>1.6万星表明开发者对AI编码辅助工具的高度关注</li><li>属于社区驱动的技术资源共享，非商业产品</li></ul>
-              
+              <div class="card-summary">世界模型成为AI新焦点，五大技术路线浮现：杨立昆JEPA派专注抽象表征预测，数据效率极高；李飞飞World Labs专注空间3D重建，已获10亿美元融资；DeepMind走学习型仿真路线，Genie3可生成可交互虚拟环境；英伟达Cosmos提供基础设施；Verses用神经科学主动推断理论突围。行业判断：纯文本大模型遇瓶颈，世界模型是AI「行千里路」的关键，融合或成最终出路。</div>
+              <ul class="key-points"><li>世界模型五大技术路线：JEPA（杨立昆/AMI）、空间智能（李飞飞/World Labs）、学习型仿真（DeepMind）、基础设施（英伟达）、主动推断（Verses）</li><li>JEPA派核心：V-JEPA 2模型12亿参数，基于100万小时无标签视频预训练，仅62小时机器人数据即可实现零样本规划，成功率65-80%</li><li>空间智能派：World Labs的Marble产品可从文字/照片/视频生成可编辑3D世界，支持导出为高斯溅射、三角网格格式，已面向用户和商业场景推出</li><li>学习型仿真：DeepMind Genie 3可生成720p 24fps可交互3D环境；DreamerV4是首个纯靠离线数据在Minecraft挖到钻石的AI，数据量仅为OpenAI VPT的1%</li></ul>
+              <div style="font-size:12px;color:#8a6914;font-weight:600;margin:8px 0 4px">🌱 创投融资</div><table class="invest-table"><tr><th>公司</th><th>金额</th><th>轮次</th><th>投资方</th></tr><tr><td><b>AMI</b><br><span style="color:#0077b6;font-size:11px">世界模型/AI基础研究</span><br><span style="color:#999;font-size:11px">杨立昆创立的世界模型公司，基于JEPA架构，专注抽象表征预测</span></td><td>10多亿美元</td><td>种子轮</td><td>几乎所有业界和跨界大佬</td></tr><tr><td><b>World Labs</b><br><span style="color:#0077b6;font-size:11px">空间智能/3D重建</span><br><span style="color:#999;font-size:11px">李飞飞创立，专注空间3D重建，产品Marble可生成可编辑可导航的3D世界</span></td><td>10亿美元</td><td>未披露</td><td>NVIDIA、AMD、Autodesk</td></tr></table>
             </div>
         </div>
 
         <div class="section">
-          <div class="section-title">📝 简报（1 篇）</div>
+          <div class="section-title">📝 简报（5 篇）</div>
           
                 <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
                   <div>
-                    <span class="tag tag-source">GitHub Explore</span>
-                    <a href="https://github.com/shanraisshan/claude-code-best-practice" target="_blank" style="font-size:13px;color:#333;font-weight:600">GitHub热榜：Claude Code最佳实践指南获3.8万星，开发者社区关注度高</a>
+                    <span class="tag tag-source">APPSO</span>
+                    <a href="http://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651087313&idx=1&sn=e6d2df26f2a386a21fce25baf7d2b148&chksm=bcfa676ebf5c9e333115a74a64a4123a077b0314097586ffad83aebb30564aa2c47a56b75569&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333;font-weight:600">DeepSeek V2激活210亿参数，定价GPT-4的1/70点燃价格战</a>
                   </div>
-                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">该仓库提供Claude Code的编程最佳实践指南，获38809星关注。作为开发者学习资源，反映AI辅助编程工具在开发者…</div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">2024年5月V2以MoE+MLA架构将推理成本压至1元/百万token，迫使字节阿里百度等巨头降价最高97%。</div>
+                </div>
+                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
+                  <div>
+                    <span class="tag tag-source">APPSO</span>
+                    <a href="http://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651087285&idx=1&sn=7d3adfe231ec24fe48c28cefbbdc7275&chksm=bc0523bb7387b557274264f395391a782025d05bc80140efc90d1d5ca43c5e7fa51451cf08b0&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333;font-weight:600">Anthropic年化营收破300亿美元，四个月翻3倍加速自研芯片</a>
+                  </div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">Anthropic年化营收从90亿美元飙升至300亿美元，增幅超200%，已与Google及博通签署长期合作协议推进算力…</div>
+                </div>
+                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
+                  <div>
+                    <span class="tag tag-source">投资界</span>
+                    <a href="http://mp.weixin.qq.com/s?__biz=MzI5ODk1NjY1MA==&mid=2247720149&idx=2&sn=d122329375b9c15e735fede0a8242c1e&chksm=ed0304640cdc09bf5b5c269b1b45f32f737fea8d0963ddcb919c018ec15107d748850d385e60&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333;font-weight:600">具身智能融资爆发：人形机器人单轮融资创新高，阿里一周双投</a>
+                  </div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">本周具身智能赛道获密集注资，地瓜机器人1.5亿美元、众擎机器人2亿美元刷新纪录，阿里同时布局大模型与核聚变</div>
+                </div>
+                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
+                  <div>
+                    <span class="tag tag-source">新智元</span>
+                    <a href="http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652691348&idx=1&sn=f720311629b84295ce3c51f282efcf4a&chksm=f0c0466402701cba1c33120f863323dae697ca4c527193e27f78755328d653233c4df3f73c63&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333;font-weight:600">Anthropic神话崩塌：36亿参数开源模型0.11美元/百万Token秒杀漏洞发现</a>
+                  </div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">研究发现Anthropic Claude Mythos漏洞能力被严重夸大，8个开源小模型以极低成本即可复现其宣称的27年…</div>
+                </div>
+                <div class="card card-brief" style="flex-direction:column;align-items:flex-start">
+                  <div>
+                    <span class="tag tag-source">硅星人Pro</span>
+                    <a href="http://mp.weixin.qq.com/s?__biz=MzkyNjU2ODM2NQ==&mid=2247627426&idx=1&sn=56590ff8f6451d64286431412de3a299&chksm=c346a2b17063cf6ae849034aeafe4ee8e4a1d64b383e4149e85686a5617ae954ef0e2d8c332c&scene=126&sessionid=0#rd" target="_blank" style="font-size:13px;color:#333;font-weight:600">小红书最大AI黑客松揭示数据孤岛痛点，无为创造推开放Agent框架</a>
+                  </div>
+                  <div style="font-size:12px;color:#666;margin-top:4px;line-height:1.5">无为创造针对AI硬件井喷中的数据割裂问题，推出开放Agent框架打通Plaud、Looki等多设备数据，实现端到端处理非…</div>
                 </div>
         </div>
     
