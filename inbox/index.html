@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>VC Lead Inbox</title>
+  <style>
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #f5f7fa; margin: 0; padding: 20px; color: #333;
+}
+.container { max-width: 1100px; margin: 0 auto; }
+.header {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: #fff; padding: 24px 32px; border-radius: 12px;
+  margin-bottom: 16px; box-shadow: 0 2px 12px rgba(0,0,0,.08);
+}
+.header h1 { margin: 0 0 8px; font-size: 22px; }
+.header .stats { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 12px; }
+.stat {
+  background: rgba(255,255,255,.12); border-radius: 8px;
+  padding: 6px 12px; font-size: 12px;
+}
+.filter-bar {
+  background: #fff; padding: 12px 16px; border-radius: 8px;
+  margin-bottom: 12px; display: flex; gap: 8px; flex-wrap: wrap;
+  box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+.filter-btn {
+  background: #f0f0f0; border: 1px solid #ddd; border-radius: 16px;
+  padding: 4px 12px; font-size: 12px; cursor: pointer;
+}
+.filter-btn.active { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
+.card {
+  background: #fff; border-radius: 10px; padding: 0;
+  margin-bottom: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.06);
+  overflow: hidden;
+}
+.card summary {
+  cursor: pointer; padding: 14px 18px; display: flex; align-items: center;
+  gap: 10px; flex-wrap: wrap; list-style: none;
+}
+.card summary::-webkit-details-marker { display: none; }
+.card summary::before {
+  content: '▶'; font-size: 10px; color: #888; transition: transform .2s;
+}
+.card[open] summary::before { transform: rotate(90deg); }
+.card .name { font-size: 15px; flex: 1; }
+.prio {
+  display: inline-block; color: #fff; padding: 2px 8px; border-radius: 4px;
+  font-size: 11px; font-weight: 600;
+}
+.entity { font-size: 11px; font-weight: 600; }
+.tag {
+  display: inline-block; padding: 2px 7px; border-radius: 4px;
+  font-size: 11px; margin-right: 4px;
+}
+.tag-thesis { background: #fff3e0; color: #e65100; }
+.tags { font-size: 11px; }
+.card-body {
+  padding: 0 18px 16px; border-top: 1px solid #f0f0f0;
+}
+.meta {
+  font-size: 12px; color: #555; padding: 10px 0;
+  border-bottom: 1px dashed #eee; margin-bottom: 12px;
+}
+.meta .date { color: #999; }
+.desc { font-size: 13px; color: #555; margin-bottom: 12px; }
+.actions { margin-bottom: 14px; }
+.btn {
+  display: inline-block; background: #f5f5f5; color: #333;
+  padding: 6px 12px; border-radius: 4px; font-size: 12px;
+  text-decoration: none; margin-right: 6px;
+}
+.btn:hover { background: #e0e0e0; }
+.btn-linkedin { background: #e8f4fd; color: #0077b6; }
+.btn-mail { background: #fce4ec; color: #c62828; }
+.research {
+  font-size: 13px; line-height: 1.7; color: #444;
+  background: #fafafa; padding: 14px 18px; border-radius: 6px;
+  border-left: 3px solid #1a1a2e;
+}
+.research h3 { font-size: 14px; margin: 12px 0 6px; color: #1a1a2e; }
+.research h4 { font-size: 13px; margin: 10px 0 4px; }
+.research p { margin: 4px 0; }
+.research ul { margin: 4px 0; padding-left: 22px; }
+.research li { margin: 2px 0; }
+.research a { color: #0077b6; }
+.research code {
+  background: #eef; padding: 1px 4px; border-radius: 3px; font-size: 12px;
+}
+.placeholder { color: #999; font-style: italic; }
+.drafts {
+  margin-top: 14px; padding: 12px; background: #f8f9fa; border-radius: 6px;
+}
+.drafts h4 { margin: 0 0 8px; font-size: 13px; }
+.draft-item { margin-bottom: 8px; padding: 8px; background: #fff; border-radius: 4px; }
+.draft-head { font-size: 12px; margin-bottom: 4px; }
+.draft-body { font-size: 12px; color: #666; white-space: pre-wrap; }
+.draft-status {
+  font-size: 10px; padding: 1px 6px; border-radius: 3px;
+  margin-left: 6px; background: #ddd;
+}
+.status-draft { background: #fff3e0; color: #e65100; }
+.status-sent { background: #e8f5e9; color: #2e7d32; }
+.footer {
+  text-align: center; color: #999; font-size: 11px; margin-top: 24px;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>📥 VC Lead Inbox</h1>
+      <div style="opacity:.7;font-size:12px">由 Exa + ARK 抽取，每日自动更新 · 2026-05-10 06:13</div>
+      <div class="stats"><div class="stat">📥 共 15 条</div><div class="stat">🆕 今日新增 0</div><div class="stat">P1: 2</div> <div class="stat">P2: 10</div> <div class="stat">P4: 2</div> <div class="stat">P5: 1</div></div>
+    </div>
+
+    <div class="filter-bar">
+      <strong style="font-size:12px;align-self:center;margin-right:6px">优先级:</strong>
+      <button class="filter-btn active" data-type="priority" data-value="all" onclick="applyFilter('priority','all')">全部</button>
+      <button class="filter-btn" data-type="priority" data-value="12" onclick="applyFilter('priority','12')">P1+P2 (高匹配)</button>
+      <button class="filter-btn" data-type="priority" data-value="3" onclick="applyFilter('priority','3')">P3</button>
+      <button class="filter-btn" data-type="priority" data-value="5" onclick="applyFilter('priority','5')">P5 (已成熟)</button>
+      <strong style="font-size:12px;align-self:center;margin:0 6px">类型:</strong>
+      <button class="filter-btn active" data-type="entity" data-value="all" onclick="applyFilter('entity','all')">全部</button>
+      <button class="filter-btn" data-type="entity" data-value="company" onclick="applyFilter('entity','company')">创业公司</button>
+      <button class="filter-btn" data-type="entity" data-value="oss" onclick="applyFilter('entity','oss')">开源项目</button>
+      <button class="filter-btn" data-type="entity" data-value="scholar" onclick="applyFilter('entity','scholar')">学者</button>
+      <button class="filter-btn" data-type="entity" data-value="research" onclick="applyFilter('entity','research')">研究机构</button>
+    </div>
+
+    
+<details class="card" data-priority="1" data-entity="company" data-status="new">
+  <summary>
+    <span class="prio" style="background:#c62828">P1 高匹配早期</span>
+    <span class="entity" style="color:#2e7d32">[创业公司]</span>
+    <strong class="name">无界方舟（EVA OS）</strong>
+    <span class="tags"><span class="tag tag-thesis">Agent 平台</span><span class="tag tag-thesis">AI 硬件</span></span>
+  </summary>
+  <div class="card-body">
+    <div class="meta"><span><strong>轮次</strong> Pre-A轮</span> · <span><strong>金额</strong> 数亿元</span> · <span><strong>投资方</strong> 韶音等头部机构</span> · <span class="date">📅 2026-04-25</span></div>
+    
+    <div class="actions"><a class="btn btn-linkedin" href="https://www.linkedin.com/search/results/people/?keywords=无界方舟（EVA OS） founder OR ceo" target="_blank">💼 LinkedIn 找人</a></div>
+    <div class="research"><h4>一句话定位</h4>
+<p>面向AI硬件的新一代AI操作系统（EVA OS），支持开发者通过自然语言完成硬件应用的代码生成、UI构建与部署。</p>
+
+<h4>核心技术 / 产品</h4>
+<p>技术亮点：基于自研实时多模态大模型EVA，实现350ms级超低延迟反馈，具备视觉理解、情绪感知与跨模态融合能力；提出“Vibe Hardware”范式，支持自然语言驱动的硬件开发全流程（代码生成、UI构建、部署）。产品形态：AIOS底层框架EVA OS，适配主流芯片开发板，构建“端侧感知交互+云端复杂推理”协同架构，将多模态反馈延迟控制在350ms内，推理成本降低70%-92%。差异点：区别于传统OS，聚焦AI原生硬件开发，已被超2500家企业用于硬件研发，即将推出原生AIOS智能硬件EVA Pi。</p>
+
+<h4>商业模式</h4>
+<p>B端，面向智能硬件开发者/厂商，提供AIOS（EVA OS）授权及技术服务，具体付费方式未公开；已被超2500家企业用于硬件产品研发，覆盖文教、文旅、智能陪护等场景。</p>
+
+<h4>团队</h4>
+<p>创始人曾晓东：澳门大学博士，自然语言处理专家，前阿里巴巴机器翻译系统主导者，蚂蚁技术实验室联合创立者，推动“无人超市”“刷脸支付”等项目落地。联合创始人小乔：前字节跳动员工，十余年互联网产品与管理经验。核心团队来自字节、阿里、Google、Tesla等企业，覆盖AI、硬件、产品全链条。</p>
+
+<h4>投资价值点</h4>
+<ul>
+<li><strong>团队优势</strong>：创始人具备阿里/蚂蚁核心AI项目落地经验，团队技术与产业资源整合能力强（如与阿里云合作）。</li>
+<li><strong>技术差异化</strong>：端侧多模态模型低延迟（350ms）、自然语言开发降低硬件AI门槛，解决通用大模型与硬件落地的技术断层。</li>
+<li><strong>商业化进展</strong>：超2500家企业采用，产业投资方韶音（穿戴设备龙头）可能带来场景协同与渠道资源。</li>
+<li><strong>风险</strong>：AIOS赛道竞争激烈（如鸿蒙、ROS），需验证技术壁垒；盈利模式不明确，早期依赖融资，商业化路径待观察。</li>
+</ul>
+
+<h4>关键链接</h4>
+<ul>
+<li>官网：<a href="https://autoarkai.com/" target="_blank">https://autoarkai.com/</a></li>
+<li>产品页：<a href="https://www.autoarkai.com/eva" target="_blank">https://www.autoarkai.com/eva</a></li>
+<li>关键报道：<a href="http://www.ceccapitalgroup.com/index.php?a=shows&catid=3&id=931（易凯资本）、http://finance.sina.com.cn/stock/t/2026-04-02/doc-inhtcspr7556299.shtml（新浪财经）" target="_blank">http://www.ceccapitalgroup.com/index.php?a=shows&catid=3&id=931（易凯资本）、http://finance.sina.com.cn/stock/t/2026-04-02/doc-inhtcspr7556299.shtml（新浪财经）</a></li>
+</ul>
+
+<h4>跟进建议</h4>
+<p>建议约见创始人，重点了解技术壁垒（与同类AIOS的差异）、商业化路径（付费模式）及与韶音的具体协同进展。</p></div>
+    
+  </div>
+</details>
+
+<details class="card" data-priority="1" data-entity="company" data-status="new">
+  <summary>
+    <span class="prio" style="background:#c62828">P1 高匹配早期</span>
+    <span class="entity" style="color:#2e7d32">[创业公司]</span>
+    <strong class="name">灵机一动</strong>
+    <span class="tags"><span class="tag tag-thesis">Agent 平台</span></span>
+  </summary>
+  <div class="card-body">
+    <div class="meta"><span><strong>轮次</strong> 天使+A轮</span> · <span><strong>金额</strong> 数千万元人民币</span> · <span><strong>投资方</strong> 梅花创投等</span> · <span class="date">📅 2026-04-25</span></div>
+    
+    <div class="actions"><a class="btn btn-linkedin" href="https://www.linkedin.com/search/results/people/?keywords=灵机一动 founder OR ceo" target="_blank">💼 LinkedIn 找人</a></div>
+    <div class="research"><h4>一句话定位</h4>
+<p>面向消费电子行业的AI Agent创建与管理SaaS平台，连接大模型与硬件设备，提供从Agent开发、配置到发布的全流程工具链。</p>
+
+<h4>核心技术 / 产品</h4>
+<p>技术亮点：打通物模型搭建、知识库/垂类模型/插件接入、设备绑定、发布管理全流程；集成声网对话式AI引擎，支持自然对话节奏（如优雅打断）、复杂环境降噪、多模态交互扩展；提供MCP插件生态、垂类模型矩阵（教育、心理等）及标准化接入方案（SDK+API+硬件模组）。产品形态：SaaS平台+“灵机魔盒”开发工具，支持拖拽式Agent开发。差异：聚焦硬件落地工程化，解决延迟、稳定性及用户粘性问题，相比通用Agent平台更贴近消费电子场景需求。</p>
+
+<h4>商业模式</h4>
+<p>B端，面向消费电子厂商（玩具、儿童伴学机、智能家居等）；付费方式暂未明确，推测包括平台订阅、插件/垂类模型使用分成，及后续增值服务（如内容订阅）；客户画像为需快速实现AI智能化的硬件品牌，母公司小匠物联已合作500+国内外一线品牌。</p>
+
+<h4>团队</h4>
+<p>未公开。母公司小匠物联成立于2015年，有十年物联网技术积累，自主研发QUMI OS操作系统，接入5000万台设备，具备硬件研发、产测及离线语音全链路解决方案能力。</p>
+
+<h4>投资价值点</h4>
+<ul>
+<li><strong>正面</strong>：解决消费电子AI落地“最后一公里”痛点，全流程工具链降低硬件厂商开发门槛；母公司行业资源（500+品牌、5000万台设备）为平台推广提供基础。</li>
+<li><strong>正面</strong>：商业模式可从一次性技术服务延伸至持续运营（硬件预埋+服务解锁），打开长期收益空间。</li>
+<li><strong>风险</strong>：Agent平台赛道竞争激烈，需验证差异化优势能否持续；依赖第三方大模型（如通义千问、豆包），模型成本及合作稳定性存疑。</li>
+<li><strong>风险</strong>：硬件厂商付费意愿及实际落地效果待规模化案例验证。</li>
+</ul>
+
+<h4>关键链接</h4>
+<ul>
+<li>官网：ljyd.cn（推测，来自开发者平台注册信息）</li>
+<li>关键报道：<a href="https://www.xiaojiang.cc/article/detail/94" target="_blank">打造消费电子领域Agent创建平台——“灵机一动AI” - 小匠物联</a>、<a href="https://tech.china.com/articles/20260326/202603261833409.html" target="_blank">灵机一动1.0开启生态共创，首批开发者、服务商案例大赛正式启动_中华网</a></li>
+</ul>
+
+<h4>跟进建议</h4>
+<p>建议约见创始人，重点了解客户落地案例、付费模式细节及与硬件厂商的合作进展，评估商业化潜力。</p></div>
+    
+  </div>
+</details>
+
+<details class="card" data-priority="2" data-entity="company" data-status="new">
+  <summary>
+    <span class="prio" style="background:#ef6c00">P2 命中 thesis</span>
+    <span class="entity" style="color:#2e7d32">[创业公司]</span>
+    <strong class="name">Agent Earner</strong>
+    <span class="tags"><span class="tag tag-thesis">自进化 Agent</span><span class="tag tag-thesis">新颖应用</span></span>
+  </summary>
+  <div class="card-body">
+    <div class="meta"><span class="date">📅 2026-05-09</span></div>
+    
+    <div class="actions"><a class="btn btn-linkedin" href="https://www.linkedin.com/search/results/people/?keywords=Agent Earner founder OR ceo" target="_blank">💼 LinkedIn 找人</a></div>
+    <div class="research"><h4>一句话定位</h4>
+<p>开发复杂自动化框架，将AI代理转化为自给自足的经济实体，实现全天候机会寻找和收益赚取的公司。</p>
+
+<h4>核心技术 / 产品</h4>
+<p>未公开</p>
+
+<h4>商业模式</h4>
+<p>早期，未明确</p>
+
+<h4>团队</h4>
+<p>未公开</p>
+
+<h4>投资价值点</h4>
+<ul>
+<li>符合自进化Agent及新颖应用赛道方向，具备技术前瞻性；</li>
+<li>核心技术架构、产品落地形态及具体应用场景未公开，技术可行性存在较高不确定性；</li>
+<li>团队背景、研发能力及行业资源未明确，商业化落地能力待验证；</li>
+<li>未检索到公开融资信息及产品demo，公司当前运营状态不清晰。</li>
+</ul>
+
+<h4>关键链接</h4>
+<ul>
+<li>官网/GitHub/产品页：</li>
+<li>关键报道：</li>
+<li>论文链接：</li>
+</ul>
+
+<h4>跟进建议</h4>
+<p>进一步通过行业数据库或人脉渠道确认公司实际存在性及核心信息，暂不纳入优先跟进列表。</p></div>
+    
+  </div>
+</details>
+
+<details class="card" data-priority="2" data-entity="company" data-status="new">
+  <summary>
+    <span class="prio" style="background:#ef6c00">P2 命中 thesis</span>
+    <span class="entity" style="color:#2e7d32">[创业公司]</span>
+    <strong class="name">Comet</strong>
+    <span class="tags"><span class="tag tag-thesis">新颖应用</span></span>
+  </summary>
+  <div class="card-body">
+    <div class="meta"><span class="date">📅 2026-05-09</span></div>
+    
+    <div class="actions"><a class="btn btn-linkedin" href="https://www.linkedin.com/search/results/people/?keywords=Comet founder OR ceo" target="_blank">💼 LinkedIn 找人</a></div>
+    <div class="research"><h4>一句话定位</h4>
+<p>Comet是一家2017年成立于纽约的AI基础设施公司，提供基于SaaS的机器学习开发工具，帮助团队将AI原型转化为可靠的生产系统，核心产品为开源LLM可观测性与评估平台Opik。</p>
+
+<h4>核心技术 / 产品</h4>
+<p>核心产品Opik是开源LLM基础设施平台，专注于为生成式AI应用（如聊天机器人、RAG pipeline、自主Agent）提供可观测性和评估能力，支持与现有技术栈集成，以提升AI系统的可靠性和开发效率。未提及GitHub stars及主流采用数据，仅提到“快速增长的社区”。</p>
+
+<h4>商业模式</h4>
+<p>B端客户，面向企业、初创公司及学术团队的AI开发团队；付费方式推测为SaaS订阅（基于“AI和SaaS-based ML solutions”描述）；客户画像为需要规模化部署AI应用的技术团队。</p>
+
+<h4>团队</h4>
+<p>联合创始人Nimrod Lahav和Gideon Mendels（CEO）； leadership team成员有AWS、Grafana Labs、GitLab等企业软件经验，如Head of Product Jacques Verré曾创办ML监控平台Stakion（被Comet收购），销售负责人Brent有Weights & Biases等AI公司经验。</p>
+
+<h4>投资价值点</h4>
+<ul>
+<li>正面：聚焦LLM开发关键痛点（可观测性/评估），符合AI应用规模化需求；开源平台Opik快速增长，具备社区基础；团队有企业级AI工具开发及商业化经验。</li>
+<li>风险：竞争激烈（64个活跃竞争对手，包括Fiddler Labs、Arize AI）；最新融资为2021年Series B（$50M），距今4年以上，需确认业务增长及现金流状况；开源模式下商业化路径（如企业版付费转化）尚不明确。</li>
+</ul>
+
+<h4>关键链接</h4>
+<ul>
+<li>官网：<a href="https://www.comet.com/" target="_blank">https://www.comet.com/</a></li>
+<li>关键报道：<a href="https://tracxn.com/d/companies/comet/__wncY9epFSLD_hRgY8W6CH43cFfifgHwpfH4sU2Zsy_o" target="_blank">https://tracxn.com/d/companies/comet/__wncY9epFSLD_hRgY8W6CH43cFfifgHwpfH4sU2Zsy_o</a></li>
+<li>论文链接：未公开</li>
+</ul>
+
+<h4>跟进建议</h4>
+<p>建议先调研Opik的用户增长数据（如企业客户数、开源社区活跃度）及商业化进展，再考虑与团队沟通竞争壁垒和后续融资计划。</p></div>
+    
+  </div>
+</details>
+
+<details class="card" data-priority="2" data-entity="company" data-status="new">
+  <summary>
+    <span class="prio" style="background:#ef6c00">P2 命中 thesis</span>
+    <span class="entity" style="color:#2e7d32">[创业公司]</span>
+    <strong class="name">TikTok内容工厂</strong>
+    <span class="tags"><span class="tag tag-thesis">新颖应用</span></span>
+  </summary>
+  <div class="card-body">
+    <div class="meta"><span class="date">📅 2026-05-09</span></div>
+    
+    <div class="actions"><a class="btn btn-linkedin" href="https://www.linkedin.com/search/results/people/?keywords=TikTok内容工厂 founder OR ceo" target="_blank">💼 LinkedIn 找人</a></div>
+    <div class="research"><h4>一句话定位</h4>
+<p>通过AI工具搭建全自动TikTok Shop视频流水线，实现从提示词到发布的全链路自动化，日产550条产品广告视频的内容生产模式。</p>
+
+<h4>核心技术 / 产品</h4>
+<p>技术亮点：集成AI生成UGC persona（人脸、语音、性格）、语音克隆、CapCut自动化编辑，实现视频脚本生成、素材制作、发布全流程无人化；产品形态为视频生产流水线，单条成本从传统300-500美元降至几分之一美分，无需人工拍摄和后期；差异在于极致效率（日产550条）和零人工干预，解决短视频广告规模化生产痛点。</p>
+
+<h4>商业模式</h4>
+<p>早期，未明确。推测为B端服务，面向TikTok Shop商家或电商品牌，提供自动化广告视频生产，付费方式可能为按视频数量或订阅制。</p>
+
+<h4>团队</h4>
+<p>未公开。仅提及由个人或小团队（如@maverickecom、@FynCas）搭建，具体创始人背景、技术团队信息未披露。</p>
+
+<h4>投资价值点</h4>
+<ul>
+<li>正面：解决TikTok电商内容生产效率瓶颈，自动化显著降低成本（传统模式1%成本）；契合短视频广告需求增长，尤其TikTok Shop扩张带来的内容缺口；技术栈可复制至Instagram、YouTube等平台，应用场景扩展潜力大。</li>
+<li>风险：依赖第三方AI工具（如CapCut）和TikTok平台政策，若平台限制AI生成内容或工具收费调整，将影响稳定性；低技术门槛可能引发激烈竞争，缺乏团队背景和技术壁垒信息，核心竞争力待验证。</li>
+</ul>
+
+<h4>关键链接</h4>
+<ul>
+<li>官网/GitHub/产品页：</li>
+<li>关键报道：<a href="https://texxr.com/posts/the-content-factory" target="_blank">https://texxr.com/posts/the-content-factory</a></li>
+<li>论文链接：</li>
+</ul>
+
+<h4>跟进建议</h4>
+<p>建议先跟踪行业动态，寻找该模式实际运营案例及团队背景信息，待明确核心技术壁垒和商业化数据后再评估。</p></div>
+    
+  </div>
+</details>
+
+<details class="card" data-priority="2" data-entity="company" data-status="new">
+  <summary>
+    <span class="prio" style="background:#ef6c00">P2 命中 thesis</span>
+    <span class="entity" style="color:#2e7d32">[创业公司]</span>
+    <strong class="name">企业数字员工AI法律助手</strong>
+    <span class="tags"><span class="tag tag-thesis">数据智能</span></span>
+  </summary>
+  <div class="card-body">
+    <div class="meta"><span class="date">📅 2026-05-09</span></div>
+    
+    <div class="actions"><a class="btn btn-linkedin" href="https://www.linkedin.com/search/results/people/?keywords=企业数字员工AI法律助手 founder OR ceo" target="_blank">💼 LinkedIn 找人</a></div>
+    <div class="research"><h4>一句话定位</h4>
+<p>为小微律所提供基于Dify和Coze平台搭建的AI法律助手，解决重复咨询问题并实现SOP自动化。</p>
+
+<h4>核心技术 / 产品</h4>
+<p>基于Dify和Coze低代码AI应用开发平台，产品形态为虚拟数字人“律小道”，具备法律咨询（劳动纠纷、婚姻家庭等领域）、律师推荐功能，可替代20人客服工作量，每日处理上万次咨询；依托众创网算力超市共享的自研大模型，学习了200多万条法律案例和上千件法律法规，支持自然语言交互。与同类产品差异在于聚焦小微律所场景，轻量化部署且依赖第三方算力与模型支持。</p>
+
+<h4>商业模式</h4>
+<p>B端（小微律所），付费方式未明确，客户画像为中小法律在线服务平台及小微律所，目前通过“数字员工”降低人力成本（2人团队可支撑运营）。</p>
+
+<h4>团队</h4>
+<p>创始人/总经理张燕，曾通过人工智能公开课接触众创网董事长于天宝，合作开发产品；团队规模4人（含1名“数字员工”），技术支持主要来自众创网（提供算力、模型训练等全链路赋能）。</p>
+
+<h4>投资价值点</h4>
+<ul>
+<li>正面理由：解决小微律所重复咨询处理效率低、人力成本高的痛点，产品已落地（上线5个月，日服务万次），有实际运营数据；获千万元天使轮融资，初步得到资本认可。</li>
+<li>主要风险/疑问：技术依赖众创网的算力和大模型，自主技术壁垒较弱；小微律所付费能力和意愿待验证，商业模式尚未清晰；核心团队仅3人（不含数字员工），研发与市场拓展能力有限。</li>
+</ul>
+
+<h4>关键链接</h4>
+<ul>
+<li>官网/GitHub/产品页：未公开</li>
+<li>关键报道：<a href="http://news.cjn.cn/whpd/yw_19947/202604/t5285664.htm" target="_blank">搭建算力超市共享AI大模型，这家企业为38家一人公司定制“数字员工”</a></li>
+<li>论文链接：未公开</li>
+</ul>
+
+<h4>跟进建议</h4>
+<p>建议约见创始人张燕，重点了解产品技术自主性、客户付费模式及团队扩张计划。</p></div>
+    
+  </div>
+</details>
+
+<details class="card" data-priority="2" data-entity="company" data-status="new">
+  <summary>
+    <span class="prio" style="background:#ef6c00">P2 命中 thesis</span>
+    <span class="entity" style="color:#2e7d32">[创业公司]</span>
+    <strong class="name">报告自动化Agent</strong>
+    <span class="tags"><span class="tag tag-thesis">数据智能</span></span>
+  </summary>
+  <div class="card-body">
+    <div class="meta"><span class="date">📅 2026-05-09</span></div>
+    
+    <div class="actions"><a class="btn btn-linkedin" href="https://www.linkedin.com/search/results/people/?keywords=报告自动化Agent founder OR ceo" target="_blank">💼 LinkedIn 找人</a></div>
+    <div class="research"><h4>一句话定位</h4>
+<p>提供企业级报告自动化Agent，对接企业数据库实现数据抽取、整合及多格式报告自动生成的公司。</p>
+
+<h4>核心技术 / 产品</h4>
+<p>核心产品为Report Agent 2.0，采用“文科生+理科生+设计师”能力模型：语义理解层可识别行业术语（如金融黑话），指标计算层保障高准确率，设计层支持Word/PPT/Excel等复杂报告生成；独创反思规划循环技术架构，实现从自然语言提问到报告生成的全流程自动化，将传统5-7天的分析周期压缩至3-5分钟，效率提升数百倍；与传统BI相比，突破仅输出图表的局限，支持深度编辑和业务逻辑融合。</p>
+
+<h4>商业模式</h4>
+<p>B端，客户覆盖金融、运营商、政务等领域企业；付费方式未明确，推测为私有化部署或SaaS订阅。</p>
+
+<h4>团队</h4>
+<p>未公开。</p>
+
+<h4>投资价值点</h4>
+<ul>
+<li>解决企业数据分析效率痛点，已有零售企业案例显示自助分析效率提升90%，IT开发需求减少75%（正面）；</li>
+<li>技术架构融合大模型与智能体能力，全流程自动化技术壁垒较高（正面）；</li>
+<li>市场竞争激烈，衡石科技、AutoAgents等均布局类似赛道（风险）；</li>
+<li>企业数据安全与合规性要求高，需验证产品在敏感数据场景的适配能力（风险）。</li>
+</ul>
+
+<h4>关键链接</h4>
+<ul>
+<li>官网：未公开</li>
+<li>关键报道：<a href="https://www.ifenxi.com/research/content/6703，https://juejin.cn/post/7540225021077028915" target="_blank">https://www.ifenxi.com/research/content/6703，https://juejin.cn/post/7540225021077028915</a></li>
+<li>论文链接：未公开</li>
+</ul>
+
+<h4>跟进建议</h4>
+<p>建议观看产品demo验证报告生成效率及格式兼容性，优先接触已落地客户了解实际使用体验。</p></div>
+    
+  </div>
+</details>
+
+<details class="card" data-priority="2" data-entity="company" data-status="new">
+  <summary>
+    <span class="prio" style="background:#ef6c00">P2 命中 thesis</span>
+    <span class="entity" style="color:#2e7d32">[创业公司]</span>
+    <strong class="name">销售自动化Agent系统</strong>
+    <span class="tags"><span class="tag tag-thesis">新颖应用</span></span>
+  </summary>
+  <div class="card-body">
+    <div class="meta"><span class="date">📅 2026-05-09</span></div>
+    
+    <div class="actions"><a class="btn btn-linkedin" href="https://www.linkedin.com/search/results/people/?keywords=销售自动化Agent系统 founder OR ceo" target="_blank">💼 LinkedIn 找人</a></div>
+    <div class="research"><h4>一句话定位</h4>
+<p>为中小规模货物贸易出口企业提供AI驱动的全流程销售自动化解决方案，通过自主规划任务、持续迭代的销售Agent实现获客、沟通到线索筛选的自动化。</p>
+
+<h4>核心技术 / 产品</h4>
+<p>技术亮点：采用独创的“马尔可夫状态机+强化学习+图神经网络”复合算法架构，将大模型创造力约束在业务流程内，实现可控、可进化的自动化。产品形态：核心产品iSales（销售Agent），覆盖客户开发、个性化邮件触达、意向筛选等全流程，延伸产品线包括AI自动化投放、社媒运营等。差异点：按效果付费（RaaS模式），具备自我迭代能力，专注中小出海企业痛点。</p>
+
+<h4>商业模式</h4>
+<p>B端客户，客户画像为中小规模货物贸易出口企业（如东莞五金厂等）。付费方式：“按价值创造付费”（RaaS），基础费用+按线索数量、定制化消息数量等实际效果付费。</p>
+
+<h4>团队</h4>
+<p>创始人潘一鸣：清华大学工业工程系毕业，前滴滴全分单系统核心成员、字节跳动自动化投放算法系统（日耗2400万美元）设计者，著有《产品逻辑之美》，有AI ToB创业经验。核心团队30人，成员来自985/QS前100高校及互联网大厂，具备算法研发与实战操盘能力。</p>
+
+<h4>投资价值点</h4>
+<ul>
+<li><strong>正面</strong>：创始人有滴滴、字节核心算法落地经验，产品上线3个月盈利（月入百万），2026年1月月营收达200万，商业化验证快；<strong>风险</strong>：行业竞争加剧（如亿量科技、探迹科技布局相似场景）。</li>
+<li><strong>正面</strong>：技术架构独特，解决大模型在业务流程中的可控性问题，客户获客效率提升10倍，转化率8%；<strong>风险</strong>：依赖海外市场，受国际贸易环境波动影响。</li>
+<li><strong>正面</strong>：商业模式清晰（RaaS按效果付费），中小出海企业获客痛点明确，付费意愿强；<strong>风险</strong>：全球信息抓取可能涉及数据合规问题。</li>
+</ul>
+
+<h4>关键链接</h4>
+<ul>
+<li>官网/GitHub/产品页：未公开</li>
+<li>关键报道：<a href="https://view.inews.qq.com/a/20250904A063AV00、https://news.qq.com/rain/a/20260303A044YM00" target="_blank">https://view.inews.qq.com/a/20250904A063AV00、https://news.qq.com/rain/a/20260303A044YM00</a></li>
+<li>论文链接：未公开</li>
+</ul>
+
+<h4>跟进建议</h4>
+<p>公司已完成天使轮融资，商业模式跑通且有营收数据，建议约见创始人，重点了解技术壁垒与客户案例细节。</p></div>
+    
+  </div>
+</details>
+
+<details class="card" data-priority="2" data-entity="company" data-status="new">
+  <summary>
+    <span class="prio" style="background:#ef6c00">P2 命中 thesis</span>
+    <span class="entity" style="color:#2e7d32">[创业公司]</span>
+    <strong class="name">星阙大模型</strong>
+    <span class="tags"><span class="tag tag-thesis">新大模型范式</span><span class="tag tag-thesis">长程 reasoning</span></span>
+  </summary>
+  <div class="card-body">
+    <div class="meta"><span class="date">📅 2026-04-25</span></div>
+    
+    <div class="actions"><a class="btn btn-linkedin" href="https://www.linkedin.com/search/results/people/?keywords=星阙大模型 founder OR ceo" target="_blank">💼 LinkedIn 找人</a></div>
+    <div class="research"><h4>一句话定位</h4>
+<p>由洞察时空开发的物理世界大模型，深度融合以卫星数据为核心的四维时空大数据，面向气象预测等领域提供具备因果推理与逻辑推演潜力的智能服务。</p>
+
+<h4>核心技术 / 产品</h4>
+<p>技术亮点：采用混合专家（MoE）架构、多模态时空信息协同表征机制及物理约束引导下的时空演化学习框架，引入“本体论”构建核心智能。</p>
+<p>产品形态：气象预测领域大模型，基于超400TB卫星遥感、再分析资料等多源异构数据训练。</p>
+<p>差异点：较传统方案，在大尺度气象要素（风速、温度等）预测精度提升8%-12%，小尺度气象场刻画、复杂天气过程演变表征等场景优势显著。</p>
+<p>落地情况：已应用于江苏省气象服务中心，支撑气象监测、灾害预警及科研应用。</p>
+
+<h4>商业模式</h4>
+<p>B端，面向气象、应急救灾、能源运营、城市管理等行业提供模型服务，具体付费方式及客户画像未公开。</p>
+
+<h4>团队</h4>
+<p>未公开（搜索结果未提及洞察时空创始人及核心团队背景）。</p>
+
+<h4>投资价值点</h4>
+<ul>
+<li><strong>技术差异化</strong>：国内首款物理世界大模型，融合卫星数据与物理约束，突破传统数据累加训练的算力瓶颈，气象预测精度有明确提升，具备技术先发优势。</li>
+<li><strong>场景落地验证</strong>：已在江苏省气象服务中心实现落地，证明模型在专业领域的实用性，为后续拓展应急、能源等场景奠定基础。</li>
+<li><strong>潜在市场空间</strong>：物理世界建模需求覆盖气象、灾害、城市管理等关键领域，政策支持下行业应用潜力较大。</li>
+<li><strong>核心风险</strong>：公司成立时间短（2025年4月成立），团队背景未公开，技术稳定性及持续研发能力待验证；商业模式不明确，客户付费意愿和市场规模需进一步观察。</li>
+</ul>
+
+<h4>关键链接</h4>
+<ul>
+<li>官网/GitHub/产品页：（未拿到）</li>
+<li>关键报道：<a href="http://zqzx.zmke.com/smart/132323.html" target="_blank">全国首款物理世界大模型产品发布，洞察时空开启卫星数据+AI创新应用新时代</a></li>
+<li>论文链接：（未拿到）</li>
+</ul>
+
+<h4>跟进建议</h4>
+<p>建议持续跟踪其技术落地进展及团队背景披露，待获取更多商业化信息后再评估约见价值。</p></div>
+    
+  </div>
+</details>
+
+<details class="card" data-priority="2" data-entity="research" data-status="new">
+  <summary>
+    <span class="prio" style="background:#ef6c00">P2 命中 thesis</span>
+    <span class="entity" style="color:#01579b">[研究机构]</span>
+    <strong class="name">Anthropic</strong>
+    <span class="tags"><span class="tag tag-thesis">Agent infra</span><span class="tag tag-thesis">Agent 平台</span></span>
+  </summary>
+  <div class="card-body">
+    <div class="meta"><span><strong>金额</strong> 4.5亿美元</span> · <span><strong>投资方</strong> Spark Capital</span> · <span class="date">📅 2026-04-24</span></div>
+    
+    <div class="actions"><a class="btn" href="https://www.anthropic.com/" target="_blank">🔗 官网/来源</a> <a class="btn btn-linkedin" href="https://www.linkedin.com/search/results/people/?keywords=Anthropic" target="_blank">💼 LinkedIn 找人</a> <a class="btn btn-mail" href="mailto:?subject=关于「Anthropic」的合作探讨&body=您好，%0A%0A我是 AI 早期投资人，最近关注到您在「Agent infra, Agent 平台」方向的工作（推出Claude Managed Agents，使长期运行的代理无需运行自己的沙箱或状态基础设施即可部署%0Athesis 匹配：Agent infra、Agent），希望有机会与您深入交流。%0A%0A方便约个 30 分钟的电话或视频吗？%0A%0A谢谢，%0ALei">📧 发邮件草稿</a></div>
+    <div class="research"><h4>一句话定位</h4>
+<p>一家专注于开发可靠、可解释AI系统的研究型公司，核心产品为Claude系列大语言模型及Managed Agents（无需自建沙箱/状态基础设施的代理部署工具）。</p>
+
+<h4>核心技术 / 产品</h4>
+<p>技术亮点：提出“宪法AI原则”及基于AI反馈的强化学习（RLAIF）训练方法，强调AI安全性与可操纵性；Claude系列模型参数规模达520亿（Claude 1），迭代至Claude 4.6（2026年2月发布），支持混合推理。产品形态：大语言模型API、Claude Managed Agents（简化长期代理部署流程）。差异点：创始团队为OpenAI前核心成员，技术积累深厚，安全导向明确。</p>
+
+<h4>商业模式</h4>
+<p>B端，主要通过API调用或企业服务收费，客户涵盖企业、非营利组织及政府机构（如教育、法律领域合作）。</p>
+
+<h4>团队</h4>
+<p>创始人包括Dario Amodei（前OpenAI副总裁，主导GPT-2/3研发）、Daniela Amodei（Co-Founder & President）、Chris Olah（可解释性研究负责人）等7位前OpenAI核心成员，团队平均拥有10年以上AI研发经验。现任CEO为Ava Margolis（2025年10月加入）。</p>
+
+<h4>投资价值点</h4>
+<ul>
+<li>正面理由：创始团队技术背景顶尖，参与GPT系列核心开发；产品迭代迅速（Claude模型已更新至4.6），技术领先性强；融资能力突出，总融资277亿美元，资源储备充足。</li>
+<li>主要风险：估值过高（2026年2月Series G后达3800亿美元），投资成本极高；行业竞争激烈，与OpenAI等巨头直接对标；面临AI安全监管及版权诉讼风险（2025年12月遭作家起诉）。</li>
+<li><strong>已成熟，跟踪观察即可</strong>。</li>
+</ul>
+
+<h4>关键链接</h4>
+<ul>
+<li>官网：<a href="https://www.anthropic.com/" target="_blank">https://www.anthropic.com/</a></li>
+<li>关键报道：<a href="https://news.qq.com/rain/a/20241222A02R9Z00（创始团队访谈）、https://36kr.com/p/3451818343552393（融资估值报道）" target="_blank">https://news.qq.com/rain/a/20241222A02R9Z00（创始团队访谈）、https://36kr.com/p/3451818343552393（融资估值报道）</a></li>
+<li>论文链接：未公开</li>
+</ul>
+
+<h4>跟进建议</h4>
+<p>已进入成熟阶段，建议跟踪其产品迭代节奏及市场竞争动态，暂不考虑投资。</p></div>
+    
+  </div>
+</details>
+
+<details class="card" data-priority="2" data-entity="research" data-status="new">
+  <summary>
+    <span class="prio" style="background:#ef6c00">P2 命中 thesis</span>
+    <span class="entity" style="color:#01579b">[研究机构]</span>
+    <strong class="name">Google</strong>
+    <span class="tags"><span class="tag tag-thesis">Agent 平台</span></span>
+  </summary>
+  <div class="card-body">
+    <div class="meta"><span class="date">📅 2026-04-22</span></div>
+    
+    <div class="actions"><a class="btn" href="https://workspace.google.com/intl/en/products/studio/" target="_blank">🔗 官网/来源</a> <a class="btn btn-linkedin" href="https://www.linkedin.com/search/results/people/?keywords=Google" target="_blank">💼 LinkedIn 找人</a> <a class="btn btn-mail" href="mailto:?subject=关于「Google」的合作探讨&body=您好，%0A%0A我是 AI 早期投资人，最近关注到您在「Agent 平台」方向的工作（Workspace Studio允许企业用户通过简单描述在Gmail、Docs等应用中构建代理%0Athesis 匹配：Agent 平台（命中 thesis）%0A来源），希望有机会与您深入交流。%0A%0A方便约个 30 分钟的电话或视频吗？%0A%0A谢谢，%0ALei">📧 发邮件草稿</a></div>
+    <div class="research"><h4>一句话定位</h4>
+<p>Google推出的Workspace Studio是一款允许企业用户通过自然语言描述在Gmail、Docs等Workspace应用中构建代理的工具平台。</p>
+
+<h4>核心技术 / 产品</h4>
+<p>产品形态为基于自然语言描述的代理构建工具，集成于Gmail、Docs等Google Workspace应用中，用户无需复杂编程即可创建自动化代理；技术亮点未公开，与同类产品的差异主要在于依托Google Workspace生态系统，实现与办公应用的深度协同。</p>
+
+<h4>商业模式</h4>
+<p>B端，面向企业用户；付费方式未公开（推测为基于Google Workspace的订阅制）；客户画像为需要在Gmail、Docs等应用中实现自动化流程的企业团队。</p>
+
+<h4>团队</h4>
+<p>联合创始人：Larry Page（斯坦福大学计算机科学博士在读期间创立Google，曾担任CEO）、Sergey Brin（斯坦福大学计算机科学博士在读期间联合创立Google，专注技术研发）；核心团队背景以斯坦福大学校友及硅谷资深工程师为主。</p>
+
+<h4>投资价值点</h4>
+<p>行业动态，非可投资标的。正面理由：依托Google强大的技术生态和企业用户基础，Agent平台功能与现有Workspace应用深度集成，可能提升企业办公自动化效率；主要风险/疑问：作为大厂自研产品，不对外融资，投资机会不存在。</p>
+
+<h4>关键链接</h4>
+<ul>
+<li>官网：<a href="https://workspace.google.com/intl/en/products/studio/" target="_blank">https://workspace.google.com/intl/en/products/studio/</a></li>
+<li>关键报道：<a href="https://about.google/intl/zh-CN_ALL/company-info/our-story/" target="_blank">https://about.google/intl/zh-CN_ALL/company-info/our-story/</a></li>
+<li>论文链接：未公开</li>
+</ul>
+
+<h4>跟进建议</h4>
+<p>关注其功能迭代及市场反馈，作为行业动态跟踪。</p></div>
+    
+  </div>
+</details>
+
+<details class="card" data-priority="2" data-entity="company" data-status="new">
+  <summary>
+    <span class="prio" style="background:#ef6c00">P2 命中 thesis</span>
+    <span class="entity" style="color:#2e7d32">[创业公司]</span>
+    <strong class="name">吾云创新（Zettlab）</strong>
+    <span class="tags"><span class="tag tag-thesis">AI 硬件</span><span class="tag tag-thesis">端侧大模型</span></span>
+  </summary>
+  <div class="card-body">
+    <div class="meta"><span class="date">📅 2026-04-25</span></div>
+    
+    <div class="actions"><a class="btn btn-linkedin" href="https://www.linkedin.com/search/results/people/?keywords=吾云创新（Zettlab） founder OR ceo" target="_blank">💼 LinkedIn 找人</a></div>
+    <div class="research"><h4>一句话定位</h4>
+<p>专注于将AI与存储技术融合，研发内置本地AI计算能力的智能存储设备（AI NAS）的公司。</p>
+
+<h4>核心技术 / 产品</h4>
+<p>技术亮点：搭载Intel Core Ultra 5处理器及内置大语言模型，实现完全本地化AI计算，支持文档分析、语音转写、语义搜索、图像识别等任务，无需依赖云端，保障数据隐私。</p>
+<p>产品形态：Zettlab AI NAS系列硬件设备（D4/D6/D8 Ultra等型号），支持最高200TB容量，兼具存储与本地AI运算功能。</p>
+<p>差异点：相比传统NAS，以“本地AI+存储”为核心，解决云端依赖导致的隐私风险和延迟问题；Kickstarter众筹超140万美元，80%用户因AI功能购买，获CES 2026创新奖。</p>
+
+<h4>商业模式</h4>
+<p>B端（中小企业）+ C端（创作者、家庭用户、重度数据用户）；付费方式为硬件销售（无订阅费）；客户画像包括内容创作者、需要高效数据管理的中小企业及注重隐私的家庭用户。</p>
+
+<h4>团队</h4>
+<p>创始人郭亚楠，北理工机械专业背景，曾任职大疆（负责消费电子AI业务）、云鲸（主导AI团队及产品落地），具备端侧AI、硬件研发及供应链经验；核心团队成员来自大疆、华为、字节跳动、理想等企业，拥有存储系统、AI芯片、边缘计算等领域10年以上经验。</p>
+
+<h4>投资价值点</h4>
+<ul>
+<li><strong>正面理由</strong>：团队有大疆、云鲸等硬件+AI落地经验，产品差异化显著（本地AI+NAS），众筹验证市场需求（140万美元，AI为核心购买驱动力）；</li>
+<li><strong>正面理由</strong>：已获星连资本、祥峰投资、蜂巧资本多轮融资，资金用于研发升级及海外拓展，契合端侧AI硬件趋势；</li>
+<li><strong>风险/疑问</strong>：AI NAS市场竞争加剧（如小米等大厂潜在进入），端侧模型优化与硬件成本控制需持续验证，海外市场渠道及本地化能力待观察。</li>
+</ul>
+
+<h4>关键链接</h4>
+<ul>
+<li>官网：<a href="https://www.zettlab.com/about/us/" target="_blank">https://www.zettlab.com/about/us/</a></li>
+<li>产品页（Kickstarter）：<a href="https://www.kickstarter.com/projects/zettlab/zettlab-ai-nas-personal-cloud-for-smart-data-management" target="_blank">https://www.kickstarter.com/projects/zettlab/zettlab-ai-nas-personal-cloud-for-smart-data-management</a></li>
+<li>关键报道：<a href="https://news.qq.com/rain/a/20250915A049Z900（腾讯新闻A轮融资报道）、https://www.36kr.com/p/3535998221032321（36氪创始人专访）" target="_blank">https://news.qq.com/rain/a/20250915A049Z900（腾讯新闻A轮融资报道）、https://www.36kr.com/p/3535998221032321（36氪创始人专访）</a></li>
+</ul>
+
+<h4>跟进建议</h4>
+<p>建议约见创始人，重点了解产品技术壁垒、海外市场拓展策略及应对大厂竞争的差异化路径。</p></div>
+    
+  </div>
+</details>
+
+<details class="card" data-priority="4" data-entity="company" data-status="new">
+  <summary>
+    <span class="prio" style="background:#546e7a">P4 一般候选</span>
+    <span class="entity" style="color:#2e7d32">[创业公司]</span>
+    <strong class="name">AI Pin</strong>
+    <span class="tags"><span class="tag tag-thesis">AI硬件</span></span>
+  </summary>
+  <div class="card-body">
+    <div class="meta"><span class="date">📅 2026-05-09</span></div>
+    
+    <div class="actions"><a class="btn btn-linkedin" href="https://www.linkedin.com/search/results/people/?keywords=AI Pin founder OR ceo" target="_blank">💼 LinkedIn 找人</a></div>
+    <div class="research"><h4>一句话定位</h4>
+<p>Humane公司开发的无屏幕可佩戴AI硬件设备，通过语音、手势及激光投影交互提供虚拟助手、拍照等服务，旨在减少对智能手机的依赖。</p>
+
+<h4>核心技术 / 产品</h4>
+<p>技术亮点：无屏幕设计，通过激光将文本投影到手掌实现交互，集成AI助手（疑似接入OpenAI技术）、摄像头、扬声器及蜂窝服务。产品形态为磁吸式可穿戴设备（类似领带夹），需搭配备用电池和充电盒使用。与同类差异：完全抛弃触控屏，依赖AI驱动交互，但存在续航短板（测试机型几小时耗尽电量），媒体评价差（被称为“最糟糕产品”）。</p>
+
+<h4>商业模式</h4>
+<p>C端为主，硬件售价699美元，需额外购买备用电池和充电盒（增加100多美元成本）；企业客户（零售、医疗、教育行业）表现出合作意向，但未明确具体付费模式。</p>
+
+<h4>团队</h4>
+<p>创始人Imran Chaudhri（前苹果人机界面设计总监，参与iPhone界面创建）和Bethany Bongiorno（前苹果软件工程总监，负责初代iPad项目），二人系夫妻；核心团队多为前苹果高管（如CTO Patrick Gates，前苹果iCloud工程主管），累计约90名前苹果员工。</p>
+
+<h4>投资价值点</h4>
+<ul>
+<li>正面：创始团队具备苹果核心产品开发经验，早期获Sam Altman、Tiger Global等顶级资本支持（累计融资2.3亿美元），探索无屏幕AI硬件形态具有前瞻性。</li>
+<li>风险：产品上市后仅获1万订单，续航差、功能不完善导致差评如潮；公司正以7.5-10亿美元寻求收购，业务可持续性存疑；硬件成本高，商业化能力弱。</li>
+</ul>
+
+<h4>关键链接</h4>
+<ul>
+<li>官网/GitHub/产品页：</li>
+<li>关键报道：<a href="https://news.qq.com/rain/a/20240521A02YJ300" target="_blank">融资2.3亿美金的硬件：AI Pin翻车了...</a>、<a href="https://m.36kr.com/p/2815221960706567" target="_blank">“iPhone杀手”AI Pin仅获1万订单...</a></li>
+<li>论文链接：</li>
+</ul>
+
+<h4>跟进建议</h4>
+<p>建议跟踪公司收购进展及后续产品迭代情况，当前市场表现不佳，暂不考虑投资。</p></div>
+    
+  </div>
+</details>
+
+<details class="card" data-priority="4" data-entity="company" data-status="new">
+  <summary>
+    <span class="prio" style="background:#546e7a">P4 一般候选</span>
+    <span class="entity" style="color:#2e7d32">[创业公司]</span>
+    <strong class="name">家用机器人</strong>
+    <span class="tags"><span class="tag tag-thesis">AI硬件</span></span>
+  </summary>
+  <div class="card-body">
+    <div class="meta"><span class="date">📅 2026-05-09</span></div>
+    
+    <div class="actions"><a class="btn btn-linkedin" href="https://www.linkedin.com/search/results/people/?keywords=家用机器人 founder OR ceo" target="_blank">💼 LinkedIn 找人</a></div>
+    <div class="research"><h4>一句话定位</h4>
+<p>聚焦C端家庭场景的通用机器人公司，通过全栈自研技术实现清洁、照顾老人儿童等家务任务的自主运行。</p>
+
+<h4>核心技术 / 产品</h4>
+<p>技术亮点：自主构建AVLA（Audio-Visual-Language-Action）端到端模型体系，覆盖感知、认知、决策与执行关键环节，基于千万级家庭场景数据优化动态环境适应能力。</p>
+<p>产品形态：通用家庭服务机器人，已进入200余个真实家庭实测，累计提供超21000小时服务，实现C端付费试用，样机试用满意度96.8%且满档期租出。</p>
+<p>差异点：行业较早实现真实家庭场景闭环，三年未参展、不做PR，专注技术打磨而非单一功能落地。</p>
+
+<h4>商业模式</h4>
+<p>C端家庭用户，付费试用模式；处于商业化早期，通过“千户试用计划”收集数据迭代，目标2026年推出第二代升级产品。</p>
+
+<h4>团队</h4>
+<p>创始人兼CEO张翼为前掌门教育创始人（上市公司前CEO），团队涵盖算法、电子、机械、制造及生活美学设计领域，近三年组建，包含机器人经验从业者与家庭智能专家。</p>
+
+<h4>投资价值点</h4>
+<ul>
+<li>正面：创始人具备上市公司创业经验，团队全栈自研能力扎实；200+家庭、2万+小时真实数据积累形成稀缺壁垒，C端付费试用验证用户需求。</li>
+<li>风险：家庭环境非结构化程度高，通用任务泛化能力待规模化验证；第二代产品量产成本与工程化能力存疑；赛道竞争激烈（如诺因智能、破壳机器人等同期融资）。</li>
+</ul>
+
+<h4>关键链接</h4>
+<ul>
+<li>官网/GitHub/产品页：未公开</li>
+<li>关键报道：<a href="http://www.duozhi.com/industry/insight/2026011218076.shtml，https://news.qq.com/rain/a/20260116A04CGC00" target="_blank">http://www.duozhi.com/industry/insight/2026011218076.shtml，https://news.qq.com/rain/a/20260116A04CGC00</a></li>
+<li>论文链接：未公开</li>
+</ul>
+
+<h4>跟进建议</h4>
+<p>建议约见创始人，重点了解第二代产品技术升级细节及量产落地时间表，评估真实场景数据迭代效率。</p></div>
+    
+  </div>
+</details>
+
+<details class="card" data-priority="5" data-entity="company" data-status="new">
+  <summary>
+    <span class="prio" style="background:#6a1b9a">P5 已成熟（跟踪）</span>
+    <span class="entity" style="color:#2e7d32">[创业公司]</span>
+    <strong class="name">CoreAutomation Ceres</strong>
+    <span class="tags"><span class="tag tag-thesis">新大模型范式</span></span>
+  </summary>
+  <div class="card-body">
+    <div class="meta"><span><strong>金额</strong> 5亿至10亿美元</span> · <span style="color:#a04500"><strong>已成熟（跟踪）</strong></span> · <span class="date">📅 2026-04-25</span></div>
+    
+    <div class="actions"><a class="btn btn-linkedin" href="https://www.linkedin.com/search/results/people/?keywords=CoreAutomation Ceres founder OR ceo" target="_blank">💼 LinkedIn 找人</a></div>
+    <div class="research"><h4>一句话定位</h4>
+<p>开发具备持续学习能力的新型AI模型，旨在解决Transformer架构的灾难性遗忘问题，训练数据量仅为现有头部模型的百分之一，并支持生产环境实时更新权重。</p>
+
+<h4>核心技术 / 产品</h4>
+<p>技术亮点：采用非Transformer新架构，整合分散训练流程为连续系统，实现模型在运行中持续学习，目标将训练数据量降至现有技术的1%；通过自动化研究流程（如用agent系统生成想法、跑实验）提升小团队研发效率。产品形态为名为“Ceres”的持续学习单一模型。与同类差异：不依赖传统大规模预训练，强调实时权重更新和数据效率，以“全球自动化程度最高的AI实验室”定位，用十几人团队对抗大厂数千人规模。</p>
+
+<h4>商业模式</h4>
+<p>早期，未明确。</p>
+
+<h4>团队</h4>
+<p>创始人Jerry Tworek：前OpenAI研究副总裁，主导o1/o3推理模型研发，深度参与GPT-4后训练及GPT-5部署，Codex主要贡献者，OpenAI任职近7年（2019年加入时团队仅30人）。核心成员包括前Anthropic研究员Rohan Anil、前Google DeepMind Gemini研究员Anmol Gulati、前OpenAI产品经理Joanne Jang（GPT-4o核心开发者）等顶尖机构背景人才。</p>
+
+<h4>投资价值点</h4>
+<ul>
+<li>正面：团队背景极强，核心成员均有前沿模型（GPT系列、Gemini、Claude）开发经验；技术方向直击行业痛点（持续学习、数据效率），可能颠覆现有大模型范式；通过研究流程自动化实现小团队高效研发，差异化竞争优势显著。</li>
+<li>风险：持续学习技术难度高，非Transformer架构落地验证周期长；估值已超50亿美元，早期阶段投资成本高；OpenAI、Google等大厂亦布局同类方向，竞争激烈。</li>
+<li>已成熟，跟踪观察即可。</li>
+</ul>
+
+<h4>关键链接</h4>
+<ul>
+<li>官网：<a href="https://www.coreauto.com/" target="_blank">https://www.coreauto.com/</a></li>
+<li>关键报道：<a href="https://news.qq.com/rain/a/20260423A0766000、https://36kr.com/p/3660128578167681" target="_blank">https://news.qq.com/rain/a/20260423A0766000、https://36kr.com/p/3660128578167681</a></li>
+<li>论文链接：</li>
+</ul>
+
+<h4>跟进建议</h4>
+<p>跟踪其技术进展及产品原型落地情况，待有公开demo或阶段性成果后再评估是否进一步接触。</p></div>
+    
+  </div>
+</details>
+
+
+    <div class="footer">
+      <a href="/ai-digest/">← AI Digest 首页</a> ·
+      <a href="/">站点首页</a> ·
+      本页面只在仓库内 URL 可见，不在导航中
+    </div>
+  </div>
+  <script>
+function applyFilter(type, value) {
+  // 高亮按钮
+  document.querySelectorAll('.filter-btn[data-type="' + type + '"]').forEach(b => {
+    b.classList.toggle('active', b.dataset.value === value);
+  });
+  // 过滤卡片
+  const cards = document.querySelectorAll('.card');
+  const filters = {};
+  document.querySelectorAll('.filter-btn.active').forEach(b => {
+    filters[b.dataset.type] = b.dataset.value;
+  });
+  cards.forEach(c => {
+    let show = true;
+    for (const k in filters) {
+      const v = filters[k];
+      if (v === 'all') continue;
+      const cardVal = c.dataset[k];
+      if (k === 'priority') {
+        if (v === '12' && !['1','2'].includes(cardVal)) show = false;
+        else if (v !== '12' && cardVal !== v) show = false;
+      } else {
+        if (cardVal !== v) show = false;
+      }
+    }
+    c.style.display = show ? '' : 'none';
+  });
+}
+</script>
+</body>
+</html>
