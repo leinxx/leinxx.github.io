@@ -4,7 +4,7 @@ theme = ["github.com/adityatelange/hugo-PaperMod"]
 languageCode = "en-us"
 canonifyURLs = false
 relativeURLs = true
-staticDir = ["assets"]
+staticDir = ["assets", "static"]
 contentDir = "contents"
 buildFuture = true
 [permalinks]
